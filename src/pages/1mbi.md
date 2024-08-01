@@ -1,0 +1,6 @@
+# 1MBi
+
+## Liens
+
+- [Plan d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_EM_web.pdf#DGEP_brochure_EM_2024_WEB_corr2.indd%3A.78832%3A9401)
+- [Brochure](https://gypad.ch/wp-content/uploads/2024/05/Brochure_EMBi_2024-25_Site-GypAd_15.03.2024.pdf)
