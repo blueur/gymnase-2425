@@ -21,14 +21,17 @@
     "@phosphor-icons/web": "^2.1.1",
     "clsx": "^2.1.1",
     "docusaurus-plugin-sass": "^0.2.5",
+    "mermaid": "^10.9.1",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "reveal.js": "^5.1.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.4.0",
     "@docusaurus/tsconfig": "^3.4.0",
     "@docusaurus/types": "^3.4.0",
+    "@types/reveal.js": "^5.0.3",
     "typescript": "^5.5.4"
   },
   "browserslist": {

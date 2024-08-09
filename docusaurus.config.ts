@@ -3,14 +3,12 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Gymnase",
+  title: "Informatique",
+  tagline: "Cours d'informatique au gymnase",
   favicon: "img/favicon.ico",
 
   url: "https://gymnase.davidtang.ch",
   baseUrl: "/",
-
-  organizationName: "blueur",
-  projectName: "gymnase-2425",
 
   i18n: {
     defaultLocale: "fr",
@@ -25,7 +23,6 @@ const config: Config = {
       {
         docs: {
           showLastUpdateTime: true,
-          sidebarCollapsed: true,
         },
         blog: false,
         theme: {
@@ -37,7 +34,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: "Gymnase",
+      title: "Informatique",
       logo: {
         alt: "Logo",
         src: "img/logo.svg",
@@ -50,6 +47,11 @@ const config: Config = {
         { to: "/1mbi", label: "1MBi", position: "left" },
         { to: "/2c1", label: "2C1", position: "left" },
         { to: "/3cci1", label: "3CCI1", position: "left" },
+        {
+          href: "https://www.linkedin.com/in/davidtangch/",
+          position: "right",
+          className: "ph ph-linkedin-logo",
+        },
         {
           href: "mailto:david.tang@eduvaud.ch",
           position: "right",
