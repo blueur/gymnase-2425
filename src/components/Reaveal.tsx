@@ -32,6 +32,7 @@ export default class Reaveal extends React.Component<{
           pdfMaxPagesPerSlide: 1,
           pdfSeparateFragments: false,
           plugins: [Markdown, highlight.default, Mermaid],
+          scrollActivationWidth: null,
           slideNumber: true,
           transition: "fade",
           transitionSpeed: "fast",
