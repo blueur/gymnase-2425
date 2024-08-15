@@ -1,3 +1,3 @@
 # Introduction
 
-<Reaveal name="1m-introduction" />
+<Reaveal name="1m-intro" />

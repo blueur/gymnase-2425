@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.4.0",
-    "@docusaurus/preset-classic": "^3.4.0",
+    "@docusaurus/preset-classic": "^3.5.2",
     "@mdx-js/react": "^3.0.1",
     "@phosphor-icons/web": "^2.1.1",
     "clsx": "^2.1.1",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.4.0",
-    "@docusaurus/tsconfig": "^3.4.0",
+    "@docusaurus/tsconfig": "^3.5.2",
     "@docusaurus/types": "^3.4.0",
     "@types/reveal.js": "^5.0.3",
     "typescript": "^5.5.4"

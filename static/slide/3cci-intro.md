@@ -11,7 +11,7 @@ David Tang
 timeline
   Gymnase d'Yverdon
   EPFL : BSc & MSc en Informatique
-  Ingénieur informaticien : ELCA : EPFL
+  Ingénieur informaticien : ELCA (CFF, transN, TPF, BCV) : EPFL
   Enseignant : Gymnase Provence : HEIG-VD : Gymnase pour Adultes : HEP Vaud
 ```
 

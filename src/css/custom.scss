@@ -61,6 +61,10 @@ div.reveal {
   .reference {
     font-size: small;
   }
+  .slide-number {
+    background-color: unset;
+    color: var(--ifm-color-primary-dark);
+  }
   .mermaid {
     max-height: var(--slide-height);
     max-width: var(--slide-width);
