@@ -23,6 +23,15 @@
 
 ### Outlook
 
+- Accéder à l'application Outlook en ligne
+  - Ouvrir l'application **Outlook** depuis [office.com](https://www.office.com/)
+- Consulter ses emails
+  - Lire et répondre aux emails reçus
+- Dans le volet de navigation de gauche, créer les dossiers `admin` et `cours` dans le dossier `Boîte de réception`
+  - Faire un clic droit sur `Boîte de réception` > `Nouveau dossier...` > `admin` (pareil pour `cours`)
+- Ranger les emails reçus dans les dossiers (créer de nouveaux dossiers si nécessaire)
+  - Faire un clic droit sur l'email > `Déplacer` > `admin` (ou autre dossier)
+
 ### OneDrive
 
 - Se connecter sur l'application **OneDrive** avec son compte Eduvaud
@@ -31,8 +40,33 @@
 - Vérifier que les fichiers sont synchronisés
   - Ouvrir le dossier **OneDrive - Eduvaud** dans le Finder
   - Vérifier que les fichiers sont synchronisés (icône verte)
+- Créer un dossier `1m` dans le dossier `OneDrive - Eduvaud`
+- Créer un dossier `informatique` dans le dossier `1m`
+
+```
+OneDrive - Eduvaud/
+└── 1m/
+    └── informatique/
+```
+
+### Word
+
+- Créer un nouveau document Word dans le dossier `informatique` intitulé `prenom-nom.docx` (avec votre prénom et nom en minuscule, sans accent et séparé par des tirets)
+- Dans le fichier Word, écrire une brève présentation de soi avec vos loisirs, vos passions, pourquoi avoir choisi le gymnase, etc.
+- Enregistrer le document Word
+- Exporter le document Word en PDF
+  - Fichier > Exporter > Créer un document PDF
+- Vérifier que le document Word et le document PDF sont synchronisés dans OneDrive
+  - Ouvrir OneDrive sur [office.com](https://www.office.com/) et vérifier que les fichiers sont présents
 
 ### Teams
+
+- Accédez à l’application Teams sur l'ordinateur
+- Dans le menu `Equipes`, allez dans la classe `GYPRO_2425_1MX_Informatique_Teams`
+- Dans le canal `Général`, dans le menu `Fichiers` puis `Supports de cours`, vous y trouverez tous les supports du cours
+- Dans le menu `Devoirs`, rendre le fichier PDF créé précédemment vous présentant
+  - Cliquer sur `Ajouter un travail` > `Fichier` > `Télécharger` > sélectionner le fichier PDF > `Ajouter`
+  - Cliquer sur `Remettre` pour rendre le travail
 
 ### SharePoint
 
@@ -44,9 +78,30 @@ Site internet en interne du gymnase: https://eduvaud.sharepoint.com/sites/GYPRO
 
 ## Imprimante
 
+- Imprimer un document sur l'imprimante `GYPR_FollowME` en utilisant votre carte d'étudiant comme badge sur l'imprimante
+  - Si vous n'avez de document à imprimer, vous pouvez juste vous connecter à l'imprimante pour vérifier que votre badge fonctionne
+
 ## Smartphone
 
 - Se connecter au Wi-Fi du gymnase `EDUVAUD-ELEVES` avec votre identifiant Eduvaud (px00xxx)
-- Installer l’application `Microsoft Office` depuis le Google Play ou l'App Store
+- Installer l'application `Microsoft Office` depuis le Google Play ou l'App Store
+  - Consulter les documents sur Teams
+  - Consulter vos documents sur OneDrive
+
+### Email
+
+- Configurer votre adresse email Eduvaud pour pouvoir envoyer et recevoir des emails depuis votre smartphone
+  - [iOS](https://support.microsoft.com/fr-fr/office/configurer-un-compte-outlook-sur-l-application-de-messagerie-d-ios-7e5b180f-bc8f-45cc-8da1-5cefc1e633d1)
+  - [Android](https://support.microsoft.com/fr-fr/office/configurer-le-courrier-%C3%A9lectronique-dans-l-application-de-courrier-android-71147974-7aca-491b-978a-ab15e360434c)
 
 ## Raccourcis clavier
+
+Les raccourcis clavier sont des combinaisons de touches qui permettent d'effectuer des actions bien plus rapidement. Voici quelques raccourcis clavier utiles :
+
+- `Cmd + C` : Copier
+- `Cmd + V` : Coller
+- `Cmd + X` : Couper
+- `Cmd + Z` : Annuler
+- `Cmd + S` : Enregistrer
+- `Cmd + A` : Tout sélectionner
+- `Cmd + F` : Rechercher
