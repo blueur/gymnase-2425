@@ -1,4 +1,4 @@
-# Informatique
+# Informatique 3CCI
 
 David Tang
 
@@ -19,18 +19,19 @@ timeline
 
 ## Organisation
 
-- &shy;<!-- .element: class="fragment" --> **Cours**
-  - 1 période / semaine
-- &shy;<!-- .element: class="fragment" --> **Travaux pratiques**
-  - 1 période / semaine
+- **Cours** et **Travaux pratiques**
+  - 2 périodes / semaine
 
 ---
 
 ## Présence
 
-- &shy;<!-- .element: class="fragment" --> Être **prêt·e** à suivre le cours à la **sonnerie**
+- &shy;<!-- .element: class="fragment" --> **Retard**
+  - Être **prêt·e** à suivre le cours à la **sonnerie**
+- &shy;<!-- .element: class="fragment" --> **Absence**
+  - À partir de quinze minutes de retard
 - &shy;<!-- .element: class="fragment" --> **Prévenir** par mail en cas d'**absence**
-  - &shy;<!-- .element: class="fragment" --> Sinon pas de rattrapage
+  - &shy;<!-- .element: class="fragment" --> Sinon pas de rattrapage de test
 
 ---
 
@@ -66,6 +67,6 @@ timeline
 - &shy;<!-- .element: class="fragment" --> **Calendrier**
   - Dates des **tests**
 - &shy;<!-- .element: class="fragment" --> **Supports** de cours
-- &shy;<!-- .element: class="fragment" --> **Enregistrer** le lien sur le téléphone
+- &shy;<!-- .element: class="fragment" --> **Enregistrer** le lien
   - Ajouter à l'écran d'accueil
   - Ajouter aux favoris

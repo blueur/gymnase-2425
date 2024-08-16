@@ -35,7 +35,7 @@ div.reveal {
   border: 1px solid var(--ifm-color-emphasis-300);
 
   &.embedded {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
   }
 
   p:has(> .reference) {
@@ -69,6 +69,10 @@ div.reveal {
     max-height: var(--slide-height);
     max-width: var(--slide-width);
   }
+}
+
+thead th:empty {
+  display: none;
 }
 
 tr.current {
