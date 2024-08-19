@@ -1,6 +1,6 @@
+import "highlight.js/styles/github.min.css";
 import "reveal.js/dist/reveal.css";
 import "reveal.js/dist/theme/white.css";
-import "reveal.js/plugin/highlight/monokai.css";
 
 import React, { createRef } from "react";
 import Markdown from "reveal.js/plugin/markdown/markdown";
@@ -28,6 +28,7 @@ export default class Reaveal extends React.Component<{
           height: 900,
           plugins: [Markdown, highlight.default, Mermaid],
           autoAnimateDuration: 0.25,
+          controlsLayout: "edges",
           embedded: !this.props.full,
           hash: true,
           pdfMaxPagesPerSlide: 1,
@@ -42,6 +43,9 @@ export default class Reaveal extends React.Component<{
               showSequenceNumbers: true,
             },
             theme: "base",
+            themeVariables: {
+              fontFamily: "unset",
+            },
             timeline: {
               disableMulticolor: true,
             },

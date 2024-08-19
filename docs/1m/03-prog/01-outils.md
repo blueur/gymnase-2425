@@ -12,12 +12,12 @@ Prise en main des outils informatiques utilisés au gymnase.
 
 ## Compte Eduvaud
 
-- Se connecter aux ordinateurs en utilisant votre compte Eduvaud (au format: px00xxx)
+- Se connecter aux ordinateurs en utilisant son compte Eduvaud (au format: px00xxx)
 - Définir un nouveau mot de passe en respectant les règles suivantes:
   - Au moins 14 caractères
   - Au moins 1 majuscule, 1 minuscule et 1 chiffre
-  - Ne peut pas contenir l'entier ou une partie de votre prénom ou de votre nom
-- Noter votre mot de passe pour pouvoir le retrouver en cas d'oubli (dans votre téléphone (note ou contact), votre agenda, ...)
+  - Ne peut pas contenir l'entier ou une partie de son prénom ou de son nom
+- Noter son mot de passe pour pouvoir le retrouver en cas d'oubli (dans son téléphone (note ou contact), son agenda, ...)
 
 ## Navigateur Web
 
@@ -29,7 +29,12 @@ Prise en main des outils informatiques utilisés au gymnase.
 - Ouvrir un navigateur web (Firefox ou Chrome)
 - Se connecter à [office.com](https://www.office.com/) avec son compte Eduvaud (px00xxx@eduvaud.ch)
 - Configurer la récupération de mot de passe
-  - Lorsqu'on vous demande d'utiliser l'application **Microsoft Authenticator**, cliquer sur `choisir une autre méthode` et sélectionner un numéro de téléphone ou une adresse email privée
+
+:::danger[Récupération de mot de passe]
+
+Lorsqu'on vous demande d'utiliser l'application **Microsoft Authenticator**, cliquer sur `choisir une autre méthode` et sélectionner un numéro de téléphone et/ou une adresse email privée
+
+:::
 
 ## Outlook
 
@@ -67,8 +72,8 @@ OneDrive - Eduvaud/
 
 ## Word
 
-- Créer un nouveau document Word dans le dossier `informatique` intitulé `prenom-nom.docx` (avec votre prénom et nom en minuscule, sans accent et séparé par des tirets)
-- Dans le fichier Word, écrire une brève présentation de soi avec vos loisirs, vos passions, pourquoi avoir choisi le gymnase, etc.
+- Créer un nouveau document Word dans le dossier `informatique` intitulé `presentation-prenom-nom.docx` (avec son prénom et nom en minuscule, sans accent et séparé par des tirets)
+- Dans le fichier Word, écrire une brève présentation de soi avec ses centres d'intérêts (loisirs, passions), pourquoi avoir choisi le gymnase, etc.
 - Enregistrer le document Word
 - Exporter le document Word en PDF
   - Fichier > Exporter > Créer un document PDF
@@ -77,8 +82,10 @@ OneDrive - Eduvaud/
 
 ## Imprimante
 
-- Imprimer un document sur l'imprimante `GYPR_FollowME` en utilisant votre carte d'étudiant comme badge sur l'imprimante
-  - Si vous n'avez de document à imprimer, vous pouvez juste vous connecter à l'imprimante pour vérifier que votre badge fonctionne
+- Imprimer un document sur l'imprimante `GYPR_FollowME` en utilisant sa carte d'étudiant comme badge sur l'imprimante
+  - Se badger sur l'imprimante avec sa carte d'étudiant
+  - Puis, se connecter à l'imprimante avec son compte Eduvaud (px00xxx)
+- Si pas de document à imprimer, juste se connecter à l'imprimante pour les futurs impressions
 
 ## Teams
 
@@ -88,7 +95,7 @@ OneDrive - Eduvaud/
 - Dans le menu `Devoirs`, rendre le fichier PDF créé précédemment vous présentant
   - Cliquer sur `Ajouter un travail` > `Fichier` > `Télécharger` > sélectionner le fichier PDF > `Ajouter`
   - Cliquer sur `Remettre` pour rendre le travail
-- L'onglet `OneDrive` vous permet d'accéder à vos fichiers OneDrive directement depuis Teams
+- L'onglet `OneDrive` vous permet d'accéder à ses fichiers OneDrive directement depuis Teams
 
 ## SharePoint
 
@@ -101,14 +108,14 @@ Site internet en interne du gymnase : https://eduvaud.sharepoint.com/sites/GYPRO
 
 ## Smartphone
 
-- Se connecter au Wi-Fi du gymnase `EDUVAUD-ELEVES` avec votre identifiant Eduvaud (px00xxx)
+- Se connecter au Wi-Fi du gymnase `EDUVAUD-ELEVES` avec son identifiant Eduvaud (px00xxx)
 - Installer l'application `Microsoft Office` depuis le Google Play ou l'App Store
   - Consulter les documents sur Teams
-  - Consulter vos documents sur OneDrive
+  - Consulter ses documents sur OneDrive
 
 ### Email
 
-- Configurer votre adresse email Eduvaud pour pouvoir envoyer et recevoir des emails depuis votre smartphone
+- Configurer son adresse email Eduvaud pour pouvoir envoyer et recevoir des emails depuis le téléphone
   - [iOS](https://support.microsoft.com/fr-fr/office/configurer-un-compte-outlook-sur-l-application-de-messagerie-d-ios-7e5b180f-bc8f-45cc-8da1-5cefc1e633d1)
   - [Android](https://support.microsoft.com/fr-fr/office/configurer-le-courrier-%C3%A9lectronique-dans-l-application-de-courrier-android-71147974-7aca-491b-978a-ab15e360434c)
 

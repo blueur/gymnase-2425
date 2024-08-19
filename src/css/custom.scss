@@ -27,10 +27,12 @@
 }
 
 div.reveal {
+  --r-block-margin: 10px;
+  --r-heading-font: var(--ifm-heading-font-family);
+  --r-heading-text-transform: none;
   --r-link-color: var(--ifm-link-color);
   --r-link-color-hover: var(--ifm-color-primary-dark);
-  --r-block-margin: 10px;
-  --r-heading-text-transform: none;
+  --r-main-font: var(--ifm-font-family-base);
 
   border: 1px solid var(--ifm-color-emphasis-300);
 
@@ -60,10 +62,12 @@ div.reveal {
   }
   .reference {
     font-size: small;
+    top: -40px;
   }
   .slide-number {
     background-color: unset;
     color: var(--ifm-color-primary-dark);
+    font-family: unset;
   }
   .mermaid {
     max-height: var(--slide-height);

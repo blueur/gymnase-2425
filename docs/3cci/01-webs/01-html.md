@@ -25,7 +25,7 @@ Mise en place d'un environnement de développement pour la création de pages We
 - Vérifier que les fichiers sont synchronisés
   - Ouvrir le dossier `OneDrive - Eduvaud` dans le Finder
   - Vérifier que les fichiers sont synchronisés (icône verte)
-- Créer l'arborescence `3c/informatique/web-html` dans 
+- Créer l'arborescence `3c/informatique/web-html` dans
   - Créer un dossier `3c` dans le dossier `OneDrive - Eduvaud`
   - Créer un dossier `informatique` dans le dossier `3c`
   - Créer un dossier `web-html` dans le dossier `informatique`
@@ -66,7 +66,7 @@ Les raccourcis clavier sont des combinaisons de touches qui permettent d'effectu
     ```
 - Copier le code HTML suivant dans le fichier `index.html` :
   ```html
-  <!DOCTYPE html>
+  <!doctype html>
   <html lang="fr">
     <head>
       <meta charset="UTF-8" />
@@ -82,6 +82,10 @@ Les raccourcis clavier sont des combinaisons de touches qui permettent d'effectu
 - Ouvrir le fichier `index.html` avec **Live Server**
   - Clic droit sur le fichier `index.html` > `Ouvrir avec Live Server`
   - Ou cliquer sur le bouton `Go Live` en bas à droite de Visual Studio Code
+- Modifier la page Web et observer les changements
+  - Modifier le titre de l'onglet (`title`)
+  - Modifier le titre de la page (`h1`)
+  - Modifier le contenu de la page (`p`)
 
 ## Références
 

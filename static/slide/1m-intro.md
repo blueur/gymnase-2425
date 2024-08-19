@@ -59,9 +59,11 @@ timeline
 
 ## Outils
 
-- Premier **TP** : avoir ses identifiants (photo)
+- Premier **TP** : avoir ses **identifiants** (photo)
 - &shy;<!-- .element: class="fragment" --> Microsoft 365
   - Outlook, Teams, OneDrive, SharePoint, Word, Excel, PowerPoint, OneNote
+- &shy;<!-- .element: class="fragment" --> **Téléphones** interdits
+  - Sauf pour les quiz et les supports de cours
 
 ---
 
