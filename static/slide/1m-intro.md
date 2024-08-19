@@ -7,7 +7,6 @@ David Tang
 ## Parcours
 
 ```mermaid
-%%{init: { 'themeVariables': {'cScale0': '#4271ae'}, 'timeline': {'disableMulticolor': true}}}%%
 timeline
   Gymnase d'Yverdon
   EPFL : BSc & MSc en Informatique
@@ -55,6 +54,14 @@ timeline
 - &shy;<!-- .element: class="fragment" --> Introduction à la **programmation**
 - &shy;<!-- .element: class="fragment" --> Architecture des **ordinateurs**
 - &shy;<!-- .element: class="fragment" --> Enjeux de **société**
+
+---
+
+## Outils
+
+- Premier **TP** : avoir ses identifiants (photo)
+- &shy;<!-- .element: class="fragment" --> Microsoft 365
+  - Outlook, Teams, OneDrive, SharePoint, Word, Excel, PowerPoint, OneNote
 
 ---
 

@@ -26,16 +26,26 @@ export default class Reaveal extends React.Component<{
         new reveal.default({
           width: 1440,
           height: 900,
+          plugins: [Markdown, highlight.default, Mermaid],
           autoAnimateDuration: 0.25,
           embedded: !this.props.full,
           hash: true,
           pdfMaxPagesPerSlide: 1,
           pdfSeparateFragments: false,
-          plugins: [Markdown, highlight.default, Mermaid],
           scrollActivationWidth: null,
-          slideNumber: true,
+          slideNumber: "c/t",
           transition: "fade",
           transitionSpeed: "fast",
+          mermaid: {
+            sequence: {
+              mirrorActors: false,
+              showSequenceNumbers: true,
+            },
+            theme: "base",
+            timeline: {
+              disableMulticolor: true,
+            },
+          },
         }).initialize();
       });
     });

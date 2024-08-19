@@ -68,6 +68,10 @@ div.reveal {
   .mermaid {
     max-height: var(--slide-height);
     max-width: var(--slide-width);
+
+    svg {
+      max-width: unset !important;
+    }
   }
 }
 

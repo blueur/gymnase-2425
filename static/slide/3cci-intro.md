@@ -7,7 +7,6 @@ David Tang
 ## Parcours
 
 ```mermaid
-%%{init: { 'themeVariables': {'cScale0': '#4271ae'}, 'timeline': {'disableMulticolor': true}}}%%
 timeline
   Gymnase d'Yverdon
   EPFL : BSc & MSc en Informatique
@@ -39,6 +38,12 @@ timeline
 
 - &shy;<!-- .element: class="fragment" --> **Supports** mis à disposition
 - &shy;<!-- .element: class="fragment" --> Prendre des notes pour **compléter** les diapositives
+
+---
+
+## Vos attentes
+
+Pourquoi avoir choisi ce domaine professionnel ?
 
 ---
 

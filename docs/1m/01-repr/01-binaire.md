@@ -1,8 +1,10 @@
 # Binaire
 
-## Objectifs
+:::note[Objectifs]
 
 - Compter en n'importe quelle base
+
+:::
 
 ## Cours
 
@@ -101,3 +103,8 @@ Lister les 20 premiers nombres en base 16. (Utiliser les lettres A à F pour les
 </details>
 
 ## Références
+
+- https://apprendre.modulo-info.ch/rep-info/intro.html
+- https://apprendre.modulo-info.ch/rep-info/entiers.html
+- https://fr.vikidia.org/wiki/Syst%C3%A8me_de_num%C3%A9ration
+- https://fr.wikipedia.org/wiki/Base_(arithm%C3%A9tique)
