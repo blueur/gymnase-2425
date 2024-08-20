@@ -82,7 +82,7 @@ OneDrive - Eduvaud/
 
 ## Imprimante
 
-- Imprimer un document sur l'imprimante `GYPR_FollowME` en utilisant sa carte d'étudiant comme badge sur l'imprimante
+- Imprimer un document sur l'imprimante `FollowMe_GYPRO` en utilisant sa carte d'étudiant comme badge sur l'imprimante
   - Se badger sur l'imprimante avec sa carte d'étudiant
   - Puis, se connecter à l'imprimante avec son compte Eduvaud (px00xxx)
 - Si pas de document à imprimer, juste se connecter à l'imprimante pour les futurs impressions

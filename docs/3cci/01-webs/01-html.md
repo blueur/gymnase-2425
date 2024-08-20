@@ -86,6 +86,12 @@ Les raccourcis clavier sont des combinaisons de touches qui permettent d'effectu
   - Modifier le titre de l'onglet (`title`)
   - Modifier le titre de la page (`h1`)
   - Modifier le contenu de la page (`p`)
+- Ajouter une image à la page Web
+  - Créer un dossier `images` dans le dossier `web-html`
+  - Télécharger sur Internet une image dans le dossier `images`
+  - Afficher l'image dans la page Web avec la balise [`<img>`](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics#images)
+- [Baliser du texte](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics#baliser_du_texte)
+- [Ajouter des liens](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics#liens)
 
 ## Références
 

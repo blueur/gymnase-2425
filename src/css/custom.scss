@@ -44,7 +44,12 @@ div.reveal {
     line-height: 0.4;
   }
   pre {
+    font-size: inherit;
     padding: inherit;
+
+    code {
+      max-height: var(--slide-height);
+    }
 
     tr {
       border: inherit;
@@ -57,9 +62,6 @@ div.reveal {
     display: unset;
   }
 
-  .code-wrapper {
-    width: var(--slide-width);
-  }
   .reference {
     font-size: small;
     top: -40px;
