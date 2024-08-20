@@ -10,6 +10,8 @@ Prise en main des outils informatiques utilisés au gymnase.
 
 :::
 
+<Reaveal name="1m-prog-outils" />
+
 ## Compte Eduvaud
 
 - Se connecter aux ordinateurs en utilisant son compte Eduvaud (au format: px00xxx)
@@ -23,29 +25,31 @@ Prise en main des outils informatiques utilisés au gymnase.
 
 - Changer le navigateur par défaut en **Firefox** ou **Chrome**
   - Pomme (en haut à gauche) > Préférences Système > Général > Navigateur par défaut
+- Ne pas utiliser Safari
 
 ## Office 365
 
 - Ouvrir un navigateur web (Firefox ou Chrome)
 - Se connecter à [office.com](https://www.office.com/) avec son compte Eduvaud (px00xxx@eduvaud.ch)
-- Configurer la récupération de mot de passe
+- Configurer la [récupération de mot de passe](https://mysignins.microsoft.com/security-info)
 
-:::danger[Récupération de mot de passe]
+:::warning[Récupération de mot de passe]
 
-Lorsqu'on vous demande d'utiliser l'application **Microsoft Authenticator**, cliquer sur `choisir une autre méthode` et sélectionner un numéro de téléphone et/ou une adresse email privée
+Lorsqu'on vous demande d'utiliser l'application **Microsoft Authenticator**, cliquer sur `choisir une autre méthode` et sélectionner un numéro de téléphone et/ou une adresse email **privée**
 
 :::
 
 ## Outlook
 
-- Accéder à l'application Outlook en ligne
-  - Ouvrir l'application **Outlook** depuis [office.com](https://www.office.com/)
-- Consulter ses emails
+- Accéder à la version Web d'**Outlook** sur [office.com](https://www.office.com/)
+- **Consulter** ses emails
   - Vous devriez avoir reçu un email de ma part avec le sujet `[inf] question`
-- Dans le volet de navigation de gauche, créer les dossiers `admin` et `cours` dans le dossier `Boîte de réception`
-  - Faire un clic droit sur `Boîte de réception` > `Nouveau dossier...` > `admin` (pareil pour `cours`)
+  - **Répondre** à cet email
+- Dans le volet de navigation de gauche, créer les **dossiers** `admin` et `cours` dans le dossier `Boîte de réception`
+  - Faire un clic droit sur `Boîte de réception` > `Créer un sous-dossier` > `admin` (pareil pour `cours`)
 - Ranger les emails reçus dans les dossiers (créer de nouveaux dossiers si nécessaire)
-  - Faire un clic droit sur l'email > `Déplacer` > `admin` (ou autre dossier)
+  - Glisser-déposer les emails dans les dossiers correspondants
+  - `[inf] question` dans le dossier `cours`
 
 ```
 Boîte de réception/
@@ -53,65 +57,82 @@ Boîte de réception/
 └── cours/
 ```
 
+:::warning[[inf] question]
+
+Répondre à l'email `[inf] question`.
+
+:::
+
 ## OneDrive
 
-- Se connecter sur l'application **OneDrive** avec son compte Eduvaud
-  - Ouvrir l'application **OneDrive** (dans le dossier Applications ou avec la loupe)
+- Se connecter sur l'application desktop **OneDrive** avec son compte Eduvaud
+  - Ouvrir l'application **OneDrive**
   - Se connecter avec son compte Eduvaud (px00xxx@eduvaud.ch)
 - Vérifier que les fichiers sont synchronisés
-  - Ouvrir le dossier **OneDrive - Eduvaud** dans le Finder
-  - Vérifier que les fichiers sont synchronisés (icône verte)
+  - Ouvrir le dossier **OneDrive** dans le Finder
 - Créer un dossier `1m` dans le dossier `OneDrive - Eduvaud`
 - Créer un dossier `informatique` dans le dossier `1m`
 
 ```
-OneDrive - Eduvaud/
+OneDrive/
 └── 1m/
     └── informatique/
 ```
 
 ## Word
 
-- Créer un nouveau document Word dans le dossier `informatique` intitulé `presentation-prenom-nom.docx` (avec son prénom et nom en minuscule, sans accent et séparé par des tirets)
+- Créer un nouveau document Word dans le dossier `informatique` intitulé **`presentation-prenom-nom.docx`** (avec son prénom et nom en minuscule, sans accent et séparé par des tirets)
 - Dans le fichier Word, écrire une brève présentation de soi avec ses centres d'intérêts (loisirs, passions), pourquoi avoir choisi le gymnase, etc.
 - Enregistrer le document Word
 - Exporter le document Word en PDF
-  - Fichier > Exporter > Créer un document PDF
+  - Fichier > `Enregistrer une copie` ou `Exporter` > Sélectionner le format PDF > Enregistrer
 - Vérifier que le document Word et le document PDF sont synchronisés dans OneDrive
-  - Ouvrir OneDrive sur [office.com](https://www.office.com/) et vérifier que les fichiers sont présents
+
+```
+OneDrive/
+└── 1m/
+    └── informatique/
+        └── presentation-prenom-nom.docx
+        └── presentation-prenom-nom.pdf
+```
 
 ## Imprimante
 
 - Imprimer un document sur l'imprimante `FollowMe_GYPRO` en utilisant sa carte d'étudiant comme badge sur l'imprimante
-  - Se badger sur l'imprimante avec sa carte d'étudiant
-  - Puis, se connecter à l'imprimante avec son compte Eduvaud (px00xxx)
+  - Se badger sur l'imprimante avec sa **carte d'étudiant**
+  - Puis, se connecter à l'imprimante avec son compte Eduvaud (**px00xxx**)
 - Si pas de document à imprimer, juste se connecter à l'imprimante pour les futurs impressions
+
+:::warning[Compte Eduvaud]
+
+Utiliser la version courte de son identifiant Eduvaud (**px00xxx**) pour se connecter à l'imprimante. En règle générale, la version longue n'est nécessaire que pour se connecter aux services de Microsoft 365.
+
+:::
 
 ## Teams
 
-- Accédez à l’application Teams sur l'ordinateur
-- Dans le menu `Equipes`, allez dans la classe `GYPRO_2425_1MX_Informatique_Teams`
-- Dans le canal `Général`, dans le menu `Fichiers` puis `Supports de cours`, vous y trouverez tous les supports du cours
-- Dans le menu `Devoirs`, rendre le fichier PDF créé précédemment vous présentant
-  - Cliquer sur `Ajouter un travail` > `Fichier` > `Télécharger` > sélectionner le fichier PDF > `Ajouter`
-  - Cliquer sur `Remettre` pour rendre le travail
-- L'onglet `OneDrive` vous permet d'accéder à ses fichiers OneDrive directement depuis Teams
+- Accédez à l'application desktop Teams
+- Dans le menu **`Equipes`**, allez dans la classe `GYPRO_2425_1MX_Informatique_Teams`
+- Dans le canal `Général`, dans le menu `Fichiers` puis **`Supports de cours`**, vous y trouverez tous les supports du cours
+- Dans le **devoir** `Présentation`, rendre le fichier PDF de présentation
+  - Cliquer sur **`Joindre`** > `OneDrive` > sélectionner le fichier PDF > `Joindre`
+  - Cliquer sur **`Remettre`** pour rendre le travail
+- L'onglet **`OneDrive`** vous permet d'accéder à ses fichiers OneDrive directement depuis Teams
 
 ## SharePoint
 
 Site internet en interne du gymnase : https://eduvaud.sharepoint.com/sites/GYPRO
 
-- Cliquer sur l'étoile pour suivre le site
-- Consulter l'agenda du gymnase
-- Consulter les documents pour les élèves
-- Consulter les cours annulés
+- Cliquer sur l'étoile pour **suivre** le site
+- Consulter l'**agenda** du gymnase
+- Consulter les **documents** pour les élèves
+- Consulter les **cours** annulés
 
 ## Smartphone
 
 - Se connecter au Wi-Fi du gymnase `EDUVAUD-ELEVES` avec son identifiant Eduvaud (px00xxx)
-- Installer l'application `Microsoft Office` depuis le Google Play ou l'App Store
-  - Consulter les documents sur Teams
-  - Consulter ses documents sur OneDrive
+- Installer l'application `Microsoft 365 (Office)` depuis le [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow&hl=fr_CH) ou l'[App Store](https://apps.apple.com/ch/app/microsoft-365-office/id541164041?l=fr)
+- Installer l'application `Microsoft Teams` depuis le [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=fr_CH) ou l'[App Store](https://apps.apple.com/ch/app/microsoft-teams/id1113153706?l=fr)
 
 ### Email
 
@@ -121,9 +142,9 @@ Site internet en interne du gymnase : https://eduvaud.sharepoint.com/sites/GYPRO
 
 ## Hermes II
 
-- Se connecter sur [hermes.edu-vaud.ch](https://hermes.edu-vaud.ch/) avec son compte Eduvaud (px00xxx)
-- Consulter son horaire
-- Vérifier ses absences et retards
+- Se connecter sur [hermes.edu-vaud.ch](https://hermes.edu-vaud.ch/) avec son compte Eduvaud (**px00xxx**)
+- Consulter son **horaire**
+- Vérifier ses **absences** et retards
 
 ## Raccourcis clavier
 
