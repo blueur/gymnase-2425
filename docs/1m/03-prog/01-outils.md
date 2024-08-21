@@ -24,10 +24,16 @@ Prise en main des outils informatiques utilisés au gymnase.
 ## Navigateur Web
 
 - Changer le navigateur par défaut en **Firefox** ou **Chrome**
-  - Pomme (en haut à gauche) > Préférences Système > Général > Navigateur par défaut
+  - Pomme (en haut à gauche) > Préférences Système > Rechercher `web`
 - Ne pas utiliser Safari
 
 ## Office 365
+
+:::warning[Login]
+
+Toujours utiliser px00xxx@eduvaud.ch pour se connecter aux services Microsoft 365 (et px00xxx pour le reste).
+
+:::
 
 - Ouvrir un navigateur web (Firefox ou Chrome)
 - Se connecter à [office.com](https://www.office.com/) avec son compte Eduvaud (px00xxx@eduvaud.ch)
@@ -81,7 +87,8 @@ OneDrive/
 
 ## Word
 
-- Créer un nouveau document Word dans le dossier `informatique` intitulé **`presentation-prenom-nom.docx`** (avec son prénom et nom en minuscule, sans accent et séparé par des tirets)
+- Créer un nouveau document Word
+- Sauvegarder dans le dossier `informatique` et nommer **`presentation-prenom-nom`** (avec son prénom et nom en minuscule, sans accent et séparé par des tirets)
 - Dans le fichier Word, écrire une brève présentation de soi avec ses centres d'intérêts (loisirs, passions), pourquoi avoir choisi le gymnase, etc.
 - Enregistrer le document Word
 - Exporter le document Word en PDF
@@ -143,7 +150,7 @@ Site internet en interne du gymnase : https://eduvaud.sharepoint.com/sites/GYPRO
 ## Hermes II
 
 - Se connecter sur [hermes.edu-vaud.ch](https://hermes.edu-vaud.ch/) avec son compte Eduvaud (**px00xxx**)
-- Consulter son **horaire**
+- Consulter son propre **horaire**
 - Vérifier ses **absences** et retards
 
 ## Raccourcis clavier
