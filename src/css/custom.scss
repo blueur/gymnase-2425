@@ -40,6 +40,9 @@ div.reveal {
     aspect-ratio: 16 / 10;
   }
 
+  em {
+    color: #8959a8;
+  }
   p:has(> .reference) {
     line-height: 0.4;
   }
@@ -56,10 +59,13 @@ div.reveal {
     }
   }
   strong {
-    color: var(--ifm-color-danger);
+    color: #f5871f;
   }
   table {
-    display: unset;
+    border-bottom: var(--ifm-table-border-width) solid
+      var(--ifm-table-border-color);
+    border-collapse: separate;
+    display: table;
   }
 
   .reference {

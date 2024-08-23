@@ -2,6 +2,8 @@
 
 :::note[Objectifs]
 
+Comptage en différentes bases.
+
 - Compter en n'importe quelle base
 
 :::

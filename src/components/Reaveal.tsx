@@ -4,6 +4,7 @@ import "reveal.js/dist/theme/white.css";
 
 import React, { createRef } from "react";
 import Markdown from "reveal.js/plugin/markdown/markdown";
+import Katex from "./plugins/katex";
 import Mermaid from "./plugins/mermaid";
 
 export default class Reaveal extends React.Component<{
@@ -26,7 +27,7 @@ export default class Reaveal extends React.Component<{
         new reveal.default({
           width: 1440,
           height: 900,
-          plugins: [Markdown, highlight.default, Mermaid],
+          plugins: [Markdown, highlight.default, Katex, Mermaid],
           autoAnimateDuration: 0.25,
           controlsLayout: "edges",
           embedded: !this.props.full,
@@ -75,8 +76,8 @@ export default class Reaveal extends React.Component<{
       return (
         <div>
           {reveal}
-          Appuyer sur <kbd>F</kbd> pour passer en plein écran ou <kbd>O</kbd>{" "}
-          pour afficher la vue d'ensemble.
+          <kbd>F</kbd> pour passer en plein écran ou <kbd>O</kbd> pour afficher
+          la vue d'ensemble.
           <br />
           Versions{" "}
           <a href={`/slides?name=${this.props.name}`} target="_blank">
