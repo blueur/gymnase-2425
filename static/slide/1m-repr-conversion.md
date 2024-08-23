@@ -181,7 +181,7 @@ Calculer les **produits** par colonne
 
 ---
 
-## Conversion décimal vers binaire (10 → 2)
+## Conversion en binaire (10 → 2)
 
 666₁₀ = ?₂
 
@@ -195,7 +195,7 @@ Calculer les **produits** par colonne
 
 ---
 
-## Conversion décimal vers binaire (10 → 2)
+## Conversion en binaire (10 → 2)
 
 666₁₀ = ?₂
 
@@ -203,11 +203,11 @@ Calculer les **produits** par colonne
 | :---------------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------: |
 | <span class="fragment" data-fragment-index="0">**1**</span> | <span class="fragment" data-fragment-index="1">0</span> | <span class="fragment" data-fragment-index="1">**1**</span> | <span class="fragment" data-fragment-index="2">0</span> | <span class="fragment" data-fragment-index="2">0</span> | <span class="fragment" data-fragment-index="2">**1**</span> | <span class="fragment" data-fragment-index="3">**1**</span> | <span class="fragment" data-fragment-index="4">0</span> | <span class="fragment" data-fragment-index="4">**1**</span> | <span class="fragment" data-fragment-index="4">0</span> |
 
-- &shy;<!-- .element: class="fragment" data-fragment-index="0" --> 666 - 512 = 154
-- &shy;<!-- .element: class="fragment" data-fragment-index="1" --> 154 - 128 = 26
-- &shy;<!-- .element: class="fragment" data-fragment-index="2" --> 26 - 16 = 10
-- &shy;<!-- .element: class="fragment" data-fragment-index="3" --> 10 - 8 = 2
-- &shy;<!-- .element: class="fragment" data-fragment-index="4" --> 2 - 2 = 0
+- &shy;<!-- .element: class="fragment" data-fragment-index="0" --> 666 - **512** = 154
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --> 154 - **128** = 26
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" --> 26 - **16** = 10
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" --> 10 - **8** = 2
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" --> 2 - **2** = 0
 
 &shy;<!-- .element: class="fragment" data-fragment-index="5" --> 666₁₀ = 10 1001 1010₂
 

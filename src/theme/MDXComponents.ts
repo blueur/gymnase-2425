@@ -1,3 +1,6 @@
+import "@fontsource-variable/inter";
+import "@fontsource-variable/roboto-mono";
+import "@phosphor-icons/web/regular";
 import Reaveal from "@site/src/components/Reaveal";
 import MDXComponents from "@theme-original/MDXComponents";
 
