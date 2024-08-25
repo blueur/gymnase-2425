@@ -1,7 +1,7 @@
 | Date (mardi) | Cours (19:50-20:35)                                                  | Travaux pratiques (20:35-21:20)                |
 | :----------: | -------------------------------------------------------------------- | ---------------------------------------------- |
 |  2024-08-20  | [Introduction](/docs/3cci/intro) + [HTML](/docs/3cci/webs/html)      | [Environnement](/docs/3cci/webs/environnement) |
-|  2024-08-27  |                                                                      |                                                |
+|  2024-08-27  | [CSS](/docs/3cci/webs/css)                                           | [Site statique](/docs/3cci/webs/static)        |
 |  2024-09-03  |                                                                      |                                                |
 |  2024-09-10  |                                                                      |                                                |
 |  2024-09-17  |                                                                      |                                                |

@@ -1,4 +1,4 @@
-# TP Environnement
+# Environnement
 
 :::note[Objectifs]
 

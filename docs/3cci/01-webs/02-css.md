@@ -1,14 +1,14 @@
-# HTML
+# CSS
 
 :::note[Objectifs]
 
-Création de pages Web avec le langage HTML.
+Mise en forme des pages Web avec le langage CSS.
 
 :::
 
 ## Cours
 
-<Reaveal name="3cci-webs-html" />
+<Reaveal name="3cci-webs-css" />
 
 ## Références
 
