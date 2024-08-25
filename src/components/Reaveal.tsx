@@ -1,11 +1,12 @@
-import "highlight.js/styles/github.min.css";
+import "highlight.js/styles/base16/tomorrow-night.min.css";
 import "reveal.js/dist/reveal.css";
-import "reveal.js/dist/theme/white.css";
 
+import "@site/src/css/reveal.scss";
+
+import Katex from "@site/src/components/plugins/katex";
+import Mermaid from "@site/src/components/plugins/mermaid";
 import React, { createRef } from "react";
 import Markdown from "reveal.js/plugin/markdown/markdown";
-import Katex from "./plugins/katex";
-import Mermaid from "./plugins/mermaid";
 
 export default class Reaveal extends React.Component<{
   name: string;
