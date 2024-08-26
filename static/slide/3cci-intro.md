@@ -49,7 +49,7 @@ Pourquoi avoir choisi ce domaine professionnel ?
 
 ## Contenu
 
-[Plan d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_ECG_WEB.pdf) <!-- .element: target="_blank" -->
+[Plan d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_ECG_WEB.pdf)
 
 - &shy;<!-- .element: class="fragment" --> Pages Web **statiques**
 - &shy;<!-- .element: class="fragment" --> Page Web **dynamiques**
@@ -67,7 +67,7 @@ Pourquoi avoir choisi ce domaine professionnel ?
 
 ---
 
-## [gymnase.davidtang.ch](https://gymnase.davidtang.ch/) <!-- .element: target="_blank" -->
+## [gymnase.davidtang.ch](https://gymnase.davidtang.ch/)
 
 - &shy;<!-- .element: class="fragment" --> **Calendrier**
   - Dates des **tests**

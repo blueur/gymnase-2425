@@ -37,7 +37,7 @@ Représentation de l'information
   ```katex
   8_{10} = 1000_{2}
   ```
-  &nbsp;: **8** en _base 10_ est **équivalent** à **1000** en _base 2_
+  - **8** en _base 10_ est **équivalent** à **1000** en _base 2_
 - &shy;<!-- .element: class="fragment" -->
   ```katex
   {10\ 1010}_{2} = ?_{10}
@@ -57,7 +57,8 @@ Représentation de l'information
 - &shy;<!-- .element: class="fragment" --> 1291 = **1**000 + **2**00 + **9**0 + **1**
 - &shy;<!-- .element: class="fragment" --> 1291 = **1** × 1000 + **2** × 100 + **9** × 10 + **1** × 1
 - &shy;<!-- .element: class="fragment" --> 1291 = **1** × 10³ + **2** × 10² + **9** × 10¹ + **1** × 10⁰
-- &shy;<!-- .element: class="fragment" --> 1291*₁₀* = **1** × *10*³ + **2** × *10*² + **9** × *10*¹ + **1** × *10*⁰ ← Forme canonique
+- &shy;<!-- .element: class="fragment" --> 1291*₁₀* = **1** × *10*³ + **2** × *10*² + **9** × *10*¹ + **1** × *10*⁰
+  - Forme canonique
 - &shy;<!-- .element: class="fragment" --> 102*₄* =<span class="fragment"> **1** × *4*² + **0** × *4*¹ + **2** × *4*⁰</span><span class="fragment"> = 18*₁₀*</span>
 - &shy;<!-- .element: class="fragment" --> 1010*₂* =<span class="fragment"> **1** × *2*³ + **0** × *2*² + **1** × *2*¹ + **0** × *2*⁰</span><span class="fragment"> = 10*₁₀*</span>
 

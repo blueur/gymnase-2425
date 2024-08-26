@@ -47,7 +47,7 @@ timeline
 
 ## Contenu
 
-[Plan d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_EM_web.pdf) <!-- .element: target="_blank" -->
+[Plan d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_EM_web.pdf)
 
 - &shy;<!-- .element: class="fragment" --> Représentation de l'**information**
 - &shy;<!-- .element: class="fragment" --> Introduction à l'**algorithmique**
@@ -77,7 +77,7 @@ timeline
 
 ---
 
-## [gymnase.davidtang.ch](https://gymnase.davidtang.ch/) <!-- .element: target="_blank" -->
+## [gymnase.davidtang.ch](https://gymnase.davidtang.ch/)
 
 - &shy;<!-- .element: class="fragment" --> **Calendrier**
   - Dates des **tests**

@@ -3,11 +3,11 @@ import { Api } from "reveal.js";
 
 export default () => ({
   id: "katex",
-  init: function (reveal: Api) {
+  init: (reveal: Api) => {
     const revealOptions = reveal.getConfig().katex;
 
     (reveal.getSlidesElement()?.querySelectorAll("code.katex") ?? []).forEach(
-      function (element: Element) {
+      (element: Element) => {
         const div = document.createElement("span");
         element.classList.remove("katex", "hljs", "language-apache");
         if (element.classList.length > 0) {

@@ -119,7 +119,7 @@ Utiliser la version courte de son identifiant Eduvaud (**px00xxx**) pour se conn
 ## Teams
 
 - Accédez à l'application desktop Teams
-- Dans le menu **`Equipes`**, allez dans la classe `GYPRO_2425_1MX_Informatique_Teams`
+- Dans le menu **`Equipes`**, allez dans la classe `GYPRO_2425_1M_Informatique_Teams`
 - Dans le canal `Général`, dans le menu `Fichiers` puis **`Supports de cours`**, vous y trouverez tous les supports du cours
 - Dans le **devoir** `Présentation`, rendre le fichier PDF de présentation
   - Cliquer sur **`Joindre`** > `OneDrive` > sélectionner le fichier PDF > `Joindre`

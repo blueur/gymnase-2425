@@ -45,7 +45,7 @@ sequenceDiagram
 
 ## HTML
 
-```html
+```html []
 <!doctype html>
 <html lang="fr">
   <head>
@@ -70,7 +70,7 @@ sequenceDiagram
 
 ![](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png)
 
-https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics <!-- .element: class="reference" target="_blank" -->
+https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics <!-- .element: class="reference" -->
 
 ---
 
@@ -104,7 +104,7 @@ https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_ba
 
 ![](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png)
 
-https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics <!-- .element: class="reference" target="_blank" -->
+https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics <!-- .element: class="reference" -->
 
 ---
 
@@ -112,13 +112,13 @@ https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_ba
 
 ![](https://user.oc-static.com/upload/2022/11/25/16693917384741_FR_1603881_HTML-CSS_Static-Graphics_p1c3-3.jpg)
 
-https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061261-creez-votre-premiere-page-web-en-html <!-- .element: class="reference" target="_blank" -->
+https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061261-creez-votre-premiere-page-web-en-html <!-- .element: class="reference" -->
 
 ---
 
 ## Structure de base
 
-```html
+```html []
 <!doctype html>
 <html lang="fr">
   <head>
@@ -154,7 +154,7 @@ https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et
 
 ![](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-all.png)
 
-https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL <!-- .element: class="reference" target="_blank" -->
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL <!-- .element: class="reference" -->
 
 - &shy;<!-- .element: class="fragment" --> **U**niform **R**esource **L**ocator
 - &shy;<!-- .element: class="fragment" --> **Adresse** d'une **ressource** sur Internet

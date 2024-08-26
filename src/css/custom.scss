@@ -6,9 +6,10 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-font-family-base: "Inter Variable", sans-serif;
-  --ifm-font-family-monospace: "Roboto Mono Variable", monospace;
+  --ifm-font-family-base: "Source Code Pro Variable", sans-serif;
+  --ifm-font-family-monospace: "Source Code Pro Variable", monospace;
 
+  --docusaurus-highlighted-code-line-bg: #d6d6d6;
   --ifm-background-color: #ffffff;
   --ifm-color-primary: #4271ae;
   --ifm-color-primary-dark: #8e908c;
@@ -22,6 +23,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
+  --docusaurus-highlighted-code-line-bg: #373b41;
   --ifm-background-color: #2d2d2d;
   --ifm-color-primary: #81a2be;
   --ifm-color-primary-dark: #969896;
@@ -45,6 +47,7 @@ div.reveal {
 
   em {
     color: var(--tmr-color-emphasis);
+    font-style: normal;
   }
   p:has(> .reference) {
     line-height: 0.4;
@@ -55,6 +58,10 @@ div.reveal {
 
     code {
       max-height: var(--slide-height);
+
+      table {
+        table-layout: auto;
+      }
     }
 
     tr {
@@ -69,6 +76,13 @@ div.reveal {
       var(--ifm-table-border-color);
     border-collapse: separate;
     display: table;
+    table-layout: fixed;
+    width: 100%;
+
+    td,
+    th {
+      padding: 0.2em;
+    }
   }
 
   .reference {
