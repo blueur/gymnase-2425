@@ -81,7 +81,7 @@ Les raccourcis clavier sont des combinaisons de touches qui permettent d'effectu
     └── index.html
     ```
 - Copier le code HTML suivant dans le fichier `index.html` :
-  ```html
+  ```html title="index.html"
   <!doctype html>
   <html lang="fr">
     <head>
