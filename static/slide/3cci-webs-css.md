@@ -63,7 +63,7 @@ https://web.dev/learn/css/selectors?hl=fr <!-- .element: class="reference" -->
 ```
 
 - &shy;<!-- .element: class="fragment" --> Application **ponctuelle** pour un **élément**
-- &shy;<!-- .element: class="fragment" --> Difficile à **maintenir** et à **réutiliser** → **déconseillé**
+- &shy;<!-- .element: class="fragment" --> Difficile à **maintenir** et à **réutiliser** &rarr; **déconseillé**
 
 ---
 
@@ -86,7 +86,7 @@ https://web.dev/learn/css/selectors?hl=fr <!-- .element: class="reference" -->
 ```
 
 - &shy;<!-- .element: class="fragment" --> Application **ponctuelle** pour une **page**
-- &shy;<!-- .element: class="fragment" --> **Mélangé** avec le contenu → **déconseillé**
+- &shy;<!-- .element: class="fragment" --> **Mélangé** avec le contenu &rarr; **déconseillé**
 
 ---
 
@@ -105,7 +105,7 @@ https://web.dev/learn/css/selectors?hl=fr <!-- .element: class="reference" -->
 ```
 
 - &shy;<!-- .element: class="fragment" --> Application **globale** pour un **site**
-- &shy;<!-- .element: class="fragment" --> **Séparé** du contenu et **réutilisable** → **recommandé**
+- &shy;<!-- .element: class="fragment" --> **Séparé** du contenu et **réutilisable** &rarr; **recommandé**
 
 ---
 

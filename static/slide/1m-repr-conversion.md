@@ -56,17 +56,17 @@ Représentation de l'information
   - &shy;<!-- .element: class="fragment" --> Les **1** n'ont pas la même **valeur**
 - &shy;<!-- .element: class="fragment" --> 1291 = **1**000 + **2**00 + **9**0 + **1**
 - &shy;<!-- .element: class="fragment" --> 1291 = **1** × 1000 + **2** × 100 + **9** × 10 + **1** × 1
-- &shy;<!-- .element: class="fragment" --> 1291 = **1** × 10³ + **2** × 10² + **9** × 10¹ + **1** × 10⁰
-- &shy;<!-- .element: class="fragment" --> 1291*₁₀* = **1** × *10*³ + **2** × *10*² + **9** × *10*¹ + **1** × *10*⁰
+- &shy;<!-- .element: class="fragment" --> 1291 = **1** × 10<sup>3</sup> + **2** × 10<sup>2</sup> + **9** × 10<sup>1</sup> + **1** × 10<sup>0</sup>
+- &shy;<!-- .element: class="fragment" --> 1291<sub>_10_</sub> = **1** × _10_<sup>3</sup> + **2** × _10_<sup>2</sup> + **9** × _10_<sup>1</sup> + **1** × _10_<sup>0</sup>
   - Forme canonique
-- &shy;<!-- .element: class="fragment" --> 102*₄* =<span class="fragment"> **1** × *4*² + **0** × *4*¹ + **2** × *4*⁰</span><span class="fragment"> = 18*₁₀*</span>
-- &shy;<!-- .element: class="fragment" --> 1010*₂* =<span class="fragment"> **1** × *2*³ + **0** × *2*² + **1** × *2*¹ + **0** × *2*⁰</span><span class="fragment"> = 10*₁₀*</span>
+- &shy;<!-- .element: class="fragment" --> 102<sub>_4_</sub> =<span class="fragment"> **1** × _4_<sup>2</sup> + **0** × _4_<sup>1</sup> + **2** × _4_<sup>0</sup></span><span class="fragment"> = 18<sub>_10_</sub></span>
+- &shy;<!-- .element: class="fragment" --> 1010<sub>_2_</sub> =<span class="fragment"> **1** × _2_<sup>3</sup> + **0** × _2_<sup>2</sup> + **1** × _2_<sup>1</sup> + **0** × _2_<sup>0</sup></span><span class="fragment"> = 10<sub>_10_</sub></span>
 
 ---
 
-## Conversion avec un tableau (? → 10)
+## Conversion avec un tableau (? &rarr; 10)
 
-1023₄ = ?₁₀
+1023<sub>4</sub> = ?<sub>10</sub>
 
 |   1    |  0  |  2  |  3  |
 | :----: | :-: | :-: | :-: |
@@ -79,22 +79,22 @@ Représentation de l'information
 
 ---
 
-## Conversion avec un tableau (? → 10)
+## Conversion avec un tableau (? &rarr; 10)
 
-1023₄ = ?₁₀
+1023<sub>4</sub> = ?<sub>10</sub>
 
-|   1    |  0  |  2  |  3  |
-| :----: | :-: | :-: | :-: |
-|   4³   | 4²  | 4¹  | 4⁰  |
-| &nbsp; |     |     |     |
+|       1       |       0       |       2       |       3       |
+| :-----------: | :-----------: | :-----------: | :-----------: |
+| 4<sup>3</sup> | 4<sup>2</sup> | 4<sup>1</sup> | 4<sup>0</sup> |
+|    &nbsp;     |               |               |               |
 
 Écrire les **puissances** de la **base** en partant de la **droite** (puissance 0)
 
 ---
 
-## Conversion avec un tableau (? → 10)
+## Conversion avec un tableau (? &rarr; 10)
 
-1023₄ = ?₁₀
+1023<sub>4</sub> = ?<sub>10</sub>
 
 |   1    |  0  |  2  |  3  |
 | :----: | :-: | :-: | :-: |
@@ -105,9 +105,9 @@ Représentation de l'information
 
 ---
 
-## Conversion avec un tableau (? → 10)
+## Conversion avec un tableau (? &rarr; 10)
 
-1023₄ = ?₁₀
+1023<sub>4</sub> = ?<sub>10</sub>
 
 |   1    |   0    |   2   |   3   |
 | :----: | :----: | :---: | :---: |
@@ -118,9 +118,9 @@ Calculer les **produits** par colonne
 
 ---
 
-## Conversion avec un tableau (? → 10)
+## Conversion avec un tableau (? &rarr; 10)
 
-1023₄ = ?₁₀
+1023<sub>4</sub> = ?<sub>10</sub>
 
 |  1  |  0  |  2  |  3  |
 | :-: | :-: | :-: | :-: |
@@ -131,13 +131,13 @@ Calculer les **produits** par colonne
 
 &shy;<!-- .element: class="fragment" --> Faire la **somme** des résultats : <span class="fragment">64 + 0 + 8 + 3 = 75</span>
 
-&shy;<!-- .element: class="fragment" --> 1023₄ = 75₁₀
+&shy;<!-- .element: class="fragment" --> 1023<sub>4</sub> = 75<sub>10</sub>
 
 ---
 
-## Conversion avec un tableau (2 → 10)
+## Conversion avec un tableau (2 &rarr; 10)
 
-10 1010₂ = ?₁₀
+10 1010<sub>2</sub> = ?<sub>10</sub>
 
 |   1    |  0  |  1  |  0  |  1  |  0  |
 | :----: | :-: | :-: | :-: | :-: | :-: |
@@ -148,9 +148,9 @@ Calculer les **produits** par colonne
 
 ---
 
-## Conversion avec un tableau (2 → 10)
+## Conversion avec un tableau (2 &rarr; 10)
 
-10 1010₂ = ?₁₀
+10 1010<sub>2</sub> = ?<sub>10</sub>
 
 |   1    |  0  |  1  |  0  |  1  |  0  |
 | :----: | :-: | :-: | :-: | :-: | :-: |
@@ -159,9 +159,9 @@ Calculer les **produits** par colonne
 
 ---
 
-## Conversion avec un tableau (2 → 10)
+## Conversion avec un tableau (2 &rarr; 10)
 
-10 1010₂ = ?₁₀
+10 1010<sub>2</sub> = ?<sub>10</sub>
 
 |  1  |  0  |  1  |  0  |  1  |  0  |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -170,13 +170,13 @@ Calculer les **produits** par colonne
 
 &shy;<!-- .element: class="fragment" --> 32 + 8 + 2 = 42
 
-&shy;<!-- .element: class="fragment" --> 10 1010₂ = 42₁₀
+&shy;<!-- .element: class="fragment" --> 10 1010<sub>2</sub> = 42<sub>10</sub>
 
 ---
 
-## Conversion en binaire (10 → 2)
+## Conversion en binaire (10 &rarr; 2)
 
-666₁₀ = ?₂
+666<sub>10</sub> = ?<sub>2</sub>
 
 | ~~1024~~ | 512 | 256 | 128 | 64  | 32  | 16  |  8  |  4  |  2  |  1  |
 | :------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -188,9 +188,9 @@ Calculer les **produits** par colonne
 
 ---
 
-## Conversion en binaire (10 → 2)
+## Conversion en binaire (10 &rarr; 2)
 
-666₁₀ = ?₂
+666<sub>10</sub> = ?<sub>2</sub>
 
 |                             512                             |                           256                           |                             128                             |                           64                            |                           32                            |                             16                              |                              8                              |                            4                            |                              2                              |                            1                            |
 | :---------------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------: |
@@ -202,6 +202,6 @@ Calculer les **produits** par colonne
 - &shy;<!-- .element: class="fragment" data-fragment-index="3" --> 10 - **8** = 2
 - &shy;<!-- .element: class="fragment" data-fragment-index="4" --> 2 - **2** = 0
 
-&shy;<!-- .element: class="fragment" data-fragment-index="5" --> 666₁₀ = 10 1001 1010₂
+&shy;<!-- .element: class="fragment" data-fragment-index="5" --> 666<sub>10</sub> = 10 1001 1010<sub>2</sub>
 
 Enlever la **plus grande** puissance de 2 possible jusqu'à obtenir **0**

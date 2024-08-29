@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Comptage en différentes bases.
+Comment compter en différentes bases ?
 
 - Compter en n'importe quelle base
 

@@ -83,7 +83,7 @@ div.reveal {
 
     td,
     th {
-      padding: 0.2em;
+      padding: 0.1em;
     }
   }
 
@@ -113,8 +113,8 @@ thead th:empty {
 tr.current {
   scroll-margin-top: 32em;
   &.week {
-    border-left: 2px solid var(--ifm-color-primary);
-    border-right: 2px solid var(--ifm-color-primary);
+    border-left: 4px solid var(--ifm-color-primary);
+    border-right: 4px solid var(--ifm-color-primary);
   }
   &.weekend-before {
     border-top: 2px solid var(--ifm-color-primary);

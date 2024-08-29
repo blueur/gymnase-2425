@@ -6,7 +6,11 @@ Prise en main des outils informatiques utilisés au gymnase.
 
 - Se connecter avec son compte Eduvaud
 - Configurer son compte Office 365
-- Utiliser les applications Office 365 (Outlook, OneDrive, Word, Teams)
+- Utiliser les applications Office 365 (Outlook, OneDrive, Word, Teams, SharePoint)
+- Consulter Hermes II
+- Configurer l'imprimante
+- Configurer son smartphone
+- Configurer l'ordinateur
 
 :::
 
@@ -24,7 +28,7 @@ Prise en main des outils informatiques utilisés au gymnase.
 ## Navigateur Web
 
 - Changer le navigateur par défaut en **Firefox** ou **Chrome**
-  - Pomme (en haut à gauche) > Préférences Système > Rechercher `web`
+  - Pomme (en haut à gauche) > Réglages Système > Rechercher `web`
 - Ne pas utiliser Safari
 
 ## Office 365
@@ -76,7 +80,7 @@ Répondre à l'email `[inf] question`.
   - Se connecter avec son compte Eduvaud (px00xxx@eduvaud.ch)
 - Vérifier que les fichiers sont synchronisés
   - Ouvrir le dossier **OneDrive** dans le Finder
-- Créer un dossier `1m` dans le dossier `OneDrive - Eduvaud`
+- Créer un dossier `1m` dans le dossier `OneDrive - Eduvaud` (déjà existant)
 - Créer un dossier `informatique` dans le dossier `1m`
 
 ```

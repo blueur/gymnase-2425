@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Conversion entre différentes bases.
+Comment convertir les nombres entre différentes bases ?
 
 - Écrire un nombre entier en forme canonique décimale
 - Convertir de n'importe quelle base en base 10
@@ -20,25 +20,25 @@ Conversion entre différentes bases.
 
 Écrire les nombres suivants sous forme canonique décimale :
 
-1. 42₁₀
-   <details><summary>Solution</summary>4 × 10¹ + 2 × 10⁰</details>
-2. 1100₂
-   <details><summary>Solution</summary>1 × 2³ + 1 × 2² + 0 × 2¹ + 0 × 2⁰</details>
-3. 123₄
-   <details><summary>Solution</summary>1 × 4² + 2 × 4¹ + 3 × 4⁰</details>
-4. 1010₈
-   <details><summary>Solution</summary>1 × 8³ + 0 × 8² + 1 × 8¹ + 0 × 8⁰</details>
-5. 3CD₁₆
-   <details><summary>Solution</summary>3 × 16² + 12 × 16¹ + 13 × 16⁰</details>
+1. 42<sub>10</sub>
+   <details><summary>Solution</summary>4 × 10<sup>1</sup> + 2 × 10<sup>0</sup></details>
+2. 1100<sub>2</sub>
+   <details><summary>Solution</summary>1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2<sup>1</sup> + 0 × 2<sup>0</sup></details>
+3. 123<sub>4</sub>
+   <details><summary>Solution</summary>1 × 4<sup>2</sup> + 2 × 4<sup>1</sup> + 3 × 4<sup>0</sup></details>
+4. 1010<sub>8</sub>
+   <details><summary>Solution</summary>1 × 8<sup>3</sup> + 0 × 8<sup>2</sup> + 1 × 8<sup>1</sup> + 0 × 8<sup>0</sup></details>
+5. 3CD<sub>16</sub>
+   <details><summary>Solution</summary>3 × 16<sup>2</sup> + 12 × 16<sup>1</sup> + 13 × 16<sup>0</sup></details>
 
 <details>
 <summary>Toutes les solutions</summary>
 
-1. 4 × 10¹ + 2 × 10⁰
-2. 1 × 2³ + 1 × 2² + 0 × 2¹ + 0 × 2⁰
-3. 1 × 4² + 2 × 4¹ + 3 × 4⁰
-4. 1 × 8³ + 0 × 8² + 1 × 8¹ + 0 × 8⁰
-5. 3 × 16² + 12 × 16¹ + 13 × 16⁰
+1. 4 × 10<sup>1</sup> + 2 × 10<sup>0</sup>
+2. 1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2<sup>1</sup> + 0 × 2<sup>0</sup>
+3. 1 × 4<sup>2</sup> + 2 × 4<sup>1</sup> + 3 × 4<sup>0</sup>
+4. 1 × 8<sup>3</sup> + 0 × 8<sup>2</sup> + 1 × 8<sup>1</sup> + 0 × 8<sup>0</sup>
+5. 3 × 16<sup>2</sup> + 12 × 16<sup>1</sup> + 13 × 16<sup>0</sup>
 
 </details>
 
@@ -46,40 +46,40 @@ Conversion entre différentes bases.
 
 Convertir les nombres suivants dans la base demandée :
 
-1. 1100₂ = ?₁₀
-   <details><summary>Solution</summary>1 × 2³ + 1 × 2² + 0 × 2¹ + 0 × 2⁰ = 8 + 4 = **12₁₀**</details>
-2. 123₄ = ?₁₀
-   <details><summary>Solution</summary>1 × 4² + 2 × 4¹ + 3 × 4⁰ = 16 + 8 + 3 = **27₁₀**</details>
-3. 1010₈ = ?₁₀
-   <details><summary>Solution</summary>1 × 8³ + 0 × 8² + 1 × 8¹ + 0 × 8⁰ = 512 + 8 = **520₁₀**</details>
-4. 123₄ = ?₂
-   <details><summary>Solution</summary>Passer par la base 10 (cf ex 2) : 123₄ = **27₁₀** = 16 + 8 + 2 + 1 = **11011₂**</details>
-5. 1010₈ = ?₂
-   <details><summary>Solution</summary>Passer par la base 10 (cf ex 3) : 1010₈ = **520₁₀** = 512 + 8 = **10 0000 1000₂**</details>
-6. 42₇ = ?₂
-   <details><summary>Solution</summary>Passer par la base 10 :42₇ = 4 × 7¹ + 2 × 7⁰ = **30₁₀** = 16 + 8 + 4 + 2 = **1 1110₂**</details>
-7. 1000 0000₂ = ?₁₀
-   <details><summary>Solution</summary>1 × 2⁷ = **128₁₀**</details>
-8. 0111 1111₂ = ?₁₀
-   <details><summary>Solution</summary>C'est nombre juste avant 1000 0000₂ (ex 7) : 0111 1111₂ = 1000 0000₂ - 1 = 128₁₀ - 1 = **127₁₀**</details>
-9. 256₈ = ?₂
-   <details><summary>Solution</summary>Passer par la base 10 : 256₈ = 2 × 8² + 5 × 8¹ + 6 × 8⁰ = **174₁₀** = 128 + 32 + 8 + 4 + 2 = **1010 1110₂**</details>
-10. 1FF₁₆ = ?₂
-<details><summary>Solution</summary>Passer par la base 10 : 1FF₁₆ = 1 × 16² + 15 × 16¹ + 15 × 16⁰ = **511₁₀** = 256 + 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = **1 1111 1111₂**</details>
+1. 1100<sub>2</sub> = ?<sub>10</sub>
+   <details><summary>Solution</summary>1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2<sup>1</sup> + 0 × 2<sup>0</sup> = 8 + 4 = **12<sub>10</sub>**</details>
+2. 123<sub>4</sub> = ?<sub>10</sub>
+   <details><summary>Solution</summary>1 × 4<sup>2</sup> + 2 × 4<sup>1</sup> + 3 × 4<sup>0</sup> = 16 + 8 + 3 = **27<sub>10</sub>**</details>
+3. 1010<sub>8</sub> = ?<sub>10</sub>
+   <details><summary>Solution</summary>1 × 8<sup>3</sup> + 0 × 8<sup>2</sup> + 1 × 8<sup>1</sup> + 0 × 8<sup>0</sup> = 512 + 8 = **520<sub>10</sub>**</details>
+4. 123<sub>4</sub> = ?<sub>2</sub>
+   <details><summary>Solution</summary>Passer par la base 10 (cf ex 2) : 123<sub>4</sub> = **27<sub>10</sub>** = 16 + 8 + 2 + 1 = **11011<sub>2</sub>**</details>
+5. 1010<sub>8</sub> = ?<sub>2</sub>
+   <details><summary>Solution</summary>Passer par la base 10 (cf ex 3) : 1010<sub>8</sub> = **520<sub>10</sub>** = 512 + 8 = **10 0000 1000<sub>2</sub>**</details>
+6. 42<sub>7</sub> = ?<sub>2</sub>
+   <details><summary>Solution</summary>Passer par la base 10 :42<sub>7</sub> = 4 × 7<sup>1</sup> + 2 × 7<sup>0</sup> = **30<sub>10</sub>** = 16 + 8 + 4 + 2 = **1 1110<sub>2</sub>**</details>
+7. 1000 0000<sub>2</sub> = ?<sub>10</sub>
+   <details><summary>Solution</summary>1 × 2<sup>7</sup> = **128<sub>10</sub>**</details>
+8. 0111 1111<sub>2</sub> = ?<sub>10</sub>
+   <details><summary>Solution</summary>C'est nombre juste avant 1000 0000<sub>2</sub> (ex 7) : 0111 1111<sub>2</sub> = 1000 0000<sub>2</sub> - 1 = 128<sub>10</sub> - 1 = **127<sub>10</sub>**</details>
+9. 256<sub>8</sub> = ?<sub>2</sub>
+   <details><summary>Solution</summary>Passer par la base 10 : 256<sub>8</sub> = 2 × 8<sup>2</sup> + 5 × 8<sup>1</sup> + 6 × 8<sup>0</sup> = **174<sub>10</sub>** = 128 + 32 + 8 + 4 + 2 = **1010 1110<sub>2</sub>**</details>
+10. 1FF<sub>16</sub> = ?<sub>2</sub>
+<details><summary>Solution</summary>Passer par la base 10 : 1FF<sub>16</sub> = 1 × 16<sup>2</sup> + 15 × 16<sup>1</sup> + 15 × 16<sup>0</sup> = **511<sub>10</sub>** = 256 + 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = **1 1111 1111<sub>2</sub>**</details>
 
 <details>
 <summary>Toutes les solutions</summary>
 
-1. 1 × 2³ + 1 × 2² + 0 × 2¹ + 0 × 2⁰ = 8 + 4 = **12₁₀**
-2. 1 × 4² + 2 × 4¹ + 3 × 4⁰ = 16 + 8 + 3 = **27₁₀**
-3. 1 × 8³ + 0 × 8² + 1 × 8¹ + 0 × 8⁰ = 512 + 8 = **520₁₀**
-4. Passer par la base 10 (cf ex 2) : 123₄ = **27₁₀** = 16 + 8 + 2 + 1 = **11011₂**
-5. Passer par la base 10 (cf ex 3) : 1010₈ = **520₁₀** = 512 + 8 = **10 0000 1000₂**
-6. Passer par la base 10 :42₇ = 4 × 7¹ + 2 × 7⁰ = **30₁₀** = 16 + 8 + 4 + 2 = **1 1110₂**
-7. 1 × 2⁷ = **128₁₀**
-8. C'est nombre juste avant 1000 0000₂ (ex 7) : 0111 1111₂ = 1000 0000₂ - 1 = 128₁₀ - 1 = **127₁₀**
-9. Passer par la base 10 : 256₈ = 2 × 8² + 5 × 8¹ + 6 × 8⁰ = **174₁₀** = 128 + 32 + 8 + 4 + 2 = **1010 1110₂**
-10. Passer par la base 10 : 1FF₁₆ = 1 × 16² + 15 × 16¹ + 15 × 16⁰ = **511₁₀** = 256 + 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = **1 1111 1111₂**
+1. 1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2<sup>1</sup> + 0 × 2<sup>0</sup> = 8 + 4 = **12<sub>10</sub>**
+2. 1 × 4<sup>2</sup> + 2 × 4<sup>1</sup> + 3 × 4<sup>0</sup> = 16 + 8 + 3 = **27<sub>10</sub>**
+3. 1 × 8<sup>3</sup> + 0 × 8<sup>2</sup> + 1 × 8<sup>1</sup> + 0 × 8<sup>0</sup> = 512 + 8 = **520<sub>10</sub>**
+4. Passer par la base 10 (cf ex 2) : 123<sub>4</sub> = **27<sub>10</sub>** = 16 + 8 + 2 + 1 = **11011<sub>2</sub>**
+5. Passer par la base 10 (cf ex 3) : 1010<sub>8</sub> = **520<sub>10</sub>** = 512 + 8 = **10 0000 1000<sub>2</sub>**
+6. Passer par la base 10 :42<sub>7</sub> = 4 × 7<sup>1</sup> + 2 × 7<sup>0</sup> = **30<sub>10</sub>** = 16 + 8 + 4 + 2 = **1 1110<sub>2</sub>**
+7. 1 × 2<sup>7</sup> = **128<sub>10</sub>**
+8. C'est nombre juste avant 1000 0000<sub>2</sub> (ex 7) : 0111 1111<sub>2</sub> = 1000 0000<sub>2</sub> - 1 = 128<sub>10</sub> - 1 = **127<sub>10</sub>**
+9. Passer par la base 10 : 256<sub>8</sub> = 2 × 8<sup>2</sup> + 5 × 8<sup>1</sup> + 6 × 8<sup>0</sup> = **174<sub>10</sub>** = 128 + 32 + 8 + 4 + 2 = **1010 1110<sub>2</sub>**
+10. Passer par la base 10 : 1FF<sub>16</sub> = 1 × 16<sup>2</sup> + 15 × 16<sup>1</sup> + 15 × 16<sup>0</sup> = **511<sub>10</sub>** = 256 + 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = **1 1111 1111<sub>2</sub>**
 
 </details>
 
