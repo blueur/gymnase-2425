@@ -13,3 +13,6 @@ Qu'est-ce qu'Internet ?
 ## Références
 
 - https://apprendre.modulo-info.ch/resx/intro.html
+- https://fr.vikidia.org/wiki/Internet
+  - https://fr.wikipedia.org/wiki/Internet
+- https://fr.wikipedia.org/wiki/Histoire_d%27Internet

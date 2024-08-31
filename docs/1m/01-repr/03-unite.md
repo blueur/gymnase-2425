@@ -25,9 +25,9 @@ Qu'est-ce que l'information ?
 
 - https://fr.vikidia.org/wiki/Bit
 - https://fr.vikidia.org/wiki/Octet
+  - https://fr.wikipedia.org/wiki/Octet
 - https://fr.vikidia.org/wiki/Syst%C3%A8me_hexad%C3%A9cimal
-- https://fr.wikipedia.org/wiki/Octet
-- https://fr.wikipedia.org/wiki/Syst%C3%A8me_hexad%C3%A9cimal
+  - https://fr.wikipedia.org/wiki/Syst%C3%A8me_hexad%C3%A9cimal
 
 ### Outils
 
