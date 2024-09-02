@@ -9,7 +9,7 @@ Mise en place d'un environnement de développement pour la création de pages We
 ## Navigateur Web
 
 - Changer le navigateur par défaut en **Firefox** ou **Chrome**
-  - Pomme (en haut à gauche) > Préférences Système > Général > Navigateur par défaut
+  - Pomme (en haut à gauche) > Réglages Système > Général > Navigateur par défaut
 - Ne pas utiliser Safari
 
 ## OneDrive
