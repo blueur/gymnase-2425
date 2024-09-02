@@ -55,12 +55,12 @@ Représentation de l'information
 - &shy;<!-- .element: class="fragment" --> 1291
   - &shy;<!-- .element: class="fragment" --> Les **1** n'ont pas la même **valeur**
 - &shy;<!-- .element: class="fragment" --> 1291 = **1**000 + **2**00 + **9**0 + **1**
-- &shy;<!-- .element: class="fragment" --> 1291 = **1** × 1000 + **2** × 100 + **9** × 10 + **1** × 1
-- &shy;<!-- .element: class="fragment" --> 1291 = **1** × 10<sup>3</sup> + **2** × 10<sup>2</sup> + **9** × 10<sup>1</sup> + **1** × 10<sup>0</sup>
-- &shy;<!-- .element: class="fragment" --> 1291<sub>_10_</sub> = **1** × _10_<sup>3</sup> + **2** × _10_<sup>2</sup> + **9** × _10_<sup>1</sup> + **1** × _10_<sup>0</sup>
+- &shy;<!-- .element: class="fragment" --> 1291 = **1** &times; 1000 + **2** &times; 100 + **9** &times; 10 + **1** &times; 1
+- &shy;<!-- .element: class="fragment" --> 1291 = **1** &times; 10<sup>3</sup> + **2** &times; 10<sup>2</sup> + **9** &times; 10<sup>1</sup> + **1** &times; 10<sup>0</sup>
+- &shy;<!-- .element: class="fragment" --> 1291<sub>_10_</sub> = **1** &times; _10_<sup>3</sup> + **2** &times; _10_<sup>2</sup> + **9** &times; _10_<sup>1</sup> + **1** &times; _10_<sup>0</sup>
   - Forme canonique
-- &shy;<!-- .element: class="fragment" --> 102<sub>_4_</sub> =<span class="fragment"> **1** × _4_<sup>2</sup> + **0** × _4_<sup>1</sup> + **2** × _4_<sup>0</sup></span><span class="fragment"> = 18<sub>_10_</sub></span>
-- &shy;<!-- .element: class="fragment" --> 1010<sub>_2_</sub> =<span class="fragment"> **1** × _2_<sup>3</sup> + **0** × _2_<sup>2</sup> + **1** × _2_<sup>1</sup> + **0** × _2_<sup>0</sup></span><span class="fragment"> = 10<sub>_10_</sub></span>
+- &shy;<!-- .element: class="fragment" --> 102<sub>_4_</sub> =<span class="fragment"> **1** &times; _4_<sup>2</sup> + **0** &times; _4_<sup>1</sup> + **2** &times; _4_<sup>0</sup></span><span class="fragment"> = 18<sub>_10_</sub></span>
+- &shy;<!-- .element: class="fragment" --> 1010<sub>_2_</sub> =<span class="fragment"> **1** &times; _2_<sup>3</sup> + **0** &times; _2_<sup>2</sup> + **1** &times; _2_<sup>1</sup> + **0** &times; _2_<sup>0</sup></span><span class="fragment"> = 10<sub>_10_</sub></span>
 
 ---
 
@@ -109,10 +109,10 @@ Représentation de l'information
 
 1023<sub>4</sub> = ?<sub>10</sub>
 
-|   1    |   0    |   2   |   3   |
-| :----: | :----: | :---: | :---: |
-|   64   |   16   |   4   |   1   |
-| 1 × 64 | 0 × 16 | 2 × 4 | 3 × 1 |
+|      1       |      0       |      2      |      3      |
+| :----------: | :----------: | :---------: | :---------: |
+|      64      |      16      |      4      |      1      |
+| 1 &times; 64 | 0 &times; 16 | 2 &times; 4 | 3 &times; 1 |
 
 Calculer les **produits** par colonne
 

@@ -88,3 +88,78 @@ Pages Web statiques
 ![](https://img.rts.ch/articles/2017/image/9s0imw-25994011.image)
 
 &shy;<!-- .element: class="reference" --> https://www.rts.ch/info/sciences-tech/13671923-les-gafam-monopolisent-les-cables-sousmarins-arteres-vitales-du-web.html
+
+---
+
+## Adresse IP
+
+- &shy;<!-- .element: class="fragment" --> **Identifiant** unique d'un appareil sur un réseau
+  - &shy;<!-- .element: class="fragment" --> Comme une adresse postale
+- &shy;<!-- .element: class="fragment" --> IP = **I**nternet **P**rotocol
+- &shy;<!-- .element: class="fragment" --> [whatismyipaddress.com](https://whatismyipaddress.com/)
+
+---
+
+### Versions d'adresse IP
+
+- &shy;<!-- .element: class="fragment" --> **IPv4**
+  - &shy;<!-- .element: class="fragment" --> Le plus **utilisé**
+  - &shy;<!-- .element: class="fragment" --> 32 bits &rarr; 2<sup>32</sup> = 4 294 967 296 adresses possibles
+- &shy;<!-- .element: class="fragment" --> **IPv6**
+  - &shy;<!-- .element: class="fragment" --> Le plus **récent** (1998) car manque d'adresses
+  - &shy;<!-- .element: class="fragment" --> 128 bits &rarr; 2<sup>128</sup> = 3.4 &times; 10<sup>38</sup> adresses possibles
+
+---
+
+#### IPv4
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/34/Adresse_Ipv4.svg) <!-- .element: class="full" -->
+
+<p class="reference">
+  <a href="https://commons.wikimedia.org/wiki/File:Adresse_Ipv4.svg">Star Trek Man</a>, Public domain, via Wikimedia Commons
+</p>
+
+---
+
+#### IPv6
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Ipv6_address-fr.svg) <!-- .element: class="full" -->
+
+<p class="reference">
+  <a href="https://commons.wikimedia.org/wiki/File:Ipv6_address-fr.svg">Indeterminate</a>, CC0, via Wikimedia Commons
+</p>
+
+---
+
+### Exercice : adresses IP valides ?
+
+- &shy;<!-- .element: class="fragment" --> 205.233.12.23
+  - &shy;<!-- .element: class="fragment" --> Oui
+- &shy;<!-- .element: class="fragment" --> 240.264.23.2
+  - &shy;<!-- .element: class="fragment" --> Non (264 > 255)
+- &shy;<!-- .element: class="fragment" --> 123.8.12.2.34
+  - &shy;<!-- .element: class="fragment" --> Non (4 nombres)
+- &shy;<!-- .element: class="fragment" --> 4E3F:DEA7:409B:412C:2516:4A2B:2CFE:1282
+  - &shy;<!-- .element: class="fragment" --> Oui (IPv6)
+
+---
+
+### Adresses IP particulières
+
+- &shy;<!-- .element: class="fragment" --> 127.0.0.1
+  - &shy;<!-- .element: class="fragment" --> **localhost** (notre propre ordinateur)
+  - &shy;<!-- .element: class="fragment" --> ::1 (0000:0000:0000:0000:0000:0000:0000:0001) pour IPv6
+- &shy;<!-- .element: class="fragment" --> 10.x.x.x, 172.16-31.x.x, 192.168.x.x
+  - &shy;<!-- .element: class="fragment" --> **Adresses privées**
+  - &shy;<!-- .element: class="fragment" --> Utilisées au sein d'un réseau local/privé (gymnase, entreprise, ...)
+
+---
+
+### Types d'adresses IP
+
+- &shy;<!-- .element: class="fragment" --> **Statique**
+  - &shy;<!-- .element: class="fragment" --> **Fixe** (toujours la même)
+  - &shy;<!-- .element: class="fragment" --> Serveurs (web, mail, etc.), imprimantes, etc.
+- &shy;<!-- .element: class="fragment" --> **Dynamique**
+  - &shy;<!-- .element: class="fragment" --> **Change** à chaque connexion
+  - &shy;<!-- .element: class="fragment" --> Ordinateurs, smartphones, etc.

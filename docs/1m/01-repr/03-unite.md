@@ -1,4 +1,4 @@
-# Unité d'information
+# Unité
 
 :::note[Objectifs]
 
