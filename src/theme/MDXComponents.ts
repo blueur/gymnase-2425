@@ -1,4 +1,4 @@
-import "@fontsource-variable/source-code-pro";
+import "@fontsource-variable/inconsolata";
 import "@phosphor-icons/web/regular";
 import Reaveal from "@site/src/components/Reaveal";
 import MDXComponents from "@theme-original/MDXComponents";

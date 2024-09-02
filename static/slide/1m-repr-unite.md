@@ -7,7 +7,7 @@ Représentation de l'information
 ## Unité d'information
 
 - &shy;<!-- .element: class="fragment" --> Exemple d'information : 021 316 09 60
-  - &shy;<!-- .element: class="fragment" --> En binaire : 0000 0010 0001 0011 0001 0110 0000 1001 0110 0000
+  - &shy;<!-- .element: class="fragment" --> **Encodé** en binaire : 0000 0010 0001 0011 0001 0110 0000 1001 0110 0000
   - &shy;<!-- .element: class="fragment" --> Longueur : 40 symboles
   - &shy;<!-- .element: class="fragment" --> 40 **bits** : **bi**nary digi**t**
 - &shy;<!-- .element: class="fragment" --> 1 **bit** &nbsp;&nbsp;(b) : 0 ou 1
@@ -31,7 +31,7 @@ Représentation de l'information
 
 ## Préfixes binaires d'unités
 
-&shy;<!-- .element: class="fragment" --> 10<sup>3</sup> = 1000 &approx; 1024 = 2<sup>10</sup>
+&shy;<!-- .element: class="fragment" --> 10<sup>3</sup> = 1000 **&approx;** 1024 = 2<sup>10</sup>
 
 |    Préfixe    | Symbole |     Valeur      |    Préfixe    | Symbole |     Valeur     |
 | :-----------: | :-----: | :-------------: | :-----------: | :-----: | :------------: |
@@ -86,3 +86,61 @@ Représentation de l'information
 | Notation suffixée (info) | 101010<sub>**bin**</sub> | 2A<sub>**hex**</sub> |
 | Notation suffixée (info) |       101010**b**        |       2A**h**        |
 | Notation préfixée (info) |       0**b**101010       |       0**x**2A       |
+
+---
+
+### Conversion entre bases 2, 10 et 16
+
+```mermaid
+graph LR
+  2-->10
+  16-->10
+  10-->2
+  2-->16
+  16-->2
+```
+
+---
+
+## Encodage
+
+Combien de bits as-t-on besoin pour encoder un chiffre ?
+
+- &shy;<!-- .element: class="fragment" --> 10 **éléments** possibles : 0 à 9
+- &shy;<!-- .element: class="fragment" --> **4** bits suffisent : 2<sup>**4**</sup> = 16
+
+| Chiffre | Encodage |
+| :-----: | :------: |
+|    0    |   0000   |
+|    1    |   0001   |
+|    2    |   0010   |
+|    3    |   0011   |
+|   ...   |   ...    |
+|    9    |   1001   |
+
+<!-- .element: class="fragment" -->
+
+- &shy;<!-- .element: class="fragment" --> 42 = 0100 0010
+- &shy;<!-- .element: class="fragment" --> 3 bits insuffisants : 2<sup>3</sup> = 8
+
+---
+
+## Encodage
+
+Combien de bits as-t-on besoin pour encoder une lettre ?
+
+- &shy;<!-- .element: class="fragment" --> 26 **éléments** possibles : A à Z
+- &shy;<!-- .element: class="fragment" --> **5** bits suffisent : 2<sup>**5**</sup> = 32
+
+| Lettre | Encodage |
+| :----: | :------: |
+|   A    |  00000   |
+|   B    |  00001   |
+|   C    |  00010   |
+|  ...   |   ...    |
+|   Z    |  11001   |
+
+<!-- .element: class="fragment" -->
+
+- &shy;<!-- .element: class="fragment" --> BOB = 00001 01110 00001
+- &shy;<!-- .element: class="fragment" --> Minuscules/majuscules, accents, etc. ?

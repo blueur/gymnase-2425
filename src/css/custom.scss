@@ -6,8 +6,11 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-font-family-base: "Source Code Pro Variable", sans-serif;
-  --ifm-font-family-monospace: "Source Code Pro Variable", monospace;
+  --ifm-font-family-base: "Inconsolata Variable", sans-serif;
+  --ifm-font-family-monospace: "Inconsolata Variable", monospace;
+  --ifm-table-cell-padding: 0.5rem;
+  --ifm-font-weight-bold: 800;
+  font-weight: 500;
 
   --docusaurus-highlighted-code-line-bg: #d6d6d6;
   --ifm-background-color: #ffffff;
@@ -109,6 +112,7 @@ div.reveal {
     max-width: var(--slide-width);
 
     svg {
+      max-height: 800px;
       max-width: unset !important;
     }
   }
