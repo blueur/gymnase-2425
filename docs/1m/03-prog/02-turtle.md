@@ -24,3 +24,5 @@ Découverte de Python avec la bibliothèque `turtle`.
                 ├── rectangle.py
                 ├── ...
     ```
+    - Ouvrir l'application Thonny et enregistrer (&#x1F4BE;) les fichiers dans le dossier `modulo-forward`.
+    - Exécuter (&#9658;) les fichiers pour vérifier le résultat.

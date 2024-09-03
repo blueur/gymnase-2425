@@ -106,7 +106,7 @@ graph LR
 
 Combien de bits as-t-on besoin pour encoder un chiffre ?
 
-- &shy;<!-- .element: class="fragment" --> 10 **éléments** possibles : 0 à 9
+- &shy;<!-- .element: class="fragment" --> **10** éléments possibles : 0 à 9
 - &shy;<!-- .element: class="fragment" --> **4** bits suffisent : 2<sup>**4**</sup> = 16
 
 | Chiffre | Encodage |
