@@ -1,5 +1,9 @@
+---
+sidebar_position: 3
+---
+
 import DocCardList from '@theme/DocCardList';
 
-# Introduction à l'algorithmique
+# Architecture des ordinateurs
 
 <DocCardList />

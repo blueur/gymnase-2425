@@ -1,5 +1,9 @@
+---
+sidebar_position: 2
+---
+
 import DocCardList from '@theme/DocCardList';
 
-# Enjeux de société
+# Représentation de l'information
 
 <DocCardList />

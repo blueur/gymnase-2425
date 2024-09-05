@@ -1,5 +1,9 @@
+---
+sidebar_position: 4
+---
+
 import DocCardList from '@theme/DocCardList';
 
-# Représentation de l'information
+# Introduction à l'algorithmique
 
 <DocCardList />
