@@ -12,6 +12,7 @@ import Markdown from "reveal.js/plugin/markdown/markdown";
 export default class Reaveal extends React.Component<{
   name: string;
   full?: boolean;
+  page?: boolean;
 }> {
   constructor(props) {
     super(props);
@@ -34,6 +35,7 @@ export default class Reaveal extends React.Component<{
           autoAnimateUnmatched: false,
           controlsLayout: "edges",
           embedded: !this.props.full,
+          fragments: !this.props.page,
           hash: true,
           pdfMaxPagesPerSlide: 1,
           pdfSeparateFragments: false,
@@ -83,10 +85,14 @@ export default class Reaveal extends React.Component<{
           la vue d'ensemble.
           <br />
           Versions{" "}
+          <a href={`/slides?name=${this.props.name}&page`} target="_blank">
+            sans animation
+          </a>
+          ,{" "}
           <a href={`/slides?name=${this.props.name}`} target="_blank">
             plein écran
-          </a>{" "}
-          et{" "}
+          </a>
+          ,{" "}
           <a href={`/slides?name=${this.props.name}&print-pdf`} target="_blank">
             imprimable
           </a>
