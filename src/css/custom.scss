@@ -50,6 +50,11 @@ div.reveal {
     aspect-ratio: 16 / 10;
   }
 
+  blockquote {
+    border: unset;
+    box-shadow: unset;
+    width: unset;
+  }
   em {
     color: var(--tmr-color-emphasis);
     font-style: normal;

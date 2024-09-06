@@ -3,8 +3,8 @@
 |  2024-08-20  | [Introduction](/docs/3cci/intro) + [HTML](/docs/3cci/webs/html)      | [Environnement](/docs/3cci/webs/environnement) |
 |  2024-08-27  | [CSS](/docs/3cci/webs/css)                                           | [Style](/docs/3cci/webs/style)                 |
 |  2024-09-03  | [Internet](/docs/3cci/webs/internet)                                 | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-09-10  | [Web](/docs/3cci/webs/web)                                           | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-09-17  |                                                                      |                                                |
+|  2024-09-10  | [Nom de domaine](/docs/3cci/webs/domaine)                            | [Aventure](docs/3cci/webs/aventure)            |
+|  2024-09-17  | [Web](/docs/3cci/webs/web)                                           | [Aventure](docs/3cci/webs/aventure)            |
 |  2024-09-24  |                                                                      |                                                |
 |  2024-10-01  | [Révision](/docs/3cci/webs/revision)                                 |                                                |
 |  2024-10-08  | **Test : [Pages Web statiques](/docs/3cci/webs)**                    |                                                |
