@@ -162,13 +162,13 @@ Table d'encodage :
 
 <p class="reference">
   <a href="https://commons.wikimedia.org/wiki/File:1_bit.png">Thegreenj</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
-  </br>
+  <br />
   <a href="https://commons.wikimedia.org/wiki/File:2_bit.png">8_bit.png: JorgePeixotoderivative work: User:JeffyP</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, via Wikimedia Commons
-  </br>
+  <br />
   <a href="https://commons.wikimedia.org/wiki/File:4_bit.png">Thegreenj</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
-  </br>
+  <br />
   <a href="https://commons.wikimedia.org/wiki/File:8_bit.png">Thegreenj</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
-  </br>
+  <br />
   <a href="https://commons.wikimedia.org/wiki/File:24_bit.png">Thegreenj</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
 </p>
 

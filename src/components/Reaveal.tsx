@@ -3,6 +3,7 @@ import "reveal.js/dist/reveal.css";
 
 import "@site/src/css/reveal.scss";
 
+import Footer from "@site/src/components/plugins/footer";
 import Katex from "@site/src/components/plugins/katex";
 import Link from "@site/src/components/plugins/link";
 import Mermaid from "@site/src/components/plugins/mermaid";
@@ -30,7 +31,7 @@ export default class Reaveal extends React.Component<{
         new reveal.default({
           width: 1440,
           height: 900,
-          plugins: [Markdown, highlight.default, Katex, Link, Mermaid],
+          plugins: [Markdown, highlight.default, Footer, Katex, Link, Mermaid],
           autoAnimateDuration: 0.25,
           autoAnimateUnmatched: false,
           controlsLayout: "edges",

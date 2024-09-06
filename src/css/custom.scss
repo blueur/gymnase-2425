@@ -102,6 +102,16 @@ div.reveal {
     }
   }
 
+  .footer {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: unset;
+    color: var(--ifm-color-primary-dark);
+    font-size: small;
+    padding: 0px;
+    text-align: right;
+  }
   .reference {
     font-size: small;
     position: relative;
@@ -111,6 +121,7 @@ div.reveal {
     background-color: unset;
     color: var(--ifm-color-primary-dark);
     font-family: unset;
+    padding: 0px;
   }
   .mermaid {
     max-height: var(--slide-height);
