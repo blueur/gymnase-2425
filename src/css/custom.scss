@@ -113,9 +113,8 @@ div.reveal {
     text-align: right;
   }
   .reference {
+    color: var(--ifm-color-primary-dark);
     font-size: small;
-    position: relative;
-    top: -20px;
   }
   .slide-number {
     background-color: unset;

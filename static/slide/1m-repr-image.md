@@ -158,8 +158,6 @@ Table d'encodage :
 |                     2<sup>1</sup> = 2 couleurs                     |                     2<sup>2</sup> = 4 couleurs                     |                    2<sup>4</sup> = 16 couleurs                     |                    2<sup>8</sup> = 256 couleurs                    |                2<sup>24</sup> = 16'777'216 couleurs                 |
 |                              4 [Kio]                               |                              6 [Kio]                               |                              13 [Kio]                              |                              37 [Kio]                              |                              98 [Kio]                               |
 
-&nbsp;
-
 <p class="reference">
   <a href="https://commons.wikimedia.org/wiki/File:1_bit.png">Thegreenj</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
   <br />
