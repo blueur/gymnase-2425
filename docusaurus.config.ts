@@ -46,7 +46,6 @@ const config: Config = {
       logo: {
         alt: "Logo",
         src: "img/logo.svg",
-        srcDark: "img/logo-dark.svg",
       },
       items: [
         { to: "/1m6", label: "1M6", position: "left" },
