@@ -1,4 +1,4 @@
-# Couleur
+# Numérisation
 
 Représentation de l'information
 

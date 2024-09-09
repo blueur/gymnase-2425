@@ -23,8 +23,8 @@
   --ifm-color-info: #{$oc-teal-7};
   --ifm-color-warning: #{$oc-yellow-7};
   --ifm-color-danger: #{$oc-red-7};
-  --tmr-color-accent: #{$oc-orange-7};
-  --tmr-color-emphasis: #{$oc-violet-7};
+  --ifm-color-accent: #{$oc-orange-7};
+  --ifm-color-emphasis: #{$oc-violet-7};
   --ifm-color-gray: #{$oc-gray-6};
 }
 
@@ -38,8 +38,8 @@
   --ifm-color-info: #{$oc-teal-6};
   --ifm-color-warning: #{$oc-yellow-6};
   --ifm-color-danger: #{$oc-red-6};
-  --tmr-color-accent: #{$oc-orange-6};
-  --tmr-color-emphasis: #{$oc-violet-6};
+  --ifm-color-accent: #{$oc-orange-6};
+  --ifm-color-emphasis: #{$oc-violet-6};
 }
 
 div.reveal {
@@ -58,7 +58,7 @@ div.reveal {
     width: unset;
   }
   em {
-    color: var(--tmr-color-emphasis);
+    color: var(--ifm-color-emphasis);
     font-style: normal;
     font-weight: bold;
   }
@@ -89,7 +89,7 @@ div.reveal {
     }
   }
   strong {
-    color: var(--tmr-color-accent);
+    color: var(--ifm-color-accent);
   }
   table {
     border-bottom: var(--ifm-table-border-width) solid
@@ -143,14 +143,14 @@ thead th:empty {
 tr.current {
   scroll-margin-top: 32em;
   &.week {
-    border-left: 4px solid var(--ifm-color-primary);
-    border-right: 4px solid var(--ifm-color-primary);
+    border-left: 4px solid var(--ifm-color-accent);
+    border-right: 4px solid var(--ifm-color-accent);
   }
   &.weekend-before {
-    border-top: 2px solid var(--ifm-color-primary);
+    border-top: 2px solid var(--ifm-color-accent);
   }
   &.weekend-after {
-    border-bottom: 2px solid var(--ifm-color-primary);
+    border-bottom: 2px solid var(--ifm-color-accent);
   }
 }
 
