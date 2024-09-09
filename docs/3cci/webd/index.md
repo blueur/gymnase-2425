@@ -1,5 +1,9 @@
+---
+sidebar_position: 2
+---
+
 import DocCardList from '@theme/DocCardList';
 
-# Des données à l'information
+# Pages Web dynamiques
 
 <DocCardList />
