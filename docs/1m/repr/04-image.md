@@ -173,3 +173,4 @@ Finalement, #FFFF00 est la combinaison de rouge et de vert, qui est jaune.
 - https://fr.wikipedia.org/wiki/Profondeur_de_couleur
 - https://fr.wikipedia.org/wiki/Rouge-vert-bleu
 - https://htmlcolorcodes.com/fr/
+- https://fr.vikidia.org/wiki/Codage_de_l%27information
