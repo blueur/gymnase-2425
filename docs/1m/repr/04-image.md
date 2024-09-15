@@ -28,7 +28,7 @@ Calculer la taille des images suivantes dans les unités demandées :
 3. Une image full HD (1920 x 1080 px) en couleurs 24-bit en [b], en [o], en [Kio] et en [Mio].
    <details><summary>Solution</summary>49 766 400 [b] = 6'220'800 [o] = 6'075 [Kio] = 5,93 [Mio]</details>
 4. Une image 4K (3840 x 2160 px) en noir et blanc en [b], en [o], en [Kio] et en [Mio].
-   <details><summary>Solution</summary>8'294'400 [b] = 1'036'800 [o] = 1'012 [Kio] = 0,99 [Mio]</details>
+   <details><summary>Solution</summary>8'294'400 [b] = 1'036'800 [o] = 1'012,5 [Kio] = 0,99 [Mio]</details>
 
 <details>
 <summary>Solutions avec détails</summary>
@@ -46,8 +46,8 @@ Calculer la taille des images suivantes dans les unités demandées :
    - 6'075 [Kio] / 1'024 = 5,93 [Mio]
 4. - 3840 &times; 2160 &times; 1 = 8'294'400 [b]
    - 8'294'400 [b] / 8 = 1'036'800 [o]
-   - 1'036'800 [o] / 1'024 = 1'012 [Kio]
-   - 1'012 [Kio] / 1'024 = 0,99 [Mio]
+   - 1'036'800 [o] / 1'024 = 1'012,5 [Kio]
+   - 1'012,5 [Kio] / 1'024 = 0,99 [Mio]
 
 </details>
 

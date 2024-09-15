@@ -80,7 +80,7 @@ Représentation de l'information
 ![](https://upload.wikimedia.org/wikipedia/commons/6/6e/Sampled_signal.png) <!-- .element: class="half" -->
 
 - &shy;<!-- .element: class="fragment" --> Choix de la **fréquence** d'échantillonnage
-  - &shy;<!-- .element: class="fragment" --> Unité : **Hertz** (Hz)
+  - &shy;<!-- .element: class="fragment" --> Unité : **Hertz** ([Hz] ou [1/s])
 - &shy;<!-- .element: class="fragment" --> Par exemple : 44,1 kHz pour un CD audio
   - &shy;<!-- .element: class="fragment" --> 44 100 échantillons par seconde
 
@@ -97,7 +97,7 @@ Représentation de l'information
 ![](https://upload.wikimedia.org/wikipedia/commons/7/70/Quantized.signal.svg)
 
 - &shy;<!-- .element: class="fragment" --> Choix des **valeurs** possibles (dont min et max)
-  - &shy;<!-- .element: class="fragment" --> Unité : **bits**
+  - &shy;<!-- .element: class="fragment" --> Unité : **bits** ([b])
 - &shy;<!-- .element: class="fragment" --> Par exemple : 16 bits pour un CD audio
   - &shy;<!-- .element: class="fragment" --> 2<sup>16</sup> = 65 536 valeurs possibles
 
@@ -139,3 +139,17 @@ graph TD
 - &shy;<!-- .element: class="fragment" --> **Inconvénients** :
   - &shy;<!-- .element: class="fragment" --> Perte de **qualité** (approximation)
   - &shy;<!-- .element: class="fragment" --> **Choix** des paramètres (fréquence, valeurs, etc.)
+    - &shy;<!-- .element: class="fragment" --> **Taille** vs **qualité** selon les besoins
+
+---
+
+## Débit binaire + Taille
+
+- &shy;<!-- .element: class="fragment" --> **Débit binaire** (bitrate) : quantité de données par unité de temps
+  - &shy;<!-- .element: class="fragment" --> Unité : **bits par seconde** ([bps] ou [b/s])
+  - &shy;<!-- .element: class="fragment" --> Par exemple : une chanson de 8 [kHz] sur 16 [b]
+    - &shy;<!-- .element: class="fragment" --> 8 [kHz] &times; 16 [bits] = 128 [kb/s]
+- &shy;<!-- .element: class="fragment" --> **Taille** d'un fichier audio
+  - &shy;<!-- .element: class="fragment" --> Débit binaire &times; durée
+  - &shy;<!-- .element: class="fragment" --> Par exemple : une chanson de 3 minutes en 128 kbps
+    - &shy;<!-- .element: class="fragment" --> 128 [kb/s] &times; 180 [s] = 23'040 [kb] = 2'880 [ko] = 2.88 [Mo]
