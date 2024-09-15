@@ -1,4 +1,4 @@
-# Numérisation
+# Information
 
 Représentation de l'information
 

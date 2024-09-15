@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-L'encodage d'un fichier.
+Qu'est-ce qu'un fichier ?
 
 - Lire une table ASCII
 - Modifier un fichier texte au format hexadécimal
