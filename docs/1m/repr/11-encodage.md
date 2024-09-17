@@ -26,14 +26,14 @@ Qu'est-ce qu'un fichier ?
   - Combien d'octets sont nécessaires pour stocker la phrase `Salut, ca va ?` ?
     <details><summary>Solution</summary>14 octets car 14 caractères</details>
 - Ouvrir OneDrive et créer un dossier sous `OneDrive/1m/informatique/` nommé `encodage`.
-  ```
+  ```txt {4}
   OneDrive/
   └── 1m/
       └── informatique/
           └── encodage/
   ```
-- Télécharger le fichier [hello.txt](/tp/hello.txt) et le déposer dans le dossier `encodage`.
-  - Clic droit sur le lien ci-dessus et choisir `Enregistrer le lien sous...` en le renommant `hello.txt` et sélectionnant le dossier `encodage`.
+- Télécharger le fichier [hello.txt](pathname:///tp/encodage/hello.txt) et le déposer dans le dossier `encodage`.
+  - Clic droit sur le lien ci-dessus et choisir `Enregistrer sous...` en le nommant `hello.txt` et en sélectionnant le dossier `encodage`.
 - Quelle est la taille du fichier `hello.txt` et le comparer avec son contenu ?
   - Clic droit sur le fichier > Obtenir des informations.
   <details><summary>Solution</summary>11 [o] car il y a 11 caractères</details>
@@ -52,7 +52,7 @@ Qu'est-ce qu'un fichier ?
 Le format PBM (portable bitmap) permet de représenter des images en noir et blanc.
 
 - Ouvrir **TextEdit**.
-- Créer un fichier `lettre-e.pbm` dans le dossier `encodage` avec le contenu suivant :
+- Sauvegarder le fichier [lettre-e.pbm](pathname:///tp/encodage/lettre-e.pbm) dans le dossier `encodage`. Il a le contenu suivant :
   ```txt title="lettre-e.pbm"
   P1
   4 5
@@ -65,14 +65,21 @@ Le format PBM (portable bitmap) permet de représenter des images en noir et bla
   - `P1` indique le format de l'image (noir et blanc)
   - `4 5` indique la largeur (4 px) et la hauteur (5 px) de l'image
   - Les pixels sont représentés par des `1` (noir) et des `0` (blanc)
-- Ouvrir le fichier `lettre-e.pbm` avec **Aperçu**.
-- Créer un nouveau fichier `lettre-f.pbm` qui représente la lettre `F` en noir et blanc.
+- Ouvrir le fichier avec **Aperçu** pour voir l'image.
+- Ouvrir le fichier avec **TextEdit** pour voir le contenu.
+  - Clic droit sur le fichier > Ouvrir avec > Autre... > TextEdit
+- Créer le fichier `lettre-f.pbm` qui représente la lettre `F` en noir et blanc.
+  - Dupliquer le fichier `lettre-e.pbm` et le renommer `lettre-f.pbm`.
+  - Modifier le fichier avec **TextEdit** pour obtenir la lettre `F`.
+  - <kbd>Cmd</kbd> + <kbd>S</kbd> pour sauvegarder les modifications.
+  - Le résultat final devrait ressembler à :  
+    ![](/tp/encodage/lettre-f.png)
 
 ### Portable graymap
 
 Le format PGM (portable graymap) permet de représenter des images en niveaux de gris.
 
-- Créer un fichier `gyp.pgm` dans le dossier `encodage` avec le contenu suivant :
+- Sauvegarder le fichier [gyp.pgm](pathname:///tp/encodage/gyp.pgm) dans le dossier `encodage`. Il a le contenu suivant :
   ```txt title="gyp.pgm"
   P2
   14 5
@@ -80,21 +87,25 @@ Le format PGM (portable graymap) permet de représenter des images en niveaux de
   0 1 1 1 0 2 0 0 2 0 3 3 3 3
   1 0 0 0 0 2 0 0 2 0 3 0 0 3
   1 0 1 1 0 0 2 2 2 0 3 3 3 0
-  1 0 0 0 0 0 0 0 2 0 3 0 0 0
-  0 1 1 1 0 0 2 2 0 0 3 0 0 0
+  1 0 0 1 0 0 0 0 2 0 3 0 0 0
+  0 1 1 0 0 0 2 2 0 0 3 0 0 0
   ```
   - `P2` indique le format de l'image (niveaux de gris)
   - `14 5` indique la largeur (14 px) et la hauteur (5 px) de l'image
   - `3` indique la valeur maximale des niveaux de gris
   - Les pixels sont représentés par des valeurs entre `0` (noir) et la valeur maximale `3` (blanc)
-- Ouvrir le fichier `gyp.pgm` avec **Aperçu**.
-- Créer un nouveau fichier `gris.pgm` qui écrit `GRIS` en niveaux de gris.
+- Ouvrir le fichier avec **TextEdit** pour voir le contenu.
+- Créer le fichier `gris.pgm` qui écrit `GRIS` en niveaux de gris.
+  - Ne pas oublier de mettre à jour la largeur et la hauteur de l'image.
+  - Ne pas oublier de mettre à jour le nombre de niveaux de gris.
+  - Le résultat final devrait ressembler à :  
+    ![](/tp/encodage/gris.png)
 
 ### Portable pixmap
 
 Le format PPM (portable pixmap) permet de représenter des images en couleurs.
 
-- Créer un fichier `couleur.ppm` dans le dossier `encodage` avec le contenu suivant :
+- Sauvegarder le fichier [couleur.ppm](pathname:///tp/encodage/couleur.ppm) dans le dossier `encodage`. Il a le contenu suivant :
   ```txt title="couleur.ppm"
   P3
   6 4
@@ -105,20 +116,27 @@ Le format PPM (portable pixmap) permet de représenter des images en couleurs.
   255 0 0 0 255 0 0 0 255 128 128 128 255 255 255 0 0 0
   ```
   - `P3` indique le format de l'image (couleurs)
-  - `4 5` indique la largeur (4 px) et la hauteur (6 px) de l'image
+  - `6 4` indique la largeur (4 px) et la hauteur (6 px) de l'image
   - `255` indique la valeur maximale des couleurs (0 à 255)
   - Les pixels sont représentés par des valeurs RGB (rouge, vert, bleu) entre `0 0 0` (noir) et `255 255 255` (blanc)
-- Ouvrir le fichier `couleur.ppm` avec **Aperçu**.
+  - Le premier pixel est représenté par le triplet `255 0 0` (rouge)
+- Ouvrir le fichier avec **TextEdit** pour voir le contenu.
 - Créer un nouveau fichier `suisse.ppm` qui représente un drapeau suisse.
-- Choisir une image [4x4 pixels](https://www.gentlegeek.net/2010/11/personnages-de-jeux-video-en-4x4-pixels/) et la reproduire en PPM.
+  - Commencer par créer un carré rouge de 5x5 pixels.
+  - Le résultat final devrait ressembler à :  
+    ![](/tp/encodage/suisse.png)
+- Créer d'autres drapeaux : français, italien, allemand, autrichien, belge, etc.
   - Pour obtenir les valeurs RGB d'une couleur, chercher `color picker` sur [Google](https://google.ch/).
   - Il est aussi possible d'obtenir la couleur exacte d'une image avec [imagecolorpicker.com](https://imagecolorpicker.com/)
+- Choisir une image parmi les suivantes et la reproduire en PPM :
+
+![](/tp/encodage/mario.png) ![](/tp/encodage/link.png) ![](/tp/encodage/kirby.png) ![](/tp/encodage/peach.png) ![](/tp/encodage/pikachu.png) ![](/tp/encodage/pacman.png)
 
 ### Bitmap
 
 Le format BMP (bitmap) est un des formats d'image les plus anciens (et les plus simples).
 
-- Télécharger le fichier [square4.bmp](/tp/square4.bmp) et le déposer dans le dossier `encodage`.
+- Télécharger le fichier [square4.bmp](/tp/encodage/square4.bmp) et le déposer dans le dossier `encodage`.
 - Ouvrir le fichier `square4.bmp` avec **Aperçu** pour vérifier que c'est bien un carré blanc de 4x4 pixels.
 - Ouvrir le fichier `square4.bmp` sur [HexEd.it](https://hexed.it/) pour observer la structure du fichier :
   - L'en-tête du fichier prend les 0x36 premiers octets, ne pas les modifier !
@@ -140,3 +158,4 @@ Le format BMP (bitmap) est un des formats d'image les plus anciens (et les plus 
 - https://fr.wikipedia.org/wiki/Portable_pixmap
 - https://fr.wikipedia.org/wiki/Windows_bitmap
 - https://kylepaulsen.com/stuff/NetpbmViewer/
+- https://www.gentlegeek.net/2010/11/personnages-de-jeux-video-en-4x4-pixels/
