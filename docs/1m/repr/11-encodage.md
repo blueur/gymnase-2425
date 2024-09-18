@@ -35,7 +35,7 @@ Qu'est-ce qu'un fichier ?
 - Télécharger le fichier [hello.txt](pathname:///tp/encodage/hello.txt) et le déposer dans le dossier `encodage`.
   - Clic droit sur le lien ci-dessus et choisir `Enregistrer sous...` en le nommant `hello.txt` et en sélectionnant le dossier `encodage`.
 - Quelle est la taille du fichier `hello.txt` et le comparer avec son contenu ?
-  - Clic droit sur le fichier > Obtenir des informations.
+  - Clic droit sur le fichier > Lire les informations.
   <details><summary>Solution</summary>11 [o] car il y a 11 caractères</details>
 - Ouvrir le fichier sur [HexEd.it](https://hexed.it/) qui est un éditeur hexadécimal en ligne.
   - L'écran est divisé en deux parties : l'éditeur hexadécimal à gauche et la représentation textuelle à droite.
@@ -116,7 +116,7 @@ Le format PPM (portable pixmap) permet de représenter des images en couleurs.
   255 0 0 0 255 0 0 0 255 128 128 128 255 255 255 0 0 0
   ```
   - `P3` indique le format de l'image (couleurs)
-  - `6 4` indique la largeur (4 px) et la hauteur (6 px) de l'image
+  - `6 4` indique la largeur (6 px) et la hauteur (4 px) de l'image
   - `255` indique la valeur maximale des couleurs (0 à 255)
   - Les pixels sont représentés par des valeurs RGB (rouge, vert, bleu) entre `0 0 0` (noir) et `255 255 255` (blanc)
   - Le premier pixel est représenté par le triplet `255 0 0` (rouge)
@@ -136,7 +136,7 @@ Le format PPM (portable pixmap) permet de représenter des images en couleurs.
 
 Le format BMP (bitmap) est un des formats d'image les plus anciens (et les plus simples).
 
-- Télécharger le fichier [square4.bmp](/tp/encodage/square4.bmp) et le déposer dans le dossier `encodage`.
+- Télécharger le fichier [square4.bmp](pathname:///tp/encodage/square4.bmp) et le déposer dans le dossier `encodage`.
 - Ouvrir le fichier `square4.bmp` avec **Aperçu** pour vérifier que c'est bien un carré blanc de 4x4 pixels.
 - Ouvrir le fichier `square4.bmp` sur [HexEd.it](https://hexed.it/) pour observer la structure du fichier :
   - L'en-tête du fichier prend les 0x36 premiers octets, ne pas les modifier !
@@ -145,6 +145,7 @@ Le format BMP (bitmap) est un des formats d'image les plus anciens (et les plus 
     - Il y a 48 octets pour 4x4 pixels (3 octets par pixel).
     - Les trois premiers octets correspondent au pixel en bas à gauche de l'image.
     - Les triplets RGB sont dans l'ordre BGR (bleu, vert, rouge) : `00 00 FF` représente le rouge et `FF 00 00` le bleu
+    - Essayer de modifier le troisième octet FF en 00, puis enregistrer le fichier pour observer le résultat.
 - Modifier les valeurs RGB des pixels pour obtenir une des images suivantes :
   - https://www.figma.com/file/fF2pNMNEkUbVkaCvrYn4ph
 
