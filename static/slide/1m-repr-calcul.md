@@ -1,4 +1,4 @@
-# Information
+# Calcul
 
 Représentation de l'information
 

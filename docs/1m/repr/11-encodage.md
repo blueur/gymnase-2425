@@ -38,9 +38,12 @@ Qu'est-ce qu'un fichier ?
   - Clic droit sur le fichier > Lire les informations.
   <details><summary>Solution</summary>11 [o] car il y a 11 caractères</details>
 - Ouvrir le fichier sur [HexEd.it](https://hexed.it/) qui est un éditeur hexadécimal en ligne.
+  - Aller sur le site [HexEd.it](https://hexed.it/) et cliquer sur `Ouvrir` pour sélectionner le fichier `hello.txt`.
   - L'écran est divisé en deux parties : l'éditeur hexadécimal à gauche et la représentation textuelle à droite.
   - Observer que le premier octet `0x48` correspond au caractère `H` en ASCII.
-- Modifier les octets dans la partie de gauche pour écrire `Hi World!` et sauvegarder le fichier.
+- Modifier les octets dans la partie de gauche pour écrire `Hi World!`.
+- Sauvegarder le fichier
+  - Cliquer sur `Enregistrer sous` ou `Exporter` pour sauvegarder le fichier modifié.
 - Ouvrir le fichier modifié sur l'ordinateur pour vérifier son contenu.
 - Quelle est la taille du fichier modifié ? Pourquoi ?
   <details><summary>Solution</summary>9 [o] car il y a 9 caractères</details>
@@ -51,7 +54,6 @@ Qu'est-ce qu'un fichier ?
 
 Le format PBM (portable bitmap) permet de représenter des images en noir et blanc.
 
-- Ouvrir **TextEdit**.
 - Sauvegarder le fichier [lettre-e.pbm](pathname:///tp/encodage/lettre-e.pbm) dans le dossier `encodage`. Il a le contenu suivant :
   ```txt title="lettre-e.pbm"
   P1
