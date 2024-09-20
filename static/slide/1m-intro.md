@@ -33,6 +33,8 @@ timeline
   - Être **prêt·e** à suivre le cours à la **sonnerie**
 - &shy;<!-- .element: class="fragment" --> **Absence**
   - À partir de quinze minutes de retard
+  - &shy;<!-- .element: class="fragment" --> Être responsable du **rattrapage**
+  - &shy;<!-- .element: class="fragment" --> Possibilité de venir au **TP** (pas votre groupe)
 - &shy;<!-- .element: class="fragment" --> **Prévenir** par mail en cas d'**absence**
   - &shy;<!-- .element: class="fragment" --> Sinon pas de rattrapage de test
 
