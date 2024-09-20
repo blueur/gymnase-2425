@@ -12,4 +12,4 @@ Comment calculer l'information ?
 
 ## Exercices
 
-## Références
+Terminer les exercices des semaines précédentes.
