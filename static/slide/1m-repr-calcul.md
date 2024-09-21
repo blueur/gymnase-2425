@@ -32,6 +32,19 @@ Représentation de l'information
 
 ---
 
+## Conversion d'unité
+
+- &shy;<!-- .element: class="fragment" --> [o] &rarr; [b] <span class="fragment">: &times;**8**</span>
+  - &shy;<!-- .element: class="fragment" --> [o] représente une **valeur** plus grande que [b] : 1 [o] = 8 [b]
+  - &shy;<!-- .element: class="fragment" --> [o] <strong>&larr;</strong> [b] : <strong>&divide;</strong>8
+- &shy;<!-- .element: class="fragment" --> [ko] &rarr; [Mo] <span class="fragment">**~** [k] &rarr; [M]</span> <span class="fragment">: **&divide;1000**</span>
+- &shy;<!-- .element: class="fragment" --> [o] &rarr; [Kio] <span class="fragment">**~** [] &rarr; [Ki]</span> <span class="fragment">: **&divide;1024**</span>
+- &shy;<!-- .element: class="fragment" --> [Gib] &rarr; [GiB] <span class="fragment">**~** [b] &rarr; [B]</span> <span class="fragment">: **&divide;8**</span>
+- &shy;<!-- .element: class="fragment" --> [Mo/s] &rarr; [Mb/s] <span class="fragment">**~** [o] &rarr; [b]</span> <span class="fragment">: **&times;8**</span>
+- &shy;<!-- .element: class="fragment" --> [Mb] &rarr; [Mib] <span class="fragment">: [Mb] &rarr; [b] &rarr; [Mib]</span> <span class="fragment">: &times;1000 &times;1000 &divide;1024 &divide;1024</span>
+
+---
+
 ## Conversion de base
 
 - &shy;<!-- .element: class="fragment" --> **binaire &rarr; décimal**
