@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Création de pages Web avec le langage HTML.
+Comment créer la structure d'une page Web ?
 
 :::
 

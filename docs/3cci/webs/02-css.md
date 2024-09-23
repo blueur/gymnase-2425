@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Mise en forme des pages Web avec le langage CSS.
+Comment mettre en forme une page Web ?
 
 :::
 

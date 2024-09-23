@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Qu'est-ce qu'un nom de domaine ?
+Pourquoi utilise-t-on les noms de domaine ?
 
 :::
 

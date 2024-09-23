@@ -5,9 +5,9 @@
 |  2024-09-03  | [Internet](/docs/3cci/webs/internet)                                 | [Aventure](docs/3cci/webs/aventure)            |
 |  2024-09-10  | [Nom de domaine](/docs/3cci/webs/domaine)                            | [Aventure](docs/3cci/webs/aventure)            |
 |  2024-09-17  | [Web](/docs/3cci/webs/web)                                           | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-09-24  |                                                                      |                                                |
-|  2024-10-01  | [Révision](/docs/3cci/webs/revision)                                 |                                                |
-|  2024-10-08  | **Test : [Pages Web statiques](/docs/3cci/webs)**                    |                                                |
+|  2024-09-24  | [Hébergement](/docs/3cci/webs/hebergement)                           | [Aventure](docs/3cci/webs/aventure)            |
+|  2024-10-01  | [Révision](/docs/3cci/webs/revision)                                 | [Aventure](docs/3cci/webs/aventure)            |
+|  2024-10-08  | **Test : [Pages Web statiques](/docs/3cci/webs)**                    | [Aventure](docs/3cci/webs/aventure)            |
 |  2024-10-15  | _Vacances_                                                           | _Vacances_                                     |
 |  2024-10-22  | _Vacances_                                                           | _Vacances_                                     |
 |  2024-10-29  |                                                                      |                                                |

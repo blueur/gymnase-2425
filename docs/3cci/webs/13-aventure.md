@@ -143,3 +143,7 @@ flowchart TD
 - Commencer par dessiner l'organigramme de votre aventure avec environ 7 étapes.
 - Créer un dossier `projet-aventure` dans le répertoire `OneDrive/3cci/informatique`.
 - Créer les fichiers HTML et CSS nécessaires pour votre aventure.
+
+Projets réalisés dans d'autres classes :
+
+- [Gymnase 2023-2024](https://gymnase-2324.davidtang.ch/2m/programmation/projet-web-rendu)

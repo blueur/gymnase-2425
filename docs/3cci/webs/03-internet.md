@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Qu'est-ce qu'Internet ?
+Comment fonctionne Internet ?
 
 :::
 
