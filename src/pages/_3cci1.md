@@ -2,15 +2,15 @@
 | :----------: | -------------------------------------------------------------------- | ---------------------------------------------- |
 |  2024-08-20  | [Introduction](/docs/3cci/intro) + [HTML](/docs/3cci/webs/html)      | [Environnement](/docs/3cci/webs/environnement) |
 |  2024-08-27  | [CSS](/docs/3cci/webs/css)                                           | [Style](/docs/3cci/webs/style)                 |
-|  2024-09-03  | [Internet](/docs/3cci/webs/internet)                                 | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-09-10  | [Nom de domaine](/docs/3cci/webs/domaine)                            | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-09-17  | [Web](/docs/3cci/webs/web)                                           | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-09-24  | [Hébergement](/docs/3cci/webs/hebergement)                           | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-10-01  | [Révision](/docs/3cci/webs/revision)                                 | [Aventure](docs/3cci/webs/aventure)            |
-|  2024-10-08  | **Test : [Pages Web statiques](/docs/3cci/webs)**                    | [Aventure](docs/3cci/webs/aventure)            |
+|  2024-09-03  | [Internet](/docs/3cci/webs/internet)                                 | [Aventure](/docs/3cci/webs/aventure)           |
+|  2024-09-10  | [Nom de domaine](/docs/3cci/webs/domaine)                            | [Aventure](/docs/3cci/webs/aventure)           |
+|  2024-09-17  | [Web](/docs/3cci/webs/web)                                           | [Aventure](/docs/3cci/webs/aventure)           |
+|  2024-09-24  | [Hébergement](/docs/3cci/webs/hebergement)                           | [Aventure](/docs/3cci/webs/aventure)           |
+|  2024-10-01  | [Révision](/docs/3cci/webs/revision)                                 | [Aventure](/docs/3cci/webs/aventure)           |
+|  2024-10-08  | **Test : [Pages Web statiques](/docs/3cci/webs)**                    | [Aventure](/docs/3cci/webs/aventure)           |
 |  2024-10-15  | _Vacances_                                                           | _Vacances_                                     |
 |  2024-10-22  | _Vacances_                                                           | _Vacances_                                     |
-|  2024-10-29  |                                                                      |                                                |
+|  2024-10-29  | [CMS](/docs/3cci/webd/cms)                                           | [Wordpress](/docs/3cci/webd/wordpress)         |
 |  2024-11-05  |                                                                      |                                                |
 |  2024-11-12  |                                                                      |                                                |
 |  2024-11-19  |                                                                      |                                                |
