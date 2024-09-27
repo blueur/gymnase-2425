@@ -40,6 +40,6 @@
 |  2025-05-06  |                                                                      |                                                |
 |  2025-05-13  | [Révision](/docs/3cci/info/revision)                                 |                                                |
 |  2025-05-20  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                |
-|  2025-05-27  |                                                                      |                                                |
+|  2025-05-27  | Intelligence artificielle                                            |                                                |
 |  2025-06-03  |                                                                      |                                                |
 |    Examen    |                                                                      |                                                |

@@ -46,23 +46,23 @@ Convertir les valeurs suivantes dans l'unité indiquée :
 
 1. 16 [b] = ? [o] = ? [B]
    <details><summary>Solution</summary>16 [b] = 2 [o] = 2 [B]</details>
-2. 1 024 [o] = ? [b] = ? [B]
-   <details><summary>Solution</summary>1 024 [o] = 8 192 [b] = 1 024 [B]</details>
-3. 1 000 [o] = ? [ko] = ? [kb]
-   <details><summary>Solution</summary>1 000 [o] = 1 [ko] = 8 [kb]</details>
-4. 1 024 [o] = ? [Kio] = ? [ko]
-   <details><summary>Solution</summary>1 024 [o] = 1 [Kio] = 1.024 [ko]</details>
-5. 1 000 [Gb] = ? [Tb] = ? [Mb] = ? [b]
-   <details><summary>Solution</summary>1 000 [Gb] = 1 [Tb] = 1 000 [Mb] = 1 000 000 000 [b]</details>
+2. 1'024 [o] = ? [b] = ? [B]
+   <details><summary>Solution</summary>1'024 [o] = 8'192 [b] = 1'024 [B]</details>
+3. 1'000 [o] = ? [ko] = ? [kb]
+   <details><summary>Solution</summary>1'000 [o] = 1 [ko] = 8 [kb]</details>
+4. 1'024 [o] = ? [Kio] = ? [ko]
+   <details><summary>Solution</summary>1'024 [o] = 1 [Kio] = 1.024 [ko]</details>
+5. 1'000 [Gb] = ? [Tb] = ? [Mb] = ? [b]
+   <details><summary>Solution</summary>1'000 [Gb] = 1 [Tb] = 1'000 [Mb] = 1'000'000'000 [b]</details>
 
 <details>
 <summary>Toutes les solutions</summary>
 
 1. 16 [b] = 2 [o] = 2 [B]
-2. 1 024 [o] = 8 192 [b] = 1 024 [B]
-3. 1 000 [o] = 1 [ko] = 8 [kb]
-4. 1 024 [o] = 1 [Kio] = 1.024 [ko]
-5. 1 000 [Gb] = 1 [Tb] = 1 000 [Mb] = 1 000 000 000 [b]
+2. 1'024 [o] = 8'192 [b] = 1'024 [B]
+3. 1'000 [o] = 1 [ko] = 8 [kb]
+4. 1'024 [o] = 1 [Kio] = 1.024 [ko]
+5. 1'000 [Gb] = 1 [Tb] = 1'000'000 [Mb] = 1'000'000'000 [b]
 
 </details>
 

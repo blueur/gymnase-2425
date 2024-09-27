@@ -10,11 +10,9 @@ Revoir les [Kahoot!](https://create.kahoot.it/course/31335d87-0967-4506-ab05-032
 
 [Modulo](https://apprendre.modulo-info.ch/rep-info/index.html) a été utilisé pour créer les supports de cours.
 
-## Exercices
-
 Terminer les exercices des semaines précédentes.
 
-### Bases
+## Bases
 
 Compléter le tableau suivant avec les 25 premiers nombres de chaque base.
 
@@ -53,7 +51,7 @@ Compléter le tableau suivant avec les 25 premiers nombres de chaque base.
     |   24    | 11 000  |  30   |     18      |
 </details>
 
-### Conversion de base
+## Conversion de base
 
 Convertir les nombres suivants vers les bases demandées.
 
@@ -74,7 +72,7 @@ Convertir les nombres suivants vers les bases demandées.
     4. 42<sub>5</sub> = 22<sub>10</sub> = 16<sub>16</sub> = 1 0110<sub>2</sub>
 </details>
 
-### Conversion d'unités
+## Conversion d'unités
 
 Convertir vers les unités demandées.
 
@@ -98,7 +96,7 @@ Convertir vers les unités demandées.
     5. 2'097'152 [o] = 2'048 [Kio] = 2 [Mio] = 16 [Mib]
 </details>
 
-### Comparaison d'unités
+## Comparaison d'unités
 
 Comparer les valeurs suivantes avec \<, > ou =.
 
@@ -123,7 +121,7 @@ Comparer les valeurs suivantes avec \<, > ou =.
     |  256 [Gio]  |  =  | 0.25 [Tio]  |
 </details>
 
-### Taille binaire
+## Taille binaire
 
 Calculer la taille binaire des éléments suivants dans les unités demandées (arrondir à deux décimales).
 
@@ -150,7 +148,7 @@ Calculer la taille binaire des éléments suivants dans les unités demandées (
     6. 16 x 8'000 x 10 = 1'280'000 [b] = 160'000 [o] = 156,25 [Kio]
 </details>
 
-### Couleur
+## Couleur
 
 Associer les codes hexadécimaux aux couleurs correspondantes.
 
@@ -175,7 +173,7 @@ Associer les codes hexadécimaux aux couleurs correspondantes.
 
 </details>
 
-### Comparaison d'éléments
+## Comparaison d'éléments
 
 Comparer la taille binaire des éléments suivants avec \<, > ou =.
 
@@ -197,5 +195,33 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
 | Un son 8-bit à 8 kHz de 15 secondes |  >  |      Un son 4-bit à 8 kHz de 15 secondes       |
 | Un son 4-bit à 8 kHz de 15 secondes |  =  |         Un texte de 60 000 caractères          |
 |  Une image 3-bit de 64 x 64 pixels  |  =  |           Une image 1-bit de 64 x 64           |
+
+</details>
+
+## Caractères
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg)
+
+1. Décoder les octets suivants en hexadécimal qui représentent du texte : 49 74 27 73 20 61 20 54 72 61 70 21
+   <details><summary>Solution</summary>It's a Trap!</details>
+   - Quelle est sa taille ?
+     <details><summary>Solution</summary>12 [o]</details>
+2. On dit qu'une image vaut mille mots. Combien de mots vaut une image de 12 MP (mégapixel) en 24 bits sachant qu’un mot a une longueur moyenne de 5 lettres ?
+   <details><summary>Solution</summary>7'200'000 [mots]</details>
+3. Combien de mots pourrait-on envoyer à la place d’un message audio de 8 secondes avec un débit de 256 kb/s ?
+   <details><summary>Solution</summary>51'200 [mots]</details>
+
+<details>
+  <summary>Toutes les solutions avec détails</summary>
+
+1. It's a Trap! (12 [o])
+   - 12 [o], car 12 caractères
+2. - 12 MP = 12'000'000 pixels
+   - 12'000'000 [px] x 24 [b] = 36'000'000 [o] (288'000'000 [b])
+   - 36'000'000 [o] = 36'000'000 [caractères]
+   - 36'000'000 [caractères] / 5 [caractères/mot] = 7'200'000 [mots]
+3. - 8 [s] x 256'000 [b/s] = 2'048'000 [b] = 256'000 [o]
+   - 256'000 [o] = 256'000 [caractères]
+   - 256'000 [caractères] / 5 [caractères/mot] = 51'200 [mots]
 
 </details>
