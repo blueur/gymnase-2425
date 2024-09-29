@@ -6,11 +6,15 @@ Comment représenter l'information ?
 
 :::
 
-Revoir les [Kahoot!](https://create.kahoot.it/course/31335d87-0967-4506-ab05-032241714e52)
-
-[Modulo](https://apprendre.modulo-info.ch/rep-info/index.html) a été utilisé pour créer les supports de cours.
-
-Terminer les exercices des semaines précédentes.
+- Revoir les [Kahoot!](https://create.kahoot.it/course/31335d87-0967-4506-ab05-032241714e52)
+- Terminer les exercices des semaines précédentes.
+- Support de cours complémentaires :
+  - [Introduction](https://apprendre.modulo-info.ch/rep-info/intro.html)
+  - [Les entiers](https://apprendre.modulo-info.ch/rep-info/entiers.html)
+  - [Les caractères](https://apprendre.modulo-info.ch/rep-info/caracteres.html)
+  - [Les images](https://apprendre.modulo-info.ch/rep-info/images.html)
+  - [Le son](https://apprendre.modulo-info.ch/rep-info/son.html)
+  - [Conclusion](https://apprendre.modulo-info.ch/rep-info/conclusion.html)
 
 ## Bases
 
@@ -223,5 +227,24 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
 3. - 8 [s] x 256'000 [b/s] = 2'048'000 [b] = 256'000 [o]
    - 256'000 [o] = 256'000 [caractères]
    - 256'000 [caractères] / 5 [caractères/mot] = 51'200 [mots]
+
+</details>
+
+## Image pixmap
+
+Que verrait-on si on ouvre ce fichier avec un lecteur d'image ?
+
+```txt title="image.ppm"
+P3
+3 2
+255
+255   0   0   0 255   0   0   0 255
+255 255   0 255 255 255   0   0   0
+```
+
+<details>
+  <summary>Solution</summary>
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/57/Tiny6pixel.png)
 
 </details>
