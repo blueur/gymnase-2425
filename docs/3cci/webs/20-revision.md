@@ -15,6 +15,28 @@ Comment créer un site web statique ?
   - [Sélecteurs CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors)
   - [Réseaux](https://apprendre.modulo-info.ch/resx/index.html)
 
+## Critères
+
+L'évaluation se portera sur les critères suivants :
+
+- Internet
+  - [ ] Reconnaître une adresse IPv4
+- Nom de domaine
+  - [ ] Expliquer l'utilisation des noms de domaine
+- Web
+  - [ ] Identifier les parties d'une URL
+  - [ ] Analyser une URL
+- HTML
+  - [ ] Reconnaître et corriger la structure des balises HTML
+  - [ ] Estimer le rendu d'une page HTML
+- CSS
+  - [ ] Reconnaître et corriger la structure des règles CSS
+  - [ ] Estimer l'application des règles CSS
+
+|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
+| :------------------------: | :-----------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
+| Nombre de critères validés |       0       |       1       |       2       |  3  |       4       |  5  |       6       |  7  |       8       |
+
 ## URL
 
 Lister et nommer les différentes parties de l'URL suivante :
@@ -108,6 +130,7 @@ Nous avons un dossier contenant un fichier HTML et un fichier CSS :
 
 ```txt
 site/
+├── image.png
 ├── index.html
 └── style.css
 ```
@@ -158,7 +181,7 @@ Corriger les erreurs dans le code HTML.
   <body>
     <h1>Titre principal</h1>
     <p>Ceci est un paragraphe.</p>
-    <img src="image.jpg" alt="Une image" />
+    <img src="image.png" alt="Une image" />
   </body>
 </html>
 ```
@@ -168,6 +191,32 @@ Corriger les erreurs dans le code HTML.
 - Le texte du lien doit être entre les balises `<a>` et `</a>`.
 - L'attribut `href` du lien doit contenir une URL valide.
 - La balise `<body>` n'est pas fermée.
+- L'attribut `src` de l'image doit pointer vers le fichier `image.png`, pas `image.jpg`.
+
+</details>
+
+Quel sera le résultat de la page HTML une fois les erreurs corrigées ?
+
+<details>
+<summary>Solution</summary>
+
+```jsx live
+<html>
+  <head>
+    <title>Mon premier site web</title>
+  </head>
+  <body>
+    <h1>Titre principal</h1>
+    <p>Ceci est un paragraphe.</p>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/8/83/Solid_white_bordered.svg"
+      alt="Une image"
+    />
+  </body>
+</html>
+```
+
+Avec `Mon premier site web` comme titre de l'onglet.
 
 </details>
 
@@ -215,5 +264,30 @@ Le nom du fichier CSS est `style.css`, pas `styles.css`.
 
 - Soit renommer le fichier CSS en `styles.css`.
 - Soit corriger le nom du fichier dans le lien.
+
+</details>
+
+Quel sera le résultat de la page HTML avec le CSS une fois les erreurs corrigées ?
+
+<details>
+<summary>Solution</summary>
+
+```jsx live
+<html>
+  <head>
+    <title>Mon premier site web</title>
+  </head>
+  <div style={{ backgroundColor: "white", color: "black" }}>
+    <h1 style={{ fontSize: "24px", color: "blue" }}>Titre principal</h1>
+    <p style={{ fontSize: "16px", color: "green" }}>Ceci est un paragraphe.</p>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/8/83/Solid_white_bordered.svg"
+      alt="Une image"
+    />
+  </div>
+</html>
+```
+
+Avec `Mon premier site web` comme titre de l'onglet.
 
 </details>

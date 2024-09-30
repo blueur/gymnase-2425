@@ -16,6 +16,28 @@ Comment représenter l'information ?
   - [Le son](https://apprendre.modulo-info.ch/rep-info/son.html)
   - [Conclusion](https://apprendre.modulo-info.ch/rep-info/conclusion.html)
 
+## Critères
+
+L'évaluation se portera sur les critères suivants :
+
+- Binaire
+  - [ ] Compter en n'importe quelle base
+- Conversion
+  - [ ] Convertir entre la base binaire et décimale
+  - [ ] Convertir entre la base binaire et hexadécimale
+- Unité
+  - [ ] Comparer et convertir entre les unités
+  - [ ] Calculer la taille d'une information
+- Encodage, Image, Son
+  - [ ] Expliquer la numérisation (image, texte, son)
+  - [ ] Estimer le résultat d'un fichier NetPBM
+  - [ ] Appliquer le codage des couleurs
+  - [ ] Calculer les tailles binaires (images, texte, son)
+
+|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
+| :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
+| Nombre de critères validés |       0       |       1       |  2  |       3       |  4  |       5       |  6  |       7       |  8  |       9       |
+
 ## Bases
 
 Compléter le tableau suivant avec les 25 premiers nombres de chaque base.
@@ -167,14 +189,12 @@ Associer les codes hexadécimaux aux couleurs correspondantes.
 
 <details>
   <summary>Solution</summary>
-
-- #BDBDBD : Gris
-- #FF0000 : Rouge
-- #00E676 : Vert
-- #2962FF : Bleu
-- #000000 : Noir
-- #FFFFFF : Blanc
-
+    - #BDBDBD : Gris
+    - #FF0000 : Rouge
+    - #00E676 : Vert
+    - #2962FF : Bleu
+    - #000000 : Noir
+    - #FFFFFF : Blanc
 </details>
 
 ## Comparaison d'éléments
@@ -191,15 +211,13 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
 
 <details>
   <summary>Solution</summary>
-
-|                                     |     |                                                |
-| :---------------------------------: | :-: | :--------------------------------------------: |
-|     Un texte de 1000 caractères     | \<  |      Une image 8-bit de 128 x 128 pixels       |
-|     Un texte de 2000 caractères     | \<  | Un son avec un débit de 32 kb/s de 30 secondes |
-| Un son 8-bit à 8 kHz de 15 secondes |  >  |      Un son 4-bit à 8 kHz de 15 secondes       |
-| Un son 4-bit à 8 kHz de 15 secondes |  =  |         Un texte de 60 000 caractères          |
-|  Une image 3-bit de 64 x 64 pixels  |  =  |           Une image 1-bit de 64 x 64           |
-
+    |                                     |     |                                                |
+    | :---------------------------------: | :-: | :--------------------------------------------: |
+    |     Un texte de 1000 caractères     | \<  |      Une image 8-bit de 128 x 128 pixels       |
+    |     Un texte de 2000 caractères     | \<  | Un son avec un débit de 32 kb/s de 30 secondes |
+    | Un son 8-bit à 8 kHz de 15 secondes |  >  |      Un son 4-bit à 8 kHz de 15 secondes       |
+    | Un son 4-bit à 8 kHz de 15 secondes |  =  |         Un texte de 60 000 caractères          |
+    |  Une image 3-bit de 64 x 64 pixels  |  =  |           Une image 1-bit de 64 x 64           |
 </details>
 
 ## Caractères
@@ -217,20 +235,18 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
 
 <details>
   <summary>Toutes les solutions avec détails</summary>
-
-1. It's a Trap! (12 [o])
-   - 12 [o], car 12 caractères
-2. - 12 MP = 12'000'000 pixels
-   - 12'000'000 [px] x 24 [b] = 36'000'000 [o] (288'000'000 [b])
-   - 36'000'000 [o] = 36'000'000 [caractères]
-   - 36'000'000 [caractères] / 5 [caractères/mot] = 7'200'000 [mots]
-3. - 8 [s] x 256'000 [b/s] = 2'048'000 [b] = 256'000 [o]
-   - 256'000 [o] = 256'000 [caractères]
-   - 256'000 [caractères] / 5 [caractères/mot] = 51'200 [mots]
-
+    1. It's a Trap! (12 [o])
+      - 12 [o], car 12 caractères
+    2. - 12 MP = 12'000'000 pixels
+      - 12'000'000 [px] x 24 [b] = 36'000'000 [o] (288'000'000 [b])
+      - 36'000'000 [o] = 36'000'000 [caractères]
+      - 36'000'000 [caractères] / 5 [caractères/mot] = 7'200'000 [mots]
+    3. - 8 [s] x 256'000 [b/s] = 2'048'000 [b] = 256'000 [o]
+      - 256'000 [o] = 256'000 [caractères]
+      - 256'000 [caractères] / 5 [caractères/mot] = 51'200 [mots]
 </details>
 
-## Image pixmap
+## NetPBM
 
 Que verrait-on si on ouvre ce fichier avec un lecteur d'image ?
 
@@ -244,7 +260,23 @@ P3
 
 <details>
   <summary>Solution</summary>
+    ![](https://upload.wikimedia.org/wikipedia/commons/5/57/Tiny6pixel.png)
+</details>
 
-![](https://upload.wikimedia.org/wikipedia/commons/5/57/Tiny6pixel.png)
+## Information
 
+Combien de bits faut-il au minimum pour représenter les éléments suivants ?
+
+1. Un nombre entre 0 et 255
+   <details><summary>Solution</summary>8 [b]</details>
+2. Une lettre de l'alphabet (minuscule et majuscule)
+   <details><summary>Solution</summary>6 [b]</details>
+3. Un jour de l'année
+   <details><summary>Solution</summary>9 [b]</details>
+
+<details>
+  <summary>Toutes les solutions</summary>
+    1. 256 valeurs possibles = 2<sup>8</sup> = 256, donc 8 [b]
+    2. 26 lettres minuscules + 26 lettres majuscules = 52 caractères possibles. 2<sup>6</sup> = 64 > 52, donc 6 [b]
+    3. 365 jours = 2<sup>9</sup> = 512 > 365, donc 9 [b]
 </details>
