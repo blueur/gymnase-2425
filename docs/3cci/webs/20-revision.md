@@ -31,10 +31,11 @@ L'évaluation se portera sur les critères suivants :
 - CSS
   - [ ] Reconnaître et corriger la structure des règles CSS
   - [ ] Estimer l'application des règles CSS
+  - [ ] Utiliser les classes, le survol et les combinateurs en CSS
 
-|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
-| :------------------------: | :-----------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
-| Nombre de critères validés |       0       |       1       |       2       |  3  |       4       |  5  |       6       |  7  |       8       |
+|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
+| :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
+| Nombre de critères validés |       0       |       1       |  2  |       3       |  4  |       5       |  6  |       7       |  8  |       9       |
 
 ## URL
 
@@ -288,5 +289,72 @@ Quel sera le résultat de la page HTML avec le CSS une fois les erreurs corrigé
 ```
 
 Avec `Mon premier site web` comme titre de l'onglet.
+
+</details>
+
+## CSS
+
+Que fait la règle CSS suivante ?
+
+```css
+a:hover {
+  color: red;
+}
+```
+
+<details>
+<summary>Solution</summary>
+
+La règle CSS `a:hover` applique le style `color: red` aux liens lorsqu'ils sont survolés par la souris.
+
+</details>
+
+Comment appliquer un style différent aux liens de toutes les listes ?
+
+```html
+<ul>
+  <li><a href="#">Lien 1</a></li>
+  <li><a href="#">Lien 2</a></li>
+  <li><a href="#">Lien 3</a></li>
+</ul>
+```
+
+<details>
+<summary>Solution</summary>
+
+```css
+li a {
+  color: orange;
+}
+```
+
+Cette règle CSS applique le style `color: orange` à tous les liens (`<a>`) qui sont descendants d'un élément de liste (`<li>`).
+
+</details>
+
+On souhaite mettre le premier lien ci-dessus en rouge. Comment faire ?
+
+<details>
+<summary>Solution</summary>
+
+Une solution est d'ajouter une classe au premier lien :
+
+```html
+<ul>
+  <li><a href="#" class="red">Lien 1</a></li>
+  <li><a href="#">Lien 2</a></li>
+  <li><a href="#">Lien 3</a></li>
+</ul>
+```
+
+Puis, d'ajouter une règle CSS pour cette classe :
+
+```css
+a.red {
+  color: red;
+}
+```
+
+Dans ce cas, la règle CSS `a.red` applique le style `color: red` uniquement aux liens qui ont la classe `red`.
 
 </details>
