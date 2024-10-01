@@ -19,9 +19,8 @@ Comment créer un site web statique ?
 
 L'évaluation se portera sur les critères suivants :
 
-- Internet
-  - [ ] Reconnaître une adresse IPv4
-- Nom de domaine
+- Internet, Nom de domaine
+  - [ ] Reconnaître une adresse IP et un nom de domaine
   - [ ] Expliquer l'utilisation des noms de domaine
 - Web
   - [ ] Identifier les parties d'une URL

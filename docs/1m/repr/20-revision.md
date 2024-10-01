@@ -84,18 +84,23 @@ Convertir les nombres suivants vers les bases demandées.
 1. 13<sub>10</sub> = ?<sub>2</sub> = ?<sub>16</sub>
    <details><summary>Solution</summary>13<sub>10</sub> = 1101<sub>2</sub> = D<sub>16</sub></details>
 2. 11 0011<sub>2</sub> = ?<sub>16</sub> = ?<sub>10</sub>
-   <details><summary>Solution</summary>11 0011<sub>2</sub> = 33<sub>16</sub> = 3 + 2 + 1 = 11<sub>10</sub></details>
+   <details><summary>Solution</summary>11 0011<sub>2</sub> = 33<sub>16</sub> = 51<sub>10</sub></details>
 3. B1C<sub>16</sub> = ?<sub>2</sub> = ?<sub>10</sub>
-   <details><summary>Solution</summary>B1C<sub>16</sub> = 1011 0001 1100<sub>2</sub> = 2'292<sub>10</sub></details>
+   <details><summary>Solution</summary>B1C<sub>16</sub> = 1011 0001 1100<sub>2</sub> = 2'844<sub>10</sub></details>
 4. 42<sub>5</sub> = ?<sub>10</sub> = ?<sub>16</sub> = ?<sub>2</sub>
    <details><summary>Solution</summary>42<sub>5</sub> = 22<sub>10</sub> = 16<sub>16</sub> = 1 0110<sub>2</sub></details>
 
 <details>
-  <summary>Toutes les solutions</summary>
-    1. 13<sub>10</sub> = 1101<sub>2</sub> = D<sub>16</sub>
-    2. 11 0011<sub>2</sub> = 33<sub>16</sub> = 51<sub>10</sub>
-    3. B1C<sub>16</sub> = 1011 0001 1100<sub>2</sub> = 2'844<sub>10</sub>
-    4. 42<sub>5</sub> = 22<sub>10</sub> = 16<sub>16</sub> = 1 0110<sub>2</sub>
+  <summary>Solutions détaillées</summary>
+    1. - Décimal &rarr; Binaire : 13<sub>10</sub> = 8 + 4 + 1 = 1 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 1101<sub>2</sub>
+       - Binaire &rarr; Hexadécimal : 1101<sub>2</sub> = D<sub>16</sub>
+    2. - Binaire &rarr; Hexadécimal : 11 0011<sub>2</sub> = 33<sub>16</sub>
+       - Hexadécimal &rarr; Décimal : 33<sub>16</sub> = 3 &times; 16<sup>1</sup> + 3 &times; 16<sup>0</sup> = 51<sub>10</sub>
+    3. - Hexadécimal &rarr; Binaire : B1C<sub>16</sub> = 1011 0001 1100<sub>2</sub> 
+       - Hexadécimal &rarr; Décimal : B1C<sub>16</sub> = 11 &times; 16<sup>2</sup> + 1 &times; 16<sup>1</sup> + 12 &times; 16<sup>0</sup> = 2'844<sub>10</sub>
+    4. - Base 5 &rarr; Décimal : 42<sub>5</sub> = 4 &times; 5<sup>1</sup> + 2 &times; 5<sup>0</sup> = 22<sub>10</sub>
+       - Décimal &rarr; Binaire : 22<sub>10</sub> = 16 + 4 + 2 = 1 &times; 2<sup>4</sup> + 1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> = 1 0110<sub>2</sub>
+       - Binaire &rarr; Hexadécimal : 1 0110<sub>2</sub> = 16<sub>16</sub>
 </details>
 
 ## Conversion d'unités
@@ -114,7 +119,7 @@ Convertir vers les unités demandées.
    <details><summary>Solution</summary>2'097'152 [o] = 2'048 [Kio] = 2 [Mio] = 16 [Mib]</details>
 
 <details>
-  <summary>Toutes les solutions</summary>
+  <summary>Solutions</summary>
     1. 1 [To] = 1'000 [Go] = 1'000'000 [Mo] = 1'000'000'000 [Ko] = 1'000'000'000'000 [o] = 8'000'000'000'000 [b]
     2. 1 [Tio] = 1'024 [Gio] = 1'048'576 [Mio] = 1'073'741'824 [Kio] = 1'099'511'627'776 [o] = 8'796'093'022'208 [b]
     3. 4 [Go] = 4'000'000 [Ko]
@@ -165,7 +170,7 @@ Calculer la taille binaire des éléments suivants dans les unités demandées (
    <details><summary>Solution</summary>1'280'000 [b] = 160'000 [o] = 156,25 [Kio]</details>
 
 <details>
-  <summary>Solutions avec détails</summary>
+  <summary>Solutions détaillées</summary>
     1. 32 x 32 x 2 = 2'048 [b] = 256 [o]
     2. 64 x 128 x 8 = 65'536 [b] = 8'192 [o] = 8 [Kio]
     3. 360 x 640 x 24 = 5'529'600 [b] = 691'200 [o] = 675 [Kio]
@@ -234,7 +239,7 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
    <details><summary>Solution</summary>51'200 [mots]</details>
 
 <details>
-  <summary>Toutes les solutions avec détails</summary>
+  <summary>Solutions détaillées</summary>
     1. It's a Trap! (12 [o])
       - 12 [o], car 12 caractères
     2. - 12 MP = 12'000'000 pixels
@@ -275,7 +280,7 @@ Combien de bits faut-il au minimum pour représenter les éléments suivants ?
    <details><summary>Solution</summary>9 [b]</details>
 
 <details>
-  <summary>Toutes les solutions</summary>
+  <summary>Solutions détaillées</summary>
     1. 256 valeurs possibles = 2<sup>8</sup> = 256, donc 8 [b]
     2. 26 lettres minuscules + 26 lettres majuscules = 52 caractères possibles. 2<sup>6</sup> = 64 > 52, donc 6 [b]
     3. 365 jours = 2<sup>9</sup> = 512 > 365, donc 9 [b]
