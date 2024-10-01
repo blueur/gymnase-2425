@@ -81,6 +81,7 @@ https://www.instagram.com/p/CxfyzDJt0A8/?utm_source=ig_web_copy_link&igshid=MzRl
   - Domaine de troisième niveau (sous-domaine) : `www`
   - Domaine de deuxième niveau (domaine) : `instagram`
   - Domaine de premier niveau (extension) : `com`
+- Chemin : `/p/CxfyzDJt0A8/`
 - Paramètres : `?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==`
   - 2 paramètres :
     - `utm_source=ig_web_copy_link`
@@ -181,6 +182,7 @@ Corriger les erreurs dans le code HTML.
   <body>
     <h1>Titre principal</h1>
     <p>Ceci est un paragraphe.</p>
+    <a href="https://www.eduvaud.ch/">Un lien</a>
     <img src="image.png" alt="Une image" />
   </body>
 </html>
@@ -208,6 +210,7 @@ Quel sera le résultat de la page HTML une fois les erreurs corrigées ?
   <body>
     <h1>Titre principal</h1>
     <p>Ceci est un paragraphe.</p>
+    <a href="https://www.eduvaud.ch/">Un lien</a>
     <img
       src="https://upload.wikimedia.org/wikipedia/commons/8/83/Solid_white_bordered.svg"
       alt="Une image"
@@ -280,6 +283,7 @@ Quel sera le résultat de la page HTML avec le CSS une fois les erreurs corrigé
   <div style={{ backgroundColor: "white", color: "black" }}>
     <h1 style={{ fontSize: "24px", color: "blue" }}>Titre principal</h1>
     <p style={{ fontSize: "16px", color: "green" }}>Ceci est un paragraphe.</p>
+    <a href="https://www.eduvaud.ch/">Un lien</a>
     <img
       src="https://upload.wikimedia.org/wikipedia/commons/8/83/Solid_white_bordered.svg"
       alt="Une image"
