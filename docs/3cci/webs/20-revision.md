@@ -1,21 +1,10 @@
+---
+description: Comment créer un site web statique ?
+---
+
 # Révision
 
 :::note[Objectifs]
-
-Comment créer un site web statique ?
-
-:::
-
-- Revoir les [Kahoot!](https://create.kahoot.it/course/a4d8083e-9fe7-403e-aefa-8ed11af05c45)
-- Support de cours complémentaires :
-  - [Commencer avec le HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-  - [Fondamentaux du texte HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
-  - [Création d'hyperliens](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
-  - [Les images en HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
-  - [Sélecteurs CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors)
-  - [Réseaux](https://apprendre.modulo-info.ch/resx/index.html)
-
-## Critères
 
 L'évaluation se portera sur les critères suivants :
 
@@ -36,6 +25,22 @@ L'évaluation se portera sur les critères suivants :
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
 | Nombre de critères validés |       0       |       1       |  2  |       3       |  4  |       5       |  6  |       7       |  8  |       9       |
+
+:::
+
+:::tip[Aides]
+
+- Revoir les [Kahoot!](https://create.kahoot.it/course/a4d8083e-9fe7-403e-aefa-8ed11af05c45)
+- Support de cours complémentaires :
+  - [Commencer avec le HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+  - [Fondamentaux du texte HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+  - [Création d'hyperliens](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+  - [Les images en HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+  - [Sélecteurs CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors)
+  - [Réseaux](https://apprendre.modulo-info.ch/resx/index.html)
+- Pour imprimer : <kbd>Ctrl</kbd> + <kbd>P</kbd> ou <kbd>Cmd</kbd> + <kbd>P</kbd>
+
+:::
 
 ## URL
 
