@@ -77,10 +77,14 @@ div.reveal {
     font-weight: bold;
   }
   img {
+    border-color: var(--ifm-color-emphasis-300);
     margin: 0;
 
     &.full {
       height: 750px;
+    }
+    &.full-width {
+      width: 95%;
     }
     &.half {
       height: 360px;

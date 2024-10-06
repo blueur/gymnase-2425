@@ -227,9 +227,9 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
 | :---------------------------------: | :----------------------: | :--------------------------------------------: |
 |     Un texte de 1000 caractères     | &nbsp;&nbsp;&nbsp;&nbsp; |      Une image 8-bit de 128 x 128 pixels       |
 |     Un texte de 2000 caractères     |                          | Un son avec un débit de 32 kb/s de 30 secondes |
-| Un son 4-bit à 8 kHz de 15 secondes |                          |      Un son 4-bit à 8 kHz de 15 secondes       |
+| Un son 8-bit à 8 kHz de 15 secondes |                          |      Un son 4-bit à 8 kHz de 15 secondes       |
 | Un son 4-bit à 8 kHz de 15 secondes |                          |         Un texte de 60 000 caractères          |
-|  Une image 3-bit de 64 x 64 pixels  |                          |           Une image 1-bit de 64 x 64           |
+|  Une image 4-bit de 64 x 64 pixels  |                          |          Une image 1-bit de 128 x 128          |
 
 <details>
   <summary>Solution</summary>
@@ -240,7 +240,7 @@ Comparer la taille binaire des éléments suivants avec \<, > ou =.
 |     Un texte de 2000 caractères     | \<  | Un son avec un débit de 32 kb/s de 30 secondes |
 | Un son 8-bit à 8 kHz de 15 secondes |  >  |      Un son 4-bit à 8 kHz de 15 secondes       |
 | Un son 4-bit à 8 kHz de 15 secondes |  =  |         Un texte de 60 000 caractères          |
-|  Une image 3-bit de 64 x 64 pixels  |  =  |           Une image 1-bit de 64 x 64           |
+|  Une image 4-bit de 64 x 64 pixels  |  =  |          Une image 1-bit de 128 x 128          |
 
 </details>
 
