@@ -1,8 +1,8 @@
-# AlgoPython
+# AlgoPython 1
 
 :::note[Objectifs]
 
-Découverte de Python avec AlgoPython.
+Apprendre le Python avec AlgoPython.
 
 - Utiliser `print` pour afficher des messages
 - Utiliser des boucles `for`
@@ -18,3 +18,4 @@ Découverte de Python avec AlgoPython.
   - Mot de passe : Votre date de naissance au format `JJMMAAAA`
     - Exemple : `29022006` pour le 29 février 2006
 - Faire les séries d'exercices
+  - Au moins jusqu'au C-6

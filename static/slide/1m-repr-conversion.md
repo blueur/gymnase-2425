@@ -23,7 +23,7 @@ Représentation de l'information
 |    8    |  1000  |   22   |   20   |   10   |    8    |
 
 ```katex fragment
-8_{10} = 1000_2 = 22_4 = 10_8 = 8_{16}
+8_{10} = 1000_{2} = 22_{3} = 20_{4} = 10_{8} = 8_{16}
 ```
 
 ---
@@ -31,7 +31,7 @@ Représentation de l'information
 ## Équivalence des bases
 
 - ```katex
-  8_{10} = 1000_{2} = 22_{4} = 10_{8} = 8_{16}
+  8_{10} = 1000_{2} = 22_{3} = 20_{4} = 10_{8} = 8_{16}
   ```
 - &shy;<!-- .element: class="fragment" -->
   ```katex
