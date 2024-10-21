@@ -66,29 +66,25 @@ Exécution d'un programme.
 
 - Input / Output (I/O)
 
-![](https://kroki.io/svgbob/svg/eNpTUIABbV0E0OaCiera1SggQI2uHZdrXknR4ZWpxSCugnN-bkF-cWJeiQJIWXB-UUlmajEezQrYrQMAWhMcAQ==) <!-- .element: class="half" -->
-
-<!--
+```kroki svgbob half
           +-----------+
         ->|           |->
 Entrées   | Composant |   Sorties
         ->|           |->
           +-----------+
--->
+```
 
 ---
 
 ## Entrées et sorties
 
-![](https://kroki.io/svgbob/svg/eNpTUIABbV0koM0FE9a1q1FAAjW6dlyueSVFh1emFoO4Cv5FKZl5iSWppUUKIIXB-UUlmanF-LQr4LASAOalHQQ=) <!-- .element: class="half" -->
-
-<!--
+```kroki svgbob half
           +------------+
         ->|            |->
 Entrées   | Ordinateur |   Sorties
         ->|            |->
           +------------+
--->
+```
 
 - **Entrées**
   - &shy;<!-- .element: class="fragment" --> clavier, souris, webcam, microphone, etc.
@@ -108,15 +104,13 @@ Entrées   | Ordinateur |   Sorties
 
 ### Table de vérité
 
-![](https://kroki.io/svgbob/svg/eNpTUFBQ0NZFBdpcjgq6djUKqKCGC0wqBOQXlaQq5OSnZxaWpirU6Nop5JeWcDnh1IFhOgAykhcf) <!-- .element: class="half" -->
-
-<!--
+```kroki svgbob half
     +---------------+
 A ->|               |
     | Porte logique |-> out
 B ->|               |
     +---------------+
--->
+```
 
 - &shy;<!-- .element: class="fragment" --> Entrées et sorties en binaire (0 ou 1)
 
