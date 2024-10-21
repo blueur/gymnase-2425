@@ -21,6 +21,9 @@ const config: Config = {
       "@docusaurus/plugin-pwa",
       {
         offlineModeActivationStrategies: ["always"],
+        injectManifestConfig: {
+          globPatterns: ["**/*.{md}"],
+        },
         pwaHead: [
           {
             tagName: "link",
