@@ -34,9 +34,18 @@ export default () => ({
         .replace(/\+/g, "-")
         .replace(/\//g, "_");
 
+      const diagram = element.classList[0];
+      element.classList.remove(diagram);
+      // https://docs.kroki.io/kroki/setup/diagram-options/
+      let params = "";
+      switch (diagram) {
+        case "plantuml":
+          params = "?theme=plain";
+          break;
+      }
+
       const img = document.createElement("img");
-      img.src = `https://kroki.io/${element.classList[0]}/svg/${result}`;
-      element.classList.remove(element.classList[0]);
+      img.src = `https://kroki.io/${diagram}/svg/${result}${params}`;
       img.classList.add(...Array.from(element.classList));
 
       const pre = element.parentElement;
