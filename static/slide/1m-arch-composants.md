@@ -48,12 +48,12 @@ Quels sont les composants d'un ordinateur que vous connaissez ?
 </div>
 <div>
 
-- _Rôles_
+- _Rôle(s)_
   - &shy;<!-- .element: class="fragment" --> **Support** pour les **processeur**, **mémoire vive**, &mldr;
   - &shy;<!-- .element: class="fragment" --> **Connecteurs** pour les **disques**, **périphériques**, &mldr;
     - Panneau d'entrées/sorties (USB, HDMI, &mldr;)
   - &shy;<!-- .element: class="fragment" --> Tous les **composants** se connectent à la carte mère
-- _Caractéristiques_
+- _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Format**
   - &shy;<!-- .element: class="fragment" --> **Connecteurs** (USB, SATA, &mldr;)
   - &shy;<!-- .element: class="fragment" --> **Compatibilité** avec les autres composants
@@ -136,11 +136,11 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 </div>
 <div>
 
-- _Acronyme_
+- _Nom(s)_
   - &shy;<!-- .element: class="fragment" --> **CPU** (Central Processing Unit)
-- _Rôles_
+- _Rôle(s)_
   - &shy;<!-- .element: class="fragment" --> **Exécution** des instructions/opérations
-- _Caractéristiques_
+- _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Architecture** (x86, ARM, &mldr;)
   - &shy;<!-- .element: class="fragment" --> **Fréquence** d'horloge
   - &shy;<!-- .element: class="fragment" --> Nombre de **coeurs**
@@ -154,9 +154,9 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 - **Fréquence** d'horloge (en Hz)
   - &shy;<!-- .element: class="fragment" --> 1 Hz = 1 cycle (~ opération) par seconde
   - &shy;<!-- .element: class="fragment" --> 2 GHz = ~ 2 milliard d'opérations par seconde
-- Nombre de **coeurs** (**core** en anglais)
+- &shy;<!-- .element: class="fragment" --> Nombre de **coeurs** (**core** en anglais)
   - &shy;<!-- .element: class="fragment" --> Chaque coeur peut exécuter des instructions en **parallèle**
-- 1 &times; 2 GHz **&ne;** 2 &times; 1 GHz <!-- .element: class="fragment" -->
+- &shy;<!-- .element: class="fragment" --> 1 &times; 2 GHz **&ne;** 2 &times; 1 GHz
   - &shy;<!-- .element: class="fragment" --> Pas toujours **parallélisable** (pas deux fois plus rapide avec un tandem)
   - &shy;<!-- .element: class="fragment" --> Utile pour le **multitâche** (navigateur, musique, office, &mldr;)
 
@@ -228,12 +228,12 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 </div>
 <div>
 
-- _Acronyme_
+- _Nom(s)_
   - &shy;<!-- .element: class="fragment" --> **Mémoire**
   - &shy;<!-- .element: class="fragment" --> **RAM** (Random Access Memory)
-- _Rôles_
+- _Rôle(s)_
   - &shy;<!-- .element: class="fragment" --> **Stockage** temporaire des données et **instructions** en cours d'utilisation par le processeur
-- _Caractéristiques_
+- _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Capacité** (en Go)
   - &shy;<!-- .element: class="fragment" --> **Vitesse** de lecture/écriture (en MHz)
 
@@ -307,12 +307,12 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 </div>
 <div>
 
-- _Acronyme_
+- _Nom(s)_
   - &shy;<!-- .element: class="fragment" --> **Stockage**
   - &shy;<!-- .element: class="fragment" --> **Disque dur**
-- _Rôles_
+- _Rôle(s)_
   - &shy;<!-- .element: class="fragment" --> **Stockage** permanent des données
-- _Caractéristiques_
+- _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Capacité** (en Go, To)
   - &shy;<!-- .element: class="fragment" --> **Vitesse** de lecture/écriture (en Mo/s) ou de rotation (en rpm)
 
@@ -374,21 +374,50 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 
 ### Types de mémoire de masse
 
-- **Disque dur HDD** (Hard disk drive)
+- _Disque dur HDD_ (Hard disk drive)
   - &shy;<!-- .element: class="fragment" --> Plusieurs disques **magnétiques** et **mécaniques** en rotation (comme un vinyle)
   - &shy;<!-- .element: class="fragment" --> **Capacité** importante
   - &shy;<!-- .element: class="fragment" --> **Prix** abordable
-- **Disque SSD** (Solid-state drive)
+- _Disque SSD_ (Solid-state drive)
   - &shy;<!-- .element: class="fragment" --> Mémoire **flash** (comme une clé USB ou une carte SD)
   - &shy;<!-- .element: class="fragment" --> Beaucoup plus **rapide**
   - &shy;<!-- .element: class="fragment" --> Nombre de cycles d'**écriture limité**
-  - &shy;<!-- .element: class="fragment" --> **résistant** aux chocs et aux vibrations (pas de pièces mobiles)
+  - &shy;<!-- .element: class="fragment" --> **Résistant** aux chocs et aux vibrations (pas de pièces mobiles)
   - &shy;<!-- .element: class="fragment" --> **Léger** et **silencieux**
 - &shy;<!-- .element: class="fragment" --> [Vidéo](https://youtu.be/Rm23UmdJ8DQ)
 
 ---
 
 ### Mémoire vive vs mémoire de masse
+
+- _Mémoire vive_
+  - &shy;<!-- .element: class="fragment" --> **Volatile**
+    - Perte des données à l'extinction
+  - &shy;<!-- .element: class="fragment" --> **Rapide**, mais **coûteux**
+  - &shy;<!-- .element: class="fragment" --> Utilisée par le **processeur**
+    - Ralentissement de l'ordinateur si mémoire insuffisante
+  - &shy;<!-- .element: class="fragment" --> Comme notre mémoire à court terme
+- _Mémoire de masse_
+  - &shy;<!-- .element: class="fragment" --> **Permanente**
+    - Conservation des données même sans alimentation
+  - &shy;<!-- .element: class="fragment" --> Plus grande **capacité**
+  - &shy;<!-- .element: class="fragment" --> **Copie** les données vers la mémoire vive pour les utiliser
+  - &shy;<!-- .element: class="fragment" --> Comme notre mémoire à long terme
+
+---
+
+### Organisation des mémoires
+
+```kroki plantuml full
+@startwbs
+* Mémoire
+** Volatile
+*** RAM (Mémoire vive)
+** Permanente
+*** HDD (Disque dur)
+*** SSD (Disque SSD)
+@endwbs
+```
 
 ---
 
@@ -397,8 +426,24 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 <div class="columns">
 <div>
 
+![](https://upload.wikimedia.org/wikipedia/commons/4/4a/ATI_Radeon_HD_5970_Graphics_Card-oblique_view.jpg)
+
+<p class="reference">
+  <a href="https://commons.wikimedia.org/wiki/File:ATI_Radeon_HD_5970_Graphics_Card-oblique_view.jpg">Advanced Micro Devices, Inc. (AMD)</a>, Attribution, via Wikimedia Commons
+</p>
+
 </div>
 <div>
+
+- _Nom(s)_
+  - &shy;<!-- .element: class="fragment" --> **GPU** (Graphics Processing Unit)
+- _Rôle(s)_
+  - &shy;<!-- .element: class="fragment" --> **Calculs** graphiques (jeux, modélisation 3D, &mldr;)
+- _Caractéristique(s)_
+  - &shy;<!-- .element: class="fragment" --> **Mémoire** dédiée
+  - &shy;<!-- .element: class="fragment" --> **Fréquence** d'horloge
+  - &shy;<!-- .element: class="fragment" --> **Nombre de coeurs** (comme un processeur)
+  - &shy;<!-- .element: class="fragment" --> Comme un **processeur** et une **mémoire vive** dédiée pour les **graphismes**
 
 </div>
 
@@ -456,13 +501,43 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 
 ---
 
+### CPU vs GPU
+
+- _CPU_
+  - &shy;<!-- .element: class="fragment" --> Calculs **séquentiel** (généralistes)
+  - &shy;<!-- .element: class="fragment" --> **Peu** de **coeurs** avec une **fréquence** d'horloge **élevée**
+  - &shy;<!-- .element: class="fragment" --> Exécute une **série** d'instructions les unes après les autres
+    - Lecture, interprétation, **exécution**, lecture, interprétation, **exécution**, lecture, &mldr;
+- _GPU_
+  - &shy;<!-- .element: class="fragment" --> Calculs en **parallèle** (graphiques, minage, IA, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> **Beaucoup** de **coeurs** avec une **fréquence** d'horloge **faible**
+  - &shy;<!-- .element: class="fragment" --> Exécute la **même** instruction sur plusieurs données en même temps
+    - Lecture, interprétation, **exécution**, **exécution**, &mldr;
+- &shy;<!-- .element: class="fragment" --> [Vidéo](https://youtu.be/-P28LKWTzrI)
+
+---
+
 ## Bus <!-- .element: class="fragment" -->
 
 <div class="columns">
 <div>
 
+![](https://upload.wikimedia.org/wikipedia/commons/3/3e/PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg)
+
+<p class="reference">
+  <a href="https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg">w:user:snickerdo</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+</p>
+
 </div>
 <div>
+
+- _Nom(s)_
+  - &shy;<!-- .element: class="fragment" --> **Bus** (Bridge Unit System)
+- _Rôle(s)_
+  - &shy;<!-- .element: class="fragment" --> **Communication** entre les composants
+- _Caractéristique(s)_
+  - &shy;<!-- .element: class="fragment" --> **Connecteurs** avec les autres composants
+  - &shy;<!-- .element: class="fragment" --> **Vitesse** de transfert (en Go/s)
 
 </div>
 
@@ -525,8 +600,21 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 <div class="columns">
 <div>
 
+![](https://upload.wikimedia.org/wikipedia/commons/6/62/PSU-Open1.jpg)
+
+https://commons.wikimedia.org/wiki/File:PSU-Open1.jpg <!-- .element: class="reference" -->
+
 </div>
 <div>
+
+- _Nom(s)_
+  - &shy;<!-- .element: class="fragment" --> **Alimentation**
+- _Rôle(s)_
+  - &shy;<!-- .element: class="fragment" --> **Fournir** l'électricité aux composants
+- _Caractéristique(s)_
+  - &shy;<!-- .element: class="fragment" --> **Puissance** (en W)
+  - &shy;<!-- .element: class="fragment" --> **Connecteurs** pour les composants
+  - &shy;<!-- .element: class="fragment" --> **Ventilateur** pour le refroidissement
 
 </div>
 
@@ -586,13 +674,11 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 
 ## Périphériques
 
-<div class="columns">
-<div>
-
-</div>
-<div>
-
-</div>
+- &shy;<!-- .element: class="fragment" --> Un composant **externe** connecté à l'ordinateur
+- &shy;<!-- .element: class="fragment" --> **Types** de périphérique
+  - Entrée
+  - Sortie
+  - Entrée/Sortie
 
 ---
 
@@ -605,7 +691,7 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 *** Saisie
 **** Clavier
 *** Lecture
-**** Lecteur de disque optique
+**** Lecteur de disque optique (CD, DVD, Blu-ray)
 *** Pointage
 **** Souris
 **** Pavé tactile
