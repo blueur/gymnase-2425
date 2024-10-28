@@ -128,7 +128,7 @@ Représentation de l'information
 - &shy;<!-- .element: class="fragment" --> 100
 - &shy;<!-- .element: class="fragment" --> 101
 - &shy;<!-- .element: class="fragment" --> 102
-- &shy;<!-- .element: class="fragment" --> ...
+- &shy;<!-- .element: class="fragment" --> &hellip;
 
 ---
 

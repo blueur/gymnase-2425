@@ -120,9 +120,9 @@ Représentation de l'information
 ```mermaid
 graph TD
   sa([Signal analogique<br /><i class="ph ph-wave-sine"></i>])
-  vr([Valeurs échantillonnées<br />3.14, 1.71, 6.32, 1, ...])
-  va([Valeurs approximatives<br />3, 2, 3, 1, ...])
-  sn([Signal numérique<br />11, 10, 11, 01, ...])
+  vr([Valeurs échantillonnées<br />3.14, 1.71, 6.32, 1, &hellip;])
+  va([Valeurs approximatives<br />3, 2, 3, 1, &hellip;])
+  sn([Signal numérique<br />11, 10, 11, 01, &hellip;])
   sa-->|**Échantillonnage**<br />Choix fréquence|vr
   vr-->|**Quantification**<br />Choix valeurs #91;0; 3#93;|va
   va-->|**Encodage**<br />Choix table encodage|sn

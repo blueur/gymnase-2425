@@ -92,7 +92,7 @@ Pages Web statiques
   - **404** Not Found
   - **500** Internal Server Error
   - **503** Service Unavailable
-  - ...
+  - &hellip;
 
 ---
 
@@ -159,7 +159,7 @@ Pages Web statiques
 - **Chemin** de la ressource
   - &shy;<!-- .element: class="fragment" --> Délimité par `/`
   - &shy;<!-- .element: class="fragment" --> **Dossier** ou **fichier**
-  - &shy;<!-- .element: class="fragment" --> **Extension** : `.html`, `.php`, `.jpg`, `.pdf`, ...
+  - &shy;<!-- .element: class="fragment" --> **Extension** : `.html`, `.php`, `.jpg`, `.pdf`, &hellip;
 
 ---
 
@@ -173,7 +173,7 @@ Pages Web statiques
   - &shy;<!-- .element: class="fragment" --> Délimités par `?` et `&`
     - `?` débute la liste, `&` sépare les paramètres
   - &shy;<!-- .element: class="fragment" --> **Clé** et **valeur**
-  - &shy;<!-- .element: class="fragment" --> Souvent utilisé pour du **tracking** : `utm_source`, `utm_medium`, `utm_campaign`, ...
+  - &shy;<!-- .element: class="fragment" --> Souvent utilisé pour du **tracking** : `utm_source`, `utm_medium`, `utm_campaign`, &hellip;
 
 ---
 
@@ -208,8 +208,8 @@ Pages Web statiques
 
 - &shy;<!-- .element: class="fragment" --> **U**rchin **T**racking **M**odule
 - &shy;<!-- .element: class="fragment" --> **Tracking** des campagnes marketing
-  - **Source** : Réseau social, moteur de recherche, ...
-  - **Média** : Social, cpc, email, ...
+  - **Source** : Réseau social, moteur de recherche, &hellip;
+  - **Média** : Social, cpc, email, &hellip;
   - **Campagne** : Nom de la campagne
 - &shy;<!-- .element: class="fragment" --> **Analyse** de l'efficacité des campagnes
 - &shy;<!-- .element: class="fragment" --> Nettoyage des URLs avant de partager

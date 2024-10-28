@@ -67,9 +67,9 @@ Pages Web statiques
 ## Topologie d'Internet
 
 - &shy;<!-- .element: class="fragment" --> **Interconnexion** de réseaux **locaux**
-  - Écoles, entreprises, à la maison, ...
+  - Écoles, entreprises, à la maison, &hellip;
 - &shy;<!-- .element: class="fragment" --> Connectés aux fournisseurs d'accès à Internet (**FAI**)
-  - &shy;<!-- .element: class="fragment" --> Swisscom, Sunrise, Salt, ...
+  - &shy;<!-- .element: class="fragment" --> Swisscom, Sunrise, Salt, &hellip;
   - &shy;<!-- .element: class="fragment" --> Interconnectés par des **dorsales** Internet
     - &shy;<!-- .element: class="fragment" --> **Câbles** sous-marins de fibres optiques **transcontinentaux**
 
@@ -151,7 +151,7 @@ Pages Web statiques
   - &shy;<!-- .element: class="fragment" --> ::1 (0000:0000:0000:0000:0000:0000:0000:0001) pour IPv6
 - &shy;<!-- .element: class="fragment" --> 10.x.x.x, 172.16-31.x.x, 192.168.x.x
   - &shy;<!-- .element: class="fragment" --> **Adresses privées**
-  - &shy;<!-- .element: class="fragment" --> Utilisées au sein d'un réseau local/privé (gymnase, entreprise, ...)
+  - &shy;<!-- .element: class="fragment" --> Utilisées au sein d'un réseau local/privé (gymnase, entreprise, &hellip;)
 
 ---
 

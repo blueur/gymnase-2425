@@ -68,7 +68,7 @@ Les raccourcis clavier sont des combinaisons de touches qui permettent d'effectu
 
 - Ouvrir l'application **Visual Studio Code**
 - Ouvrir le dossier `web-html` dans Visual Studio Code
-  - `Fichier` > `Ouvrir dossier...` > `OneDrive - Eduvaud` > `3c` > `informatique` > `web-html`
+  - `Fichier` > `Ouvrir dossier` > `OneDrive - Eduvaud` > `3c` > `informatique` > `web-html`
 - Installer l'extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) dans Visual Studio Code
   - `Extensions` > Rechercher `Live Server` > `Installer`
 

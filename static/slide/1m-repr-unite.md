@@ -109,14 +109,14 @@ Combien de bits as-t-on besoin pour encoder un chiffre ?
 - &shy;<!-- .element: class="fragment" --> **10** éléments possibles : 0 à 9
 - &shy;<!-- .element: class="fragment" --> **4** bits suffisent : 2<sup>**4**</sup> = 16
 
-| Chiffre | Encodage |
-| :-----: | :------: |
-|    0    |   0000   |
-|    1    |   0001   |
-|    2    |   0010   |
-|    3    |   0011   |
-|   ...   |   ...    |
-|    9    |   1001   |
+| Chiffre  | Encodage |
+| :------: | :------: |
+|    0     |   0000   |
+|    1     |   0001   |
+|    2     |   0010   |
+|    3     |   0011   |
+| &hellip; | &hellip; |
+|    9     |   1001   |
 
 <!-- .element: class="fragment" -->
 
@@ -132,13 +132,13 @@ Combien de bits as-t-on besoin pour encoder une lettre ?
 - &shy;<!-- .element: class="fragment" --> 26 **éléments** possibles : A à Z
 - &shy;<!-- .element: class="fragment" --> **5** bits suffisent : 2<sup>**5**</sup> = 32
 
-| Lettre | Encodage |
-| :----: | :------: |
-|   A    |  00000   |
-|   B    |  00001   |
-|   C    |  00010   |
-|  ...   |   ...    |
-|   Z    |  11001   |
+|  Lettre  | Encodage |
+| :------: | :------: |
+|    A     |  00000   |
+|    B     |  00001   |
+|    C     |  00010   |
+| &hellip; | &hellip; |
+|    Z     |  11001   |
 
 <!-- .element: class="fragment" -->
 

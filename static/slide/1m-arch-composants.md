@@ -49,13 +49,13 @@ Quels sont les composants d'un ordinateur que vous connaissez ?
 <div>
 
 - _Rôle(s)_
-  - &shy;<!-- .element: class="fragment" --> **Support** pour les **processeur**, **mémoire vive**, &mldr;
-  - &shy;<!-- .element: class="fragment" --> **Connecteurs** pour les **disques**, **périphériques**, &mldr;
-    - Panneau d'entrées/sorties (USB, HDMI, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> **Support** pour les **processeur**, **mémoire vive**, &hellip;
+  - &shy;<!-- .element: class="fragment" --> **Connecteurs** pour les **disques**, **périphériques**, &hellip;
+    - Panneau d'entrées/sorties (USB, HDMI, &hellip;)
   - &shy;<!-- .element: class="fragment" --> Tous les **composants** se connectent à la carte mère
 - _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Format**
-  - &shy;<!-- .element: class="fragment" --> **Connecteurs** (USB, SATA, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> **Connecteurs** (USB, SATA, &hellip;)
   - &shy;<!-- .element: class="fragment" --> **Compatibilité** avec les autres composants
 
 </div>
@@ -141,7 +141,7 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 - _Rôle(s)_
   - &shy;<!-- .element: class="fragment" --> **Exécution** des instructions/opérations
 - _Caractéristique(s)_
-  - &shy;<!-- .element: class="fragment" --> **Architecture** (x86, ARM, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> **Architecture** (x86, ARM, &hellip;)
   - &shy;<!-- .element: class="fragment" --> **Fréquence** d'horloge
   - &shy;<!-- .element: class="fragment" --> Nombre de **coeurs**
 
@@ -158,7 +158,7 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
   - &shy;<!-- .element: class="fragment" --> Chaque coeur peut exécuter des instructions en **parallèle**
 - &shy;<!-- .element: class="fragment" --> 1 &times; 2 GHz **&ne;** 2 &times; 1 GHz
   - &shy;<!-- .element: class="fragment" --> Pas toujours **parallélisable** (pas deux fois plus rapide avec un tandem)
-  - &shy;<!-- .element: class="fragment" --> Utile pour le **multitâche** (navigateur, musique, office, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> Utile pour le **multitâche** (navigateur, musique, office, &hellip;)
 
 ---
 
@@ -438,7 +438,7 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 - _Nom(s)_
   - &shy;<!-- .element: class="fragment" --> **GPU** (Graphics Processing Unit)
 - _Rôle(s)_
-  - &shy;<!-- .element: class="fragment" --> **Calculs** graphiques (jeux, modélisation 3D, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> **Calculs** graphiques (jeux, modélisation 3D, &hellip;)
 - _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Mémoire** dédiée
   - &shy;<!-- .element: class="fragment" --> **Fréquence** d'horloge
@@ -507,12 +507,12 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
   - &shy;<!-- .element: class="fragment" --> Calculs **séquentiel** (généralistes)
   - &shy;<!-- .element: class="fragment" --> **Peu** de **coeurs** avec une **fréquence** d'horloge **élevée**
   - &shy;<!-- .element: class="fragment" --> Exécute une **série** d'instructions les unes après les autres
-    - Lecture, interprétation, **exécution**, lecture, interprétation, **exécution**, lecture, &mldr;
+    - Lecture, interprétation, **exécution**, lecture, interprétation, **exécution**, lecture, &hellip;
 - _GPU_
-  - &shy;<!-- .element: class="fragment" --> Calculs en **parallèle** (graphiques, minage, IA, &mldr;)
+  - &shy;<!-- .element: class="fragment" --> Calculs en **parallèle** (graphiques, minage, IA, &hellip;)
   - &shy;<!-- .element: class="fragment" --> **Beaucoup** de **coeurs** avec une **fréquence** d'horloge **faible**
   - &shy;<!-- .element: class="fragment" --> Exécute la **même** instruction sur plusieurs données en même temps
-    - Lecture, interprétation, **exécution**, **exécution**, &mldr;
+    - Lecture, interprétation, **exécution**, **exécution**, &hellip;
 - &shy;<!-- .element: class="fragment" --> [Vidéo](https://youtu.be/-P28LKWTzrI)
 
 ---

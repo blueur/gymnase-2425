@@ -23,7 +23,7 @@ Prise en main des outils informatiques utilisés au gymnase.
   - Au moins 14 caractères
   - Au moins 1 majuscule, 1 minuscule et 1 chiffre
   - Ne peut pas contenir l'entier ou une partie de son prénom ou de son nom
-- Noter son mot de passe pour pouvoir le retrouver en cas d'oubli (dans son téléphone (note ou contact), son agenda, ...)
+- Noter son mot de passe pour pouvoir le retrouver en cas d'oubli (dans son téléphone (note ou contact), son agenda, &hellip;)
 
 ## Navigateur Web
 

@@ -33,7 +33,7 @@ Qu'est-ce qu'un fichier ?
           └── encodage/
   ```
 - Télécharger le fichier [hello.txt](pathname:///tp/encodage/hello.txt) et le déposer dans le dossier `encodage`.
-  - Clic droit sur le lien ci-dessus et choisir `Enregistrer sous...` en le nommant `hello.txt` et en sélectionnant le dossier `encodage`.
+  - Clic droit sur le lien ci-dessus et choisir `Enregistrer sous` en le nommant `hello.txt` et en sélectionnant le dossier `encodage`.
 - Quelle est la taille du fichier `hello.txt` et le comparer avec son contenu ?
   - Clic droit sur le fichier > Lire les informations.
   <details><summary>Solution</summary>11 [o] car il y a 11 caractères</details>
@@ -69,7 +69,7 @@ Le format PBM (portable bitmap) permet de représenter des images en noir et bla
   - Les pixels sont représentés par des `1` (noir) et des `0` (blanc)
 - Ouvrir le fichier avec **Aperçu** pour voir l'image.
 - Ouvrir le fichier avec **TextEdit** pour voir le contenu.
-  - Clic droit sur le fichier > Ouvrir avec > Autre... > TextEdit
+  - Clic droit sur le fichier > Ouvrir avec > Autre > TextEdit
 - Créer le fichier `lettre-f.pbm` qui représente la lettre `F` en noir et blanc.
   - Dupliquer le fichier `lettre-e.pbm` et le renommer `lettre-f.pbm`.
   - Modifier le fichier avec **TextEdit** pour obtenir la lettre `F`.

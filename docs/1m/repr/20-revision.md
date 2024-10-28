@@ -47,9 +47,9 @@ L'évaluation se portera sur les critères suivants :
 
 Compléter le tableau suivant avec les 25 premiers nombres de chaque base.
 
-| Décimal | Binaire | Octal | Hexadécimal |
-| :-----: | :-----: | :---: | :---------: |
-|   ...   |   ...   |  ...  |     ...     |
+| Décimal  | Binaire  |  Octal   | Hexadécimal |
+| :------: | :------: | :------: | :---------: |
+| &hellip; | &hellip; | &hellip; |  &hellip;   |
 
 <details>
   <summary>Solution</summary>

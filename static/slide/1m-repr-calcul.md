@@ -7,7 +7,7 @@ Représentation de l'information
 ## Son
 
 - Quelle est la taille en [Mo] d'un fichier audio de 2 minutes en 48 kHz sur 24 bits ?
-  - &shy;<!-- .element: class="fragment" --> Objectif : Taille binaire <span class="fragment">([b], [o], [ko], [Kio], [Mo], ...)</span>
+  - &shy;<!-- .element: class="fragment" --> Objectif : Taille binaire <span class="fragment">([b], [o], [ko], [Kio], [Mo], &hellip;)</span>
   - &shy;<!-- .element: class="fragment" --> Temps : <span class="fragment">**2**</span> [minutes]
   - &shy;<!-- .element: class="fragment" --> Fréquence : <span class="fragment">**48'000**</span> [Hz]
   - &shy;<!-- .element: class="fragment" --> Taille d'un échantillon : <span class="fragment">**24**</span> [b]

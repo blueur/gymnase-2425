@@ -10,7 +10,7 @@ Pages Web statiques
   - eduvaud.ch &rarr; 185.230.63.171
   - office.com &rarr; 13.107.6.156
   - localhost &rarr; 127.0.0.1
-- &shy;<!-- .element: class="fragment" --> **Louable** auprès d'un **registraire** (ex. Infomaniak, OVH, ...)
+- &shy;<!-- .element: class="fragment" --> **Louable** auprès d'un **registraire** (ex. Infomaniak, OVH, &hellip;)
   - .ch coûte ~10.-/an
   - .com coûte ~15.-/an
   - https://www.infomaniak.com/fr/domaines
@@ -24,7 +24,7 @@ Pages Web statiques
 ```
 
 - &shy;<!-- .element: class="fragment" --> **extension** (domaine de premier niveau)
-  - &shy;<!-- .element: class="fragment" --> .ch, .fr, .com, .org, .edu, ...
+  - &shy;<!-- .element: class="fragment" --> .ch, .fr, .com, .org, .edu, &hellip;
 - &shy;<!-- .element: class="fragment" --> **Nom de domaine** (domaine de deuxième niveau)
   - &shy;<!-- .element: class="fragment" --> 1 seul
 - &shy;<!-- .element: class="fragment" --> **Sous-domaine** (domaine de troisième niveau)
@@ -72,7 +72,7 @@ sequenceDiagram
 
 - &shy;<!-- .element: class="fragment" --> Hameçonnage (Phishing)
   - &shy;<!-- .element: class="fragment" --> Envoyer un email avec un lien vers un faux site (imitation)
-  - &shy;<!-- .element: class="fragment" --> Nom de domaine similaire au vrai (typo, ...)
+  - &shy;<!-- .element: class="fragment" --> Nom de domaine similaire au vrai (typo, &hellip;)
 - &shy;<!-- .element: class="fragment" --> **Vérifier** si on peut faire confiance au nom de **domaine**
   - &shy;<!-- .element: class="fragment" --> [PhishTank](https://www.phishtank.com/index.php) : base de données de sites de phishing <!-- .element: target="_blank" -->
 

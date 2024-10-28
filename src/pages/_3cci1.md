@@ -10,8 +10,8 @@
 |  2024-10-08  | **Test : [Pages Web statiques](/docs/3cci/webs)**                    | [Aventure](/docs/3cci/webs/aventure)           |
 |  2024-10-15  | _Vacances_                                                           | _Vacances_                                     |
 |  2024-10-22  | _Vacances_                                                           | _Vacances_                                     |
-|  2024-10-29  | [CMS](/docs/3cci/webd/cms)                                           | [Wordpress](/docs/3cci/webd/wordpress)         |
-|  2024-11-05  |                                                                      |                                                |
+|  2024-10-29  | [CMS](/docs/3cci/webd/cms)                                           | [CMS](/docs/3cci/webd/cms)                     |
+|  2024-11-05  | JavaScript                                                           |                                                |
 |  2024-11-12  |                                                                      |                                                |
 |  2024-11-19  |                                                                      |                                                |
 |  2024-11-26  |                                                                      |                                                |
