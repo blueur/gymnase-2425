@@ -23,9 +23,9 @@ De quoi est composé un ordinateur ?
 <summary>Solution</summary>
 
 1. Le processeur et la mémoire vive
-2. Ce processeur peut effectuer environ 1.2 milliards d’opérations par seconde
-3. Le premier processeur a un seul cœur cadencé à 4 GHz et le second en a 4 avec une fréquence d’horloge de 1 GHz chacune.
-   Le premier sera plus rapide dans un cas d’usage général, mais le second pourrait être intéressant si on souhaite faire beaucoup de multi-tâche (plusieurs applications en même temps)
+2. Ce processeur peut effectuer environ 1.2 milliards d'opérations par seconde
+3. Le premier processeur a un seul cœur cadencé à 4 GHz et le second en a 4 avec une fréquence d'horloge de 1 GHz chacune.
+   Le premier sera plus rapide dans un cas d'usage général, mais le second pourrait être intéressant si on souhaite faire beaucoup de multi-tâche (plusieurs applications en même temps)
 4. À stocker les instructions et les données pour le processeur
 
 </details>
@@ -42,10 +42,10 @@ Pour chaque affirmation, fait-on référence une mémoire vive ou une mémoire d
 <details>
 <summary>Solution</summary>
 
-1. Disque dur
-2. Mémoire
-3. Mémoire : Le document n’a pas eu le temps d’être sauvegardé sur le disque dur et la mémoire est vidée à l’extinction de la machine
-4. Disque dur
+1. Mémoire de masse
+2. Mémoire vive
+3. Mémoire vive : Le document n'a pas eu le temps d'être sauvegardé sur la mémoire de masse et la mémoire vive est vidée à l'extinction de la machine
+4. Mémoire de masse
 
 </details>
 
@@ -105,6 +105,79 @@ Voici les caractéristiques d'un ordinateur trouvées sur un prospectus. Pour ch
 3. Mémoire de masse (SSD)
 4. Carte graphique
 5. Écran
+
+</details>
+
+### CPU vs GPU
+
+En termes de nombre de coeurs et de fréquence d'horloge, quelles sont les différences entre un CPU et un GPU ?
+
+<details>
+<summary>Solution</summary>
+
+Un CPU a moins de coeurs mais avec une fréquence d'horloge plus élevée. Un GPU a plus de coeurs mais avec une fréquence d'horloge plus basse.
+
+</details>
+
+### Descriptions
+
+Nommer les composants selon leur description :
+
+1. Connecte les composants ensemble
+2. Calcule efficacement les images affichées à l'écran
+3. Support pour tous les composants
+4. Ensemble de composants qui sont branchés à l'extérieur de l'ordinateur
+5. Stocke les données à court terme
+6. Fournit le courant aux autres composants
+7. Stocke les données même quand l'ordinateur est éteint
+8. Exécute les instructions
+
+<details>
+<summary>Solution</summary>
+
+1. Bus
+2. Carte graphique
+3. Carte mère
+4. Périphériques
+5. Mémoire vive
+6. Bloc d'alimentation
+7. Mémoire de masse
+8. Processeur
+
+</details>
+
+### Péripériques
+
+Classer les différents périphériques suivants selon trois catégories : entrée, sortie ou entrée-sortie.
+
+- Écran
+- Clavier
+- Souris
+- Clé USB
+- Manette de jeu
+- Microphone
+- Casque audio
+- Écran tactile
+- Routeur
+- Scanner
+- Imprimante
+- Disque dur externe
+- Webcam
+- Casque de réalité virtuelle
+- Enceintes
+- Carte SD
+
+<details>
+<summary>Solution</summary>
+
+| Entrée         | Sortie       | Entrée-sortie               |
+| -------------- | ------------ | --------------------------- |
+| Clavier        | Écran        | Clé USB                     |
+| Souris         | Casque audio | Écran tactile               |
+| Manette de jeu | Imprimante   | Routeur                     |
+| Microphone     | Enceintes    | Disque dur externe          |
+| Scanner        |              | Casque de réalité virtuelle |
+| Webcam         |              | Carte SD                    |
 
 </details>
 

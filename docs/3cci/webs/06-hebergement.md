@@ -76,7 +76,7 @@ https://httpstatus.io/ permet de visualiser les codes de statut HTTP d'un site w
 - https://gymnase.davidtang.ch/3cci/
 - https://gymnase.davidtang.ch/3cci1/
 
-Voici une liste amusante de tous les codes de statut HTTP sur https://http.cat/. Jeter un oeil au 418.
+Voici une liste amusante de tous les codes de statut HTTP sur https://http.cat/. Jeter un œil au 418.
 
 ## Références
 

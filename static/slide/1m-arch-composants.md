@@ -143,7 +143,7 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 - _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Architecture** (x86, ARM, &hellip;)
   - &shy;<!-- .element: class="fragment" --> **Fréquence** d'horloge
-  - &shy;<!-- .element: class="fragment" --> Nombre de **coeurs**
+  - &shy;<!-- .element: class="fragment" --> Nombre de **cœurs**
 
 </div>
 
@@ -154,8 +154,8 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 - **Fréquence** d'horloge (en Hz)
   - &shy;<!-- .element: class="fragment" --> 1 Hz = 1 cycle (~ opération) par seconde
   - &shy;<!-- .element: class="fragment" --> 2 GHz = ~ 2 milliard d'opérations par seconde
-- &shy;<!-- .element: class="fragment" --> Nombre de **coeurs** (**core** en anglais)
-  - &shy;<!-- .element: class="fragment" --> Chaque coeur peut exécuter des instructions en **parallèle**
+- &shy;<!-- .element: class="fragment" --> Nombre de **cœurs** (**core** en anglais)
+  - &shy;<!-- .element: class="fragment" --> Chaque cœur peut exécuter des instructions en **parallèle**
 - &shy;<!-- .element: class="fragment" --> 1 &times; 2 GHz **&ne;** 2 &times; 1 GHz
   - &shy;<!-- .element: class="fragment" --> Pas toujours **parallélisable** (pas deux fois plus rapide avec un tandem)
   - &shy;<!-- .element: class="fragment" --> Utile pour le **multitâche** (navigateur, musique, office, &hellip;)
@@ -442,7 +442,7 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 - _Caractéristique(s)_
   - &shy;<!-- .element: class="fragment" --> **Mémoire** dédiée
   - &shy;<!-- .element: class="fragment" --> **Fréquence** d'horloge
-  - &shy;<!-- .element: class="fragment" --> **Nombre de coeurs** (comme un processeur)
+  - &shy;<!-- .element: class="fragment" --> **Nombre de cœurs** (comme un processeur)
   - &shy;<!-- .element: class="fragment" --> Comme un **processeur** et une **mémoire vive** dédiée pour les **graphismes**
 
 </div>
@@ -505,12 +505,12 @@ https://commons.wikimedia.org/wiki/File:Intel_80486DX2_top.jpg <!-- .element: cl
 
 - _CPU_
   - &shy;<!-- .element: class="fragment" --> Calculs **séquentiel** (généralistes)
-  - &shy;<!-- .element: class="fragment" --> **Peu** de **coeurs** avec une **fréquence** d'horloge **élevée**
+  - &shy;<!-- .element: class="fragment" --> **Peu** de **cœurs** avec une **fréquence** d'horloge **élevée**
   - &shy;<!-- .element: class="fragment" --> Exécute une **série** d'instructions les unes après les autres
     - Lecture, interprétation, **exécution**, lecture, interprétation, **exécution**, lecture, &hellip;
 - _GPU_
   - &shy;<!-- .element: class="fragment" --> Calculs en **parallèle** (graphiques, minage, IA, &hellip;)
-  - &shy;<!-- .element: class="fragment" --> **Beaucoup** de **coeurs** avec une **fréquence** d'horloge **faible**
+  - &shy;<!-- .element: class="fragment" --> **Beaucoup** de **cœurs** avec une **fréquence** d'horloge **faible**
   - &shy;<!-- .element: class="fragment" --> Exécute la **même** instruction sur plusieurs données en même temps
     - Lecture, interprétation, **exécution**, **exécution**, &hellip;
 - &shy;<!-- .element: class="fragment" --> [Vidéo](https://youtu.be/-P28LKWTzrI)
