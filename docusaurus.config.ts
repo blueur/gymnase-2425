@@ -26,32 +26,6 @@ const config: Config = {
         } satisfies SassOptions<"sync">,
       },
     ],
-    [
-      "@docusaurus/plugin-pwa",
-      {
-        offlineModeActivationStrategies: ["always"],
-        injectManifestConfig: {
-          globPatterns: ["**/*.{md}"],
-        },
-        pwaHead: [
-          {
-            tagName: "link",
-            rel: "icon",
-            href: "/img/logo.svg",
-          },
-          {
-            tagName: "link",
-            rel: "manifest",
-            href: "/manifest.json",
-          },
-          {
-            tagName: "meta",
-            name: "theme-color",
-            content: "rgb(28, 126, 214)",
-          },
-        ],
-      },
-    ],
   ],
   markdown: {
     mermaid: true,
@@ -104,7 +78,7 @@ const config: Config = {
       ],
     },
     footer: {
-      copyright: `<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gymnase.davidtang.ch/" target="_blank">Informatique</a> © 2024-2025 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://davidtang.ch" target="_blank">David Tang</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:16px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"><img style="height:16px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg"><img style="height:16px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"><img style="height:16px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"></a></div>`,
+      copyright: `<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gymnase.davidtang.ch/" target="_blank">Informatique</a> © 2024-2025 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://davidtang.ch" target="_blank">David Tang</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a></div>`,
     },
     docs: {
       sidebar: {
@@ -119,6 +93,8 @@ const config: Config = {
       darkTheme: themes.oneDark,
     },
   } satisfies Preset.ThemeConfig,
+
+  clientModules: ["src/removeServiceworker.js"],
 };
 
 export default config;
