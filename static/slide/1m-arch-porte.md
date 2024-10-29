@@ -50,11 +50,11 @@ Exécution d'un programme.
 
 ### Résultat
 
-- Que fait ce programme ?
-  - &shy;<!-- .element: class="fragment" --> Une multiplication entre deux nombres à deux chiffres.
-- Comment l'a-t-il fait ?
+- **Que** fait ce programme ?
+  - &shy;<!-- .element: class="fragment" --> Une **multiplication** entre deux nombres à deux chiffres.
+- **Comment** l'a-t-il fait ?
   - &shy;<!-- .element: class="fragment" --> En décomposant en étapes plus simples.
-- Quel est le rôle de chaque personne ?
+- Quel est le **rôle** de chaque personne ?
   - &shy;<!-- .element: class="fragment" --> Programmeur·euse ?
   - &shy;<!-- .element: class="fragment" --> Processeur ?
   - &shy;<!-- .element: class="fragment" --> Utilisateur·rice ?
@@ -87,9 +87,9 @@ Entrées   | Ordinateur |   Sorties
 ```
 
 - **Entrées**
-  - &shy;<!-- .element: class="fragment" --> clavier, souris, webcam, microphone, etc.
-- **Sorties** : **écran**, **imprimante**, **moteurs**, **réseaux**
-  - &shy;<!-- .element: class="fragment" --> écran, haut-parleurs, etc.
+  - &shy;<!-- .element: class="fragment" --> clavier, souris, webcam, microphone, &hellip;
+- **Sorties**
+  - &shy;<!-- .element: class="fragment" --> écran, haut-parleurs, imprimante, &hellip;
 
 ---
 
