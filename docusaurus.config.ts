@@ -27,6 +27,17 @@ const config: Config = {
       },
     ],
     [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [
+          {
+            to: "/docs/1m/prog/algopython-1",
+            from: "/docs/1m/prog/algopython",
+          },
+        ],
+      },
+    ],
+    [
       "@docusaurus/plugin-pwa",
       {
         offlineModeActivationStrategies: ["always"],
