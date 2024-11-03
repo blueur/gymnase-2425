@@ -26,6 +26,15 @@ Qu'est-ce qu'un CMS ?
   - Ajouter une image.
   - Ajouter un utilisateur : `blueur` (avec le rôle de contributeur).
 
+:::tip[Conseils]
+
+- Observer la liste des pages et des articles déjà créés.
+- Créer une nouvelle page blanche pour expérimenter les fonctionnalités de WordPress.com.
+  - Tester les différentes options et observer les résultats.
+  - Faire pareil pour les articles.
+
+:::
+
 ### Markdown
 
 - Suivre le [tutoriel Markdown](https://www.markdowntutorial.com/fr/).
