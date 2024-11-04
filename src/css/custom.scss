@@ -165,6 +165,9 @@ div.reveal {
   .fragment.highlight-red.visible {
     color: var(--ifm-color-accent);
   }
+  .reference {
+    word-break: break-all;
+  }
   .slide-number {
     background-color: unset;
     color: var(--ifm-color-gray);
