@@ -84,7 +84,7 @@ Voici les caractéristiques d'un ordinateur trouvées sur un prospectus. Pour ch
 
 1. Processeur
 2. Carte graphique
-3. Mémorie de masse (SSD)
+3. Mémoire de masse (SSD)
 4. Mémoire vive
 5. Carte mère (connectique)
 6. Écran
@@ -110,12 +110,12 @@ Voici les caractéristiques d'un ordinateur trouvées sur un prospectus. Pour ch
 
 ### CPU vs GPU
 
-En termes de nombre de coeurs et de fréquence d'horloge, quelles sont les différences entre un CPU et un GPU ?
+En termes de nombre de cœurs et de fréquence d'horloge, quelles sont les différences entre un CPU et un GPU ?
 
 <details>
 <summary>Solution</summary>
 
-Un CPU a moins de coeurs mais avec une fréquence d'horloge plus élevée. Un GPU a plus de coeurs mais avec une fréquence d'horloge plus basse.
+Un CPU a moins de cœurs mais avec une fréquence d'horloge plus élevée. Un GPU a plus de cœurs mais avec une fréquence d'horloge plus basse.
 
 </details>
 
@@ -146,7 +146,7 @@ Nommer les composants selon leur description :
 
 </details>
 
-### Péripériques
+### Périphériques
 
 Classer les différents périphériques suivants selon trois catégories : entrée, sortie ou entrée-sortie.
 

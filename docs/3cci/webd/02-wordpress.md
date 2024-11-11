@@ -51,3 +51,8 @@ Rédiger un bref rapport qui évalue si WordPress.com répond aux besoins de l'a
   - Faire pareil pour les articles.
 
 :::
+
+## Mise en commun
+
+- Lire les rapports des autres.
+- Améliorer votre site et compléter le rapport avec les changements effectués.

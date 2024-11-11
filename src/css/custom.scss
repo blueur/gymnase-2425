@@ -91,6 +91,13 @@ div.reveal {
   p:has(> .reference) {
     line-height: 0.4;
   }
+  p:has(> img) {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
   pre {
     font-size: inherit;
     padding: inherit;
