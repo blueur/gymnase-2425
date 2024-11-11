@@ -91,11 +91,57 @@ Construire la table de vérité des circuits logiques suivants :
 - Pourquoi préfère-t-on les utiliser ?
   <details><summary>Solution</summary>Elles permettent de fabriquer qu'un seul type de porte pour faire tous les circuits logiques possible.</details>
 
+Donner la table de vérité des deux portes logiques universelles.
+
+<details>
+<summary>Solution</summary>
+
+| &nbsp;A&nbsp; | &nbsp;B&nbsp; | NAND | NOR |
+| :-----------: | :-----------: | :--: | :-: |
+|       0       |       0       |  1   |  1  |
+|       0       |       1       |  1   |  0  |
+|       1       |       0       |  1   |  0  |
+|       1       |       1       |  0   |  0  |
+
+</details>
+
 Vérifier que les circuits logiques suivants sont équivalents à une porte XOR :
 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/fa/XOR_from_NAND.svg)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e3/XOR_from_NOR.svg)
+
+### Additionneur
+
+Construire la table de vérité d'une addition de deux nombres de 2 bits chacun : A + B = S
+
+- A : A<sub>1</sub>A<sub>0</sub>
+- B : B<sub>1</sub>B<sub>0</sub>
+- S : S<sub>2</sub>S<sub>1</sub>S<sub>0</sub>
+
+<details>
+<summary>Solution</summary>
+
+| A<sub>1</sub> | A<sub>0</sub> | B<sub>1</sub> | B<sub>0</sub> | S<sub>2</sub> | S<sub>1</sub> | S<sub>0</sub> |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|       0       |       0       |       0       |       0       |       0       |       0       |       0       |
+|       0       |       0       |       0       |       1       |       0       |       0       |       1       |
+|       0       |       0       |       1       |       0       |       0       |       1       |       0       |
+|       0       |       0       |       1       |       1       |       0       |       1       |       1       |
+|       0       |       1       |       0       |       0       |       0       |       0       |       1       |
+|       0       |       1       |       0       |       1       |       0       |       1       |       0       |
+|       0       |       1       |       1       |       0       |       0       |       1       |       1       |
+|       0       |       1       |       1       |       1       |       1       |       0       |       0       |
+|       1       |       0       |       0       |       0       |       0       |       1       |       0       |
+|       1       |       0       |       0       |       1       |       0       |       1       |       1       |
+|       1       |       0       |       1       |       0       |       1       |       0       |       0       |
+|       1       |       0       |       1       |       1       |       1       |       0       |       1       |
+|       1       |       1       |       0       |       0       |       0       |       1       |       1       |
+|       1       |       1       |       0       |       1       |       1       |       0       |       0       |
+|       1       |       1       |       1       |       0       |       1       |       0       |       1       |
+|       1       |       1       |       1       |       1       |       1       |       1       |       0       |
+
+</details>
 
 ## Références
 
