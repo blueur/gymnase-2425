@@ -39,33 +39,6 @@ const config: Config = {
         ],
       },
     ],
-    [
-      "@docusaurus/plugin-pwa",
-      {
-        offlineModeActivationStrategies: ["always"],
-        injectManifestConfig: {
-          globPatterns: ["**/*.{md}"],
-        },
-        pwaHead: [
-          {
-            tagName: "link",
-            rel: "icon",
-            href: "/img/logo.svg",
-          },
-          {
-            tagName: "link",
-            rel: "manifest",
-            href: "/manifest.json",
-          },
-          {
-            tagName: "meta",
-            name: "theme-color",
-            content: "rgb(28, 126, 214)",
-          },
-        ],
-        swCustom: require.resolve("./src/sw.js"),
-      },
-    ],
   ],
   markdown: {
     mermaid: true,
