@@ -1,10 +1,10 @@
-# AlgoPython 2
+# AlgoPython 3
 
 :::note[Objectifs]
 
 Apprendre le Python avec AlgoPython.
 
-- Utiliser les boucles
+- Utiliser les conditions
 
 :::
 
@@ -16,4 +16,5 @@ Apprendre le Python avec AlgoPython.
   - Mot de passe : Votre date de naissance au format `JJMMAAAA`
     - Exemple : `29022006` pour le 29 février 2006
 - Faire les séries d'exercices
-  - Au moins finir la série C (C-10)
+  - Sauf la série D pour le moment
+  - Au moins finir la série E (E-9)

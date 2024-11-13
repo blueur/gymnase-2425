@@ -42,6 +42,8 @@ Table de vérité
 |  1  |  1  | 0 <!-- .element: style="border-right:solid" --> |  1  |  1  |  0  |
 |  1  |  1  | 1 <!-- .element: style="border-right:solid" --> |  1  |  1  |  1  |
 
+<!-- .element: class="fragment" -->
+
 </div>
 </div>
 
