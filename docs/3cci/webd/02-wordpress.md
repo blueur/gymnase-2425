@@ -56,3 +56,9 @@ Rédiger un bref rapport qui évalue si WordPress.com répond aux besoins de l'a
 
 - Lire les rapports des autres.
 - Améliorer votre site et compléter le rapport avec les changements effectués.
+
+## Google Sites
+
+- Créer un site Web sur Google Sites qui répond aux besoins de l'agence.
+- Comparer les fonctionnalités de Google Sites avec celles de WordPress.com.
+- Identifier les avantages et les inconvénients de Google Sites pour l'agence.
