@@ -16,14 +16,7 @@ const config: Config = {
     locales: ["fr"],
   },
   future: {
-    experimental_faster: {
-      swcJsLoader: true,
-      swcJsMinimizer: true,
-      swcHtmlMinimizer: true,
-      lightningCssMinimizer: true,
-      rspackBundler: false,
-      mdxCrossCompilerCache: true,
-    },
+    experimental_faster: true,
   },
   plugins: [
     [

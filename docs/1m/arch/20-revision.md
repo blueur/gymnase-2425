@@ -5,15 +5,17 @@
 L'évaluation se portera sur les critères suivants :
 
 - Logique
-  - [ ] Nommer les portes logiques avec leur table de vérité
+  - [ ] Identifier les portes logiques
+  - [ ] Connaître les tables de vérité des portes logiques
   - [ ] Construire la table de vérité d'un circuit logique
 - Composants
   - [ ] Identifier les composants d'un ordinateur avec leurs caractéristiques
   - [ ] Différencier les types de mémoires
   - [ ] Catégoriser les périphériques d'un ordinateur
   - [ ] Analyser la cause d'un dysfonctionnement
-- Processeur
-  - [ ] Déterminer si une machine est programmable ou non
+- Processeur + Mémoire
+  - [ ] Différencier une machine programmable ou non
+  - [ ] Expliquer le principe du cache
 
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |

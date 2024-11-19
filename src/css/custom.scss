@@ -221,6 +221,7 @@ tr.current {
   aside,
   button,
   details,
+  div:has(> .reveal),
   footer,
   .alert {
     display: none !important;
