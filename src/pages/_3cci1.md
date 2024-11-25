@@ -15,12 +15,12 @@
 |  2024-11-12  | [WordPress](/docs/3cci/webd/wordpress)                               | [WordPress](/docs/3cci/webd/wordpress)              |
 |  2024-11-19  | [Responsive Web Design](/docs/3cci/webd/responsive)                  | [Responsive Web Design](/docs/3cci/webd/responsive) |
 |  2024-11-26  | [JavaScript](/docs/3cci/webd/javascript)                             | [JavaScript](/docs/3cci/webd/javascript)            |
-|  2024-12-03  |                                                                      |                                                     |
+|  2024-12-03  | [JavaScript](/docs/3cci/webd/javascript)                             | [JavaScript](/docs/3cci/webd/javascript)            |
 |  2024-12-10  | [Révision](/docs/3cci/webd/revision)                                 | [Révision](/docs/3cci/webd/revision)                |
 |  2024-12-17  | **Test : [Pages Web dynamiques](/docs/3cci/webd)**                   |                                                     |
 |  2024-12-24  | _Vacances_                                                           | _Vacances_                                          |
 |  2024-12-31  | _Vacances_                                                           | _Vacances_                                          |
-|  2025-01-07  |                                                                      |                                                     |
+|  2025-01-07  | AlgoPython                                                           | AlgoPython                                          |
 |  2025-01-14  |                                                                      |                                                     |
 |  2025-01-21  |                                                                      |                                                     |
 |  2025-01-28  |                                                                      |                                                     |
@@ -37,9 +37,9 @@
 |  2025-04-15  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-22  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-29  |                                                                      |                                                     |
-|  2025-05-06  |                                                                      |                                                     |
+|  2025-05-06  | Intelligence artificielle                                            |                                                     |
 |  2025-05-13  | [Révision](/docs/3cci/info/revision)                                 |                                                     |
 |  2025-05-20  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                     |
-|  2025-05-27  | Intelligence artificielle                                            |                                                     |
+|  2025-05-27  |                                                                      |                                                     |
 |  2025-06-03  |                                                                      |                                                     |
 |    Examen    |                                                                      |                                                     |

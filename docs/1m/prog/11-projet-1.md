@@ -33,12 +33,19 @@ Vous avez **deux semaines** pour rendre une première version du journal de bord
 
 :::
 
-- Créer un fichier Word nommé `{prenom}-{nom}-journal` (avec votre prénom et nom en minuscule, sans accent et séparé par des tirets).
+- Créer un fichier Word nommé `prenom-nom-journal` (avec votre prénom et nom en minuscule, sans accent et séparé par des tirets).
 - Sauvegarder dans le dossier `1m/informatique` de votre **OneDrive** (déjà créé au début de l'année).
 - Donner un titre à votre histoire.
 - Écrire une brève introduction de votre histoire.
 - Mettre l'organigramme de votre histoire.
   - Dessiner sur papier et ajouter un scan ou une photo au document.
-  - Ou utiliser un logiciel de dessin (par exemple [draw.io](https://draw.io/) ou Word).
+  - Ou utiliser un logiciel de dessin (par exemple [Word](https://support.microsoft.com/fr-fr/office/ajouter-un-dessin-%C3%A0-un-document-348a8390-c32e-43d0-942c-b20ad11dea6f) ou [draw.io](https://draw.io/)).
 - Voici [un exemple de journal de bord](/tp/projet/david-tang-journal.pdf).
 - Rendre le journal de bord sur **Teams** en **PDF**.
+
+### Organigramme
+
+L'organigramme doit satisfaire les critères suivants :
+
+- Au moins 4 embranchements.
+- Un embranchement doit contenir au moins 3 choix.
