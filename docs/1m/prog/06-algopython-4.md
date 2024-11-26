@@ -1,4 +1,4 @@
-# AlgoPython 3
+# AlgoPython 4
 
 :::note[Objectifs]
 
@@ -8,14 +8,6 @@ Apprendre le Python avec AlgoPython.
 
 :::
 
-## Désamorçage de bombe
-
-- Former des groupes de 2 personnes.
-  - Une personne prend les instructions pour désamorcer la bombe.
-  - L'autre personne prend les fils à couper.
-- Ne pas regarder la feuille de l'autre personne.
-- Échanger les rôles une fois la bombe désamorcée.
-
 ## Connexion
 
 - Se connecter sur https://www.algopython.fr/
@@ -24,4 +16,4 @@ Apprendre le Python avec AlgoPython.
   - Mot de passe : Votre date de naissance au format `JJMMAAAA`
     - Exemple : `29022006` pour le 29 février 2006
 - Faire les séries d'exercices
-  - Commencer la série E et aller au moins jusqu'au E-6
+  - Continuer et terminer la série E
