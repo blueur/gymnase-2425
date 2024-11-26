@@ -31,8 +31,6 @@ timeline
 - &shy;<!-- .element: class="fragment" --> **Java** + **Script**
   - &shy;<!-- .element: class="fragment" --> Proche de **Java** uniquement au niveau **syntaxique** ! (pas de typage, ni de compilation, ni de JVM)
   - &shy;<!-- .element: class="fragment" --> Popularité de Java à l'époque de la création de JavaScript (**1995**) &rarr; marketing
-- &shy;<!-- .element: class="fragment" --> Typage **dynamique** et **faible** (comme Python)
-- &shy;<!-- .element: class="fragment" --> **Versions** : ES5 (2009), ES6 (2015), ES7 (2016), etc. (ECMAScript)
 
 ---
 
@@ -71,8 +69,6 @@ timeline
 </html>
 ```
 
-[Démonstration](https://codepen.io/blueur/pen/RNbbGBE?editors=1010)
-
 ---
 
 ## JavaScript externe
@@ -92,6 +88,8 @@ index.html :
 </html>
 ```
 
+[Démonstration](https://codepen.io/blueur/pen/RNbbGBE?editors=1010)
+
 ---
 
 ## JavaScript externe
@@ -105,3 +103,5 @@ function creerParagraphe() {
   document.body.appendChild(p);
 }
 ```
+
+[Démonstration](https://codepen.io/blueur/pen/RNbbGBE?editors=1010)

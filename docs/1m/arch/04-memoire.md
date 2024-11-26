@@ -37,7 +37,7 @@ Sur combien de bits sont codées les valeurs ?
 <details>
 <summary>Solution</summary>
 
-0x73 = 0111 0011<sub>2</sub>, donc 8 bits.
+0x73 = 0111 0011<sub>2</sub> (chaque caractère hexadécimal est codé sur 4 bits), donc 8 bits.
 
 </details>
 
@@ -53,6 +53,7 @@ mémoire[2] = 0xBE
 Que vaudra la mémoire après les instructions suivantes ?
 
 ```
+mémoire[1] = 0xF2
 mémoire[0] = 0x42
 mémoire[1] = 0x06
 ```
@@ -90,18 +91,20 @@ Pour chacune de ces lectures, indiquez d'où provient la valeur :
 4. mémoire[3]
 5. mémoire[2]
 6. mémoire[0]
-7. mémoire[1]
+7. mémoire[0]
+8. mémoire[1]
 
 <details>
 <summary>Solution</summary>
 
-1. mémoire[0] : mémoire
-2. mémoire[3] : mémoire
-3. mémoire[0] : cache
-4. mémoire[3] : cache
-5. mémoire[2] : mémoire
-6. mémoire[0] : mémoire (le cache contient les deux dernières valeurs lues, donc 2 et 3)
-7. mémoire[0] : cache
+1. mémoire[0] : mémoire (le cache était vide)
+2. mémoire[3] : mémoire (le cache contenait 0)
+3. mémoire[0] : cache (le cache contenait 0 et 3)
+4. mémoire[3] : cache (le cache contenait 0 et 3)
+5. mémoire[2] : mémoire (le cache contenait 0 et 3)
+6. mémoire[0] : mémoire (le cache contenait les deux dernières valeurs lues, donc 2 et 3)
+7. mémoire[0] : cache (le cache contenait 0 et 2)
+8. mémoire[1] : mémoire (le cache contenait 0 et 2)
 
 </details>
 

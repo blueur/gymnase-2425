@@ -14,7 +14,15 @@ Comment rendre un site Web dynamique ?
 
 ### JavaScript
 
-Faire [votre premier code JavaScript](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/A_first_splash).
+- Créer un dossier `javascript-guess` dans le répertoire `OneDrive/3cci/informatique`.
+  ```txt {4}
+  OneDrive/
+  └── 3cci/
+      └── informatique/
+          └── javascript-guess/
+  ```
+- Ouvrir le dossier `javascript-guess` dans Visual Studio Code.
+- Faire [votre premier code JavaScript](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/A_first_splash).
 
 ## Références
 
