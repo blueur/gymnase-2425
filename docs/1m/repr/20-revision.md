@@ -33,12 +33,14 @@ L'évaluation se portera sur les critères suivants :
 - Revoir les [Kahoot!](https://create.kahoot.it/course/31335d87-0967-4506-ab05-032241714e52)
 - Terminer les exercices des semaines précédentes.
 - Support de cours complémentaires :
-  - [Introduction](https://apprendre.modulo-info.ch/rep-info/intro.html)
-  - [Les entiers](https://apprendre.modulo-info.ch/rep-info/entiers.html)
-  - [Les caractères](https://apprendre.modulo-info.ch/rep-info/caracteres.html)
-  - [Les images](https://apprendre.modulo-info.ch/rep-info/images.html)
-  - [Le son](https://apprendre.modulo-info.ch/rep-info/son.html)
-  - [Conclusion](https://apprendre.modulo-info.ch/rep-info/conclusion.html)
+  - [Modulo](https://apprendre.modulo-info.ch/rep-info/index.html)
+    - [Introduction](https://apprendre.modulo-info.ch/rep-info/intro.html)
+    - [Les entiers](https://apprendre.modulo-info.ch/rep-info/entiers.html)
+    - [Les caractères](https://apprendre.modulo-info.ch/rep-info/caracteres.html)
+    - [Les images](https://apprendre.modulo-info.ch/rep-info/images.html)
+    - [Le son](https://apprendre.modulo-info.ch/rep-info/son.html)
+    - [Conclusion](https://apprendre.modulo-info.ch/rep-info/conclusion.html)
+  - [L'informateur](https://youtube.com/playlist?list=PLOapGKeH_KhGI1CsCvu_nK9otou8_KsCZ)
 - Pour imprimer : <kbd>Ctrl</kbd> + <kbd>P</kbd> ou <kbd>Cmd</kbd> + <kbd>P</kbd>
 
 :::

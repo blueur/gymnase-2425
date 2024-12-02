@@ -4,7 +4,11 @@
 
 - Créer un dossier `projet` dans votre dossier `1m/informatique` de votre **OneDrive** (déjà existant).
 - Mettre les fichiers `prenom-nom-journal.pdf` et `prenom-nom-journal.docx` (créés la dernière fois) dans le dossier `projet`.
-- Aller dans le dossier `projet` et créer un fichier `prenom-nom-projet.py` (avec votre prénom et nom en minuscule, sans accent et séparé par des tirets).
+- Créer un fichier `prenom-nom-projet.py` (avec votre prénom et nom en minuscule, sans accent et séparé par des tirets) dans le dossier `projet`.
+  - Ouvrir l'application **Thonny**.
+  - Cliquer sur <i class="ph ph-floppy-disk"></i> pour enregistrer le fichier.
+    - Nommer le fichier `prenom-nom-projet.py`.
+    - Enregistrer le fichier dans le dossier `projet` de votre OneDrive.
 
 ## Input
 

@@ -5,17 +5,18 @@
 L'évaluation se portera sur les critères suivants :
 
 - Logique
-  - [ ] Identifier les portes logiques
-  - [ ] Connaître les tables de vérité des portes logiques
-  - [ ] Construire la table de vérité d'un circuit logique
+  - [ ] Identifier les portes logiques.
+  - [ ] Construire la table de vérité d'une porte logique.
+  - [ ] Construire la table de vérité d'un circuit logique.
 - Composants
-  - [ ] Identifier les composants d'un ordinateur avec leurs caractéristiques
-  - [ ] Différencier les types de mémoires
-  - [ ] Catégoriser les périphériques d'un ordinateur
-  - [ ] Analyser la cause d'un dysfonctionnement
-- Processeur + Mémoire
-  - [ ] Différencier une machine programmable ou non
-  - [ ] Expliquer le principe du cache
+  - [ ] Identifier les composants d'un ordinateur selon leurs caractéristiques.
+  - [ ] Catégoriser les périphériques d'un ordinateur.
+  - [ ] Analyser la cause d'un dysfonctionnement d'un ordinateur.
+- Processeur
+  - [ ] Identifier si une machine programmable ou non.
+- Mémoire
+  - [ ] Différencier les types de mémoires.
+  - [ ] Expliquer le principe du cache.
 
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
@@ -28,12 +29,14 @@ L'évaluation se portera sur les critères suivants :
 - Revoir les [Kahoot!](https://create.kahoot.it/course/558ce87f-f4a4-45ed-82b6-0a806d871e75)
 - Terminer les exercices des semaines précédentes.
 - Support de cours complémentaires :
-  - [Introduction](https://apprendre.modulo-info.ch/archi/intro.html)
-  - [Portes logiques](https://apprendre.modulo-info.ch/archi/sys-log.html)
-  - [ALU](https://apprendre.modulo-info.ch/archi/alu.html)
-  - [Mémoire](https://apprendre.modulo-info.ch/archi/mem.html)
-  - [CPU](https://apprendre.modulo-info.ch/archi/micro-pro.html)
-  - [Architecture générale](https://apprendre.modulo-info.ch/archi/archi-gen.html)
+  - [Modulo](https://apprendre.modulo-info.ch/archi/index.html)
+    - [Introduction](https://apprendre.modulo-info.ch/archi/intro.html)
+    - [Portes logiques](https://apprendre.modulo-info.ch/archi/sys-log.html)
+    - [ALU](https://apprendre.modulo-info.ch/archi/alu.html)
+    - [Mémoire](https://apprendre.modulo-info.ch/archi/mem.html)
+    - [CPU](https://apprendre.modulo-info.ch/archi/micro-pro.html)
+    - [Architecture générale](https://apprendre.modulo-info.ch/archi/archi-gen.html)
+  - [L'informateur](https://youtube.com/playlist?list=PLOapGKeH_KhHDP6VDU0hEYFqtBLXo_Fsy)
 - Pour imprimer : <kbd>Ctrl</kbd> + <kbd>P</kbd> ou <kbd>Cmd</kbd> + <kbd>P</kbd>
 
 :::
@@ -86,7 +89,7 @@ Construire les tables de vérité des circuits logiques suivants :
 
 1. Qu'est-ce que les portes logiques NAND et NOR ont de particulier ?
 2. Pourquoi les préfère-t-on par rapport aux autres portes ?
-3. Écrire leur table de vérité
+3. Écrire leur table de vérité.
 
 <details>
 <summary>Solution</summary>
@@ -107,18 +110,18 @@ Construire les tables de vérité des circuits logiques suivants :
 
 Indiquez si les affirmations suivantes sont vraies ou fausses :
 
-1. L'ALU permet d'effectuer des opérations entre deux nombres
-2. L'ALU ne permet d'effectuer que des additions
-3. L'ALU n'est qu'un simple circuit logique
-4. On ne peut pas stocker de l'information grâce à un circuit logique
+1. L'ALU permet d'effectuer des opérations entre deux nombres.
+2. L'ALU ne permet d'effectuer que des additions.
+3. L'ALU n'est qu'un simple circuit logique.
+4. On ne peut pas stocker de l'information grâce à un circuit logique.
 
 <details>
 <summary>Solution</summary>
 
-1. Vrai, l'ALU est l'unité de calcul d'un processeur
-2. Faux, la force d'une ALU est justement de proposer plusieurs opérations possibles
-3. Vrai, l'ALU est un circuit logique
-4. Faux, voir la mémoire avec un circuit logique
+1. Vrai, l'ALU est l'unité de calcul d'un processeur.
+2. Faux, la force d'une ALU est justement de proposer plusieurs opérations possibles.
+3. Vrai, l'ALU est un circuit logique.
+4. Faux, on a vu qu'un circuit logique peut mémoriser une valeur.
 
 </details>
 
@@ -148,7 +151,7 @@ Convertir la valeur de la case mémoire à l'adresse 3 en nombre décimal.
 |    2    |  0x14  |
 |    3    |  0x1F  |
 
-La case mémoire à l'adresse 3 contient un nombre hexadécimal (indiqué par le préfix 0x) : 1F<sub>16</sub>
+La case mémoire à l'adresse 3 contient un nombre hexadécimal (indiqué par le préfixe 0x) : 1F<sub>16</sub>
 
 0x1F = 1F<sub>16</sub> = 1 \* 16 + 15 = 31<sub>10</sub>
 
@@ -171,32 +174,32 @@ La case mémoire à l'adresse 3 contient un nombre hexadécimal (indiqué par le
 
 ## Mémoires
 
-Fait-on référence à une mémoire vive ou un disque dur ?
+Fait-on référence à une mémoire vive ou une mémoire de masse ?
 
 1. Mon téléphone a 256 Go de mémoire.
 2. Je ne peux plus prendre de photo car la mémoire est pleine.
-3. Mon jeu est super lent, il faudrait que je rajoute de la mémoire
+3. Mon jeu est super lent, il faudrait que je rajoute de la mémoire.
 4. Mon nouvel ordinateur a une mémoire de 16 Go.
 
 <details>
 <summary>Solution</summary>
 
-1. Disque dur, car trop grand pour une mémoire vive
-2. Disque dur, car c'est là où on stocke les fichiers (dont les photos)
-3. Mémoire vive, ralenti les applications (dont jeux) si elle est pleine
-4. Mémoire vive, car trop peu pour un disque dur
+1. Mémoire de masse, car trop grand pour une mémoire vive.
+2. Mémoire de masse, car c'est là où on stocke les fichiers (dont les photos).
+3. Mémoire vive, ralenti les applications (dont jeux) si elle est pleine.
+4. Mémoire vive, car trop peu pour une mémoire de masse.
 
 </details>
 
 ## Mémoire de masse
 
-Complétez avec un disque dur (ou plutôt une mémoire de masse pour être exact) HDD ou SSD :
+Compléter avec une mémoire de masse HDD ou SSD :
 
-1. Mon disque dur ........ est trop lent, il faudrait que je le change en ........
-2. Le disque dur ........ a un nombre d'écriture limité et donc une durée de vie limitée.
-3. Le ........ est composé de disques magnétiques et d'une tête de lecture mécanique.
-4. On préfère avoir des ........ dans les ordinateurs portables pour que ce soit moins fragile.
-5. Un des premiers iPods avait un ........ pour pouvoir stocker beaucoup de musique à un prix raisonnable.
+1. Mon disque dur \_\_\_\_ est trop lent, il faudrait que je le change en \_\_\_\_.
+2. Le disque dur \_\_\_\_ a un nombre d'écriture limité et donc une durée de vie limitée.
+3. Le \_\_\_\_ est composé de disques magnétiques et d'une tête de lecture mécanique.
+4. On préfère avoir des \_\_\_\_ dans les ordinateurs portables pour que ce soit moins fragile.
+5. Un des premiers iPods avait un \_\_\_\_ pour pouvoir stocker beaucoup de musique à un prix raisonnable.
 
 <details>
 <summary>Solution</summary>
@@ -211,9 +214,9 @@ Complétez avec un disque dur (ou plutôt une mémoire de masse pour être exact
 
 ## Caractéristiques
 
-Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaque ligne, dire à quel(s) composant(s) elle fait référence (si c'est un périphérique, dire quel type) :
+Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaque ligne, dire à quel(s) composant(s) elle fait référence (si c'est un périphérique, préciser quel type) :
 
-1. Ecran tactile IPS Full HD 15,6"
+1. Écran tactile IPS Full HD 15,6"
 2. Intel Core i5-1235U
 3. RAM 16 Go
 4. SSD 512 Go
@@ -227,15 +230,15 @@ Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaq
 1. Périphérique d'entrée-sortie
 2. Processeur
 3. Mémoire vive
-4. Disque dur
+4. Mémoire de masse
 5. Bloc d'alimentation (ou batterie)
 6. Périphérique d'entrée
 7. Carte mère
 
 </details>
 
-1. Ecran liquid Retina IPS 13,6"
-2. Puce Apple M2 avec CPU 8 coeurs et GPU 8 coeurs
+1. Écran liquid Retina IPS 13,6"
+2. Puce Apple M2 avec CPU 8 cœurs et GPU 8 cœurs
 3. RAM 8 Go
 4. SSD 256 Go
 5. Clavier rétroéclairé
@@ -248,9 +251,24 @@ Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaq
 1. Périphérique de sortie
 2. Processeur ET processeur graphique (carte graphique)
 3. Mémoire vive
-4. Disque dur
+4. Mémoire de masse
 5. Périphérique d'entrée (éventuellement entrée-sortie pour le rétroéclairage)
 6. Périphérique d'entrée
 7. Carte mère
+
+</details>
+
+## Cache
+
+1. Quel est le rôle de la mémoire cache ?
+2. Que signifie qu'une valeur est en cache ?
+3. Que se passe-t-il lorsque la mémoire cache est pleine ?
+
+<details>
+<summary>Solution</summary>
+
+1. Stocker temporairement les données les plus utilisées pour les rendre plus rapidement accessibles.
+2. La valeur est déjà stockée dans la mémoire cache. Son accès est donc plus rapide.
+3. Les données les moins utilisées sont supprimées pour faire de la place pour les nouvelles données.
 
 </details>
