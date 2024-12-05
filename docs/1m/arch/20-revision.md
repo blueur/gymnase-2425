@@ -11,12 +11,12 @@ L'évaluation se portera sur les critères suivants :
 - Composants
   - [ ] Identifier les composants d'un ordinateur selon leurs caractéristiques.
   - [ ] Catégoriser les périphériques d'un ordinateur.
-  - [ ] Analyser la cause d'un dysfonctionnement d'un ordinateur.
+  - [ ] Analyser les causes d'un dysfonctionnement d'un ordinateur.
 - Processeur
-  - [ ] Identifier si une machine programmable ou non.
+  - [ ] Identifier si une machine est programmable ou non.
 - Mémoire
   - [ ] Différencier les types de mémoires.
-  - [ ] Expliquer le principe du cache.
+  - [ ] Utiliser un cache.
 
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
@@ -270,5 +270,47 @@ Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaq
 1. Stocker temporairement les données les plus utilisées pour les rendre plus rapidement accessibles.
 2. La valeur est déjà stockée dans la mémoire cache. Son accès est donc plus rapide.
 3. Les données les moins utilisées sont supprimées pour faire de la place pour les nouvelles données.
+
+</details>
+
+Voici l'état de départ de la mémoire :
+
+| Adresse | Valeur |
+| :-----: | :----: |
+|    0    | 0x3A12 |
+|    1    | 0x1E54 |
+|    2    | 0xF276 |
+|    3    | 0xA2B3 |
+|    4    | 0x0043 |
+|    5    | 0x00CD |
+
+On a un cache de 3 lignes qui est vide.
+
+Pour chacune de ces lectures, indiquez d'où provient la valeur (mémoire ou cache) :
+
+1. mémoire[2]
+2. mémoire[1]
+3. mémoire[5]
+4. mémoire[0]
+5. mémoire[2]
+6. mémoire[0]
+7. mémoire[5]
+8. mémoire[2]
+9. mémoire[4]
+10. mémoire[4]
+
+<details>
+<summary>Solution</summary>
+
+1. mémoire[2] : mémoire (le cache était vide)
+2. mémoire[3] : mémoire (le cache contenait la ligne 2)
+3. mémoire[5] : mémoire (le cache contenait les lignes 2 et 3)
+4. mémoire[0] : mémoire (le cache contenait les lignes 2, 3 et 5)
+5. mémoire[2] : mémoire (le cache contenait les lignes 0, 3 et 5)
+6. mémoire[0] : cache (le cache contenait les lignes 0, 2 et 5)
+7. mémoire[5] : cache (le cache contenait les lignes 0, 2 et 5)
+8. mémoire[2] : cache (le cache contenait les lignes 0, 2 et 5)
+9. mémoire[4] : mémoire (le cache contenait les lignes 0, 2 et 5)
+10. mémoire[4] : cache (le cache contenait les lignes 2, 4 et 5)
 
 </details>

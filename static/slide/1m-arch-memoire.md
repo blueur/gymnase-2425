@@ -86,19 +86,6 @@ Architecture des ordinateurs
 
 ## Mémoire cache
 
-- &shy;<!-- .element: class="fragment" --> **Mémoire cache** : mémoire plus **rapide** que la mémoire vive mais plus **petite**.
-- &shy;<!-- .element: class="fragment" --> Permet d'**accélérer** l'accès aux valeurs **fréquemment** utilisées.
-- &shy;<!-- .element: class="fragment" --> On ne garde que les dernières valeurs **consultées** dans la mémoire cache.
-- &shy;<!-- .element: class="fragment" --> **Hiérarchie** de mémoire :
-  - **Registres** (plus rapide, plus petit)
-  - **Mémoire cache**
-  - **Mémoire vive**
-  - **Mémoire de masse** (plus lent, plus grand)
-
----
-
-## Mémoire cache
-
 ```kroki svgbob full
  Mémoire vive         Mémoire cache
 +-------+--------+   +-------+--------+
@@ -108,7 +95,7 @@ Architecture des ordinateurs
 |   1   |  0xA4  |   |       |        |
 |   2   |  0xCA  |   +-------+--------+
 |   3   |  0x15  |
-|   4   |  0xAA  |    Instructions {temps} :
+|   4   |  0xAA  |    Instructions {source} :
 |   5   |  0x55  |    mémoire[4] <-
 |   6   |  0x00  |    mémoire[2]
 |   7   |  0x00  |    mémoire[4]
@@ -128,8 +115,8 @@ Architecture des ordinateurs
 |   1   |  0xA4  |   |       |        |
 |   2   |  0xCA  |   +-------+--------+
 |   3   |  0x15  |
-|   4   |  0xAA  |    Instructions {temps} :
-|   5   |  0x55  |    mémoire[4] {3s}
+|   4   |  0xAA  |    Instructions {source} :
+|   5   |  0x55  |    mémoire[4] {mém. vive}
 |   6   |  0x00  |    mémoire[2] <-
 |   7   |  0x00  |    mémoire[4]
 +-------+--------+    mémoire[1]
@@ -148,9 +135,9 @@ Architecture des ordinateurs
 |   1   |  0xA4  |   |   2   |  0xCA  |
 |   2   |  0xCA  |   +-------+--------+
 |   3   |  0x15  |
-|   4   |  0xAA  |    Instructions {temps} :
-|   5   |  0x55  |    mémoire[4] {3s}
-|   6   |  0x00  |    mémoire[2] {3s}
+|   4   |  0xAA  |    Instructions {source} :
+|   5   |  0x55  |    mémoire[4] {mém. vive}
+|   6   |  0x00  |    mémoire[2] {mém. vive}
 |   7   |  0x00  |    mémoire[4] <-
 +-------+--------+    mémoire[1]
 ```
@@ -168,10 +155,10 @@ Architecture des ordinateurs
 |   1   |  0xA4  |   |   2   |  0xCA  |
 |   2   |  0xCA  |   +-------+--------+
 |   3   |  0x15  |
-|   4   |  0xAA  |    Instructions {temps} :
-|   5   |  0x55  |    mémoire[4] {3s}
-|   6   |  0x00  |    mémoire[2] {3s}
-|   7   |  0x00  |    mémoire[4] {0.2s}
+|   4   |  0xAA  |    Instructions {source} :
+|   5   |  0x55  |    mémoire[4] {mém. vive}
+|   6   |  0x00  |    mémoire[2] {mém. vive}
+|   7   |  0x00  |    mémoire[4] {mém. cache}
 +-------+--------+    mémoire[1] <-
 ```
 
@@ -188,12 +175,25 @@ Architecture des ordinateurs
 |   1   |  0xA4  |   |   1   |  0xA4  |
 |   2   |  0xCA  |   +-------+--------+
 |   3   |  0x15  |
-|   4   |  0xAA  |    Instructions {temps} :
-|   5   |  0x55  |    mémoire[4] {3s}
-|   6   |  0x00  |    mémoire[2] {3s}
-|   7   |  0x00  |    mémoire[4] {0.2s}
-+-------+--------+    mémoire[1] {3s}
+|   4   |  0xAA  |    Instructions {source} :
+|   5   |  0x55  |    mémoire[4] {mém. vive}
+|   6   |  0x00  |    mémoire[2] {mém. vive}
+|   7   |  0x00  |    mémoire[4] {mém. cache}
++-------+--------+    mémoire[1] {mém. vive}
 ```
+
+---
+
+## Mémoire cache
+
+- &shy;<!-- .element: class="fragment" --> **Mémoire cache** : mémoire plus **rapide** que la mémoire vive mais plus **petite**.
+- &shy;<!-- .element: class="fragment" --> Permet d'**accélérer** l'accès aux valeurs **fréquemment** utilisées.
+- &shy;<!-- .element: class="fragment" --> On ne garde que les dernières valeurs **consultées** dans la mémoire cache.
+- &shy;<!-- .element: class="fragment" --> **Hiérarchie** de mémoire :
+  - **Registres** (plus rapide, plus petit)
+  - **Mémoire cache**
+  - **Mémoire vive**
+  - **Mémoire de masse** (plus lent, plus grand)
 
 ---
 
