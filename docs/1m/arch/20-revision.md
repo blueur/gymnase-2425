@@ -289,7 +289,7 @@ On a un cache de 3 lignes qui est vide.
 Pour chacune de ces lectures, indiquez d'où provient la valeur (mémoire ou cache) :
 
 1. mémoire[2]
-2. mémoire[1]
+2. mémoire[3]
 3. mémoire[5]
 4. mémoire[0]
 5. mémoire[2]
