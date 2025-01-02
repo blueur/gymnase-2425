@@ -75,7 +75,8 @@ const config: Config = {
         { to: "/1m6", label: "1M6", position: "left" },
         { to: "/1m7", label: "1M7", position: "left" },
         { to: "/1m8", label: "1M8", position: "left" },
-        { to: "/1mbi", label: "1MBi", position: "left" },
+        { to: "/1mb1", label: "1MB1", position: "left" },
+        { to: "/1mb2", label: "1MB2", position: "left" },
         { to: "/2c1", label: "2C1", position: "left" },
         { to: "/3cci1", label: "3CCI1", position: "left" },
         {

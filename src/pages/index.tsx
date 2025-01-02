@@ -46,8 +46,11 @@ export default function Home(): JSX.Element {
                 </div>
                 <div className="card__footer">
                   <div className="button-group button-group--block">
-                    <Link className="button button--primary" to="/1mbi">
-                      1MBi
+                    <Link className="button button--primary" to="/1mb1">
+                      1MB1
+                    </Link>
+                    <Link className="button button--primary" to="/1mb2">
+                      1MB2
                     </Link>
                     <Link className="button button--primary" to="/2c1">
                       2C1
