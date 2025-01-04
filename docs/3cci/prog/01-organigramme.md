@@ -7,7 +7,7 @@
 
 ## Cours
 
-<Reaveal name="1m-algo-organigramme" />
+<Reaveal name="3cci-prog-organigramme" />
 
 ## Exercices
 

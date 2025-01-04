@@ -1,6 +1,6 @@
 # Organigramme
 
-Introduction à l'algorithmique
+Algorithmique et programmation avancée
 
 ---
 

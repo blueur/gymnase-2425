@@ -1,12 +1,10 @@
-# AlgoPython A-B-C
+# AlgoPython E
 
 :::note[Objectifs]
 
 Apprendre le Python avec AlgoPython.
 
-- Utiliser `print` pour afficher des messages
-- Utiliser des boucles `for`
-- Utiliser des variables
+- Utiliser les conditions
 
 :::
 
@@ -17,7 +15,4 @@ Apprendre le Python avec AlgoPython.
     - Exemple : `jdupont` pour Jane Dupont
   - Mot de passe : Votre date de naissance au format `JJMMAAAA`
     - Exemple : `29022006` pour le 29 février 2006
-- Faire les séries d'exercices
-  - Série A
-  - Série B
-  - Série C
+- Faire la série d'exercices E
