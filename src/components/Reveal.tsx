@@ -10,7 +10,7 @@ import Link from "@site/src/components/plugins/link";
 import Mermaid from "@site/src/components/plugins/mermaid";
 import Toc from "@site/src/components/plugins/toc";
 import { PropsWithChildren, useEffect, useRef } from "react";
-import Reveal from "reveal.js";
+import { Api } from "reveal.js";
 import Markdown from "reveal.js/plugin/markdown/markdown";
 
 interface Props extends PropsWithChildren {
@@ -22,9 +22,9 @@ interface Props extends PropsWithChildren {
 /**
  * https://revealjs.com/react/
  */
-export default function Reaveal(props: Props) {
+export default function Reveal(props: Props) {
   const deckDivRef = useRef<HTMLDivElement>();
-  const deckRef = useRef<Reveal.Api | null>(null);
+  const deckRef = useRef<Api | null>(null);
 
   function resize() {
     if (props.full) {

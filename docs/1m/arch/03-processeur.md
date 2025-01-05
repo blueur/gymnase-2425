@@ -8,7 +8,7 @@ Comment programmer une machine ?
 
 ## Cours
 
-<Reaveal name="1m-arch-processeur" />
+<Reveal name="1m-arch-processeur" />
 
 ## Exercices
 

@@ -7,7 +7,7 @@
 
 ## Cours
 
-<Reaveal name="3cci-prog-organigramme" />
+<Reveal name="3cci-prog-organigramme" />
 
 ## Exercices
 

@@ -10,7 +10,7 @@ Comment compter en différentes bases ?
 
 ## Cours
 
-<Reaveal name="1m-repr-binaire" />
+<Reveal name="1m-repr-binaire" />
 
 ## Exercices
 

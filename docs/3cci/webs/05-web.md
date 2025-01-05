@@ -8,7 +8,7 @@ Qu'est-ce que le Web ?
 
 ## Cours
 
-<Reaveal name="3cci-webs-web" />
+<Reveal name="3cci-webs-web" />
 
 ## Exercices
 

@@ -8,7 +8,7 @@ Pourquoi utilise-t-on les noms de domaine ?
 
 ## Cours
 
-<Reaveal name="3cci-webs-domaine" />
+<Reveal name="3cci-webs-domaine" />
 
 ## Exercices
 

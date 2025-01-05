@@ -12,7 +12,7 @@ Comment convertir les nombres entre différentes bases ?
 
 ## Cours
 
-<Reaveal name="1m-repr-conversion" />
+<Reveal name="1m-repr-conversion" />
 
 ## Exercices
 

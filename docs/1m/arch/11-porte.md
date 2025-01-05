@@ -6,7 +6,7 @@ Qu'est-ce qu'une porte logique ?
 
 :::
 
-<Reaveal name="1m-arch-porte" />
+<Reveal name="1m-arch-porte" />
 
 ## Porte logique
 

@@ -1,5 +1,5 @@
 import useIsBrowser from "@docusaurus/useIsBrowser";
-import Reaveal from "@site/src/components/Reaveal";
+import Reveal from "@site/src/components/Reveal";
 
 export default function Slide() {
   const isBrowser = useIsBrowser();
@@ -8,5 +8,5 @@ export default function Slide() {
   );
   const name = (urlSearchParams.get("name") ?? "").replace(/[^a-z\d-]/g, "");
   const page = urlSearchParams.get("page") !== null;
-  return <Reaveal name={name} page={page} full />;
+  return <Reveal name={name} page={page} full />;
 }

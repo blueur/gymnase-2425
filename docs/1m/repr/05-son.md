@@ -13,7 +13,7 @@ Comment représenter le son ?
 
 ## Cours
 
-<Reaveal name="1m-repr-son" />
+<Reveal name="1m-repr-son" />
 
 ## Exercices
 

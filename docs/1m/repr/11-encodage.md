@@ -12,7 +12,7 @@ Qu'est-ce qu'un fichier ?
 
 :::
 
-<Reaveal name="1m-repr-encodage" />
+<Reveal name="1m-repr-encodage" />
 
 ## Représentation des caractères
 

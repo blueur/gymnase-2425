@@ -13,7 +13,7 @@ Comment représenter une image ?
 
 ## Cours
 
-<Reaveal name="1m-repr-image" />
+<Reveal name="1m-repr-image" />
 
 ## Exercices
 

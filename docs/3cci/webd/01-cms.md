@@ -8,7 +8,7 @@ Qu'est-ce qu'un CMS ?
 
 ## Cours
 
-<Reaveal name="3cci-webd-cms" />
+<Reveal name="3cci-webd-cms" />
 
 ## Exercices
 

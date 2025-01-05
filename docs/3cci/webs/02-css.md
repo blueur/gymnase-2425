@@ -8,7 +8,7 @@ Comment mettre en forme une page Web ?
 
 ## Cours
 
-<Reaveal name="3cci-webs-css" />
+<Reveal name="3cci-webs-css" />
 
 ## Références
 

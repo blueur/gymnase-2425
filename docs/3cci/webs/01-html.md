@@ -8,7 +8,7 @@ Comment créer la structure d'une page Web ?
 
 ## Cours
 
-<Reaveal name="3cci-webs-html" />
+<Reveal name="3cci-webs-html" />
 
 ## Références
 

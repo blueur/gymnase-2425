@@ -8,7 +8,7 @@ Comment fonctionne Internet ?
 
 ## Cours
 
-<Reaveal name="3cci-webs-internet" />
+<Reveal name="3cci-webs-internet" />
 
 ## Exercices
 

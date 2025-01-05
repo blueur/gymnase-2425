@@ -8,7 +8,7 @@ De quoi est composé un ordinateur ?
 
 ## Cours
 
-<Reaveal name="1m-arch-composants" />
+<Reveal name="1m-arch-composants" />
 
 ## Exercices
 

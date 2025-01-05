@@ -7,7 +7,7 @@
 
 ## Cours
 
-<Reaveal name="1m-algo-organigramme" />
+<Reveal name="1m-algo-organigramme" />
 
 ## Exercices
 

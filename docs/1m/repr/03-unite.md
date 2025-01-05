@@ -15,7 +15,7 @@ Qu'est-ce que l'information ?
 
 ## Cours
 
-<Reaveal name="1m-repr-unite" />
+<Reveal name="1m-repr-unite" />
 
 ## Exercices
 

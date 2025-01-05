@@ -8,7 +8,7 @@ Comment adapter un site Web selon la taille de l'écran ?
 
 ## Cours
 
-<Reaveal name="3cci-webd-responsive" />
+<Reveal name="3cci-webd-responsive" />
 
 ## Exercices
 

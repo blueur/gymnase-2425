@@ -4,4 +4,4 @@ sidebar_position: 0
 
 # Introduction
 
-<Reaveal name="1m-intro" />
+<Reveal name="1m-intro" />

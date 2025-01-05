@@ -8,7 +8,7 @@ Comment calculer l'information ?
 
 ## Cours
 
-<Reaveal name="1m-repr-calcul" />
+<Reveal name="1m-repr-calcul" />
 
 ## Exercices
 

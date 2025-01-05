@@ -14,7 +14,7 @@ Prise en main des outils informatiques utilisés au gymnase.
 
 :::
 
-<Reaveal name="1m-prog-outils" />
+<Reveal name="1m-prog-outils" />
 
 ## Compte Eduvaud
 

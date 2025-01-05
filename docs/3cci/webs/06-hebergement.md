@@ -8,7 +8,7 @@ Comment partager un site Web ?
 
 ## Cours
 
-<Reaveal name="3cci-webs-hebergement" />
+<Reveal name="3cci-webs-hebergement" />
 
 ## Exercices
 

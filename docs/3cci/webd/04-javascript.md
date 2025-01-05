@@ -8,7 +8,7 @@ Comment rendre un site Web dynamique ?
 
 ## Cours
 
-<Reaveal name="3cci-webd-javascript" />
+<Reveal name="3cci-webd-javascript" />
 
 ## Exercices
 

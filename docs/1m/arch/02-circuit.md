@@ -8,7 +8,7 @@ Comment combiner les portes logiques ?
 
 ## Cours
 
-<Reaveal name="1m-arch-circuit" />
+<Reveal name="1m-arch-circuit" />
 
 ## Exercices
 

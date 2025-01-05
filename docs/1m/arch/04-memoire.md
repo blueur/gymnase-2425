@@ -8,7 +8,7 @@ Comment stocker des données ?
 
 ## Cours
 
-<Reaveal name="1m-arch-memoire" />
+<Reveal name="1m-arch-memoire" />
 
 ## Exercices
 
