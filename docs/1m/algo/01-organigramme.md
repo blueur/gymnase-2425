@@ -7,7 +7,9 @@
 
 ## Cours
 
-<Reveal name="1m-algo-organigramme" />
+import Organigramme from '@site/src/pages/slides/1m/algo/organigramme'
+
+<Organigramme embedded />
 
 ## Exercices
 

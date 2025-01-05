@@ -9,26 +9,41 @@ import Kroki from "@site/src/components/plugins/kroki";
 import Link from "@site/src/components/plugins/link";
 import Mermaid from "@site/src/components/plugins/mermaid";
 import Toc from "@site/src/components/plugins/toc";
+import { MermaidConfig } from "mermaid";
 import { PropsWithChildren, useEffect, useRef } from "react";
 import { Api } from "reveal.js";
 import Markdown from "reveal.js/plugin/markdown/markdown";
 
-interface Props extends PropsWithChildren {
-  name: string;
-  full?: boolean;
-  page?: boolean;
-}
+export const mermaidConfig: MermaidConfig = {
+  sequence: {
+    mirrorActors: false,
+    showSequenceNumbers: true,
+  },
+  theme: "neutral",
+  themeVariables: {
+    fontFamily: "unset",
+  },
+  timeline: {
+    disableMulticolor: true,
+  },
+};
 
 /**
  * https://revealjs.com/react/
  */
-export default function Reveal(props: Props) {
-  const deckDivRef = useRef<HTMLDivElement>();
+export default function Reveal(
+  props: PropsWithChildren<{
+    name: string;
+    full?: boolean;
+    page?: boolean;
+  }>,
+) {
+  const divRef = useRef<HTMLDivElement>();
   const deckRef = useRef<Api | null>(null);
 
   function resize() {
     if (props.full) {
-      deckDivRef.current.style.height = `${window.innerHeight}px`;
+      divRef.current.style.height = `${window.innerHeight}px`;
     }
   }
 
@@ -41,7 +56,7 @@ export default function Reveal(props: Props) {
       import("reveal.js"),
       import("reveal.js/plugin/highlight/highlight"),
     ]).then(([reveal, highlight]) => {
-      deckRef.current = new reveal.default(deckDivRef.current!, {
+      deckRef.current = new reveal.default(divRef.current!, {
         width: 1440,
         height: 900,
         plugins: [
@@ -66,19 +81,7 @@ export default function Reveal(props: Props) {
         slideNumber: "c/t",
         transition: "fade",
         transitionSpeed: "fast",
-        mermaid: {
-          sequence: {
-            mirrorActors: false,
-            showSequenceNumbers: true,
-          },
-          theme: "neutral",
-          themeVariables: {
-            fontFamily: "unset",
-          },
-          timeline: {
-            disableMulticolor: true,
-          },
-        },
+        mermaid: mermaidConfig,
       });
       deckRef.current.initialize();
     });
@@ -100,12 +103,22 @@ export default function Reveal(props: Props) {
   }, []);
 
   const revealDiv = (
-    <div ref={deckDivRef} className="reveal">
+    <div ref={divRef} className="reveal">
       <div className="slides">
-        <section data-auto-animate data-markdown={`/slide/${props.name}.md`} />
+        {props.children ? (
+          props.children
+        ) : (
+          <section
+            data-auto-animate
+            data-markdown={`/slide/${props.name}.md`}
+          />
+        )}
       </div>
     </div>
   );
+  const pathPrefix = props.children
+    ? `/slides/${props.name}?`
+    : `/slides?name=${props.name}&`;
   if (props.full) {
     return revealDiv;
   } else {
@@ -116,15 +129,15 @@ export default function Reveal(props: Props) {
         vue d'ensemble.
         <br />
         Versions{" "}
-        <a href={`/slides?name=${props.name}&page`} target="_blank">
+        <a href={pathPrefix + "page"} target="_blank">
           sans animation
         </a>
         ,{" "}
-        <a href={`/slides?name=${props.name}`} target="_blank">
+        <a href={pathPrefix} target="_blank">
           plein écran
         </a>
         ,{" "}
-        <a href={`/slides?name=${props.name}&print-pdf`} target="_blank">
+        <a href={pathPrefix + "print-pdf"} target="_blank">
           imprimable
         </a>
         .
