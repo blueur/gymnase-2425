@@ -168,6 +168,45 @@ L'algorithme d'Euclide donne le plus grand diviseur commun entre deux nombres : 
 
 </details>
 
+#### Exercice 5
+
+```kroki type=plantuml
+:Entrée : a, b;
+while (a > b ?) is (vrai)
+  :a ← a - b;
+endwhile (faux)
+if (a = b ?) then (vrai)
+  :Retourner Vrai;
+  kill
+else (faux)
+  :Retourner Faux;
+  kill
+```
+
+Exécuter les instances suivantes de l'algorithme ci-dessus et donner le résultat :
+
+1. a = 2, b = 5
+2. a = 9, b = 3
+3. a = 5, b = 2
+
+<details>
+<summary>Solution</summary>
+
+1. Résultat = Faux
+2. Résultat = Vrai
+3. Résultat = Faux
+
+</details>
+
+Que fait cet algorithme ? Vous pouvez le tester avec d'autres valeurs.
+
+<details>
+<summary>Solution</summary>
+
+Indique si `a` est divisible par `b`
+
+</details>
+
 ## Références
 
 - https://apprendre.modulo-info.ch/algo1/algorithmes.html
