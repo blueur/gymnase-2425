@@ -1,10 +1,10 @@
-# AlgoPython 4
+# AlgoPython 5
 
 :::note[Objectifs]
 
 Apprendre le Python avec AlgoPython.
 
-- Utiliser les fonctions
+- Utiliser les conditions
 
 :::
 
@@ -15,4 +15,4 @@ Apprendre le Python avec AlgoPython.
     - Exemple : `jdupont` pour Jane Dupont
   - Mot de passe : Votre date de naissance au format `JJMMAAAA`
     - Exemple : `29022006` pour le 29 février 2006
-- Faire la série d'exercices D
+- Continuer et terminer la série d'exercices E

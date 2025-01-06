@@ -1,5 +1,11 @@
 # Projet 2
 
+:::note[Objectifs]
+
+Implémenter une histoire interactive.
+
+:::
+
 ## Organisation
 
 - Créer un dossier `projet` dans votre dossier `1m/informatique` de votre **OneDrive** (déjà existant).
@@ -36,7 +42,7 @@ else:
   - `input()` demande à l'utilisateur de taper quelque chose au clavier et retourne ce qui a été tapé.
     - La valeur retournée est stockée dans la variable `choix`.
   - `if` permet de tester une condition.
-  - `elif` permet de tester une autre condition si la première n'est pas vraie.
+  - `elif` permet de tester une autre condition si la première n'est pas vraie (il peut y avoir zéro, un ou plusieurs `elif`).
   - `else` permet de donner une alternative si aucune des conditions précédentes n'est vraie.
 
 ## Indentation

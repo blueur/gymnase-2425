@@ -1,5 +1,11 @@
 # Projet 1
 
+:::note[Objectifs]
+
+Créer une histoire interactive.
+
+:::
+
 Le chapitre "Introduction à la programmation" sera évalué sous la forme d'un projet individuel.
 
 ## Jeu
