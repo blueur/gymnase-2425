@@ -1,13 +1,19 @@
 # Organigramme
 
-## Objectifs
+:::note[Objectifs]
+
+Comment représenter une procédure ?
 
 - Définir un algorithme et un organigramme
 - Exécuter l'instance d'un algorithme sous forme d'organigramme
 
+:::
+
 ## Cours
 
-<Reveal name="3cci-prog-organigramme" />
+import Organigramme from '@site/src/pages/slides/3cci/prog/organigramme'
+
+<Organigramme embedded />
 
 ## Exercices
 

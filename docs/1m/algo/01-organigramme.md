@@ -1,9 +1,13 @@
 # Organigramme
 
-## Objectifs
+:::note[Objectifs]
+
+Comment représenter une procédure ?
 
 - Définir un algorithme et un organigramme
 - Exécuter l'instance d'un algorithme sous forme d'organigramme
+
+:::
 
 ## Cours
 

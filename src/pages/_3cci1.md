@@ -21,25 +21,25 @@
 |  2024-12-24  | _Vacances_                                                           | _Vacances_                                          |
 |  2024-12-31  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-01-07  | [Organigramme](/docs/3cci/prog/organigramme)                         | [AlgoPython D](/docs/3cci/prog/algopython-d)        |
-|  2025-01-14  |                                                                      | [AlgoPython E](/docs/3cci/prog/algopython-e)        |
-|  2025-01-21  |                                                                      | [AlgoPython F](/docs/3cci/prog/algopython-f)        |
-|  2025-01-28  |                                                                      | [AlgoPython G](/docs/3cci/prog/algopython-g)        |
+|  2025-01-14  | Pseudo-code & Liste                                                  | [AlgoPython E](/docs/3cci/prog/algopython-e)        |
+|  2025-01-21  | Tri                                                                  | [AlgoPython F](/docs/3cci/prog/algopython-f)        |
+|  2025-01-28  | Complexité                                                           | [AlgoPython G](/docs/3cci/prog/algopython-g)        |
 |  2025-02-04  |                                                                      | JavaScript                                          |
-|  2025-02-11  |                                                                      |                                                     |
+|  2025-02-11  | Intelligence artificielle                                            |                                                     |
 |  2025-02-18  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-02-25  | [Révision](/docs/3cci/prog/revision)                                 | [Révision](/docs/3cci/prog/revision)                |
 |  2025-03-04  | **Test : [Algorithmique et programmation avancée](/docs/3cci/prog)** |                                                     |
-|  2025-03-11  |                                                                      |                                                     |
-|  2025-03-18  |                                                                      |                                                     |
-|  2025-03-25  |                                                                      |                                                     |
-|  2025-04-01  |                                                                      |                                                     |
-|  2025-04-08  |                                                                      |                                                     |
+|  2025-03-11  | Binaire                                                              |                                                     |
+|  2025-03-18  | Conversion                                                           |                                                     |
+|  2025-03-25  | Unité                                                                |                                                     |
+|  2025-04-01  | Circuit logique                                                      |                                                     |
+|  2025-04-08  | Composants d'un ordinateur                                           |                                                     |
 |  2025-04-15  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-22  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-29  |                                                                      |                                                     |
-|  2025-05-06  | Intelligence artificielle                                            |                                                     |
+|  2025-05-06  |                                                                      |                                                     |
 |  2025-05-13  | [Révision](/docs/3cci/info/revision)                                 | [Révision](/docs/3cci/info/revision)                |
 |  2025-05-20  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                     |
-|  2025-05-27  |                                                                      |                                                     |
-|  2025-06-03  |                                                                      |                                                     |
-|    Examen    |                                                                      |                                                     |
+|  2025-05-27  | _Pas de cours_                                                       | _Pas de cours_                                      |
+|  2025-06-03  | _Pas de cours_                                                       | _Pas de cours_                                      |
+|              | **Examen oral**                                                      |                                                     |

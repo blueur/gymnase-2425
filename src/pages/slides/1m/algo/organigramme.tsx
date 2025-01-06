@@ -1,76 +1,98 @@
 import Deck, {
   Columns,
   Image,
-  Item,
   List,
+  ListItem,
   Section,
+  Text,
 } from "@site/src/components/Deck";
 import Kroki from "@site/src/components/Kroki";
 import Mermaid from "@site/src/components/Mermaid";
 import Reveal from "@site/src/components/Reveal";
 
-export default function Organigramme(props: { embedded: boolean }) {
+export default function Organigramme(props: {
+  embedded: boolean;
+  chapter?: string;
+}) {
   return (
     <Reveal name="1m/algo/organigramme" full={!props.embedded}>
-      <Deck title="Organigramme" chapter="Introduction à l'algorithmique">
+      <Deck
+        title="Organigramme"
+        chapter={props.chapter ?? "Introduction à l'algorithmique"}
+      >
         <Section level={2} title="Algorithme">
           <List>
-            <Item fragment>
-              Un algorithme est une suite **finie** et **non ambiguë**
+            <ListItem fragment>
+              Un _algorithme_ est une suite **finie** et **non ambiguë**
               d'opérations ou d'**instructions** permettant de résoudre un
               **problème** ou d'obtenir un **résultat**.
-            </Item>
-            <Item fragment>
-              Résoudre un problème
-              <Item fragment>Entrée(s)</Item>
-              <Item fragment>Sortie(s)</Item>
-            </Item>
-            <Item fragment>
-              Algorithmique
-              <Item fragment>Domaine d'étude des algorithmes</Item>
-            </Item>
+            </ListItem>
+            <ListItem fragment>
+              _Objectif_ : Comment **résoudre** un problème
+              <ListItem fragment>Entrée(s) : état de départ</ListItem>
+              <ListItem fragment>Sortie(s) : état final</ListItem>
+            </ListItem>
           </List>
+          <Mermaid fragment>
+            {`flowchart LR
+                input([Entrées]):::blank --> Algorithme:::black
+                Algorithme --> output([Sorties]):::blank
+            `}
+          </Mermaid>
         </Section>
         <Section level={3} title="Comment faire une omelette ?">
           <List>
-            <Item>
-              Entrée(s)
-              <Item fragment>Ingrédients (oeufs, &hellip;)</Item>
-            </Item>
-            <Item>
-              Sortie(s)
-              <Item fragment>Omelette</Item>
-            </Item>
+            <ListItem>
+              _Entrée(s)_
+              <ListItem fragment>Ingrédients (oeufs, &hellip;)</ListItem>
+            </ListItem>
+            <ListItem>
+              _Sortie(s)_
+              <ListItem fragment>Omelette</ListItem>
+            </ListItem>
           </List>
           <Mermaid fragment>
             {`flowchart LR
                 input([Oeufs]):::blank --> Algorithme:::black
                 Algorithme --> output([Omelette]):::blank
-                classDef blank fill:none,stroke:none
-                classDef black fill:black,stroke:black,color:white
             `}
           </Mermaid>
         </Section>
         <Section level={4} title="Algorithme d'une omelette">
           <List order>
-            <Item fragment>Casser les oeufs dans un bol</Item>
-            <Item fragment>
+            <ListItem fragment>Casser les oeufs dans un bol</ListItem>
+            <ListItem fragment>
               Battre les oeufs jusqu'à obtenir un mélange homogène
-            </Item>
-            <Item fragment>Verser le mélange dans une poêle chaude</Item>
-            <Item fragment>Chauffer jusqu'à ce que l'omelette soit cuite</Item>
-            <Item fragment>Servir l'omelette dans une assiette</Item>
+            </ListItem>
+            <ListItem fragment>
+              Verser le mélange dans une poêle chaude
+            </ListItem>
+            <ListItem fragment>
+              Chauffer jusqu'à ce que l'omelette soit cuite
+            </ListItem>
+            <ListItem fragment>Servir l'omelette dans une assiette</ListItem>
           </List>
-          <Item fragment>
+          <Text fragment>
             **Plusieurs** algorithmes possibles pour résoudre un **même**
             problème
-          </Item>
+          </Text>
+        </Section>
+        <Section level={3} title="Standardisation">
+          <Image
+            src="https://imgs.xkcd.com/comics/iso_8601.png"
+            url="https://xkcd.com/1179"
+          />
         </Section>
         <Section level={2} title="Organigramme">
-          <Item>
-            Un organigramme est une **représentation graphique** d'un
-            algorithme.
-          </Item>
+          <List>
+            <ListItem fragment>
+              Comment **décrire** un algorithme de manière **standardisé** ?
+            </ListItem>
+            <ListItem fragment>
+              Un organigramme est une **représentation visuelle** d'un
+              algorithme.
+            </ListItem>
+          </List>
         </Section>
         <Section level={3} title="Organigramme d'une omelette">
           <Mermaid>
@@ -88,6 +110,12 @@ export default function Organigramme(props: { embedded: boolean }) {
                 servir --> [*]
             `}
           </Mermaid>
+        </Section>
+        <Section level={3} title="Condition">
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/2/29/Pstricks_exo_organigramme_simple.png"
+            url="https://commons.wikimedia.org/wiki/File:Pstricks_exo_organigramme_simple.png"
+          />
         </Section>
         <Section
           level={4}
@@ -123,11 +151,11 @@ export default function Organigramme(props: { embedded: boolean }) {
           />
         </Section>
         <Section level={3} title="Exécution d'un algorithme">
-          <Item>
+          <Text>
             **Instance** : exécution d'un algorithme pour des entrées données
-          </Item>
+          </Text>
         </Section>
-        <Section level={3} title="Exercice 1">
+        <Section level={3} title="Exemple">
           <Columns>
             <Kroki type="plantuml">
               {`:Entrées : a, b;
@@ -141,19 +169,21 @@ export default function Organigramme(props: { embedded: boolean }) {
               `}
             </Kroki>
             <List>
-              <Item fragment>
-                Instance : a = 5, b = 3 ?<Item fragment>Résultat : 5</Item>
-              </Item>
-              <Item fragment>
-                Instance : a = 2, b = 4 ?<Item fragment>Résultat : 4</Item>
-              </Item>
-              <Item fragment>
-                Fonction ?<Item fragment>Max(a, b)</Item>
-              </Item>
+              <ListItem fragment>
+                Instance : a = 5, b = 3 ?
+                <ListItem fragment>Résultat : 5</ListItem>
+              </ListItem>
+              <ListItem fragment>
+                Instance : a = 2, b = 4 ?
+                <ListItem fragment>Résultat : 4</ListItem>
+              </ListItem>
+              <ListItem fragment>
+                Fonction ?<ListItem fragment>Max(a, b)</ListItem>
+              </ListItem>
             </List>
           </Columns>
         </Section>
-        <Section level={3} title="Exercice 2">
+        <Section level={3} title="Exercice">
           <Columns>
             <Kroki type="plantuml">
               {`:Entrée : n;
@@ -168,17 +198,49 @@ export default function Organigramme(props: { embedded: boolean }) {
               `}
             </Kroki>
             <List>
-              <Item fragment>
-                Instance : n = 0 ?<Item fragment>Résultat : 0</Item>
-              </Item>
-              <Item fragment>
-                Instance : n = 2 ?<Item fragment>Résultat : 3</Item>
-              </Item>
-              <Item fragment>
-                Fonction ?<Item fragment>Somme(n)</Item>
-              </Item>
+              <ListItem fragment>
+                Instance : n = 0 ?<ListItem fragment>Résultat : 0</ListItem>
+              </ListItem>
+              <ListItem fragment>
+                Instance : n = 2 ?<ListItem fragment>Résultat : 3</ListItem>
+              </ListItem>
+              <ListItem fragment>
+                Fonction ?<ListItem fragment>Somme(n)</ListItem>
+              </ListItem>
             </List>
           </Columns>
+        </Section>
+        <Section level={2} title="Nomenclature">
+          <List>
+            <ListItem>
+              _Algorithme_
+              <ListItem fragment>
+                Une suite d'**instructions** permettant de résoudre un problème
+              </ListItem>
+            </ListItem>
+            <ListItem>
+              _Organigramme_
+              <ListItem fragment>
+                Une **représentation graphique** d'un algorithme
+              </ListItem>
+            </ListItem>
+            <ListItem>
+              _Instance_
+              <ListItem fragment>**Exécution** d'un algorithme</ListItem>
+            </ListItem>
+            <ListItem>
+              _Retourner_ une valeur
+              <ListItem fragment>
+                **Résultat** de l'instance d'un algorithme
+              </ListItem>
+            </ListItem>
+            <ListItem>
+              _Entrée(s)_
+              <ListItem fragment>
+                **Valeur(s)** d'entrée pour l'instance d'un algorithme
+              </ListItem>
+            </ListItem>
+          </List>
         </Section>
       </Deck>
     </Reveal>

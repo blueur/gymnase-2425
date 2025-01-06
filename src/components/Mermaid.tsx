@@ -1,4 +1,5 @@
 import { mermaidConfig } from "@site/src/components/Reveal";
+import clsx from "clsx";
 import mermaid from "mermaid";
 import { PropsWithChildren, useEffect, useRef } from "react";
 
@@ -20,13 +21,23 @@ export default function Mermaid(
       )
       .then(
         (value) => {
-          divRef.current.innerHTML = value.svg;
+          if (divRef.current) {
+            divRef.current.innerHTML = value.svg;
+          }
         },
         (error) => {
-          divRef.current.innerHTML = error.str;
+          if (divRef.current) {
+            divRef.current.innerHTML = error;
+            divRef.current.style.color = "red";
+          }
         },
       );
   });
 
-  return <div ref={divRef} className="mermaid" />;
+  return (
+    <div
+      ref={divRef}
+      className={clsx("mermaid", { fragment: props.fragment })}
+    />
+  );
 }

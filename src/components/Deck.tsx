@@ -14,7 +14,7 @@ export default function Deck(
   }>,
 ) {
   return [
-    <section data-auto-animate>
+    <section key={0} data-auto-animate>
       <h1>{props.title}</h1>
       <p>{props.chapter}</p>
     </section>,
@@ -38,16 +38,7 @@ export function Section(
         },
         props.title,
       )}
-      {Children.map(props.children, (child: ReactElement, index) => (
-        <p
-          key={index}
-          className={clsx({
-            fragment: child.props.fragment,
-          })}
-        >
-          {child}
-        </p>
-      ))}
+      {props.children}
     </section>
   );
 }
@@ -75,14 +66,14 @@ export function List(
   return props.order ? <ol>{children}</ol> : <ul>{children}</ul>;
 }
 
-export function Item(
+export function ListItem(
   props: PropsWithChildren<{
     fragment?: boolean;
   }>,
 ) {
   return Children.map(props.children, (child: ReactElement, index) =>
     typeof child === "string" ? (
-      <Markdown>{child}</Markdown>
+      <Text key={index}>{child}</Text>
     ) : (
       <ul>
         <li
@@ -98,6 +89,18 @@ export function Item(
   );
 }
 
+export function Text(
+  props: PropsWithChildren<{
+    fragment?: boolean;
+  }>,
+) {
+  return (
+    <Markdown className={clsx({ fragment: props.fragment })}>
+      {props.children.toString()}
+    </Markdown>
+  );
+}
+
 export function Image(props: {
   fragment?: boolean;
   src: string;
@@ -105,6 +108,7 @@ export function Image(props: {
 }) {
   return [
     <img
+      key={0}
       className={clsx({ fragment: props.fragment })}
       style={{
         width: "100%",
@@ -113,7 +117,7 @@ export function Image(props: {
       }}
       src={props.src}
     />,
-    <p>
+    <p key={1}>
       <a className="reference" href={props.url} target="_blank">
         {props.url}
       </a>
