@@ -54,8 +54,8 @@ export default function Organigramme(props: {
         </List>
         <Mermaid fragment>
           {`flowchart LR
-              input([Oeufs]):::blank --> Algorithme:::black
-              Algorithme --> output([Omelette]):::blank
+              input([Oeufs]):::blank --> Recette:::black
+              Recette --> output([Omelette]):::blank
             `}
         </Mermaid>
       </Section>
@@ -75,16 +75,10 @@ export default function Organigramme(props: {
           **Plusieurs** algorithmes possibles pour résoudre un **même** problème
         </Text>
       </Section>
-      <Section level={3} title="Standardisation">
-        <Image
-          src="https://imgs.xkcd.com/comics/iso_8601.png"
-          url="https://xkcd.com/1179"
-        />
-      </Section>
       <Section level={2} title="Organigramme">
         <List>
           <ListItem fragment>
-            Comment **décrire** un algorithme de manière **standardisé** ?
+            Comment **décrire** un algorithme pour le communiquer ?
           </ListItem>
           <ListItem fragment>
             Un organigramme est une **représentation visuelle** d'un algorithme.
@@ -114,32 +108,45 @@ export default function Organigramme(props: {
           url="https://commons.wikimedia.org/wiki/File:Pstricks_exo_organigramme_simple.png"
         />
       </Section>
-      <Section
-        level={4}
-        title="Organigramme d'une omelette avec des conditions"
-      >
+      <Section level={4} title="Réparer une lampe">
         <Mermaid>
           {`stateDiagram-v2
-              state "Casser les œufs dans un bol" as casser
-              state "Battre les œufs" as battre
-              state si_homogene <<choice>>
-              state "Verser le mélange dans une poêle chaude" as verser
-              state "Chauffer la poêle" as chauffer
-              state si_cuit <<choice>>
-              state "Servir l'omelette dans une assiette" as servir
+              state "La lampe ne fonctionne pas" as lampe
+              state si_branche <<choice>>
+              state "Brancher la lampe" as brancher
+              state si_ampoule <<choice>>
+              state "Changer l'ampoule" as changer
+              state "Réparer la lampe" as reparer
 
-              [*] --> casser
-              casser --> battre
-              battre --> si_homogene
-              si_homogene --> verser: Si mélange homogène
-              si_homogene --> battre: Si mélange hétérogène
-              verser --> chauffer
-              chauffer --> si_cuit
-              si_cuit --> servir: Si omelette cuite
-              si_cuit --> chauffer: Si omelette pas cuite
-              servir --> [*]
+              [*] --> lampe
+              lampe --> si_branche
+              si_branche --> brancher: Si la lampe n'est pas branchée
+              si_branche --> si_ampoule: Si la lampe est branchée
+              si_ampoule --> changer: Si l'ampoule est cassée
+              si_ampoule --> reparer: Si l'ampoule fonctionne
+              reparer --> [*]
+              changer --> [*]
+              brancher --> [*]
             `}
         </Mermaid>
+      </Section>
+      <Section level={4} title="Réparer une lampe">
+        <Kroki type="plantuml">
+          {`:La lampe ne fonctionne pas;
+              if (La lampe est branchée ?) then (oui)
+                if (L'ampoule est cassée ?) then (oui)
+                  :Changer l'ampoule;
+                  kill
+                else (non)
+                  :Réparer la lampe;
+                  kill
+                endif
+              else (non)
+                :Brancher la lampe;
+                kill
+              endif
+              `}
+        </Kroki>
       </Section>
       <Section level={3} title="Algorithmes CORFA">
         <Image
@@ -147,12 +154,28 @@ export default function Organigramme(props: {
           url="https://es-asur.ch/corfa"
         />
       </Section>
-      <Section level={3} title="Exécution d'un algorithme">
-        <Text>
-          **Instance** : exécution d'un algorithme pour des entrées données
-        </Text>
+      <Section level={3} title="Standardisation">
+        <Image
+          src="https://imgs.xkcd.com/comics/iso_8601.png"
+          url="https://xkcd.com/1179"
+        />
       </Section>
-      <Section level={3} title="Exemple">
+      <Section level={3} title="Exécution d'un algorithme">
+        <List>
+          <ListItem fragment>
+            Problème : Trouver le plus grand nombre entre a et b
+          </ListItem>
+          <ListItem fragment>
+            **Instance** : exécution d'un algorithme pour des entrées données
+          </ListItem>
+          <ListItem fragment>
+            Instances possibles :<ListItem>a = 7, b = 1</ListItem>
+            <ListItem>a = 3, b = 3</ListItem>
+            <ListItem>a = 5, b = 9</ListItem>
+          </ListItem>
+        </List>
+      </Section>
+      <Section level={3} title="Max(a, b)">
         <Columns>
           <Kroki type="plantuml">
             {`:Entrées : a, b;
@@ -174,23 +197,43 @@ export default function Organigramme(props: {
               Instance : a = 2, b = 4 ?
               <ListItem fragment>Résultat : 4</ListItem>
             </ListItem>
-            <ListItem fragment>
-              Fonction ?<ListItem fragment>Max(a, b)</ListItem>
-            </ListItem>
           </List>
         </Columns>
+      </Section>
+      <Section level={3} title="Max(a, b, c)">
+        <Kroki type="plantuml" fragment>
+          {`:Entrées : a, b, c;
+            if (a < b ?) then (vrai)
+              if (b < c ?) then (vrai)
+                :Retourner c;
+                kill
+              else (faux)
+                :Retourner b;
+                kill
+              endif
+            else (faux)
+              if (a < c ?) then (vrai)
+                :Retourner c;
+                kill
+              else (faux)
+                :Retourner a;
+                kill
+              endif
+            endif
+              `}
+        </Kroki>
       </Section>
       <Section level={3} title="Exercice">
         <Columns>
           <Kroki type="plantuml">
             {`:Entrée : n;
-              :résultat ← 0
-              i ← 1;
+              :r ← 0;
+              :i ← 1;
               while (i ≤ n ?) is (vrai)
-                :résultat ← résultat + i
-                i ← i + 1;
+                :r ← r + i;
+                :i ← i + 1;
               endwhile (faux)
-              :Retourner résultat;
+              :Retourner r;
               kill​
               `}
           </Kroki>
@@ -202,7 +245,8 @@ export default function Organigramme(props: {
               Instance : n = 2 ?<ListItem fragment>Résultat : 3</ListItem>
             </ListItem>
             <ListItem fragment>
-              Fonction ?<ListItem fragment>Somme(n)</ListItem>
+              Fonction ?
+              <ListItem fragment>Somme(n) : 1 + 2 + &hellip; + n</ListItem>
             </ListItem>
           </List>
         </Columns>
@@ -226,15 +270,15 @@ export default function Organigramme(props: {
             <ListItem fragment>**Exécution** d'un algorithme</ListItem>
           </ListItem>
           <ListItem>
-            _Retourner_ une valeur
+            _a &larr; b + c_
             <ListItem fragment>
-              **Résultat** de l'instance d'un algorithme
+              **Calculer** `b + c`, puis **remplacer** la valeur de `a`
             </ListItem>
           </ListItem>
           <ListItem>
-            _Entrée(s)_
+            _Retourner_ une valeur
             <ListItem fragment>
-              **Valeur(s)** d'entrée pour l'instance d'un algorithme
+              **Résultat** de l'instance d'un algorithme
             </ListItem>
           </ListItem>
         </List>

@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { deflate } from "pako";
 import { PropsWithChildren, useEffect, useRef } from "react";
 
@@ -44,7 +45,7 @@ export default function Kroki(
   return (
     <img
       ref={imgRef}
-      className="kroki"
+      className={clsx("kroki", { fragment: props.fragment })}
       style={{
         width: "100%",
         height: "750px",

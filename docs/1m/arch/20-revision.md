@@ -267,7 +267,7 @@ Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaq
 <details>
 <summary>Solution</summary>
 
-1. Stocker temporairement les données les plus utilisées pour les rendre plus rapidement accessibles.
+1. Stocker temporairement les données les plus récemment utilisées pour les rendre plus rapidement accessibles.
 2. La valeur est déjà stockée dans la mémoire cache. Son accès est donc plus rapide.
 3. Les données les moins utilisées sont supprimées pour faire de la place pour les nouvelles données.
 

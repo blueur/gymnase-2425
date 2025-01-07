@@ -17,9 +17,7 @@ import Organigramme from '@site/src/pages/slides/3cci/prog/organigramme'
 
 ## Exercices
 
-### Exécution d'un organigramme
-
-#### Exercice 1
+### Exercice 1
 
 ```kroki type=plantuml
 :Entrées : a, b;
@@ -54,17 +52,17 @@ Il retourne le plus petit des deux nombres `a` et `b` en entrée
 
 </details>
 
-#### Exercice 2
+### Exercice 2
 
 ```kroki type=plantuml
 :Entrée : n;
-:résultat ← 1
-i ← 1;
+:r ← 1;
+:i ← 1;
 while (i ≤ n ?) is (vrai)
-  :résultat ← résultat * i
-  i ← i + 1;
+  :r ← r * i;
+  :i ← i + 1;
 endwhile (faux)
-:Retourner résultat;
+:Retourner r;
 kill​
 ```
 
@@ -90,7 +88,7 @@ Il retourne le produit des entiers de 1 à `n`
 
 </details>
 
-#### Exercice 3
+### Exercice 3
 
 ```kroki type=plantuml
 :Entrées : a, b;
@@ -129,7 +127,7 @@ Indique si `a` est divisible par `b`
 
 </details>
 
-#### Exercice 4
+### Exercice 4
 
 ```kroki type=plantuml
 :Entrées : a, b;
@@ -168,7 +166,7 @@ L'algorithme d'Euclide donne le plus grand diviseur commun entre deux nombres : 
 
 </details>
 
-#### Exercice 5
+### Exercice 5
 
 ```kroki type=plantuml
 :Entrée : a, b;
