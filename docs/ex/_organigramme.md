@@ -1,20 +1,3 @@
-# Organigramme
-
-:::note[Objectifs]
-
-Comment représenter une procédure ?
-
-- Définir un algorithme et un organigramme
-- Exécuter l'instance d'un algorithme sous forme d'organigramme
-
-:::
-
-## Cours
-
-import Organigramme from '@site/src/pages/slides/3cci/prog/organigramme'
-
-<Organigramme embedded />
-
 ## Exercices
 
 ### Exercice 1
@@ -84,7 +67,9 @@ Que fait cet algorithme ? Vous pouvez le tester avec d'autres valeurs.
 <details>
 <summary>Solution</summary>
 
-Il retourne le produit des entiers de 1 à `n`
+Il retourne le produit des entiers de 1 à `n` (1 _ 2 _ 3 _ ... _ n).
+
+Il faut regarder la variable qui est retournée et observer comment elle est modifiée dans l'algorithme.
 
 </details>
 

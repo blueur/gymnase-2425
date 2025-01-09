@@ -20,12 +20,12 @@
 |  2024-12-17  | **Test : [Pages Web dynamiques](/docs/3cci/webd)**                   |                                                     |
 |  2024-12-24  | _Vacances_                                                           | _Vacances_                                          |
 |  2024-12-31  | _Vacances_                                                           | _Vacances_                                          |
-|  2025-01-07  | [Organigramme](/docs/3cci/prog/organigramme)                         | [AlgoPython D](/docs/3cci/prog/algopython-d)        |
-|  2025-01-14  | Pseudo-code & Liste                                                  | [AlgoPython E](/docs/3cci/prog/algopython-e)        |
-|  2025-01-21  | Tri                                                                  | [AlgoPython F](/docs/3cci/prog/algopython-f)        |
-|  2025-01-28  | Complexité                                                           | [AlgoPython G](/docs/3cci/prog/algopython-g)        |
-|  2025-02-04  |                                                                      | JavaScript                                          |
-|  2025-02-11  | Intelligence artificielle                                            |                                                     |
+|  2025-01-07  | [Organigramme](/docs/3cci/prog/organigramme)                         | [Organigramme](/docs/3cci/prog/organigramme)        |
+|  2025-01-14  | [Pseudo-code](/docs/3cci/prog/pseudocode)                            | [AlgoPython D](/docs/3cci/prog/algopython-d)        |
+|  2025-01-21  | Tri                                                                  | [AlgoPython E](/docs/3cci/prog/algopython-e)        |
+|  2025-01-28  | Complexité                                                           | [AlgoPython F](/docs/3cci/prog/algopython-f)        |
+|  2025-02-04  |                                                                      | [AlgoPython G](/docs/3cci/prog/algopython-g)        |
+|  2025-02-11  | Intelligence artificielle                                            | JavaScript                                          |
 |  2025-02-18  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-02-25  | [Révision](/docs/3cci/prog/revision)                                 | [Révision](/docs/3cci/prog/revision)                |
 |  2025-03-04  | **Test : [Algorithmique et programmation avancée](/docs/3cci/prog)** |                                                     |

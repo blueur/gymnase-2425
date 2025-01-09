@@ -6,8 +6,8 @@ import { PropsWithChildren } from "react";
 export default function RevealDeck(
   props: PropsWithChildren<{
     embedded: boolean;
-    name: string;
     title: string;
+    name: string;
     chapter: string;
   }>,
 ) {
