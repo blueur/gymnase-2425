@@ -1,14 +1,14 @@
 import { useLocation } from "@docusaurus/router";
-import Deck from "@site/src/components/Deck";
+import { Section } from "@site/src/components/Deck";
 import Reveal from "@site/src/components/Reveal";
 import { PropsWithChildren } from "react";
 
 export default function RevealDeck(
   props: PropsWithChildren<{
     embedded: boolean;
-    title: string;
     name: string;
-    chapter: string;
+    title: string;
+    subTitle: string;
   }>,
 ) {
   const location = useLocation();
@@ -17,9 +17,10 @@ export default function RevealDeck(
 
   return (
     <Reveal name={props.name} full={!props.embedded} page={page}>
-      <Deck title={props.title} chapter={props.chapter}>
-        {props.children}
-      </Deck>
+      <Section key={0} level={1} title={props.title}>
+        {props.subTitle}
+      </Section>
+      {props.children}
     </Reveal>
   );
 }

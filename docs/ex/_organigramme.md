@@ -42,7 +42,7 @@ Il retourne le plus petit des deux nombres `a` et `b` en entrée
 :r ← 1;
 :i ← 1;
 while (i ≤ n ?) is (vrai)
-  :r ← r * i;
+  :r ← r × i;
   :i ← i + 1;
 endwhile (faux)
 :Retourner r;
@@ -67,7 +67,7 @@ Que fait cet algorithme ? Vous pouvez le tester avec d'autres valeurs.
 <details>
 <summary>Solution</summary>
 
-Il retourne le produit des entiers de 1 à `n` (1 _ 2 _ 3 _ ... _ n).
+Il retourne le produit des entiers de 1 à `n` (1 &times; 2 &times; 3 &times; ... &times; n).
 
 Il faut regarder la variable qui est retournée et observer comment elle est modifiée dans l'algorithme.
 

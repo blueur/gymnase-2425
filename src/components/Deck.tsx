@@ -7,21 +7,6 @@ import {
 } from "react";
 import Markdown from "react-markdown";
 
-export default function Deck(
-  props: PropsWithChildren<{
-    title: string;
-    chapter: string;
-  }>,
-) {
-  return [
-    <section key={0} data-auto-animate>
-      <h1>{props.title}</h1>
-      <p>{props.chapter}</p>
-    </section>,
-    props.children,
-  ];
-}
-
 export function Section(
   props: PropsWithChildren<{
     level: number;
@@ -43,50 +28,56 @@ export function Section(
   );
 }
 
+type ListItem =
+  | string
+  | { text: string; fragment?: boolean; items?: ListItem[] };
+
 export function List(
   props: PropsWithChildren<{
     fragment?: boolean;
     order?: boolean;
+    items?: ListItem[];
   }>,
 ) {
-  const children = Children.map(
-    props.children,
-    (child: ReactElement, index) => (
-      <li
-        key={index}
-        className={clsx({
-          fragment: child.props.fragment,
-        })}
-      >
-        {child}
-      </li>
-    ),
-  );
-
-  return props.order ? <ol>{children}</ol> : <ul>{children}</ul>;
-}
-
-export function ListItem(
-  props: PropsWithChildren<{
-    fragment?: boolean;
-  }>,
-) {
-  return Children.map(props.children, (child: ReactElement, index) =>
-    typeof child === "string" ? (
-      <Text key={index}>{child}</Text>
-    ) : (
-      <ul>
+  const children = props.items
+    ? props.items.map((item, index) => {
+        if (typeof item === "string") {
+          return (
+            <li
+              key={index}
+              className={clsx({
+                fragment: props.fragment,
+              })}
+            >
+              <Markdown>{item}</Markdown>
+            </li>
+          );
+        } else {
+          return (
+            <li
+              key={index}
+              className={clsx({
+                fragment: item.fragment ?? props.fragment,
+              })}
+            >
+              <Markdown>{item.text}</Markdown>
+              <List items={item.items} fragment={item.fragment} />
+            </li>
+          );
+        }
+      })
+    : Children.map(props.children, (child: ReactElement, index) => (
         <li
           key={index}
           className={clsx({
-            fragment: child.props.fragment,
+            fragment: child.props.fragment ?? props.fragment,
           })}
         >
           {child}
         </li>
-      </ul>
-    ),
-  );
+      ));
+
+  return props.order ? <ol>{children}</ol> : <ul>{children}</ul>;
 }
 
 export function Text(
@@ -132,5 +123,15 @@ export function Columns(props: PropsWithChildren) {
         <div key={index}>{child}</div>
       ))}
     </div>
+  );
+}
+
+export function Code(props: PropsWithChildren) {
+  return (
+    <pre>
+      <code data-trim data-noescape data-line-numbers>
+        {props.children}
+      </code>
+    </pre>
   );
 }

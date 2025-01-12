@@ -37,9 +37,7 @@
 |  2025-04-15  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-22  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-29  |                                                                      |                                                     |
-|  2025-05-06  |                                                                      |                                                     |
-|  2025-05-13  | [Révision](/docs/3cci/info/revision)                                 | [Révision](/docs/3cci/info/revision)                |
-|  2025-05-20  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                     |
-|  2025-05-27  | _Pas de cours_                                                       | _Pas de cours_                                      |
-|  2025-06-03  | _Pas de cours_                                                       | _Pas de cours_                                      |
+|  2025-05-06  | [Révision](/docs/3cci/info/revision)                                 | [Révision](/docs/3cci/info/revision)                |
+|  2025-05-13  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                     |
+|  2025-05-20  | Préparation examen                                                   | Préparation examen                                  |
 |              | **Examen oral**                                                      |                                                     |
