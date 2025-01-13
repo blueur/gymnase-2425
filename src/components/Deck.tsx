@@ -126,11 +126,28 @@ export function Columns(props: PropsWithChildren) {
   );
 }
 
-export function Code(props: PropsWithChildren) {
+export function Code(
+  props: PropsWithChildren<{
+    lines?: string;
+  }>,
+) {
+  const code = props.children.toString();
+  if (code.trim().length === 0) {
+    return undefined;
+  }
+  const firstLine = code.split("\n").find((line) => line.trim().length > 0);
+  if (firstLine === undefined) {
+    return undefined;
+  }
+  let i = 0;
+  while (firstLine[i] === " ") {
+    i++;
+  }
+  const unindented = code.replaceAll(" ".repeat(i), "");
   return (
     <pre>
-      <code data-trim data-noescape data-line-numbers>
-        {props.children}
+      <code data-trim data-noescape data-line-numbers={props.lines ?? true}>
+        {unindented}
       </code>
     </pre>
   );

@@ -86,19 +86,296 @@ export default function Pseudocode(props: {
           ]}
         />
       </Section>
-      <Section level={3} title="Somme">
+      <Section level={2} title="Somme des premiers entiers">
+        <List
+          fragment
+          items={[
+            "_Problème_ : **calculer** la **somme** des premiers entiers positifs.",
+            "_Entrée_ : un **nombre** entier positif x",
+            "_Sortie_ : la **somme** des entiers de 1 à x (1 + 2 + ... + x)",
+          ]}
+        />
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
         <Columns>
           <Code>
             {`
-FONCTION somme(x) 
-  c <- 0 
-  POUR i DE 1 À x 
-    c <- c + i 
-  FIN POUR
-  RETOURNER c 
-FIN FONCTION
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
             `}
           </Code>
+          <List items={["Instance : somme(3)"]} />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="1">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="2">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 0"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="3">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 0", "i = 1"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="4">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 1", "i = 1"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="3">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 1", "i = 2"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="4">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 3", "i = 2"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="3">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 3", "i = 3"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="4">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 6", "i = 3"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="5">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 6", "i = 3"],
+              },
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="6">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 6", "i = 3"],
+              },
+              "Résultat : 6",
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Somme des premiers entiers">
+        <Columns>
+          <Code lines="7">
+            {`
+            FONCTION somme(x) 
+              c <- 0 
+              POUR i DE 1 À x FAIRE 
+                c <- c + i 
+              FIN POUR
+              RETOURNER c 
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            items={[
+              "Instance : somme(3)",
+              {
+                text: "Variables",
+                items: ["x = 3", "c = 6", "i = 3"],
+              },
+              "Résultat : 6",
+            ]}
+          />
         </Columns>
       </Section>
     </RevealDeck>

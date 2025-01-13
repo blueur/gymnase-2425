@@ -42,7 +42,7 @@ Il retourne le plus petit des deux nombres `a` et `b` en entrée
 :r ← 1;
 :i ← 1;
 while (i ≤ n ?) is (vrai)
-  :r ← r × i;
+  :r ← r * i;
   :i ← i + 1;
 endwhile (faux)
 :Retourner r;
