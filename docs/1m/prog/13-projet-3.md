@@ -8,7 +8,9 @@ Structurer un code en fonctions.
 
 :::warning[Prérequis]
 
-Votre jeu doit être jouable selon votre histoire. Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) avant de continuer.
+Les deux premiers niveaux de votre jeu doit être jouable. 
+
+Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) avant de continuer.
 
 :::
 

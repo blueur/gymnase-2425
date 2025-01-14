@@ -6,6 +6,14 @@ Implémenter une histoire interactive.
 
 :::
 
+:::warning[Prérequis]
+
+Votre organigramme doit être terminé (vérifier s'il y a des commentaires dans les devoirs sur Teams). 
+
+Si ce n'est pas le cas, terminer le [Projet 1](./projet-1) avant de continuer.
+
+:::
+
 ## Organisation
 
 - Créer un dossier `projet` dans votre dossier `1m/informatique` de votre **OneDrive** (déjà existant).
@@ -82,6 +90,12 @@ else:
 ## Votre histoire
 
 - Adapter le code pour votre histoire.
+  - Commencer par adapter le premier choix à faire.
+    - Modifier les lettres sélectionnées par l'utilisateur (par exemple `c` et `g`) pour correspondre à votre histoire.
+    - Modifier les messages affichés à l'écran pour correspondre à votre histoire.
+  - Continuer à faire le deuxième niveau.
+    - Ajouter un deuxième choix après chaque premier choix.
+  - Bien vérifier que votre programme fonctionne correctement.
 
 ## Journal de bord
 
