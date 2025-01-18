@@ -61,7 +61,9 @@ export function List(
               })}
             >
               <Markdown>{item.text}</Markdown>
-              <List items={item.items} fragment={item.fragment} />
+              {item.items ? (
+                <List items={item.items} fragment={item.fragment} />
+              ) : undefined}
             </li>
           );
         }
@@ -150,5 +152,40 @@ export function Code(
         {unindented}
       </code>
     </pre>
+  );
+}
+
+export function Table(props: { headers?: string[]; items: string[][] }) {
+  return (
+    <table style={{ width: "unset" }}>
+      {props.headers ? (
+        <thead>
+          <tr>
+            {props.headers.map((header, index) => (
+              <th
+                key={index}
+                style={{ textAlign: "center", padding: "0em 1em" }}
+              >
+                {header}
+              </th>
+            ))}
+          </tr>
+        </thead>
+      ) : undefined}
+      <tbody>
+        {props.items.map((line, index) => (
+          <tr key={index}>
+            {line.map((item, index) => (
+              <td
+                key={index}
+                style={{ textAlign: "center", padding: "0em 1em" }}
+              >
+                {item}
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
   );
 }
