@@ -6,7 +6,6 @@ import { PropsWithChildren } from "react";
 export default function RevealDeck(
   props: PropsWithChildren<{
     embedded: boolean;
-    name: string;
     title: string;
     subTitle: string;
   }>,
@@ -14,9 +13,10 @@ export default function RevealDeck(
   const location = useLocation();
   const urlSearchParams = new URLSearchParams(location.search);
   const page = urlSearchParams.get("page") !== null;
+  const name = location.pathname.replace(/^\/docs\//, "");
 
   return (
-    <Reveal name={props.name} full={!props.embedded} page={page}>
+    <Reveal name={name} full={!props.embedded} page={page}>
       <Section key={0} level={1} title={props.title}>
         {props.subTitle}
       </Section>

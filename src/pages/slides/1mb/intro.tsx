@@ -6,7 +6,6 @@ export default function Introduction(props: { embedded?: boolean }) {
   return (
     <RevealDeck
       embedded={props.embedded}
-      name="1mb/intro"
       title="Informatique"
       subTitle="David Tang"
     >

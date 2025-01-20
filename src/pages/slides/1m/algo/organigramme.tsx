@@ -5,14 +5,12 @@ import RevealDeck from "@site/src/components/RevealDeck";
 
 export default function Organigramme(props: {
   embedded?: boolean;
-  name?: string;
   chapter?: string;
 }) {
   return (
     <RevealDeck
       embedded={props.embedded}
       title="Organigramme"
-      name={props.name ?? "1m/algo/organigramme"}
       subTitle={props.chapter ?? "Introduction à l'algorithmique"}
     >
       <Section level={2} title="Algorithme">

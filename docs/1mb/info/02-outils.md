@@ -23,11 +23,11 @@ Prise en main des outils informatiques utilisés au gymnase.
 - Vérifier que les fichiers sont synchronisés
   - Ouvrir le dossier **OneDrive** dans le Finder
 - Créer un dossier `1m` dans le dossier `OneDrive - Eduvaud` (déjà existant)
-- Créer un dossier `informatique` dans le dossier `2c`
+- Créer un dossier `informatique` dans le dossier `1m`
 
 ```
 OneDrive/
-└── 2c/
+└── 1m/
     └── informatique/
 ```
 
@@ -43,7 +43,7 @@ OneDrive/
 
 ```
 OneDrive/
-└── 2c/
+└── 1m/
     └── informatique/
         └── presentation-prenom-nom.docx
         └── presentation-prenom-nom.pdf

@@ -1,19 +1,3 @@
-# Base
-
-:::note[Objectifs]
-
-Comment compter en différentes bases ?
-
-- Compter en n'importe quelle base
-
-:::
-
-## Cours
-
-import Slides from "@site/src/pages/slides/2c/info/base";
-
-<Slides embedded />
-
 ## Exercices
 
 ### Base 2 (binaire)

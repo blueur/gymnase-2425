@@ -1,13 +1,12 @@
 import { Columns, List, Section, Table, Text } from "@site/src/components/Deck";
 import RevealDeck from "@site/src/components/RevealDeck";
 
-export default function Base(props: { embedded?: boolean }) {
+export default function Base(props: { embedded?: boolean; chapter?: string }) {
   return (
     <RevealDeck
       embedded={props.embedded}
-      name="2c/info/base"
       title="Base"
-      subTitle="Introduction à l'Informatique"
+      subTitle={props.chapter ?? "Introduction à l'Informatique"}
     >
       <Section level={2} title="Symboles">
         <List
