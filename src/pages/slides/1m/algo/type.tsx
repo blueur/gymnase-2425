@@ -190,7 +190,61 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
           ]}
         />
       </Section>
-      <Section level={2} title="Liste"></Section>
+      <Section level={2} title="Liste">
+        <List
+          fragment
+          items={[
+            'liste = [42, 3.14, "Hello"]',
+            "Liste : ensemble ordonné d'éléments",
+            "Délimité par des **crochets**",
+            "Chaque élément est séparé par une **virgule**",
+            {
+              text: "Chaque élément a un **index** (position dans la liste) qui débute à 0",
+              fragment: true,
+              items: [
+                "liste[0] : premier élément, liste[1] : deuxième élément, &hellip;",
+                "liste[-1] : dernier élément, liste[-2] : avant-dernier &hellip;",
+                "liste[1] : 3.14",
+                "liste[3] : erreur (index hors de la liste)",
+              ],
+            },
+          ]}
+        />
+      </Section>
+      <Section level={3} title="Quiz : évaluer l'expression">
+        <List
+          fragment
+          items={[
+            "a = [54, 12, 29, 34, 87]",
+            'b = ["rouge", "vert", "bleu"]',
+            {
+              text: "a[2]",
+              fragment: true,
+              items: ["29"],
+            },
+            {
+              text: "b[1]",
+              fragment: true,
+              items: ["vert"],
+            },
+            {
+              text: "a[1] + a[3]",
+              fragment: true,
+              items: ["46"],
+            },
+            {
+              text: "a[1] + b[0]",
+              fragment: true,
+              items: ["erreur (types différents)"],
+            },
+            {
+              text: "b[0] + b[0]",
+              fragment: true,
+              items: ["rougerouge"],
+            },
+          ]}
+        />
+      </Section>
     </RevealDeck>
   );
 }
