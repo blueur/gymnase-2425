@@ -225,7 +225,7 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
             {
               text: "b[1]",
               fragment: true,
-              items: ["vert"],
+              items: ['"vert"'],
             },
             {
               text: "a[1] + a[3]",
@@ -240,7 +240,7 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
             {
               text: "b[0] + b[0]",
               fragment: true,
-              items: ["rougerouge"],
+              items: ['"rougerouge"'],
             },
           ]}
         />

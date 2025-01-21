@@ -47,18 +47,18 @@ Quel est le type de chaque variable dans les exemples suivants ?
 <details>
 <summary>Solution</summary>
 
-1. `a` est un nombre entier.
-2. `b` est un nombre flottant.
-3. `c` est une chaîne de caractères.
-4. `d` est un booléen.
-5. `e` est une liste d'entiers.
-6. `f` est un nombre flottant.
-7. `g` est une chaîne de caractères.
-8. `h` est un entier.
+1. `a` est un nombre entier (int).
+2. `b` est un nombre flottant (float).
+3. `c` est une chaîne de caractères (str).
+4. `d` est un booléen (bool).
+5. `e` est une liste d'entiers (list).
+6. `f` est un nombre flottant (float).
+7. `g` est une chaîne de caractères (str).
+8. `h` est un entier (int).
 9. `i` est une erreur, on ne peut pas soustraire un entier d'une chaîne de caractères.
-10. `j` est un nombre flottant.
+10. `j` est un nombre flottant (float).
 11. `k` est une erreur, l'index 3 n'existe pas dans la liste `e`.
-12. `l` est un entier.
+12. `l` est un entier (int).
 
 </details>
 
@@ -135,11 +135,11 @@ endwhile (faux)
 kill
 ```
 
-Que retourne les instances suivantes de l'algorithme ci-dessus ? `liste.taille` est la taille de la liste.
+Que retourne les instances suivantes de l'algorithme ci-dessus ? `liste.taille` est le nombre d'élément de la liste (donc 3 pour les instances ci-dessous).
 
 1. `liste = [1, 2, 3], x = 1`
-2. `liste = [1, 2, 3], x = 6`
-3. `liste = [1, 2, 3], x = 3`
+2. `liste = [7, 5, 2], x = 6`
+3. `liste = [2, 15, 3], x = 3`
 
 <details>
 <summary>Solution</summary>
