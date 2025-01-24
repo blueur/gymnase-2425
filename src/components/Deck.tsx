@@ -6,6 +6,7 @@ import {
   ReactElement,
 } from "react";
 import Markdown from "react-markdown";
+import RehypeRaw from "rehype-raw";
 
 export function Section(
   props: PropsWithChildren<{
@@ -30,6 +31,7 @@ export function Section(
 
 type ListItem =
   | string
+  | ReactElement
   | { text: string; fragment?: boolean; items?: ListItem[] };
 
 export function List(
@@ -40,34 +42,39 @@ export function List(
   }>,
 ) {
   const children = props.items
-    ? props.items.map((item, index) => {
-        if (typeof item === "string") {
-          return (
-            <li
-              key={index}
-              className={clsx({
-                fragment: props.fragment,
-              })}
-            >
-              <Markdown>{item}</Markdown>
-            </li>
-          );
-        } else {
-          return (
-            <li
-              key={index}
-              className={clsx({
-                fragment: item.fragment ?? props.fragment,
-              })}
-            >
-              <Markdown>{item.text}</Markdown>
-              {item.items ? (
-                <List items={item.items} fragment={item.fragment} />
-              ) : undefined}
-            </li>
-          );
-        }
-      })
+    ? props.items.map((item, index) =>
+        typeof item === "string" ? (
+          <li
+            key={index}
+            className={clsx({
+              fragment: props.fragment,
+            })}
+          >
+            <Text>{item}</Text>
+          </li>
+        ) : "text" in item ? (
+          <li
+            key={index}
+            className={clsx({
+              fragment: item.fragment ?? props.fragment,
+            })}
+          >
+            <Text>{item.text}</Text>
+            {item.items ? (
+              <List items={item.items} fragment={item.fragment} />
+            ) : undefined}
+          </li>
+        ) : (
+          <li
+            key={index}
+            className={clsx({
+              fragment: props.fragment,
+            })}
+          >
+            {item}
+          </li>
+        ),
+      )
     : Children.map(props.children, (child: ReactElement, index) => (
         <li
           key={index}
@@ -88,7 +95,10 @@ export function Text(
   }>,
 ) {
   return (
-    <Markdown className={clsx({ fragment: props.fragment })}>
+    <Markdown
+      className={clsx({ fragment: props.fragment })}
+      rehypePlugins={[RehypeRaw]}
+    >
       {props.children.toString()}
     </Markdown>
   );
@@ -155,9 +165,16 @@ export function Code(
   );
 }
 
-export function Table(props: { headers?: string[]; items: string[][] }) {
+export function Table(props: {
+  fragment?: boolean;
+  headers?: string[];
+  items: string[][];
+}) {
   return (
-    <table style={{ width: "unset" }}>
+    <table
+      className={clsx({ fragment: props.fragment })}
+      style={{ width: "unset" }}
+    >
       {props.headers ? (
         <thead>
           <tr>
@@ -166,7 +183,7 @@ export function Table(props: { headers?: string[]; items: string[][] }) {
                 key={index}
                 style={{ textAlign: "center", padding: "0em 1em" }}
               >
-                {header}
+                <Text>{header}</Text>
               </th>
             ))}
           </tr>
@@ -180,7 +197,7 @@ export function Table(props: { headers?: string[]; items: string[][] }) {
                 key={index}
                 style={{ textAlign: "center", padding: "0em 1em" }}
               >
-                {item}
+                <Text>{item}</Text>
               </td>
             ))}
           </tr>

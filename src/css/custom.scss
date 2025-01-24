@@ -88,6 +88,9 @@ div.reveal {
       height: 360px;
     }
   }
+  li p {
+    margin: 0;
+  }
   p:has(> .reference) {
     line-height: 0.4;
   }
