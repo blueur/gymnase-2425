@@ -92,11 +92,12 @@ export function List(
 export function Text(
   props: PropsWithChildren<{
     fragment?: boolean;
+    color?: "green" | "red" | "blue";
   }>,
 ) {
   return (
     <Markdown
-      className={clsx({ fragment: props.fragment })}
+      className={clsx({ fragment: props.fragment }, props.color)}
       rehypePlugins={[RehypeRaw]}
     >
       {props.children.toString()}
@@ -140,6 +141,7 @@ export function Columns(props: PropsWithChildren) {
 
 export function Code(
   props: PropsWithChildren<{
+    fragment?: boolean;
     lines?: string;
   }>,
 ) {
@@ -157,7 +159,7 @@ export function Code(
   }
   const unindented = code.replaceAll(" ".repeat(i), "");
   return (
-    <pre>
+    <pre className={clsx({ fragment: props.fragment })}>
       <code data-trim data-noescape data-line-numbers={props.lines ?? true}>
         {unindented}
       </code>
@@ -168,7 +170,7 @@ export function Code(
 export function Table(props: {
   fragment?: boolean;
   headers?: string[];
-  items: string[][];
+  lines: (string | ReactElement)[][];
 }) {
   return (
     <table
@@ -190,14 +192,14 @@ export function Table(props: {
         </thead>
       ) : undefined}
       <tbody>
-        {props.items.map((line, index) => (
+        {props.lines.map((line, index) => (
           <tr key={index}>
             {line.map((item, index) => (
               <td
                 key={index}
                 style={{ textAlign: "center", padding: "0em 1em" }}
               >
-                <Text>{item}</Text>
+                {typeof item === "string" ? <Text>{item}</Text> : item}
               </td>
             ))}
           </tr>

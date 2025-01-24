@@ -2,7 +2,11 @@
 
 Comment trier une liste ?
 
-- Appliquer un algorithme de tri
+- Appliquer les algorithmes de tri suivants :
+  - Tri par insertion
+  - Tri par sélection
+  - Tri fusion
+  - Tri rapide
 
 :::
 
@@ -12,9 +16,11 @@ Comment trier une liste ?
 
 ## Exercices
 
-|     |     |     |     |     |     |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-|  3  |  1  |  5  |  2  |  7  |  6  |
+|               |               |               |               |               |               |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| &nbsp;3&nbsp; | &nbsp;1&nbsp; | &nbsp;5&nbsp; | &nbsp;2&nbsp; | &nbsp;7&nbsp; | &nbsp;6&nbsp; |
+
+Trier la liste selon l'algorithme de tri indiqué. Entre chaque étape, seuls deux éléments peuvent être échangés.
 
 ### Tri par insertion
 
@@ -23,12 +29,12 @@ Trier la liste ci-dessus en utilisant le tri par insertion.
 <details>
 <summary>Solution</summary>
 
-|  3  |  1  |  5  |  2  |  7  |  6  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-|  1  |  3  |  5  |  2  |  7  |  6  |
-|  1  |  3  |  2  |  5  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  6  |  7  |
+| &nbsp;3&nbsp; | &nbsp;1&nbsp; | &nbsp;5&nbsp; | &nbsp;2&nbsp; | &nbsp;7&nbsp; | &nbsp;6&nbsp; |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|       1       |       3       |       5       |       2       |       7       |       6       |
+|       1       |       3       |       2       |       5       |       7       |       6       |
+|       1       |       2       |       3       |       5       |       7       |       6       |
+|       1       |       2       |       3       |       5       |       6       |       7       |
 
 </details>
 
@@ -39,12 +45,12 @@ Trier la liste ci-dessus en utilisant le tri par sélection.
 <details>
 <summary>Solution</summary>
 
-|  3  |  1  |  5  |  2  |  7  |  6  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-|  1  |  3  |  5  |  2  |  7  |  6  |
-|  1  |  2  |  5  |  3  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  6  |  7  |
+| &nbsp;3&nbsp; | &nbsp;1&nbsp; | &nbsp;5&nbsp; | &nbsp;2&nbsp; | &nbsp;7&nbsp; | &nbsp;6&nbsp; |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|       1       |       3       |       5       |       2       |       7       |       6       |
+|       1       |       2       |       5       |       3       |       7       |       6       |
+|       1       |       2       |       3       |       5       |       7       |       6       |
+|       1       |       2       |       3       |       5       |       6       |       7       |
 
 </details>
 
@@ -55,12 +61,12 @@ Trier la liste ci-dessus en utilisant le tri fusion.
 <details>
 <summary>Solution</summary>
 
-|  3  |  1  |  5  |  2  |  7  |  6  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-|  3  |  1  |  5  |  2  |  7  |  6  |
-|  1  |  3  |  2  |  5  |  6  |  7  |
-|  1  |  2  |  3  |  5  |  6  |  7  |
-|  1  |  2  |  3  |  5  |  6  |  7  |
+| &nbsp;3&nbsp; | &nbsp;1&nbsp; | &nbsp;5&nbsp; | &nbsp;2&nbsp; | &nbsp;7&nbsp; | &nbsp;6&nbsp; |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|       3       |       1       |       5       |       2       |       7       |       6       |
+|       1       |       3       |       2       |       5       |       6       |       7       |
+|       1       |       2       |       3       |       5       |       6       |       7       |
+|       1       |       2       |       3       |       5       |       6       |       7       |
 
 </details>
 
@@ -71,14 +77,25 @@ Trier la liste ci-dessus en utilisant le tri rapide. Indiquer les pivots.
 <details>
 <summary>Solution</summary>
 
-|  3  |  1  |  5  |  2  |  7  |  6  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-|  3  |  1  |  2  |  5  |  7  |  6  |
-|  2  |  1  |  3  |  5  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  7  |  6  |
-|  1  |  2  |  3  |  5  |  6  |  7  |
+| &nbsp;3&nbsp; | &nbsp;1&nbsp; | &nbsp;5&nbsp; | &nbsp;2&nbsp; | &nbsp;7&nbsp; | &nbsp;6&nbsp; |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|     **3**     |       1       |       2       |       5       |       7       |       6       |
+|     **2**     |       1       | <ins>3</ins>  |       5       |       7       |       6       |
+| <ins>1</ins>  | <ins>2</ins>  | <ins>3</ins>  |     **5**     |       7       |       6       |
+| <ins>1</ins>  | <ins>2</ins>  | <ins>3</ins>  | <ins>5</ins>  |     **7**     |       6       |
+| <ins>1</ins>  | <ins>2</ins>  | <ins>3</ins>  | <ins>5</ins>  | <ins>6</ins>  | <ins>7</ins>  |
+
+En gras, les pivots. En souligné, les éléments déjà triés.
 
 </details>
 
 ## Références
+
+- https://www.toptal.com/developers/sorting-algorithms
+- https://visualgo.net/en/sorting
+- https://fr.wikipedia.org/wiki/Tri_par_insertion
+- https://fr.wikipedia.org/wiki/Tri_par_s%C3%A9lection
+- https://fr.wikipedia.org/wiki/Tri_fusion
+- https://fr.wikipedia.org/wiki/Tri_rapide
+- https://www.youtube.com/playlist?list=PL2aHrV9pFqNS79ZKnGLw-RG5gH01bcjRZ
+- https://www.youtube.com/playlist?list=PLOmdoKois7_FK-ySGwHBkltzB11snW7KQ

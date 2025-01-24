@@ -19,7 +19,7 @@ $white: hsl(0, 0%, 100%);
 :root {
   --ifm-font-family-base: "Inconsolata Variable", sans-serif;
   --ifm-font-family-monospace: "Inconsolata Variable", monospace;
-  --ifm-font-weight-bold: 800;
+  --ifm-font-weight-bold: 1000;
   --ifm-table-cell-padding: 0.5rem;
   font-weight: 500;
 
@@ -57,6 +57,8 @@ html[data-theme="dark"] {
 div.reveal {
   --r-link-color: var(--ifm-link-color);
   --ifm-list-paragraph-margin: 0;
+  --ifm-table-border-color: #{$black};
+  --ifm-table-border-width: 2px;
 
   border: 1px solid var(--ifm-color-emphasis-300);
 
@@ -139,6 +141,9 @@ div.reveal {
     }
   }
 
+  .code-wrapper {
+    max-height: 750px;
+  }
   .columns {
     display: flex;
 
@@ -166,6 +171,10 @@ div.reveal {
     top: 0px;
     right: 0px;
     text-align: right;
+  }
+  .green {
+    color: var(--ifm-color-success);
+    font-weight: bold;
   }
   .toc {
     top: 0px;

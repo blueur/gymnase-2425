@@ -52,7 +52,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
             "Symbole",
             "Valeur",
           ]}
-          items={[
+          lines={[
             [
               "**kilo**octet",
               "**k**o",
@@ -147,7 +147,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Notations">
         <Table
           headers={["", "Base 2", "Base 16"]}
-          items={[
+          lines={[
             [
               "Notation suffixée (math)",
               "101010<sub>**2**</sub>",
@@ -175,7 +175,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
         <Table
           fragment
           headers={["Caractère", "Encodage"]}
-          items={[
+          lines={[
             ["0", "0000"],
             ["1", "0001"],
             ["2", "0010"],
@@ -200,7 +200,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
         <Table
           fragment
           headers={["Caractère", "Encodage"]}
-          items={[
+          lines={[
             ["A", "00000"],
             ["B", "00001"],
             ["C", "00010"],
