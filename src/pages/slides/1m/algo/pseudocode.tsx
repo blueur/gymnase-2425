@@ -17,11 +17,11 @@ export default function Pseudocode(props: {
           items={[
             "Objectif : décrire un **algorithme**.",
             {
-              text: "_Code_",
+              item: "_Code_",
               items: ["Lu par une **machine**."],
             },
             {
-              text: "_Pseudo-code_ / _organigramme_",
+              item: "_Pseudo-code_ / _organigramme_",
               items: ["Lu par des **humains**."],
             },
           ]}
@@ -32,25 +32,25 @@ export default function Pseudocode(props: {
           fragment
           items={[
             {
-              text: "**Affectation** : variable _&larr;_ expression",
+              item: "**Affectation** : variable _&larr;_ expression",
               items: ["a &larr; 42"],
             },
             {
-              text: "**Condition** : _SI_ condition _ALORS_ instruction _SINON_ instruction _FIN SI_",
+              item: "**Condition** : _SI_ condition _ALORS_ instruction _SINON_ instruction _FIN SI_",
               items: ["SI il pleut ALORS je prends un parapluie FIN SI"],
             },
             {
-              text: "**Boucle** : _TANT QUE_ condition _FAIRE_ instruction _FIN TANT QUE_",
+              item: "**Boucle** : _TANT QUE_ condition _FAIRE_ instruction _FIN TANT QUE_",
               items: [
                 "TANT QUE il fait beau FAIRE je reste dehors FIN TANT QUE",
               ],
             },
             {
-              text: "**Boucle** : _POUR_ variable _DE_ nombre _À_ nombre _FAIRE_ instruction _FIN POUR_",
+              item: "**Boucle** : _POUR_ variable _DE_ nombre _À_ nombre _FAIRE_ instruction _FIN POUR_",
               items: ["POUR b DE 1 À 4 FAIRE avancer de b mètres FIN POUR"],
             },
             {
-              text: "**Fonction** : _FONCTION_ nom(paramètres) _RETOURNER_ valeur _FIN FONCTION_",
+              item: "**Fonction** : _FONCTION_ nom(paramètres) _RETOURNER_ valeur _FIN FONCTION_",
               items: ["FONCTION double(c) RETOURNER 2 &times; c FIN FONCTION"],
             },
           ]}
@@ -61,7 +61,7 @@ export default function Pseudocode(props: {
           fragment
           items={[
             {
-              text: "**Comparaison** entre deux expressions",
+              item: "**Comparaison** entre deux expressions",
               fragment: true,
               items: [
                 "a _&lt;_ b : plus petit que",
@@ -73,7 +73,7 @@ export default function Pseudocode(props: {
               ],
             },
             {
-              text: "**Opérateurs logique** pour combiner des conditions",
+              item: "**Opérateurs logique** pour combiner des conditions",
               fragment: true,
               items: [
                 "4 &lt; a _ET_ a &lt; 10",
@@ -127,7 +127,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3"],
               },
             ]}
@@ -151,7 +151,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 0"],
               },
             ]}
@@ -175,7 +175,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 0", "i = 1"],
               },
             ]}
@@ -199,7 +199,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 1", "i = 1"],
               },
             ]}
@@ -223,7 +223,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 1", "i = 2"],
               },
             ]}
@@ -247,7 +247,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 3", "i = 2"],
               },
             ]}
@@ -271,7 +271,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 3", "i = 3"],
               },
             ]}
@@ -295,7 +295,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 6", "i = 3"],
               },
             ]}
@@ -319,7 +319,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 6", "i = 3"],
               },
             ]}
@@ -343,7 +343,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 6", "i = 3"],
               },
               "Résultat : 6",
@@ -368,7 +368,7 @@ export default function Pseudocode(props: {
             items={[
               "Instance : somme(3)",
               {
-                text: "Variables",
+                item: "Variables",
                 items: ["x = 3", "c = 6", "i = 3"],
               },
               "Résultat : 6",

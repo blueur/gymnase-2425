@@ -24,10 +24,10 @@ export default function Introduction(props: { embedded?: boolean }) {
         <List
           items={[
             {
-              text: "**Cours** et **Travaux pratiques**",
+              item: "**Cours** et **Travaux pratiques**",
               items: [
                 {
-                  text: "2 périodes / semaine",
+                  item: "2 périodes / semaine",
                   items: ["Cours en classe", "Cours tutoré à distance"],
                 },
               ],
@@ -40,15 +40,15 @@ export default function Introduction(props: { embedded?: boolean }) {
           fragment
           items={[
             {
-              text: "**Retard**",
+              item: "**Retard**",
               items: ["Être **prêt·e** à suivre le cours à la **sonnerie**"],
             },
             {
-              text: "**Absence**",
+              item: "**Absence**",
               items: ["À partir de quinze minutes de retard"],
             },
             {
-              text: "**Prévenir** par mail en cas d'**absence**",
+              item: "**Prévenir** par mail en cas d'**absence**",
               items: ["Sinon pas de rattrapage de test"],
             },
           ]}
@@ -72,14 +72,14 @@ export default function Introduction(props: { embedded?: boolean }) {
           fragment
           items={[
             {
-              text: "**Information** et **architecture**",
+              item: "**Information** et **architecture**",
               items: [
                 "Représentation et structuration de l'**information**",
                 "**Architecture** des ordinateurs",
               ],
             },
             {
-              text: "**Algorithmique** et **programmation**",
+              item: "**Algorithmique** et **programmation**",
               items: [
                 "Introduction à l'**algorithmique**",
                 "Introduction à la **programmation**",
@@ -93,7 +93,7 @@ export default function Introduction(props: { embedded?: boolean }) {
         <List
           items={[
             {
-              text: "[gymnase.davidtang.ch](https://gymnase.davidtang.ch/)",
+              item: "[gymnase.davidtang.ch](https://gymnase.davidtang.ch/)",
               items: [
                 "**Calendrier**",
                 "**Supports** de cours",

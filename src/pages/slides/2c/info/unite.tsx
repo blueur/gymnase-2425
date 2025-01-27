@@ -14,7 +14,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
           fragment
           items={[
             {
-              text: "Exemple d'information : 021 316 09 60",
+              item: "Exemple d'information : 021 316 09 60",
               items: [
                 "**Encodé** en binaire : 0000 0010 0001 0011 0001 0110 0000 1001 0110 0000",
                 "­Longueur : 40 symboles",
@@ -105,14 +105,14 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
             "16 symboles (0-9, A-F)",
             "Plus **compact** que le binaire",
             {
-              text: "Conversion facilitée avec le **binaire**",
+              item: "Conversion facilitée avec le **binaire**",
               items: [
                 "2<sup>**4**</sup> = 16<sup>**1**</sup>",
                 "**4** bits = **1** symbole hexadécimal",
               ],
             },
             {
-              text: "10 1010<sub>2</sub> = ?<sub>16</sub>",
+              item: "10 1010<sub>2</sub> = ?<sub>16</sub>",
               items: [
                 <Katex>
                   {
@@ -122,7 +122,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
               ],
             },
             {
-              text: "42<sub>16</sub> = 42<sub>**hex**</sub> = ?<sub>2</sub>",
+              item: "42<sub>16</sub> = 42<sub>**hex**</sub> = ?<sub>2</sub>",
               items: [
                 <Katex>
                   {
@@ -132,7 +132,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
               ],
             },
             {
-              text: "50B<sub>hex</sub> = ?<sub>2</sub>",
+              item: "50B<sub>hex</sub> = ?<sub>2</sub>",
               items: [
                 <Katex>
                   {

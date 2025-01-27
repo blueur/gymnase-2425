@@ -40,19 +40,19 @@ export default function Organigramme(props: {
         <List
           items={[
             {
-              text: "Entrée(s)",
+              item: "Entrée(s)",
               items: [
                 {
-                  text: "Ingrédients (oeufs, &hellip;)",
+                  item: "Ingrédients (oeufs, &hellip;)",
                   fragment: true,
                 },
               ],
             },
             {
-              text: "Sortie(s)",
+              item: "Sortie(s)",
               items: [
                 {
-                  text: "Omelette",
+                  item: "Omelette",
                   fragment: true,
                 },
               ],
@@ -175,7 +175,7 @@ export default function Organigramme(props: {
             "Problème : Trouver le plus grand nombre entre a et b",
             "**Instance** : exécution d'un algorithme pour des entrées données",
             {
-              text: "Instances possibles :",
+              item: "Instances possibles :",
               items: ["a = 7, b = 1", "a = 3, b = 3", "a = 5, b = 9"],
             },
           ]}
@@ -199,12 +199,12 @@ export default function Organigramme(props: {
             fragment
             items={[
               {
-                text: "Instance : a = 5, b = 3 ?",
+                item: "Instance : a = 5, b = 3 ?",
                 fragment: true,
                 items: ["Résultat : 5"],
               },
               {
-                text: "Instance : a = 2, b = 4 ?",
+                item: "Instance : a = 2, b = 4 ?",
                 fragment: true,
                 items: ["Résultat : 4"],
               },
@@ -255,17 +255,17 @@ export default function Organigramme(props: {
             fragment
             items={[
               {
-                text: "Instance : n = 0 ?",
+                item: "Instance : n = 0 ?",
                 fragment: true,
                 items: ["Résultat : 0"],
               },
               {
-                text: "Instance : n = 2 ?",
+                item: "Instance : n = 2 ?",
                 fragment: true,
                 items: ["Résultat : 3"],
               },
               {
-                text: "Fonction ?",
+                item: "Fonction ?",
                 fragment: true,
                 items: ["Somme(n) : 1 + 2 + &hellip; + n"],
               },
@@ -277,46 +277,46 @@ export default function Organigramme(props: {
         <List
           items={[
             {
-              text: "_Algorithme_",
+              item: "_Algorithme_",
               items: [
                 {
-                  text: "Une suite d'**instructions** permettant de résoudre un problème",
+                  item: "Une suite d'**instructions** permettant de résoudre un problème",
                   fragment: true,
                 },
               ],
             },
             {
-              text: "_Organigramme_",
+              item: "_Organigramme_",
               items: [
                 {
-                  text: "Une **représentation graphique** d'un algorithme",
+                  item: "Une **représentation graphique** d'un algorithme",
                   fragment: true,
                 },
               ],
             },
             {
-              text: "_Instance_",
+              item: "_Instance_",
               items: [
                 {
-                  text: "**Exécution** d'un algorithme",
+                  item: "**Exécution** d'un algorithme",
                   fragment: true,
                 },
               ],
             },
             {
-              text: "_a &larr; b + c_",
+              item: "_a &larr; b + c_",
               items: [
                 {
-                  text: "**Calculer** `b + c`, puis **remplacer** la valeur de `a`",
+                  item: "**Calculer** `b + c`, puis **remplacer** la valeur de `a`",
                   fragment: true,
                 },
               ],
             },
             {
-              text: "_Retourner_ une valeur",
+              item: "_Retourner_ une valeur",
               items: [
                 {
-                  text: "**Résultat** de l'instance d'un algorithme",
+                  item: "**Résultat** de l'instance d'un algorithme",
                   fragment: true,
                 },
               ],

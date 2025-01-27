@@ -44,8 +44,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
         <Table
           lines={[
             ["4", "1", "5", "3", "2"],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriInsertion />
@@ -218,8 +218,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
             ],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriInsertion />
@@ -260,9 +260,9 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
         <Table
           lines={[
             ["4", "1", "5", "3", "2"],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriSelection />
@@ -478,9 +478,9 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
             ],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriSelection />
@@ -789,8 +789,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
         <Table
           lines={[
             ["4", "7", "1", "6", "5", "8", "2"],
-            ["&nbsp;", "", "", "", "", "", ""],
-            ["&nbsp;", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -850,7 +850,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           lines={[
             ["1", "2", <Text color="green">4</Text>, "6", "5", "8", "7"],
             ["", "", "p", "", "", "", ""],
-            ["&nbsp;", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", ""],
           ]}
         />
         <List
@@ -866,8 +866,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
         <Table
           lines={[
             ["4", "1", "5", "3", "2"],
-            ["&nbsp;", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -917,7 +917,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           lines={[
             ["3", "1", "2", <Text color="green">4</Text>, "5"],
             ["", "", "", "p", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -959,7 +959,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               "5",
             ],
             ["p", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -975,7 +975,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               "5",
             ],
             ["", "p", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -991,7 +991,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               "5",
             ],
             ["p", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -1007,7 +1007,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               "5",
             ],
             ["p", "", "", "", ""],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -1023,7 +1023,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               "**5**",
             ],
             ["", "", "", "", "p"],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -1039,7 +1039,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">5</Text>,
             ],
             ["", "", "", "", "p"],
-            ["&nbsp;", "", "", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />

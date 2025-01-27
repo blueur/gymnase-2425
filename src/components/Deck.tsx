@@ -7,6 +7,7 @@ import {
 } from "react";
 import Markdown from "react-markdown";
 import RehypeRaw from "rehype-raw";
+import RemarkGfm from "remark-gfm";
 
 export function Section(
   props: PropsWithChildren<{
@@ -32,7 +33,11 @@ export function Section(
 type ListItem =
   | string
   | ReactElement
-  | { text: string; fragment?: boolean; items?: ListItem[] };
+  | {
+      item: string | ReactElement;
+      fragment?: boolean;
+      items?: ListItem[];
+    };
 
 export function List(
   props: PropsWithChildren<{
@@ -49,17 +54,24 @@ export function List(
             className={clsx({
               fragment: props.fragment,
             })}
+            style={{
+              listStyleType: item ? undefined : "none",
+            }}
           >
-            <Text>{item}</Text>
+            <Text>{item ? item : "&nbsp;"}</Text>
           </li>
-        ) : "text" in item ? (
+        ) : "item" in item ? (
           <li
             key={index}
             className={clsx({
               fragment: item.fragment ?? props.fragment,
             })}
           >
-            <Text>{item.text}</Text>
+            {typeof item.item === "string" ? (
+              <Text>{item.item}</Text>
+            ) : (
+              item.item
+            )}
             {item.items ? (
               <List items={item.items} fragment={item.fragment} />
             ) : undefined}
@@ -99,6 +111,7 @@ export function Text(
     <Markdown
       className={clsx({ fragment: props.fragment }, props.color)}
       rehypePlugins={[RehypeRaw]}
+      remarkPlugins={[RemarkGfm]}
     >
       {props.children.toString()}
     </Markdown>
@@ -199,7 +212,11 @@ export function Table(props: {
                 key={index}
                 style={{ textAlign: "center", padding: "0em 1em" }}
               >
-                {typeof item === "string" ? <Text>{item}</Text> : item}
+                {typeof item === "string" ? (
+                  <Text>{item ? item : "&nbsp;"}</Text>
+                ) : (
+                  item
+                )}
               </td>
             ))}
           </tr>

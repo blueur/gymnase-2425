@@ -16,7 +16,7 @@ export default function Base(props: { embedded?: boolean; chapter?: string }) {
             "Nombres : **10** symboles (0-9)",
             "Français : **26** symboles (a-z)",
             {
-              text: "Ordinateur : **2** symboles (0, 1)",
+              item: "Ordinateur : **2** symboles (0, 1)",
               fragment: true,
               items: ["Courant / pas de courant", "1 / 0", "**Binaire**"],
             },
@@ -122,7 +122,7 @@ export default function Base(props: { embedded?: boolean; chapter?: string }) {
               "21",
               "22",
               {
-                text: "100",
+                item: "100",
                 fragment: true,
               },
             ]}
@@ -130,43 +130,43 @@ export default function Base(props: { embedded?: boolean; chapter?: string }) {
           <List
             items={[
               {
-                text: "101",
+                item: "101",
                 fragment: true,
               },
               {
-                text: "102",
+                item: "102",
                 fragment: true,
               },
               {
-                text: "110",
+                item: "110",
                 fragment: true,
               },
               {
-                text: "111",
+                item: "111",
                 fragment: true,
               },
               {
-                text: "112",
+                item: "112",
                 fragment: true,
               },
               {
-                text: "120",
+                item: "120",
                 fragment: true,
               },
               {
-                text: "121",
+                item: "121",
                 fragment: true,
               },
               {
-                text: "122",
+                item: "122",
                 fragment: true,
               },
               {
-                text: "200",
+                item: "200",
                 fragment: true,
               },
               {
-                text: "&hellip;",
+                item: "&hellip;",
                 fragment: true,
               },
             ]}
@@ -213,6 +213,12 @@ export default function Base(props: { embedded?: boolean; chapter?: string }) {
             ["12", "1100", "110", "30", "14", "C"],
           ]}
         />
+      </Section>
+      <Section level={3} title="">
+        <Text>
+          There are 10 types of people in this world, those who understand
+          binary and those who don't.
+        </Text>
       </Section>
     </RevealDeck>
   );

@@ -15,7 +15,7 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
             "Pour contenir une **valeur**",
             "Chaque variable a un **type**",
             {
-              text: "Déclarée avec un **nom**",
+              item: "Déclarée avec un **nom**",
               fragment: true,
               items: [
                 "Le nom peut contenir des lettres, des chiffres et des _",
@@ -30,22 +30,22 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
         <List
           items={[
             {
-              text: "42",
+              item: "42",
               fragment: true,
               items: ["Nombre entier : Integer (**int**)"],
             },
             {
-              text: "3.14",
+              item: "3.14",
               fragment: true,
               items: ["Nombre décimal (virgule flottante) : Float (**float**)"],
             },
             {
-              text: "false / true",
+              item: "false / true",
               fragment: true,
               items: ["Booléen (vrai ou faux) : Boolean (**bool**)"],
             },
             {
-              text: '"Hello"',
+              item: '"Hello"',
               fragment: true,
               items: [
                 "Chaîne de caractères / texte : String (**str**)",
@@ -59,32 +59,32 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
         <List
           items={[
             {
-              text: "16",
+              item: "16",
               fragment: true,
               items: ["int"],
             },
             {
-              text: '"Bleu"',
+              item: '"Bleu"',
               fragment: true,
               items: ["str"],
             },
             {
-              text: '"7"',
+              item: '"7"',
               fragment: true,
               items: ["str"],
             },
             {
-              text: "6.626",
+              item: "6.626",
               fragment: true,
               items: ["float"],
             },
             {
-              text: "true",
+              item: "true",
               fragment: true,
               items: ["bool"],
             },
             {
-              text: "3,14",
+              item: "3,14",
               fragment: true,
               items: ["erreur (virgule au lieu du point)"],
             },
@@ -95,32 +95,32 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
         <List
           items={[
             {
-              text: "16 + 5.2",
+              item: "16 + 5.2",
               fragment: true,
               items: ["**Addition** entre deux nombres (int ou float)"],
             },
             {
-              text: "31 - 0",
+              item: "31 - 0",
               fragment: true,
               items: ["**Soustraction** entre deux nombres"],
             },
             {
-              text: "8 * 1291",
+              item: "8 * 1291",
               fragment: true,
               items: ["**Multiplication** entre deux nombres"],
             },
             {
-              text: "42 / 5",
+              item: "42 / 5",
               fragment: true,
               items: ["**Division** entre deux nombres"],
             },
             {
-              text: "5 % 2",
+              item: "5 % 2",
               fragment: true,
               items: ["**Modulo** : reste de la division entière"],
             },
             {
-              text: '"Abra" + "cadabra"',
+              item: '"Abra" + "cadabra"',
               fragment: true,
               items: ["**Concaténation** entre deux chaînes de caractères"],
             },
@@ -131,32 +131,32 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
         <List
           items={[
             {
-              text: "int + int",
+              item: "int + int",
               fragment: true,
               items: ["int"],
             },
             {
-              text: "int - float",
+              item: "int - float",
               fragment: true,
               items: ["float"],
             },
             {
-              text: "float * float",
+              item: "float * float",
               fragment: true,
               items: ["float"],
             },
             {
-              text: "int / int",
+              item: "int / int",
               fragment: true,
               items: ["float"],
             },
             {
-              text: "str + str",
+              item: "str + str",
               fragment: true,
               items: ["str"],
             },
             {
-              text: "str + int",
+              item: "str + int",
               fragment: true,
               items: ["erreur (types différents)"],
             },
@@ -168,22 +168,22 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
           fragment
           items={[
             {
-              text: "5 + 3",
+              item: "5 + 3",
               fragment: true,
               items: ["int"],
             },
             {
-              text: "5 + 3.2",
+              item: "5 + 3.2",
               fragment: true,
               items: ["float"],
             },
             {
-              text: '"5" + "3"',
+              item: '"5" + "3"',
               fragment: true,
               items: ["str"],
             },
             {
-              text: '"5" + 3',
+              item: '"5" + 3',
               fragment: true,
               items: ["erreur (str + int)"],
             },
@@ -199,7 +199,7 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
             "Délimité par des **crochets**",
             "Chaque élément est séparé par une **virgule**",
             {
-              text: "Chaque élément a un **index** (position dans la liste) qui débute à 0",
+              item: "Chaque élément a un **index** (position dans la liste) qui débute à 0",
               fragment: true,
               items: [
                 "liste[0] : premier élément, liste[1] : deuxième élément, &hellip;",
@@ -218,27 +218,27 @@ export default function Type(props: { embedded?: boolean; chapter?: string }) {
             "a = [54, 12, 29, 34, 87]",
             'b = ["rouge", "vert", "bleu"]',
             {
-              text: "a[2]",
+              item: "a[2]",
               fragment: true,
               items: ["29"],
             },
             {
-              text: "b[1]",
+              item: "b[1]",
               fragment: true,
               items: ['"vert"'],
             },
             {
-              text: "a[1] + a[3]",
+              item: "a[1] + a[3]",
               fragment: true,
               items: ["46"],
             },
             {
-              text: "a[1] + b[0]",
+              item: "a[1] + b[0]",
               fragment: true,
               items: ["erreur (types différents)"],
             },
             {
-              text: "b[0] + b[0]",
+              item: "b[0] + b[0]",
               fragment: true,
               items: ['"rougerouge"'],
             },
