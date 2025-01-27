@@ -15,6 +15,7 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
           items={[
             {
               item: "Exemple d'information : 021 316 09 60",
+              fragment: true,
               items: [
                 "**Encodé** en binaire : 0000 0010 0001 0011 0001 0110 0000 1001 0110 0000",
                 "­Longueur : 40 symboles",

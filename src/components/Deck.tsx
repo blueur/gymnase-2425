@@ -198,7 +198,7 @@ export function Table(props: {
                 key={index}
                 style={{ textAlign: "center", padding: "0em 1em" }}
               >
-                <Text>{header}</Text>
+                <Text>{header ? header : "&nbsp;"}</Text>
               </th>
             ))}
           </tr>

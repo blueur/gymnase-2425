@@ -51,7 +51,7 @@ export default function Conversion(props: {
               item: <Katex>{"6_{10} = 110_{2}"}</Katex>,
               fragment: true,
               items: [
-                "**8** en _base 10_ est **équivalent** à **1000** en _base 2_",
+                "**6** en _base 10_ est **équivalent** à **110** en _base 2_",
               ],
             },
             <Katex>{"{10\\ 1010}_{2} = ?_{10}"}</Katex>,
@@ -102,7 +102,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion ? &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases ? &rarr; 10 avec un tableau"
+      >
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
@@ -113,7 +116,10 @@ export default function Conversion(props: {
         />
         <List items={["Mettre les chiffres dans un **tableau**"]} />
       </Section>
-      <Section level={2} title="Conversion ? &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases ? &rarr; 10 avec un tableau"
+      >
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
@@ -133,7 +139,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion ? &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases ? &rarr; 10 avec un tableau"
+      >
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
@@ -148,7 +157,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion ? &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases ? &rarr; 10 avec un tableau"
+      >
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
@@ -159,7 +171,10 @@ export default function Conversion(props: {
         />
         <List items={["Calculer les **produits** par colonne"]} />
       </Section>
-      <Section level={2} title="Conversion ? &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases ? &rarr; 10 avec un tableau"
+      >
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
@@ -170,7 +185,10 @@ export default function Conversion(props: {
         />
         <List items={["Calculer les **produits** par colonne"]} />
       </Section>
-      <Section level={2} title="Conversion ? &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases ? &rarr; 10 avec un tableau"
+      >
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
@@ -188,7 +206,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 2 &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases 2 &rarr; 10 avec un tableau"
+      >
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
@@ -198,7 +219,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 2 &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases 2 &rarr; 10 avec un tableau"
+      >
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
@@ -208,7 +232,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 2 &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases 2 &rarr; 10 avec un tableau"
+      >
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
@@ -218,7 +245,10 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 2 &rarr; 10 avec un tableau">
+      <Section
+        level={2}
+        title="Conversion entre bases 2 &rarr; 10 avec un tableau"
+      >
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
@@ -232,7 +262,7 @@ export default function Conversion(props: {
           items={["32 + 8 + 2 = 42", "10 1010<sub>2</sub> = 42<sub>10</sub>"]}
         />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           fragment
@@ -255,10 +285,10 @@ export default function Conversion(props: {
             "2",
             "1",
           ]}
-          lines={[["", "", "", "", "", "", "", "", "", "", ""]]}
+          lines={[]}
         />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           items={[
@@ -266,24 +296,12 @@ export default function Conversion(props: {
           ]}
         />
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
-          lines={[["", "", "", "", "", "", "", "", "", "", ""]]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
+          lines={[["", "", "", "", "", "", "", "", "", ""]]}
         />
         <List items={["", "", "", "", ""]} />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           items={[
@@ -291,24 +309,12 @@ export default function Conversion(props: {
           ]}
         />
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
-          lines={[["0", "**1**", "", "", "", "", "", "", "", "", ""]]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
+          lines={[["**1**", "", "", "", "", "", "", "", "", ""]]}
         />
         <List items={["666 - **512** = 154", "", "", "", ""]} />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           items={[
@@ -316,26 +322,14 @@ export default function Conversion(props: {
           ]}
         />
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
-          lines={[["0", "**1**", "0", "**1**", "", "", "", "", "", "", ""]]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
+          lines={[["**1**", "0", "**1**", "", "", "", "", "", "", ""]]}
         />
         <List
           items={["666 - **512** = 154", "154 - **128** = 26", "", "", ""]}
         />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           items={[
@@ -343,22 +337,8 @@ export default function Conversion(props: {
           ]}
         />
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
-          lines={[
-            ["0", "**1**", "0", "**1**", "0", "0", "**1**", "", "", "", ""],
-          ]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
+          lines={[["**1**", "0", "**1**", "0", "0", "**1**", "", "", "", ""]]}
         />
         <List
           items={[
@@ -370,7 +350,7 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           items={[
@@ -378,33 +358,9 @@ export default function Conversion(props: {
           ]}
         />
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
           lines={[
-            [
-              "0",
-              "**1**",
-              "0",
-              "**1**",
-              "0",
-              "0",
-              "**1**",
-              "**1**",
-              "",
-              "",
-              "",
-            ],
+            ["**1**", "0", "**1**", "0", "0", "**1**", "**1**", "", "", ""],
           ]}
         />
         <List
@@ -417,7 +373,7 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <List
           items={[
@@ -425,22 +381,9 @@ export default function Conversion(props: {
           ]}
         />
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
           lines={[
             [
-              "0",
               "**1**",
               "0",
               "**1**",
@@ -464,26 +407,13 @@ export default function Conversion(props: {
           ]}
         />
       </Section>
-      <Section level={2} title="Conversion 10 &rarr; 2">
+      <Section level={2} title="Conversion entre bases 10 &rarr; 2">
         <Text>{"666<sub>10</sub> = ?<sub>2</sub>"}</Text>
         <Text>{"666<sub>10</sub> = 10 1001 1010<sub>2</sub>"}</Text>
         <Table
-          headers={[
-            "~1024~",
-            "512",
-            "256",
-            "128",
-            "64",
-            "32",
-            "16",
-            "8",
-            "4",
-            "2",
-            "1",
-          ]}
+          headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
           lines={[
             [
-              "0",
               "**1**",
               "0",
               "**1**",
