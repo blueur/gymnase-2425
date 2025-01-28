@@ -53,7 +53,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par insertion">
         <Table
           lines={[
-            ["4", "1", "5", "3", "2"],
+            ["**4**", "1", "5", "3", "2"],
             ["i", "", "", "", ""],
             ["j", "", "", "", ""],
           ]}
@@ -63,7 +63,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par insertion">
         <Table
           lines={[
-            [<Text color="green">4</Text>, "1", "5", "3", "2"],
+            [<Text color="green">4</Text>, "**1**", "5", "3", "2"],
             ["", "i", "", "", ""],
             ["", "j", "", "", ""],
           ]}
@@ -73,7 +73,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par insertion">
         <Table
           lines={[
-            ["1", <Text color="green">4</Text>, "5", "3", "2"],
+            ["**1**", <Text color="green">4</Text>, "5", "3", "2"],
             ["", "i", "", "", ""],
             ["j", "", "", "", ""],
           ]}
@@ -86,7 +86,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">4</Text>,
-              "5",
+              "**5**",
               "3",
               "2",
             ],
@@ -103,7 +103,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">1</Text>,
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
-              "3",
+              "**3**",
               "2",
             ],
             ["", "", "", "i", ""],
@@ -118,7 +118,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">4</Text>,
-              "3",
+              "**3**",
               <Text color="green">5</Text>,
               "2",
             ],
@@ -133,7 +133,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           lines={[
             [
               <Text color="green">1</Text>,
-              "3",
+              "**3**",
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
               "2",
@@ -152,7 +152,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">3</Text>,
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
-              "2",
+              "**2**",
             ],
             ["", "", "", "", "i"],
             ["", "", "", "", "j"],
@@ -167,7 +167,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">1</Text>,
               <Text color="green">3</Text>,
               <Text color="green">4</Text>,
-              "2",
+              "**2**",
               <Text color="green">5</Text>,
             ],
             ["", "", "", "", "i"],
@@ -182,7 +182,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">3</Text>,
-              "2",
+              "**2**",
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
             ],
@@ -197,7 +197,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           lines={[
             [
               <Text color="green">1</Text>,
-              "2",
+              "**2**",
               <Text color="green">3</Text>,
               <Text color="green">4</Text>,
               <Text color="green">5</Text>,
@@ -270,7 +270,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            ["4", "1", "5", "3", "2"],
+            ["**4**", "1", "5", "3", "2"],
             ["i", "", "", "", ""],
             ["j", "", "", "", ""],
             ["m", "", "", "", ""],
@@ -281,7 +281,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            ["4", "1", "5", "3", "2"],
+            ["_4_", "**1**", "5", "3", "2"],
             ["i", "", "", "", ""],
             ["", "j", "", "", ""],
             ["", "m", "", "", ""],
@@ -292,7 +292,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            ["4", "1", "5", "3", "2"],
+            ["_4_", "**1**", "_5_", "3", "2"],
             ["i", "", "", "", ""],
             ["", "", "j", "", ""],
             ["", "m", "", "", ""],
@@ -303,7 +303,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            ["4", "1", "5", "3", "2"],
+            ["_4_", "**1**", "_5_", "_3_", "2"],
             ["i", "", "", "", ""],
             ["", "", "", "j", ""],
             ["", "m", "", "", ""],
@@ -314,7 +314,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            ["4", "1", "5", "3", "2"],
+            ["_4_", "**1**", "_5_", "_3_", "_2_"],
             ["i", "", "", "", ""],
             ["", "", "", "", "j"],
             ["", "m", "", "", ""],
@@ -325,7 +325,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            [<Text color="green">1</Text>, "4", "5", "3", "2"],
+            [<Text color="green">1</Text>, "**4**", "5", "3", "2"],
             ["", "i", "", "", ""],
             ["", "j", "", "", ""],
             ["", "m", "", "", ""],
@@ -336,7 +336,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            [<Text color="green">1</Text>, "4", "5", "3", "2"],
+            [<Text color="green">1</Text>, "**4**", "_5_", "3", "2"],
             ["", "i", "", "", ""],
             ["", "", "j", "", ""],
             ["", "m", "", "", ""],
@@ -347,7 +347,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            [<Text color="green">1</Text>, "4", "5", "3", "2"],
+            [<Text color="green">1</Text>, "_4_", "_5_", "**3**", "2"],
             ["", "i", "", "", ""],
             ["", "", "", "j", ""],
             ["", "", "", "m", ""],
@@ -358,7 +358,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri par sélection">
         <Table
           lines={[
-            [<Text color="green">1</Text>, "4", "5", "3", "2"],
+            [<Text color="green">1</Text>, "_4_", "_5_", "_3_", "**2**"],
             ["", "i", "", "", ""],
             ["", "", "", "", "j"],
             ["", "", "", "", "m"],
@@ -372,7 +372,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
-              "5",
+              "**5**",
               "3",
               "4",
             ],
@@ -389,8 +389,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
-              "5",
-              "3",
+              "_5_",
+              "**3**",
               "4",
             ],
             ["", "", "i", "", ""],
@@ -406,9 +406,9 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
-              "5",
-              "3",
-              "4",
+              "_5_",
+              "**3**",
+              "_4_",
             ],
             ["", "", "i", "", ""],
             ["", "", "", "", "j"],
@@ -424,7 +424,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
               <Text color="green">3</Text>,
-              "5",
+              "**5**",
               "4",
             ],
             ["", "", "", "i", ""],
@@ -441,8 +441,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
               <Text color="green">3</Text>,
-              "5",
-              "4",
+              "_5_",
+              "**4**",
             ],
             ["", "", "", "i", ""],
             ["", "", "", "", "j"],
@@ -459,7 +459,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">2</Text>,
               <Text color="green">3</Text>,
               <Text color="green">4</Text>,
-              "5",
+              "**5**",
             ],
             ["", "", "", "", "i"],
             ["", "", "", "", "j"],
@@ -555,6 +555,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**3**", "4", "6", "7"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -567,6 +568,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**3**", "4", "6", "7"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -581,6 +583,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**3**", "4", "6", "7"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -595,6 +598,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**4**", "6", "7"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -611,6 +615,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**4**", "6", "7"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -627,6 +632,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**6**", "7"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -643,6 +649,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**7**"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
@@ -657,6 +664,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             <Table lines={[["**8**"]]} />
           </div>
         </Columns>
+        <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Table
@@ -666,6 +674,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             )),
           ]}
         />
+        <Fusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Table lines={[["4", "1", "5", "3", "2"]]} />
@@ -675,6 +684,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           <Table lines={[["4", "1", "5"]]} />
           <Table lines={[["3", "2"]]} />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
@@ -683,6 +693,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           <span />
           <Table lines={[["3", "2"]]} />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
@@ -694,6 +705,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           <span />
           <Table lines={[["3", "2"]]} />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
@@ -706,6 +718,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           <span />
           <Table lines={[["3", "2"]]} />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
@@ -720,6 +733,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           />
           <Table lines={[["3", "2"]]} />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
@@ -736,6 +750,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           <Table lines={[[<Text color="green">3</Text>]]} />
           <Table lines={[[<Text color="green">2</Text>]]} />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
@@ -754,6 +769,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             ]}
           />
         </Columns>
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Table
@@ -761,12 +777,13 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
-              <Text color="green">4</Text>,
               <Text color="green">3</Text>,
+              <Text color="green">4</Text>,
               <Text color="green">5</Text>,
             ],
           ]}
         />
+        <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <List
@@ -808,7 +825,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Partition">
         <Table
           lines={[
-            ["**4**", "2", "1", "6", "5", "8", "7"],
+            ["**4**", "_2_", "1", "6", "5", "8", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "i", "", "", "", "", "j"],
           ]}
@@ -818,7 +835,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Partition">
         <Table
           lines={[
-            ["**4**", "2", "1", "6", "5", "8", "7"],
+            ["**4**", "_2_", "_1_", "6", "5", "_8_", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "", "i", "", "", "j", ""],
           ]}
@@ -828,7 +845,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Partition">
         <Table
           lines={[
-            ["**4**", "2", "1", "6", "5", "8", "7"],
+            ["**4**", "_2_", "_1_", "6", "_5_", "_8_", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "", "i", "", "j", "", ""],
           ]}
@@ -838,7 +855,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Partition">
         <Table
           lines={[
-            ["**4**", "2", "1", "6", "5", "8", "7"],
+            ["**4**", "_2_", "_1_", "_6_", "_5_", "_8_", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "", "i", "j", "", "", ""],
           ]}
@@ -853,6 +870,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             ["", "", "", "", "", "", ""],
           ]}
         />
+        <br />
         <List
           fragment
           items={[
@@ -875,7 +893,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri rapide">
         <Table
           lines={[
-            ["**4**", "1", "5", "3", "2"],
+            ["**4**", "_1_", "5", "3", "2"],
             ["p", "", "", "", ""],
             ["", "i", "", "", "j"],
           ]}
@@ -885,7 +903,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri rapide">
         <Table
           lines={[
-            ["**4**", "1", "5", "3", "2"],
+            ["**4**", "_1_", "5", "3", "2"],
             ["p", "", "", "", ""],
             ["", "", "i", "", "j"],
           ]}
@@ -895,7 +913,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri rapide">
         <Table
           lines={[
-            ["**4**", "1", "2", "3", "5"],
+            ["**4**", "_1_", "_2_", "3", "_5_"],
             ["p", "", "", "", ""],
             ["", "", "i", "", "j"],
           ]}
@@ -905,9 +923,19 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri rapide">
         <Table
           lines={[
-            ["**4**", "1", "2", "3", "5"],
+            ["**4**", "_1_", "_2_", "_3_", "_5_"],
             ["p", "", "", "", ""],
             ["", "", "", "i", "j"],
+          ]}
+        />
+        <TriRapide />
+      </Section>
+      <Section level={2} title="Tri rapide">
+        <Table
+          lines={[
+            ["**4**", "_1_", "_2_", "_3_", "_5_"],
+            ["p", "", "", "", ""],
+            ["", "", "", "i", ""],
           ]}
         />
         <TriRapide />
@@ -925,9 +953,19 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
       <Section level={2} title="Tri rapide">
         <Table
           lines={[
-            ["**3**", "1", "2", <Text color="green">4</Text>, "5"],
+            ["**3**", "_1_", "2", <Text color="green">4</Text>, "5"],
             ["p", "", "", "", ""],
             ["", "i", "j", "", ""],
+          ]}
+        />
+        <TriRapide />
+      </Section>
+      <Section level={2} title="Tri rapide">
+        <Table
+          lines={[
+            ["**3**", "_1_", "_2_", <Text color="green">4</Text>, "5"],
+            ["p", "", "", "", ""],
+            ["", "", "i", "", ""],
           ]}
         />
         <TriRapide />
@@ -942,8 +980,8 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
               <Text color="green">4</Text>,
               "5",
             ],
-            ["p", "", "", "", ""],
-            ["", "i", "j", "", ""],
+            ["", "", "p", "", ""],
+            ["", "", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -953,13 +991,13 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           lines={[
             [
               "**2**",
-              "1",
+              "_1_",
               <Text color="green">3</Text>,
               <Text color="green">4</Text>,
               "5",
             ],
             ["p", "", "", "", ""],
-            ["", "", "", "", ""],
+            ["", "i", "", "", ""],
           ]}
         />
         <TriRapide />
@@ -1060,36 +1098,58 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
 }
 
 function TriInsertion() {
-  return (
+  return [
+    <br />,
     <List
       items={[
         "i : liste triée jusqu'à l'index i",
         "j : index de l'élément à insérer (compare avec j - 1)",
       ]}
-    />
-  );
+    />,
+  ];
 }
 
 function TriSelection() {
-  return (
+  return [
+    <br />,
     <List
       items={[
         "i : liste triée jusqu'à l'index i",
         "j : recherche du minimum dans la liste non triée",
         "m : index du minimum trouvé",
       ]}
-    />
-  );
+    />,
+  ];
+}
+
+function Fusion() {
+  return [
+    <br />,
+    <List items={["Prendre le plus petit élément des deux listes"]} />,
+  ];
+}
+
+function TriFusion() {
+  return [
+    <br />,
+    <List
+      items={[
+        "Diviser la liste jusqu'à obtenir des listes d'un élément.",
+        "Puis, fusionner les listes deux à deux en utilisant la fonction fusion.",
+      ]}
+    />,
+  ];
 }
 
 function TriRapide() {
-  return (
+  return [
+    <br />,
     <List
       items={[
         "p : pivot choisi",
         "i : éléments à gauche du pivot (plus petit)",
         "j : éléments à droite du pivot (plus grand)",
       ]}
-    />
-  );
+    />,
+  ];
 }
