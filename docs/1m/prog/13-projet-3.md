@@ -16,7 +16,7 @@ Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) avant de continuer.
 
 ## Fonction
 
-- Créer un fichier `exemple.py` dans `/1m/informatique/projet` de votre OneDrive.
+- Créer un nouveau fichier `exemple.py` dans `/1m/informatique/projet` de votre OneDrive.
   - Ouvrir l'application **Thonny**
   - Cliquer sur <i class="ph ph-floppy-disk"></i> pour enregistrer le fichier.
     - Nommer le fichier `exemple.py`.
@@ -54,48 +54,50 @@ Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) avant de continuer.
     cave --> |t| trier[Trier les affaires]
   ```
   </details>
-- Mettre tout notre code dans une fonction `rangement` (ne pas oublier d'indenter le code) :
-  ```python showLineNumbers
-  # highlight-next-line
-  def rangement():
-      print("Vous décidez de faire du rangement dans votre maison. Par où commencer ?")
-      print("- c : La cave")
-      print("- g : Le grenier")
-      choix = input("Choix (c/g): ")
-      if choix == "c":
-          print("Vous êtes à la cave. Que voulez-vous faire ?")
-          print("- d : Dépoussiérer")
-          print("- t : Trier les affaires")
-          choix = input("Choix (d/t): ")
-          if choix == "d":
-              print("Vous dépoussiérez la cave.")
-          elif choix == "t":
-              print("Vous triez les objets de la cave.")
-          else:
-              print("Vous ne savez pas quoi faire.")
-      elif choix == "g":
-          print("Vous montez au grenier.")
-      else:
-          print("Vous ne savez pas quoi faire.")
-  ```
-- Appeler la fonction `rangement` tout en bas du fichier :
-  ```python
-  rangement()
-  ```
+- Mettre tout notre code dans une fonction `rangement()` (ne pas oublier d'indenter le code avec <kbd>TAB</kbd>) et appeler la fonction `rangement` tout à la fin du fichier :
+
+```python showLineNumbers
+# highlight-next-line
+def rangement():
+    print("Vous décidez de faire du rangement dans votre maison. Par où commencer ?")
+    print("- c : La cave")
+    print("- g : Le grenier")
+    choix = input("Choix (c/g): ")
+    if choix == "c":
+        print("Vous êtes à la cave. Que voulez-vous faire ?")
+        print("- d : Dépoussiérer")
+        print("- t : Trier les affaires")
+        choix = input("Choix (d/t): ")
+        if choix == "d":
+            print("Vous dépoussiérez la cave.")
+        elif choix == "t":
+            print("Vous triez les objets de la cave.")
+        else:
+            print("Vous ne savez pas quoi faire.")
+    elif choix == "g":
+        print("Vous montez au grenier.")
+    else:
+        print("Vous ne savez pas quoi faire.")
+
+# highlight-next-line
+rangement()
+```
+
 - Exécuter le code en cliquant sur le bouton <i class="ph ph-play"></i> ou en appuyant sur la touche <kbd>F5</kbd>.
-- Est-ce que l'appel à la fonction `rangement()` est nécessaire ? Essayer de l'enlever et de relancer le programme pour voir ce qui se passe.
+- Est-ce que l'appel à la fonction `rangement()` est-il nécessaire ? Essayer de l'enlever et de relancer le programme pour voir ce qui se passe (le remettre après).
 - Mettre la partie concernant le grenier dans une fonction.
-  - Créer une fonction `grenier` à la suite de la fonction `rangement` (après la ligne 20).
+  - Créer une fonction `grenier()` juste avant l'appel de la fonction `rangement()` (à la ligne 21).
     ```python
+    # highlight-next-line
     def grenier():
     ```
-  - Copier le code pour le grenier dans la fonction.
+  - Copier le code du grenier (ligne 18) dans la fonction.
     ```python
     def grenier():
         # highlight-next-line
         print("Vous montez au grenier.")
     ```
-  - Appeler la fonction `grenier` une fois que l'utilisateur a choisi le grenier (remplacer le code).
+  - Remplacer le code du grenier copié précédemment (ligne 18) par l'appel de la fonction.
     ```python
         ...
     elif choix == "g":
@@ -106,11 +108,12 @@ Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) avant de continuer.
     ```
   - Exécuter le code pour vérifier que tout fonctionne correctement.
 - Mettre la partie concernant la cave dans une fonction.
-  - Commencer par créer une fonction `cave` à la suite de la fonction `grenier` (après la ligne 24).
+  - Commencer par créer une fonction `cave()` juste avant l'appel de la fonction `rangement()` (tout à la fin).
     ```python
+    # highlight-next-line
     def cave():
     ```
-  - Copier le code pour la cave dans la fonction.
+  - Copier le code de la cave (lignes 7-16) dans la fonction.
     ```python
     def cave():
         # highlight-start
@@ -126,7 +129,7 @@ Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) avant de continuer.
             print("Vous ne savez pas quoi faire.")
         # highlight-end
     ```
-  - Remplacer le code copié par l'appel à la fonction `cave`.
+  - Remplacer le code copié (lignes 7-16) par l'appel à la fonction `cave()`.
     ```python
         ...
     elif choix == "c":

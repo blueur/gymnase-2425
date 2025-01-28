@@ -22,7 +22,7 @@ Prise en main des outils informatiques utilisés au gymnase.
   - Se connecter avec son compte Eduvaud (px00xxx@eduvaud.ch)
 - Vérifier que les fichiers sont synchronisés
   - Ouvrir le dossier **OneDrive** dans le Finder
-- Créer un dossier `2c` dans le dossier `OneDrive - Eduvaud` (déjà existant)
+- Créer un dossier `2c` dans le dossier `OneDrive` (déjà existant)
 - Créer un dossier `informatique` dans le dossier `2c`
 
 ```
