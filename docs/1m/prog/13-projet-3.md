@@ -132,7 +132,7 @@ rangement()
   - Remplacer le code copié (lignes 7-16) par l'appel à la fonction `cave()`.
     ```python
         ...
-    elif choix == "c":
+    if choix == "c":
         # highlight-next-line
         cave()
     elif choix == "g":

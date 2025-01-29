@@ -43,61 +43,45 @@ export function List(
   props: PropsWithChildren<{
     fragment?: boolean;
     order?: boolean;
-    items?: ListItem[];
+    items: ListItem[];
   }>,
 ) {
-  const children = props.items
-    ? props.items.map((item, index) =>
-        typeof item === "string" ? (
-          <li
-            key={index}
-            className={clsx({
-              fragment: props.fragment,
-            })}
-            style={{
-              listStyleType: item ? undefined : "none",
-            }}
-          >
-            <Text>{item ? item : "&nbsp;"}</Text>
-          </li>
-        ) : "item" in item ? (
-          <li
-            key={index}
-            className={clsx({
-              fragment: item.fragment ?? props.fragment,
-            })}
-          >
-            {typeof item.item === "string" ? (
-              <Text>{item.item}</Text>
-            ) : (
-              item.item
-            )}
-            {item.items ? (
-              <List items={item.items} fragment={item.fragment} />
-            ) : undefined}
-          </li>
-        ) : (
-          <li
-            key={index}
-            className={clsx({
-              fragment: props.fragment,
-            })}
-          >
-            {item}
-          </li>
-        ),
-      )
-    : Children.map(props.children, (child: ReactElement, index) => (
-        <li
-          key={index}
-          className={clsx({
-            fragment: child.props.fragment ?? props.fragment,
-          })}
-        >
-          {child}
-        </li>
-      ));
-
+  const children = props.items.map((item, index) =>
+    typeof item === "string" ? (
+      <li
+        key={index}
+        className={clsx({
+          fragment: props.fragment,
+        })}
+        style={{
+          listStyleType: item ? undefined : "none",
+        }}
+      >
+        <Text>{item ? item : "&nbsp;"}</Text>
+      </li>
+    ) : "item" in item ? (
+      <li
+        key={index}
+        className={clsx({
+          fragment: item.fragment ?? props.fragment,
+        })}
+      >
+        {typeof item.item === "string" ? <Text>{item.item}</Text> : item.item}
+        {item.items ? (
+          <List items={item.items} fragment={item.fragment} />
+        ) : undefined}
+      </li>
+    ) : (
+      <li
+        key={index}
+        className={clsx({
+          fragment: props.fragment,
+        })}
+      >
+        {item}
+      </li>
+    ),
+  );
   return props.order ? <ol>{children}</ol> : <ul>{children}</ul>;
 }
 
