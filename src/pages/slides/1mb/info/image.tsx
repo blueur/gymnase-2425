@@ -1,4 +1,4 @@
-import Clone from "@site/src/pages/slides/2c/info/unite";
+import Clone from "@site/src/pages/slides/2c/info/image";
 
 export default function Image(props: { embedded: boolean }) {
   return (

@@ -85,7 +85,12 @@ export function Text(
 ) {
   return (
     <Markdown
-      className={clsx({ fragment: props.fragment }, props.color)}
+      className={clsx(
+        {
+          fragment: props.fragment,
+        },
+        props.color,
+      )}
       rehypePlugins={[RehypeRaw]}
       remarkPlugins={[RemarkGfm]}
     >
@@ -98,19 +103,28 @@ export function Image(props: {
   fragment?: boolean;
   src: string;
   url?: string;
+  height?: string;
+  width?: string;
 }) {
   return [
     <img
       key={0}
       className={clsx({ fragment: props.fragment })}
       style={{
-        width: "100%",
-        height: "750px",
+        width: props.width ?? "100%",
+        height: props.height ?? "750px",
         objectFit: "contain",
       }}
       src={props.src}
     />,
-    <p key={1}>
+    <p
+      key={1}
+      style={{
+        fontSize: "xx-small",
+        lineHeight: 1,
+        marginBottom: "1em",
+      }}
+    >
       <a className="reference" href={props.url} target="_blank">
         {props.url}
       </a>
@@ -157,13 +171,18 @@ export function Code(
 }
 
 export function Table(props: {
-  fragment?: boolean;
+  fragment?: boolean | number;
   headers?: string[];
   lines: (string | ReactElement)[][];
 }) {
   return (
     <table
-      className={clsx({ fragment: props.fragment })}
+      className={clsx({
+        fragment: typeof props.fragment === "number" || props.fragment,
+      })}
+      data-fragment-index={
+        typeof props.fragment === "number" ? props.fragment : undefined
+      }
       style={{ width: "unset" }}
     >
       {props.headers ? (
@@ -186,7 +205,10 @@ export function Table(props: {
             {line.map((item, index) => (
               <td
                 key={index}
-                style={{ textAlign: "center", padding: "0em 1em" }}
+                style={{
+                  textAlign: "center",
+                  padding: typeof item === "string" ? "0em 1em" : 0,
+                }}
               >
                 {typeof item === "string" ? (
                   <Text>{item ? item : "&nbsp;"}</Text>
