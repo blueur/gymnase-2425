@@ -12,68 +12,44 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
         <Columns>
           <List
             items={[
-              {
-                item: "[swissmilk](https://www.swissmilk.ch/fr/recettes-idees/recettes/SM2017_DIVE_04/omelette/)",
-                items: [
-                  {
-                    item: "Temps de préparation",
-                    items: ["10 minutes"],
-                  },
-                  {
-                    item: "Ingrédients",
-                    items: ["3 oeufs", "1cs de lait", "1cs de beurre"],
-                  },
-                ],
-              },
+              "[swissmilk](https://www.swissmilk.ch/fr/recettes-idees/recettes/SM2017_DIVE_04/omelette/)",
+              ["Temps de préparation", ["10 minutes"]],
+              ["Ingrédients", ["3 oeufs", "1cs de lait", "1cs de beurre"]],
             ]}
           />
           <List
             items={[
-              {
-                item: "[marmiton](https://www.marmiton.org/recettes/recette_omelette-nature_21255.aspx)",
-                items: [
-                  {
-                    item: "Temps de préparation",
-                    items: ["15 minutes"],
-                  },
-                  {
-                    item: "Ingrédients",
-                    items: ["2 oeufs", "12.5g de beurre", ""],
-                  },
-                ],
-              },
+              "[marmiton](https://www.marmiton.org/recettes/recette_omelette-nature_21255.aspx)",
+              ["Temps de préparation", ["15 minutes"]],
+              ["Ingrédients", ["2 oeufs", "12.5g de beurre", ""]],
             ]}
           />
         </Columns>
       </Section>
       <Section level={2} title="Complexité algorithmique">
         <List
+          fragment={[true, true]}
           items={[
-            {
-              item: "Mesurer l'efficacité d'un algorithme",
-              items: [
-                {
-                  item: "En temps",
-                  items: [
-                    "Nombre d'opérations effectuées",
+            [
+              "Mesurer l'efficacité d'un algorithme",
+              [
+                [
+                  "En **temps** (opérations effectuées)",
+                  [
                     "1 opération = 1 unité de temps",
                     "1 opération = 1 comparaison, 1 addition, 1 affectation, ou &hellip;",
                   ],
-                },
-                {
-                  item: "En espace",
-                  items: [
-                    "Nombre d'espaces dans la mémoire",
-                    "1 variable = 1 espace",
-                    "1 liste de n élément = n espaces",
-                  ],
-                },
+                ],
+                [
+                  "En **espace** (espaces dans la mémoire utilisés)",
+                  ["1 variable = 1 espace", "1 liste de n élément = n espaces"],
+                ],
               ],
-            },
-            {
-              item: "Notation grand O de Landau",
-              items: ["Ordre de grandeur selon des entrées possibles"],
-            },
+            ],
+            [
+              "Notation grand **O** de Landau",
+              ["Ordre de grandeur selon des entrées possibles"],
+            ],
           ]}
         />
       </Section>
@@ -127,17 +103,10 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             `}
           </Code>
           <List
+            fragment={[false, true]}
             items={[
-              {
-                item: "Complexité temporelle",
-                fragment: true,
-                items: ["O(1)"],
-              },
-              {
-                item: "Complexité spatiale",
-                fragment: true,
-                items: ["O(1)"],
-              },
+              ["Complexité temporelle", ["O(1)"]],
+              ["Complexité spatiale", ["O(1)"]],
             ]}
           />
         </Columns>
@@ -149,24 +118,17 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
             FONCTION Factorielle(n)
               résultat ← 1
               REPETER pour i ← 1, 2, ..., n
-                résultat ← résultat *i
+                résultat ← résultat*i
               FIN REPETER
               RETOURNER résultat
             FIN FONCTION
             `}
           </Code>
           <List
+            fragment={[false, true]}
             items={[
-              {
-                item: "Complexité temporelle",
-                fragment: true,
-                items: ["O(n)"],
-              },
-              {
-                item: "Complexité spatiale",
-                fragment: true,
-                items: ["O(1)"],
-              },
+              ["Complexité temporelle", ["O(n)"]],
+              ["Complexité spatiale", ["O(1)"]],
             ]}
           />
         </Columns>

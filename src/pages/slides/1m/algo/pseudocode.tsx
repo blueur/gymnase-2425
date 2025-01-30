@@ -16,14 +16,8 @@ export default function Pseudocode(props: {
           fragment
           items={[
             "Objectif : décrire un **algorithme**.",
-            {
-              item: "_Code_",
-              items: ["Lu par une **machine**."],
-            },
-            {
-              item: "_Pseudo-code_ / _organigramme_",
-              items: ["Lu par des **humains**."],
-            },
+            ["_Code_", ["Lu par une **machine**."]],
+            ["_Pseudo-code_ / _organigramme_", ["Lu par des **humains**."]],
           ]}
         />
       </Section>
@@ -31,39 +25,33 @@ export default function Pseudocode(props: {
         <List
           fragment
           items={[
-            {
-              item: "**Affectation** : variable _&larr;_ expression",
-              items: ["a &larr; 42"],
-            },
-            {
-              item: "**Condition** : _SI_ condition _ALORS_ instruction _SINON_ instruction _FIN SI_",
-              items: ["SI il pleut ALORS je prends un parapluie FIN SI"],
-            },
-            {
-              item: "**Boucle** : _TANT QUE_ condition _FAIRE_ instruction _FIN TANT QUE_",
-              items: [
-                "TANT QUE il fait beau FAIRE je reste dehors FIN TANT QUE",
-              ],
-            },
-            {
-              item: "**Boucle** : _POUR_ variable _DE_ nombre _À_ nombre _FAIRE_ instruction _FIN POUR_",
-              items: ["POUR b DE 1 À 4 FAIRE avancer de b mètres FIN POUR"],
-            },
-            {
-              item: "**Fonction** : _FONCTION_ nom(paramètres) _RETOURNER_ valeur _FIN FONCTION_",
-              items: ["FONCTION double(c) RETOURNER 2 &times; c FIN FONCTION"],
-            },
+            ["**Affectation** : variable _&larr;_ expression", ["a &larr; 42"]],
+            [
+              "**Condition** : _SI_ condition _ALORS_ instruction _SINON_ instruction _FIN SI_",
+              ["SI il pleut ALORS je prends un parapluie FIN SI"],
+            ],
+            [
+              "**Boucle** : _TANT QUE_ condition _FAIRE_ instruction _FIN TANT QUE_",
+              ["TANT QUE il fait beau FAIRE je reste dehors FIN TANT QUE"],
+            ],
+            [
+              "**Boucle** : _POUR_ variable _DE_ nombre _À_ nombre _FAIRE_ instruction _FIN POUR_",
+              ["POUR b DE 1 À 4 FAIRE avancer de b mètres FIN POUR"],
+            ],
+            [
+              "**Fonction** : _FONCTION_ nom(paramètres) _RETOURNER_ valeur _FIN FONCTION_",
+              ["FONCTION double(c) RETOURNER 2 &times; c FIN FONCTION"],
+            ],
           ]}
         />
       </Section>
       <Section level={3} title="Conditions">
         <List
-          fragment
+          fragment={[true, true]}
           items={[
-            {
-              item: "**Comparaison** entre deux expressions",
-              fragment: true,
-              items: [
+            [
+              "**Comparaison** entre deux expressions",
+              [
                 "a _&lt;_ b : plus petit que",
                 "a _&gt;_ b : plus grand que",
                 "a _=_ b : égal",
@@ -71,16 +59,15 @@ export default function Pseudocode(props: {
                 "a _&lt;=_ b ou a _&le;_ b : plus petit ou égal",
                 "a _&gt;=_ b ou a _&ge;_ b : plus grand ou égal",
               ],
-            },
-            {
-              item: "**Opérateurs logique** pour combiner des conditions",
-              fragment: true,
-              items: [
+            ],
+            [
+              "**Opérateurs logique** pour combiner des conditions",
+              [
                 "4 &lt; a _ET_ a &lt; 10",
                 "b &lt; 4 _OU_ 10 &lt; b",
                 "_NON_ c = 6",
               ],
-            },
+            ],
           ]}
         />
       </Section>
@@ -124,13 +111,7 @@ export default function Pseudocode(props: {
             `}
           </Code>
           <List
-            items={[
-              "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3"],
-              },
-            ]}
+            items={["Instance : somme(3)", ["Variables", ["x = 3", "", ""]]]}
           />
         </Columns>
       </Section>
@@ -150,10 +131,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 0"],
-              },
+              ["Variables", ["x = 3", "c = 0", ""]],
             ]}
           />
         </Columns>
@@ -174,10 +152,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 0", "i = 1"],
-              },
+              ["Variables", ["x = 3", "c = 0", "i = 1"]],
             ]}
           />
         </Columns>
@@ -198,10 +173,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 1", "i = 1"],
-              },
+              ["Variables", ["x = 3", "c = 1", "i = 1"]],
             ]}
           />
         </Columns>
@@ -222,10 +194,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 1", "i = 2"],
-              },
+              ["Variables", ["x = 3", "c = 1", "i = 2"]],
             ]}
           />
         </Columns>
@@ -246,10 +215,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 3", "i = 2"],
-              },
+              ["Variables", ["x = 3", "c = 3", "i = 2"]],
             ]}
           />
         </Columns>
@@ -270,10 +236,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 3", "i = 3"],
-              },
+              ["Variables", ["x = 3", "c = 3", "i = 3"]],
             ]}
           />
         </Columns>
@@ -294,10 +257,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 6", "i = 3"],
-              },
+              ["Variables", ["x = 3", "c = 6", "i = 3"]],
             ]}
           />
         </Columns>
@@ -318,10 +278,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 6", "i = 3"],
-              },
+              ["Variables", ["x = 3", "c = 6", "i = 3"]],
             ]}
           />
         </Columns>
@@ -342,10 +299,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 6", "i = 3"],
-              },
+              ["Variables", ["x = 3", "c = 6", "i = 3"]],
               "Résultat : 6",
             ]}
           />
@@ -367,10 +321,7 @@ export default function Pseudocode(props: {
           <List
             items={[
               "Instance : somme(3)",
-              {
-                item: "Variables",
-                items: ["x = 3", "c = 6", "i = 3"],
-              },
+              ["Variables", ["x = 3", "c = 6", "i = 3"]],
               "Résultat : 6",
             ]}
           />

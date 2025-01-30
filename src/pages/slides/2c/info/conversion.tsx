@@ -42,18 +42,15 @@ export default function Conversion(props: {
       </Section>
       <Section level={2} title="Équivalence des bases">
         <List
-          fragment
+          fragment={[true, true]}
           items={[
             <Katex>
               {"6_{10} = 110_{2} = 20_{3} = 12_{4} = 6_{8} = 6_{16}"}
             </Katex>,
-            {
-              item: <Katex>{"6_{10} = 110_{2}"}</Katex>,
-              fragment: true,
-              items: [
-                "**6** en _base 10_ est **équivalent** à **110** en _base 2_",
-              ],
-            },
+            [
+              <Katex>{"6_{10} = 110_{2}"}</Katex>,
+              ["**6** en _base 10_ est **équivalent** à **110** en _base 2_"],
+            ],
             <Katex>{"{10\\ 1010}_{2} = ?_{10}"}</Katex>,
             <Katex>{"{101\\ 0000\\ 1011}_{2} = ?_{10}"}</Katex>,
           ]}
@@ -61,44 +58,38 @@ export default function Conversion(props: {
       </Section>
       <Section level={2} title="Forme canonique décimale">
         <List
-          fragment
+          fragment={[true, true]}
           items={[
             "Forme permettant de **représenter** n'importe quel **nombre** entier positif de manière **unique**",
-            {
-              item: "1291",
-              fragment: true,
-              items: ["Les **1** n'ont pas la même **valeur**"],
-            },
+            ["1291", ["Les **1** n'ont pas la même **valeur**"]],
             "1291 = **1**000 + **2**00 + **9**0 + **1**",
             "1291 = **1** &times; 1000 + **2** &times; 100 + **9** &times; 10 + **1** &times; 1",
             "1291 = **1** &times; 10<sup>3</sup> + **2** &times; 10<sup>2</sup> + **9** &times; 10<sup>1</sup> + **1** &times; 10<sup>0</sup>",
-            {
-              item: "1291<sub>_10_</sub> = **1** &times; _10_<sup>3</sup> + **2** &times; _10_<sup>2</sup> + **9** &times; _10_<sup>1</sup> + **1** &times; _10_<sup>0</sup>",
-              items: ["Forme canonique"],
-            },
+            [
+              "1291<sub>_10_</sub> = **1** &times; _10_<sup>3</sup> + **2** &times; _10_<sup>2</sup> + **9** &times; _10_<sup>1</sup> + **1** &times; _10_<sup>0</sup>",
+              ["Forme canonique"],
+            ],
           ]}
         />
       </Section>
       <Section level={2} title="Forme canonique décimale">
         <List
-          fragment
+          fragment={[true, true]}
           items={[
-            {
-              item: "102<sub>_4_</sub>",
-              fragment: true,
-              items: [
+            [
+              "102<sub>_4_</sub>",
+              [
                 "= **1** &times; _4_<sup>2</sup> + **0** &times; _4_<sup>1</sup> + **2** &times; _4_<sup>0</sup>",
                 "= 18<sub>_10_</sub>",
               ],
-            },
-            {
-              item: "1010<sub>_2_</sub>",
-              fragment: true,
-              items: [
+            ],
+            [
+              "1010<sub>_2_</sub>",
+              [
                 "= **1** &times; _2_<sup>3</sup> + **0** &times; _2_<sup>2</sup> + **1** &times; _2_<sup>1</sup> + **0** &times; _2_<sup>0</sup>",
                 "= 10<sub>_10_</sub>",
               ],
-            },
+            ],
           ]}
         />
       </Section>

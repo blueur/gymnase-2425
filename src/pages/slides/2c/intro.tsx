@@ -23,10 +23,7 @@ export default function Introduction(props: { embedded?: boolean }) {
       <Section level={2} title="Organisation">
         <List
           items={[
-            {
-              item: "**Cours** et **Travaux pratiques**",
-              items: ["2 périodes / semaine"],
-            },
+            ["**Cours** et **Travaux pratiques**", ["2 périodes / semaine"]],
           ]}
         />
       </Section>
@@ -34,18 +31,15 @@ export default function Introduction(props: { embedded?: boolean }) {
         <List
           fragment
           items={[
-            {
-              item: "**Retard**",
-              items: ["Être **prêt·e** à suivre le cours à la **sonnerie**"],
-            },
-            {
-              item: "**Absence**",
-              items: ["À partir de quinze minutes de retard"],
-            },
-            {
-              item: "**Prévenir** par mail en cas d'**absence**",
-              items: ["Sinon pas de rattrapage de test"],
-            },
+            [
+              "**Retard**",
+              ["Être **prêt·e** à suivre le cours à la **sonnerie**"],
+            ],
+            ["**Absence**", ["À partir de quinze minutes de retard"]],
+            [
+              "**Prévenir** par mail en cas d'**absence**",
+              ["Sinon pas de rattrapage de test"],
+            ],
           ]}
         />
       </Section>
@@ -75,14 +69,14 @@ export default function Introduction(props: { embedded?: boolean }) {
       <Section level={2} title="Site du cours">
         <List
           items={[
-            {
-              item: "[gymnase.davidtang.ch](https://gymnase.davidtang.ch/)",
-              items: [
+            [
+              "[gymnase.davidtang.ch](https://gymnase.davidtang.ch/)",
+              [
                 "**Calendrier**",
                 "**Supports** de cours",
-                "**Se rappeler** du lien",
+                "Se souvenir du **lien**",
               ],
-            },
+            ],
           ]}
         />
       </Section>

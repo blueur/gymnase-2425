@@ -50,9 +50,7 @@ const config: Config = {
       {
         docs: {
           showLastUpdateTime: true,
-          remarkPlugins: [
-            [remarkKroki, { server: "https://kroki.blueur.com" }],
-          ],
+          remarkPlugins: [[remarkKroki, { server: "https://kroki.io" }]],
         },
         blog: false,
         theme: {

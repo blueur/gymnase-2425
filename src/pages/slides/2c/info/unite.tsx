@@ -11,17 +11,16 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
     >
       <Section level={2} title="Unité d'information">
         <List
-          fragment
+          fragment={[true, true]}
           items={[
-            {
-              item: "Exemple d'information : 021 316 09 60",
-              fragment: true,
-              items: [
+            [
+              "Exemple d'information : 021 316 09 60",
+              [
                 "**Encodé** en binaire : 0000 0010 0001 0011 0001 0110 0000 1001 0110 0000",
                 "­Longueur : 40 symboles",
                 "40 **bits** : **bi**nary digi**t**",
               ],
-            },
+            ],
             "1 **bit** &nbsp;&nbsp;(b) : 0 ou 1",
             "1 **octet** (o) : 8 bits",
             "1 **byte** &nbsp;(B) : 8 bits (en anglais)",
@@ -105,43 +104,43 @@ export default function Unite(props: { embedded?: boolean; chapter?: string }) {
           items={[
             "16 symboles (0-9, A-F)",
             "Plus **compact** que le binaire",
-            {
-              item: "Conversion facilitée avec le **binaire**",
-              items: [
+            [
+              "Conversion facilitée avec le **binaire**",
+              [
                 "2<sup>**4**</sup> = 16<sup>**1**</sup>",
                 "**4** bits = **1** symbole hexadécimal",
               ],
-            },
-            {
-              item: "10 1010<sub>2</sub> = ?<sub>16</sub>",
-              items: [
+            ],
+            [
+              "10 1010<sub>2</sub> = ?<sub>16</sub>",
+              [
                 <Katex>
                   {
                     "\\underbrace{0010}_{2}\\ \\underbrace{1010}_{A} = 2A_{16} = 2A_{hex}"
                   }
                 </Katex>,
               ],
-            },
-            {
-              item: "42<sub>16</sub> = 42<sub>**hex**</sub> = ?<sub>2</sub>",
-              items: [
+            ],
+            [
+              "42<sub>16</sub> = 42<sub>**hex**</sub> = ?<sub>2</sub>",
+              [
                 <Katex>
                   {
                     "\\underbrace{4}_{0100}\\ \\underbrace{2}_{0010} = 0100\\ 0010_{2}"
                   }
                 </Katex>,
               ],
-            },
-            {
-              item: "50B<sub>hex</sub> = ?<sub>2</sub>",
-              items: [
+            ],
+            [
+              "50B<sub>hex</sub> = ?<sub>2</sub>",
+              [
                 <Katex>
                   {
                     "\\underbrace{5}_{0101}\\ \\underbrace{0}_{0000}\\ \\underbrace{B}_{1011} = 0101\\ 0000\\ 1011_{2}"
                   }
                 </Katex>,
               ],
-            },
+            ],
           ]}
         />
       </Section>

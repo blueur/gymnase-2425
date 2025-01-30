@@ -14,20 +14,17 @@ export default function Organigramme(props: {
       subTitle={props.chapter ?? "Introduction à l'algorithmique"}
     >
       <Section level={2} title="Algorithme">
-        <List fragment>
-          <Text>
-            Un _algorithme_ est une suite **finie** et **non ambiguë**
-            d'opérations ou d'**instructions** permettant de résoudre un
-            **problème** ou d'obtenir un **résultat**.
-          </Text>
-          <>
-            <Text>_Objectif_ : Comment **résoudre** un problème</Text>
-            <List fragment>
-              <Text>Entrée(s) : état de départ</Text>
-              <Text fragment>Sortie(s) : état final</Text>
-            </List>
-          </>
-        </List>
+        <List
+          fragment
+          items={[
+            "Un _algorithme_ est une suite **finie** et **non ambiguë** d'opérations ou d'**instructions** permettant de résoudre un **problème** ou d'obtenir un **résultat**.",
+            [
+              "_Objectif_ : Comment **résoudre** un problème",
+              ["Entrée(s) : état de départ", "Sortie(s) : état final"],
+            ],
+          ]}
+        />
+
         <Mermaid fragment>
           {`
           flowchart LR
@@ -38,25 +35,10 @@ export default function Organigramme(props: {
       </Section>
       <Section level={3} title="Comment faire une omelette ?">
         <List
+          fragment={[false, true]}
           items={[
-            {
-              item: "Entrée(s)",
-              items: [
-                {
-                  item: "Ingrédients (oeufs, &hellip;)",
-                  fragment: true,
-                },
-              ],
-            },
-            {
-              item: "Sortie(s)",
-              items: [
-                {
-                  item: "Omelette",
-                  fragment: true,
-                },
-              ],
-            },
+            ["Entrée(s)", ["Ingrédients (oeufs, &hellip;)"]],
+            ["Sortie(s)", ["Omelette"]],
           ]}
         />
         <Mermaid fragment>
@@ -174,10 +156,10 @@ export default function Organigramme(props: {
           items={[
             "Problème : Trouver le plus grand nombre entre a et b",
             "**Instance** : exécution d'un algorithme pour des entrées données",
-            {
-              item: "Instances possibles :",
-              items: ["a = 7, b = 1", "a = 3, b = 3", "a = 5, b = 9"],
-            },
+            [
+              "Instances possibles :",
+              ["a = 7, b = 1", "a = 3, b = 3", "a = 5, b = 9"],
+            ],
           ]}
         />
       </Section>
@@ -196,18 +178,10 @@ export default function Organigramme(props: {
             `}
           </Kroki>
           <List
-            fragment
+            fragment={[false, true]}
             items={[
-              {
-                item: "Instance : a = 5, b = 3 ?",
-                fragment: true,
-                items: ["Résultat : 5"],
-              },
-              {
-                item: "Instance : a = 2, b = 4 ?",
-                fragment: true,
-                items: ["Résultat : 4"],
-              },
+              ["Instance : a = 5, b = 3 ?", ["Résultat : 5"]],
+              ["Instance : a = 2, b = 4 ?", ["Résultat : 4"]],
             ]}
           />
         </Columns>
@@ -252,75 +226,38 @@ export default function Organigramme(props: {
             `}
           </Kroki>
           <List
-            fragment
+            fragment={[false, true]}
             items={[
-              {
-                item: "Instance : n = 0 ?",
-                fragment: true,
-                items: ["Résultat : 0"],
-              },
-              {
-                item: "Instance : n = 2 ?",
-                fragment: true,
-                items: ["Résultat : 3"],
-              },
-              {
-                item: "Fonction ?",
-                fragment: true,
-                items: ["Somme(n) : 1 + 2 + &hellip; + n"],
-              },
+              ["Instance : n = 0 ?", ["Résultat : 0"]],
+              ["Instance : n = 2 ?", ["Résultat : 3"]],
+              ["Fonction ?", ["Somme(n) : 1 + 2 + &hellip; + n"]],
             ]}
           />
         </Columns>
       </Section>
       <Section level={2} title="Nomenclature">
         <List
+          fragment={[false, true]}
           items={[
-            {
-              item: "_Algorithme_",
-              items: [
-                {
-                  item: "Une suite d'**instructions** permettant de résoudre un problème",
-                  fragment: true,
-                },
+            [
+              "_Algorithme_",
+              [
+                "Une suite d'**instructions** permettant de résoudre un problème",
               ],
-            },
-            {
-              item: "_Organigramme_",
-              items: [
-                {
-                  item: "Une **représentation graphique** d'un algorithme",
-                  fragment: true,
-                },
-              ],
-            },
-            {
-              item: "_Instance_",
-              items: [
-                {
-                  item: "**Exécution** d'un algorithme",
-                  fragment: true,
-                },
-              ],
-            },
-            {
-              item: "_a &larr; b + c_",
-              items: [
-                {
-                  item: "**Calculer** `b + c`, puis **remplacer** la valeur de `a`",
-                  fragment: true,
-                },
-              ],
-            },
-            {
-              item: "_Retourner_ une valeur",
-              items: [
-                {
-                  item: "**Résultat** de l'instance d'un algorithme",
-                  fragment: true,
-                },
-              ],
-            },
+            ],
+            [
+              "_Organigramme_",
+              ["Une **représentation graphique** d'un algorithme"],
+            ],
+            ["_Instance_", ["**Exécution** d'un algorithme"]],
+            [
+              "_a &larr; b + c_",
+              ["**Calculer** `b + c`, puis **remplacer** la valeur de `a`"],
+            ],
+            [
+              "_Retourner_ une valeur",
+              ["**Résultat** de l'instance d'un algorithme"],
+            ],
           ]}
         />
       </Section>

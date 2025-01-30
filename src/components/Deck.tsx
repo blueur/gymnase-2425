@@ -30,58 +30,50 @@ export function Section(
   );
 }
 
-type ListItem =
-  | string
-  | ReactElement
-  | {
-      item: string | ReactElement;
-      fragment?: boolean;
-      items?: ListItem[];
-    };
+type ListItem = string | ReactElement | ListItem[];
 
-export function List(
-  props: PropsWithChildren<{
-    fragment?: boolean;
-    order?: boolean;
-    items: ListItem[];
-  }>,
-) {
-  const children = props.items.map((item, index) =>
-    typeof item === "string" ? (
-      <li
-        key={index}
-        className={clsx({
-          fragment: props.fragment,
-        })}
-        style={{
-          listStyleType: item ? undefined : "none",
-        }}
-      >
+export function List(props: {
+  fragment?: boolean | boolean[];
+  order?: boolean;
+  items: ListItem[];
+}) {
+  const children = props.items.map((item, index) => (
+    <li
+      key={index}
+      className={clsx({
+        fragment: Array.isArray(props.fragment)
+          ? props.fragment[0]
+          : props.fragment,
+      })}
+      style={{
+        listStyleType: item ? undefined : "none",
+      }}
+    >
+      {typeof item === "string" ? (
         <Text>{item ? item : "&nbsp;"}</Text>
-      </li>
-    ) : "item" in item ? (
-      <li
-        key={index}
-        className={clsx({
-          fragment: item.fragment ?? props.fragment,
-        })}
-      >
-        {typeof item.item === "string" ? <Text>{item.item}</Text> : item.item}
-        {item.items ? (
-          <List items={item.items} fragment={item.fragment} />
-        ) : undefined}
-      </li>
-    ) : (
-      <li
-        key={index}
-        className={clsx({
-          fragment: props.fragment,
-        })}
-      >
-        {item}
-      </li>
-    ),
-  );
+      ) : Array.isArray(item) ? (
+        item.map((subitem, subindex) =>
+          typeof subitem === "string" ? (
+            <Text key={subindex}>{subitem ? subitem : "&nbsp;"}</Text>
+          ) : Array.isArray(subitem) ? (
+            <List
+              key={subindex}
+              items={subitem}
+              fragment={
+                Array.isArray(props.fragment)
+                  ? props.fragment.slice(1)
+                  : undefined
+              }
+            />
+          ) : (
+            subitem
+          ),
+        )
+      ) : (
+        item
+      )}
+    </li>
+  ));
   return props.order ? <ol>{children}</ol> : <ul>{children}</ul>;
 }
 

@@ -10,16 +10,15 @@ export default function Base(props: { embedded?: boolean; chapter?: string }) {
     >
       <Section level={2} title="Symboles">
         <List
-          fragment
+          fragment={[true, true]}
           items={[
             "Utilisés pour **représenter** des **valeurs**",
             "Nombres : **10** symboles (0-9)",
             "Français : **26** symboles (a-z)",
-            {
-              item: "Ordinateur : **2** symboles (0, 1)",
-              fragment: true,
-              items: ["Courant / pas de courant", "1 / 0", "**Binaire**"],
-            },
+            [
+              "Ordinateur : **2** symboles (0, 1)",
+              ["Courant / pas de courant", "1 / 0", "**Binaire**"],
+            ],
           ]}
         />
       </Section>
@@ -110,65 +109,21 @@ export default function Base(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Compter en base 3">
         <Columns>
+          <List items={["0", "1", "2", "10", "11", "12", "20", "21", "22"]} />
           <List
+            fragment
             items={[
-              "0",
-              "1",
-              "2",
-              "10",
-              "11",
-              "12",
-              "20",
-              "21",
-              "22",
-              {
-                item: "100",
-                fragment: true,
-              },
-            ]}
-          />
-          <List
-            items={[
-              {
-                item: "101",
-                fragment: true,
-              },
-              {
-                item: "102",
-                fragment: true,
-              },
-              {
-                item: "110",
-                fragment: true,
-              },
-              {
-                item: "111",
-                fragment: true,
-              },
-              {
-                item: "112",
-                fragment: true,
-              },
-              {
-                item: "120",
-                fragment: true,
-              },
-              {
-                item: "121",
-                fragment: true,
-              },
-              {
-                item: "122",
-                fragment: true,
-              },
-              {
-                item: "200",
-                fragment: true,
-              },
-              {
-                item: "&hellip;",
-                fragment: true,
-              },
+              "100",
+              "101",
+              "102",
+              "110",
+              "111",
+              "112",
+              "120",
+              "121",
+              "122",
+              "200",
+              "&hellip;",
             ]}
           />
         </Columns>
