@@ -13,4 +13,111 @@ Comment comparer des algorithmes ?
 
 ## Exercices
 
+Calculer la complexité temporelle et spatiale des algorithmes suivants pour le pire et le meilleur cas :
+
+| &nbsp;       | Temps | Espace |
+| ------------ | :---: | :----: |
+| Pire cas     |       |        |
+| Meilleur cas |       |        |
+
+Commencer par trouver les complexités temporelle et spatiale de quelques cas au hasard, puis chercher à généraliser pour les cas extrêmes.
+
+### Max
+
+```
+FONCTION max(a, b)
+  SI a < b ALORS
+    RETOURNER b
+  SINON
+    RETOURNER a
+  FIN SI
+FIN FONCTION
+```
+
+<details>
+<summary>Solution</summary>
+
+| &nbsp;       | Temps | Espace |
+| ------------ | :---: | :----: |
+| Pire cas     | O(1)  |  O(1)  |
+| Meilleur cas | O(1)  |  O(1)  |
+
+</details>
+
+### Max Liste
+
+```
+FONCTION max_liste(liste)
+  max ← liste[0]
+  POUR i DE 1 À liste.taille FAIRE
+    SI liste[i] > max ALORS
+      max ← liste[i]
+    FIN SI
+  FIN POUR
+  RETOURNER max
+FIN FONCTION
+```
+
+<details>
+<summary>Solution</summary>
+
+| &nbsp;       |                         Temps                          | Espace |
+| ------------ | :----------------------------------------------------: | :----: |
+| Pire cas     |                          O(n)                          |  O(n)  |
+| Meilleur cas | O(n) : on doit de toute façon parcourir toute la liste |  O(n)  |
+
+</details>
+
+### Recherche
+
+```
+FONCTION recherche(liste, valeur)
+  i ← 0
+  TANT QUE i < liste.taille FAIRE
+    SI liste[i] = valeur ALORS
+      RETOURNER i
+    FIN SI
+    i ← i + 1
+  FIN TANT QUE
+  RETOURNER -1
+FIN FONCTION
+```
+
+<details>
+<summary>Solution</summary>
+
+| &nbsp;       |                     Temps                     | Espace |
+| ------------ | :-------------------------------------------: | :----: |
+| Pire cas     | O(n) : l'élément cherché se trouve en dernier |  O(n)  |
+| Meilleur cas | O(1) : l'élément cherché se trouve en premier |  O(n)  |
+
+</details>
+
+### Inverse
+
+```
+FONCTION inverse(liste)
+  liste_inverse ← liste
+  POUR i DE 0 À liste.taille FAIRE
+    liste_inverse[i] ← liste[liste.taille - i - 1]
+  FIN POUR
+  RETOURNER liste_inverse
+FIN FONCTION
+```
+
+<details>
+<summary>Solution</summary>
+
+| &nbsp;       | Temps | Espace |
+| ------------ | :---: | :----: |
+| Pire cas     | O(n)  |  O(n)  |
+| Meilleur cas | O(n)  |  O(n)  |
+
+</details>
+
 ## Références
+
+- https://apprendre.modulo-info.ch/algo2/principes.html#principe-de-complexite
+- https://fr.wikipedia.org/wiki/Analyse_de_la_complexit%C3%A9_des_algorithmes
+- https://fr.wikipedia.org/wiki/Complexit%C3%A9_en_temps
+- https://fr.wikipedia.org/wiki/Complexit%C3%A9_en_espace

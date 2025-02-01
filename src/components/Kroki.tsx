@@ -1,9 +1,29 @@
 import clsx from "clsx";
 import { deflate } from "pako";
 import { PropsWithChildren, useEffect, useRef } from "react";
+import { trimIndentation } from "./Deck";
 
 export default function Kroki(
-  props: PropsWithChildren<{ fragment?: boolean; type: "plantuml" }>,
+  props: PropsWithChildren<{
+    fragment?: boolean;
+    type:
+      | "actdiag"
+      | "blockdiag"
+      | "c4plantuml"
+      | "ditaa"
+      | "dot"
+      | "erd"
+      | "graphviz"
+      | "nomnoml"
+      | "nwdiag"
+      | "plantuml"
+      | "seqdiag"
+      | "svgbob"
+      | "symbolator"
+      | "umlet"
+      | "vega"
+      | "vegalite";
+  }>,
 ) {
   const imgRef = useRef<HTMLImageElement>();
 
@@ -23,7 +43,7 @@ export default function Kroki(
   useEffect(() => {
     const result = btoa(
       String.fromCodePoint(
-        ...deflate(textEncode(props.children.toString().trim()), {
+        ...deflate(textEncode(trimIndentation(props.children.toString())), {
           level: 9,
         }),
       ),

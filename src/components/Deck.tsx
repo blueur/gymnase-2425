@@ -9,25 +9,76 @@ import Markdown from "react-markdown";
 import RehypeRaw from "rehype-raw";
 import RemarkGfm from "remark-gfm";
 
-export function Section(
+export function trimIndentation(text: string) {
+  const lines = text.split("\n");
+  const firstLine = lines.find((line) => line.trim().length > 0);
+  if (firstLine === undefined) {
+    return text;
+  }
+  let i = 0;
+  while (firstLine[i] === " ") {
+    i++;
+  }
+  return lines.map((line) => line.slice(i)).join("\n");
+}
+
+export function Code(
   props: PropsWithChildren<{
-    level: number;
-    title: string;
     fragment?: boolean;
+    lines?: string;
   }>,
 ) {
+  const unindented = trimIndentation(props.children.toString());
   return (
-    <section data-auto-animate>
-      {createElement(
-        `h${props.level}`,
-        {
-          className: clsx({ fragment: props.fragment }),
-        },
-        props.title,
-      )}
-      {props.children}
-    </section>
+    <pre className={clsx({ fragment: props.fragment })}>
+      <code data-trim data-noescape data-line-numbers={props.lines ?? true}>
+        {unindented}
+      </code>
+    </pre>
   );
+}
+
+export function Columns(props: PropsWithChildren) {
+  return (
+    <div className="columns">
+      {Children.map(props.children, (child, index) => (
+        <div key={index}>{child}</div>
+      ))}
+    </div>
+  );
+}
+
+export function Image(props: {
+  fragment?: boolean;
+  src: string;
+  url?: string;
+  height?: string;
+  width?: string;
+}) {
+  return [
+    <img
+      key={0}
+      className={clsx({ fragment: props.fragment })}
+      style={{
+        width: props.width ?? "100%",
+        height: props.height ?? "750px",
+        objectFit: "contain",
+      }}
+      src={props.src}
+    />,
+    <p
+      key={1}
+      style={{
+        fontSize: "xx-small",
+        lineHeight: 1,
+        marginBottom: "1em",
+      }}
+    >
+      <a className="reference" href={props.url} target="_blank">
+        {props.url}
+      </a>
+    </p>,
+  ];
 }
 
 type ListItem = string | ReactElement | ListItem[];
@@ -77,96 +128,24 @@ export function List(props: {
   return props.order ? <ol>{children}</ol> : <ul>{children}</ul>;
 }
 
-export function Text(
+export function Section(
   props: PropsWithChildren<{
+    level: number;
+    title: string;
     fragment?: boolean;
-    color?: "green" | "red" | "blue";
   }>,
 ) {
   return (
-    <Markdown
-      className={clsx(
+    <section data-auto-animate>
+      {createElement(
+        `h${props.level}`,
         {
-          fragment: props.fragment,
+          className: clsx({ fragment: props.fragment }),
         },
-        props.color,
+        props.title,
       )}
-      rehypePlugins={[RehypeRaw]}
-      remarkPlugins={[RemarkGfm]}
-    >
-      {props.children.toString()}
-    </Markdown>
-  );
-}
-
-export function Image(props: {
-  fragment?: boolean;
-  src: string;
-  url?: string;
-  height?: string;
-  width?: string;
-}) {
-  return [
-    <img
-      key={0}
-      className={clsx({ fragment: props.fragment })}
-      style={{
-        width: props.width ?? "100%",
-        height: props.height ?? "750px",
-        objectFit: "contain",
-      }}
-      src={props.src}
-    />,
-    <p
-      key={1}
-      style={{
-        fontSize: "xx-small",
-        lineHeight: 1,
-        marginBottom: "1em",
-      }}
-    >
-      <a className="reference" href={props.url} target="_blank">
-        {props.url}
-      </a>
-    </p>,
-  ];
-}
-
-export function Columns(props: PropsWithChildren) {
-  return (
-    <div className="columns">
-      {Children.map(props.children, (child, index) => (
-        <div key={index}>{child}</div>
-      ))}
-    </div>
-  );
-}
-
-export function Code(
-  props: PropsWithChildren<{
-    fragment?: boolean;
-    lines?: string;
-  }>,
-) {
-  const code = props.children.toString();
-  if (code.trim().length === 0) {
-    return undefined;
-  }
-  const firstLine = code.split("\n").find((line) => line.trim().length > 0);
-  if (firstLine === undefined) {
-    return undefined;
-  }
-  let i = 0;
-  while (firstLine[i] === " ") {
-    i++;
-  }
-  const unindented = code.replaceAll(" ".repeat(i), "");
-  return (
-    <pre className={clsx({ fragment: props.fragment })}>
-      <code data-trim data-noescape data-line-numbers={props.lines ?? true}>
-        {unindented}
-      </code>
-    </pre>
+      {props.children}
+    </section>
   );
 }
 
@@ -221,5 +200,27 @@ export function Table(props: {
         ))}
       </tbody>
     </table>
+  );
+}
+
+export function Text(
+  props: PropsWithChildren<{
+    fragment?: boolean;
+    color?: "green" | "red" | "blue";
+  }>,
+) {
+  return (
+    <Markdown
+      className={clsx(
+        {
+          fragment: props.fragment,
+        },
+        props.color,
+      )}
+      rehypePlugins={[RehypeRaw]}
+      remarkPlugins={[RemarkGfm]}
+    >
+      {props.children.toString()}
+    </Markdown>
   );
 }

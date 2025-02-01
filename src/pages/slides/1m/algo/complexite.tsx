@@ -1,4 +1,11 @@
-import { Code, Columns, List, Section, Table } from "@site/src/components/Deck";
+import {
+  Code,
+  Columns,
+  List,
+  Section,
+  Table,
+  Text,
+} from "@site/src/components/Deck";
 import RevealDeck from "@site/src/components/RevealDeck";
 
 export default function Tri(props: { embedded?: boolean; chapter?: string }) {
@@ -10,20 +17,28 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
     >
       <Section level={3} title="Recettes pour une omelette">
         <Columns>
-          <List
-            items={[
-              "[swissmilk](https://www.swissmilk.ch/fr/recettes-idees/recettes/SM2017_DIVE_04/omelette/)",
-              ["Temps de préparation", ["10 minutes"]],
-              ["Ingrédients", ["3 oeufs", "1cs de lait", "1cs de beurre"]],
-            ]}
-          />
-          <List
-            items={[
-              "[marmiton](https://www.marmiton.org/recettes/recette_omelette-nature_21255.aspx)",
-              ["Temps de préparation", ["15 minutes"]],
-              ["Ingrédients", ["2 oeufs", "12.5g de beurre", ""]],
-            ]}
-          />
+          <div>
+            <Text>
+              [swissmilk](https://www.swissmilk.ch/fr/recettes-idees/recettes/SM2017_DIVE_04/omelette/)
+            </Text>
+            <List
+              items={[
+                ["Temps de préparation", ["10 minutes"]],
+                ["Ingrédients", ["3 oeufs", "1cs de lait", "1cs de beurre"]],
+              ]}
+            />
+          </div>
+          <div>
+            <Text>
+              [marmiton](https://www.marmiton.org/recettes/recette_omelette-nature_21255.aspx)
+            </Text>
+            <List
+              items={[
+                ["Temps de préparation", ["15 minutes"]],
+                ["Ingrédients", ["2 oeufs", "12.5g de beurre", ""]],
+              ]}
+            />
+          </div>
         </Columns>
       </Section>
       <Section level={2} title="Complexité algorithmique">
@@ -53,7 +68,74 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
           ]}
         />
       </Section>
-      <Section level={2} title="Complexité de la somme"></Section>
+      <Section level={2} title="Multiplication">
+        <Columns>
+          <Code>
+            {`
+            FONCTION mult(a, b)
+              RETOURNER a*b
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            fragment={[true, true, true]}
+            items={[
+              [
+                "**Instance** : a=3, b=4",
+                [
+                  ["_Opérations_", ["1 (multiplication)"]],
+                  ["_Espaces_", ["2 (variables a et b)"]],
+                ],
+              ],
+              [
+                "**Instance** : a=2048, b=130",
+                [
+                  ["_Opérations_", ["1"]],
+                  ["_Espaces_", ["2"]],
+                ],
+              ],
+              "Complexité **temporelle** : constante O(1)",
+              "Complexité **spatiale** : constante O(1)",
+            ]}
+          />
+        </Columns>
+      </Section>
+      <Section level={2} title="Multiplication">
+        <Columns>
+          <Code>
+            {`
+            FONCTION mult(a, b)
+              r ← 0
+              POUR i DE 1 À b FAIRE
+                r ← r + a
+              FIN POUR
+              RETOURNER r
+            FIN FONCTION
+            `}
+          </Code>
+          <List
+            fragment={[true, true, true]}
+            items={[
+              [
+                "**Instance** : a=3, b=4",
+                [
+                  ["_Opérations_", ["4 (assign. + add.)"]],
+                  ["_Espaces_", ["3 (variables a, b, r)"]],
+                ],
+              ],
+              [
+                "**Instance** : a=2048, b=130",
+                [
+                  ["_Opérations_", ["130"]],
+                  ["_Espaces_", ["3"]],
+                ],
+              ],
+              "Complexité **temporelle** : linéaire O(b)",
+              "Complexité **spatiale** : constante O(1)",
+            ]}
+          />
+        </Columns>
+      </Section>
       <Section level={2} title="Grand O de Landau">
         <Columns>
           <List
@@ -115,12 +197,12 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
         <Columns>
           <Code>
             {`
-            FONCTION Factorielle(n)
-              résultat ← 1
-              REPETER pour i ← 1, 2, ..., n
-                résultat ← résultat*i
-              FIN REPETER
-              RETOURNER résultat
+            FONCTION factorielle(n)
+              r ← 1
+              POUR i DE 1 À n FAIRE
+                r ← r*i
+              FIN POUR
+              RETOURNER r
             FIN FONCTION
             `}
           </Code>
