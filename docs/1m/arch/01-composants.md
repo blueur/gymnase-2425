@@ -24,7 +24,7 @@ De quoi est composé un ordinateur ?
 
 1. Le processeur et la mémoire vive
 2. Ce processeur peut effectuer environ 1.2 milliards d'opérations par seconde
-3. Le premier processeur a un seul cœur cadencé à 4 GHz et le second en a 4 avec une fréquence d'horloge de 1 GHz chacune.
+3. Le premier processeur a un seul coeur cadencé à 4 GHz et le second en a 4 avec une fréquence d'horloge de 1 GHz chacune.
    Le premier sera plus rapide dans un cas d'usage général, mais le second pourrait être intéressant si on souhaite faire beaucoup de multi-tâche (plusieurs applications en même temps)
 4. À stocker les instructions et les données pour le processeur
 
@@ -110,12 +110,12 @@ Voici les caractéristiques d'un ordinateur trouvées sur un prospectus. Pour ch
 
 ### CPU vs GPU
 
-En termes de nombre de cœurs et de fréquence d'horloge, quelles sont les différences entre un CPU et un GPU ?
+En termes de nombre de coeurs et de fréquence d'horloge, quelles sont les différences entre un CPU et un GPU ?
 
 <details>
 <summary>Solution</summary>
 
-Un CPU a moins de cœurs mais avec une fréquence d'horloge plus élevée. Un GPU a plus de cœurs mais avec une fréquence d'horloge plus basse.
+Un CPU a moins de coeurs mais avec une fréquence d'horloge plus élevée. Un GPU a plus de coeurs mais avec une fréquence d'horloge plus basse.
 
 </details>
 

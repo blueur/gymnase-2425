@@ -77,8 +77,8 @@ export default function Organigramme(props: {
         <Mermaid>
           {`
           stateDiagram-v2
-            state "Casser les œufs dans un bol" as casser
-            state "Battre les œufs jusqu'à obtenir un mélange homogène" as battre
+            state "Casser les oeufs dans un bol" as casser
+            state "Battre les oeufs jusqu'à obtenir un mélange homogène" as battre
             state "Verser le mélange dans une poêle chaude" as verser
             state "Chauffer jusqu'à ce que l'omelette soit cuite" as chauffer
             state "Servir l'omelette dans une assiette" as servir

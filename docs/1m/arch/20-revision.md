@@ -238,7 +238,7 @@ Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaq
 </details>
 
 1. Écran liquid Retina IPS 13,6"
-2. Puce Apple M2 avec CPU 8 cœurs et GPU 8 cœurs
+2. Puce Apple M2 avec CPU 8 coeurs et GPU 8 coeurs
 3. RAM 8 Go
 4. SSD 256 Go
 5. Clavier rétroéclairé

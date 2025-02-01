@@ -35,8 +35,8 @@ flowchart LR
 
 #### Algorithme d'une omelette
 
-1. &shy;<!-- .element: class="fragment" --> Casser les œufs dans un bol
-2. &shy;<!-- .element: class="fragment" --> Battre les œufs jusqu'à obtenir un mélange homogène
+1. &shy;<!-- .element: class="fragment" --> Casser les oeufs dans un bol
+2. &shy;<!-- .element: class="fragment" --> Battre les oeufs jusqu'à obtenir un mélange homogène
 3. &shy;<!-- .element: class="fragment" --> Verser le mélange dans une poêle chaude
 4. &shy;<!-- .element: class="fragment" --> Chauffer jusqu'à ce que l'omelette soit cuite
 5. &shy;<!-- .element: class="fragment" --> Servir l'omelette dans une assiette
@@ -57,8 +57,8 @@ flowchart LR
 
 ```mermaid full
 stateDiagram-v2
-  state "Casser les œufs dans un bol" as casser
-  state "Battre les œufs jusqu'à obtenir un mélange homogène" as battre
+  state "Casser les oeufs dans un bol" as casser
+  state "Battre les oeufs jusqu'à obtenir un mélange homogène" as battre
   state "Verser le mélange dans une poêle chaude" as verser
   state "Chauffer jusqu'à ce que l'omelette soit cuite" as chauffer
   state "Servir l'omelette dans une assiette" as servir
@@ -76,8 +76,8 @@ stateDiagram-v2
 
 ```mermaid full
 stateDiagram-v2
-  state "Casser les œufs dans un bol" as casser
-  state "Battre les œufs" as battre
+  state "Casser les oeufs dans un bol" as casser
+  state "Battre les oeufs" as battre
   state si_homogene <<choice>>
   state "Verser le mélange dans une poêle chaude" as verser
   state "Chauffer la poêle" as chauffer

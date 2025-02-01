@@ -81,7 +81,7 @@ export function Image(props: {
   ];
 }
 
-type ListItem = string | ReactElement | ListItem[];
+export type ListItem = string | ReactElement | ListItem[];
 
 export function List(props: {
   fragment?: boolean | boolean[];
