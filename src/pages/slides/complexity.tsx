@@ -1,6 +1,7 @@
 import {
   Code,
   Columns,
+  Image,
   List,
   Section,
   Table,
@@ -166,6 +167,12 @@ export default function Complexity(props: {
             ]}
           />
         </Columns>
+      </Section>
+      <Section level={2} title="Grand O de Landau">
+        <Image
+          src="https://www.sfeir.dev/content/images/2024/01/image-18.png"
+          url="https://www.sfeir.dev/front/comprendre-la-complexite-des-algorithmes/"
+        />
       </Section>
       <Section level={2} title="Pire & meilleur cas">
         <List

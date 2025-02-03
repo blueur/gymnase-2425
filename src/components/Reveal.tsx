@@ -3,6 +3,7 @@ import "reveal.js/dist/reveal.css";
 import "@site/src/css/highlight.scss";
 import "@site/src/css/reveal.scss";
 
+import useIsBrowser from "@docusaurus/useIsBrowser";
 import Footer from "@site/src/components/plugins/footer";
 import Katex from "@site/src/components/plugins/katex";
 import Kroki from "@site/src/components/plugins/kroki";
@@ -38,6 +39,7 @@ export default function Reveal(
     page?: boolean;
   }>,
 ) {
+  const isBrowser = useIsBrowser();
   const divRef = useRef<HTMLDivElement>();
   const deckRef = useRef<Api | null>(null);
 
@@ -116,17 +118,27 @@ export default function Reveal(
       </div>
     </div>
   );
-  const slideUrl = new URL(
-    props.children ? `/slides/${props.name}` : "/slides",
-    window.location.href,
-  );
-  if (!props.children) {
-    slideUrl.searchParams.append("name", props.name);
+
+  let pageUrlString = "";
+  let fullUrlString = "";
+  let printUrlString = "";
+  if (isBrowser) {
+    const slideUrl = new URL(
+      props.children ? `/slides/${props.name}` : "/slides",
+      window.location.origin,
+    );
+    if (!props.children) {
+      slideUrl.searchParams.append("name", props.name);
+    }
+    const pageUrl = new URL(slideUrl);
+    pageUrl.searchParams.append("page", "");
+    const printUrl = new URL(slideUrl);
+    printUrl.searchParams.append("print-pdf", "");
+    pageUrlString = pageUrl.toString();
+    fullUrlString = slideUrl.toString();
+    printUrlString = printUrl.toString();
   }
-  const pageUrl = new URL(slideUrl);
-  pageUrl.searchParams.append("page", "");
-  const printUrl = new URL(slideUrl);
-  printUrl.searchParams.append("print-pdf", "");
+
   if (props.full) {
     return revealDiv;
   } else {
@@ -137,15 +149,15 @@ export default function Reveal(
         vue d'ensemble.
         <br />
         Versions{" "}
-        <a href={pageUrl.toString()} target="_blank">
+        <a href={pageUrlString} target="_blank">
           sans animation
         </a>
         ,{" "}
-        <a href={slideUrl.toString()} target="_blank">
+        <a href={fullUrlString} target="_blank">
           plein écran
         </a>
         ,{" "}
-        <a href={printUrl.toString()} target="_blank">
+        <a href={printUrlString} target="_blank">
           imprimable
         </a>
         .
