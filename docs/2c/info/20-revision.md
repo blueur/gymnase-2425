@@ -1,1 +1,271 @@
+---
+description: Comment représenter l'information ?
+---
+
 # Révision
+
+:::note[Objectifs]
+
+L'évaluation se portera sur les critères suivants :
+
+- Base
+  - [ ] Compter en n'importe quelle base
+  - [ ] Convertir entre la base binaire et hexadécimale
+- Unité
+  - [ ] Comparer et convertir entre les unités
+  - [ ] Calculer la taille d'une information
+- Encodage
+  - [ ] Appliquer le codage des couleurs
+  - [ ] Calculer les tailles binaires (images, texte)
+- Composants
+  - [ ] Identifier les composants d'un ordinateur selon leurs caractéristiques.
+  - [ ] Catégoriser les périphériques d'un ordinateur.
+  - [ ] Analyser les causes d'un dysfonctionnement d'un ordinateur.
+
+|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
+| :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
+| Nombre de critères validés |       0       |       1       |  2  |       3       |  4  |       5       |  6  |       7       |  8  |       9       |
+
+:::
+
+:::tip[Aides]
+
+- Revoir les [Kahoot!](https://create.kahoot.it/course/fc50e728-63e5-43f9-a2d8-38d2e1c24109)
+- Terminer les exercices des semaines précédentes.
+- Support de cours complémentaires :
+  - [Modulo](https://apprendre.modulo-info.ch/index.html)
+    - [Représentation de l’information](https://apprendre.modulo-info.ch/rep-info/index.html)
+      - [Introduction](https://apprendre.modulo-info.ch/rep-info/intro.html)
+      - [Les caractères](https://apprendre.modulo-info.ch/rep-info/caracteres.html)
+      - [Les images](https://apprendre.modulo-info.ch/rep-info/images.html)
+      - [Conclusion](https://apprendre.modulo-info.ch/rep-info/conclusion.html)
+    - [Architecture des ordinateurs](https://apprendre.modulo-info.ch/archi/index.html)
+      - [Introduction](https://apprendre.modulo-info.ch/archi/intro.html)
+      - [Architecture générale](https://apprendre.modulo-info.ch/archi/archi-gen.html)
+  - L'informateur
+    - [Encodage de l'information](https://youtube.com/playlist?list=PLOapGKeH_KhGI1CsCvu_nK9otou8_KsCZ)
+    - [Hardware](https://youtube.com/playlist?list=PLOapGKeH_KhHDP6VDU0hEYFqtBLXo_Fsy)
+- Pour imprimer : <kbd>Ctrl</kbd> + <kbd>P</kbd> ou <kbd>Cmd</kbd> + <kbd>P</kbd>
+
+:::
+
+## Bases
+
+Compléter le tableau suivant avec les 25 premiers nombres de chaque base.
+
+| Décimal  | Binaire  |  Octal   | Hexadécimal |
+| :------: | :------: | :------: | :---------: |
+| &hellip; | &hellip; | &hellip; |  &hellip;   |
+
+<details>
+  <summary>Solution</summary>
+
+| Décimal | Binaire | Octal | Hexadécimal |
+| :-----: | :-----: | :---: | :---------: |
+|    0    |    0    |   0   |      0      |
+|    1    |    1    |   1   |      1      |
+|    2    |   10    |   2   |      2      |
+|    3    |   11    |   3   |      3      |
+|    4    |   100   |   4   |      4      |
+|    5    |   101   |   5   |      5      |
+|    6    |   110   |   6   |      6      |
+|    7    |   111   |   7   |      7      |
+|    8    |  1 000  |  10   |      8      |
+|    9    |  1 001  |  11   |      9      |
+|   10    |  1 010  |  12   |      A      |
+|   11    |  1 011  |  13   |      B      |
+|   12    |  1 100  |  14   |      C      |
+|   13    |  1 101  |  15   |      D      |
+|   14    |  1 110  |  16   |      E      |
+|   15    |  1 111  |  17   |      F      |
+|   16    | 10 000  |  20   |     10      |
+|   17    | 10 001  |  21   |     11      |
+|   18    | 10 010  |  22   |     12      |
+|   19    | 10 011  |  23   |     13      |
+|   20    | 10 100  |  24   |     14      |
+|   21    | 10 101  |  25   |     15      |
+|   22    | 10 110  |  26   |     16      |
+|   23    | 10 111  |  27   |     17      |
+|   24    | 11 000  |  30   |     18      |
+
+</details>
+
+## Conversion de base
+
+Convertir les nombres suivants vers les bases demandées.
+
+1. D<sub>16</sub> = ?<sub>2</sub>
+   <Check>D<sub>16</sub> = 1101<sub>2</sub></Check>
+2. 11 0011<sub>2</sub> = ?<sub>16</sub>
+   <Check>11 0011<sub>2</sub> = 33<sub>16</sub></Check>
+3. B1C<sub>16</sub> = ?<sub>2</sub>
+   <Check>B1C<sub>16</sub> = 1011 0001 1100<sub>2</sub></Check>
+4. 1 0110<sub>2</sub> = ?<sub>16</sub>
+   <Check>1 0110<sub>2</sub> = 16<sub>16</sub></Check>
+
+## Conversion d'unités
+
+Convertir vers les unités demandées.
+
+1. 1 [To] = ? [Go] = ? [Mo] = ? [Ko] = ? [o] = ? [b]
+   <Check>1 [To] = 1'000 [Go] = 1'000'000 [Mo] = 1'000'000'000 [Ko] = 1'000'000'000'000 [o] = 8'000'000'000'000 [b]</Check>
+2. 1 [Tio] = ? [Gio] = ? [Mio] = ? [Kio] = ? [o] = ? [b]
+   <Check>1 [Tio] = 1'024 [Gio] = 1'048'576 [Mio] = 1'073'741'824 [Kio] = 1'099'511'627'776 [o] = 8'796'093'022'208 [b]</Check>
+3. 4 [Go] = ? [Ko]
+   <Check>4 [Go] = 4'000'000 [Ko]</Check>
+4. 2'000 [Mo] = ? [Go] = ? [Gb]
+   <Check>2'000 [Mo] = 2 [Go] = 16 [Gb]</Check>
+5. 2'097'152 [o] = ? [Kio] = ? [Mio] = ?[Mib]
+   <Check>2'097'152 [o] = 2'048 [Kio] = 2 [Mio] = 16 [Mib]</Check>
+
+<details>
+  <summary>Solutions</summary>
+
+1. 1 [To] = 1'000 [Go] = 1'000'000 [Mo] = 1'000'000'000 [Ko] = 1'000'000'000'000 [o] = 8'000'000'000'000 [b]
+2. 1 [Tio] = 1'024 [Gio] = 1'048'576 [Mio] = 1'073'741'824 [Kio] = 1'099'511'627'776 [o] = 8'796'093'022'208 [b]
+3. 4 [Go] = 4'000'000 [Ko]
+4. 2'000 [Mo] = 2 [Go] = 16 [Gb]
+5. 2'097'152 [o] = 2'048 [Kio] = 2 [Mio] = 16 [Mib]
+
+</details>
+
+## Comparaison d'unités
+
+Comparer les valeurs suivantes avec \<, > ou =.
+
+|             |                          |             |
+| :---------: | :----------------------: | :---------: |
+|   4 [Gio]   | &nbsp;&nbsp;&nbsp;&nbsp; |  512 [Mio]  |
+| 1'024 [Kio] |                          |   1 [Mio]   |
+| 2'048 [Tio] |                          |   4 [Mio]   |
+|  128 [Kio]  |                          |  128 [Mio]  |
+|   2 [Gio]   |                          | 2'048 [MiB] |
+|  256 [Gio]  |                          | 0.25 [Tio]  |
+
+<details>
+  <summary>Solution</summary>
+
+|             |     |             |
+| :---------: | :-: | :---------: |
+|   4 [Gio]   |  >  |  512 [Mio]  |
+| 1'024 [Kio] |  =  |   1 [Mio]   |
+| 2'048 [Tio] |  >  |   4 [Mio]   |
+|  128 [Kio]  | \<  |  128 [Mio]  |
+|   2 [Gio]   |  =  | 2'048 [MiB] |
+|  256 [Gio]  |  =  | 0.25 [Tio]  |
+
+</details>
+
+## Taille binaire
+
+Calculer la taille binaire des éléments suivants dans les unités demandées (arrondir à deux décimales).
+
+1. Une image 2-bit de 32 x 32 pixels en [b] et [o]
+   <Check>2'048 [b] = 256 [o]</Check>
+2. Une image 8-bit de 64 x 128 pixels en [o] et [Kio]
+   <Check>8'192 [o] = 8 [Kio]</Check>
+3. Une image 24-bit de 360 x 640 pixels en [o] et [Kio]
+   <Check>691'200 [o] = 675 [Kio]</Check>
+4. Le texte suivant `Vous ne passerez pas !` en [b] et [o]
+   <Check>176 [b] = 22 [o]</Check>
+
+<details>
+  <summary>Solutions détaillées</summary>
+
+1. 32 x 32 x 2 = 2'048 [b] = 256 [o]
+2. 64 x 128 x 8 = 65'536 [b] = 8'192 [o] = 8 [Kio]
+3. 360 x 640 x 24 = 5'529'600 [b] = 691'200 [o] = 675 [Kio]
+4. 22 x 8 = 176 [b] = 22 [o]
+
+</details>
+
+## Couleur
+
+Associer les codes hexadécimaux aux couleurs correspondantes.
+
+|  Code   | &nbsp;&nbsp;&nbsp;&nbsp; | Couleur |
+| :-----: | :----------------------: | :-----: |
+| #BDBDBD |                          |  Noir   |
+| #FF0000 |                          |  Rouge  |
+| #00E676 |                          |  Bleu   |
+| #2962FF |                          |  Vert   |
+| #000000 |                          |  Gris   |
+| #FFFFFF |                          |  Blanc  |
+
+<details>
+  <summary>Solution</summary>
+
+- #BDBDBD : Gris
+- #FF0000 : Rouge
+- #00E676 : Vert
+- #2962FF : Bleu
+- #000000 : Noir
+- #FFFFFF : Blanc
+
+</details>
+
+## Comparaison d'éléments
+
+Comparer la taille binaire des éléments suivants avec \<, > ou =.
+
+|                                     |                          |                                     |
+| :---------------------------------: | :----------------------: | :---------------------------------: |
+|     Un texte de 1000 caractères     | &nbsp;&nbsp;&nbsp;&nbsp; | Une image 8-bit de 128 x 128 pixels |
+|     Un texte de 2000 caractères     |                          |     Un texte de 2048 caractères     |
+| Une image 8-bit de 100 x 320 pixels |                          |    Un texte de 30'000 caractères    |
+|  Une image 4-bit de 64 x 64 pixels  |                          |    Une image 1-bit de 128 x 128     |
+
+<details>
+  <summary>Solution</summary>
+
+|                                     |            |     |            |                                     |
+| :---------------------------------: | :--------: | :-: | :--------: | :---------------------------------: |
+|     Un texte de 1000 caractères     | 1'000 [o]  | \<  | 16'384 [o] | Une image 8-bit de 128 x 128 pixels |
+|     Un texte de 2000 caractères     | 2'000 [o]  | \<  | 2'048 [o]  |     Un texte de 2048 caractères     |
+| Une image 8-bit de 100 x 320 pixels | 32'000 [o] |  >  | 30'000 [o] |    Un texte de 30'000 caractères    |
+|  Une image 4-bit de 64 x 64 pixels  | 16'384 [b] |  =  | 16'384 [b] |    Une image 1-bit de 128 x 128     |
+
+</details>
+
+## Caractères
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg)
+
+1. Décoder les octets suivants en hexadécimal qui représentent du texte : 49 74 27 73 20 61 20 54 72 61 70 21
+   <Check>It's a Trap!</Check>
+   - Quelle est sa taille ?
+     <Check>12 [o]</Check>
+2. On dit qu'une image vaut mille mots. Combien de mots vaut une image de 12 MP (mégapixel) en 24 bits sachant qu’un mot a une longueur moyenne de 5 lettres ?
+   <Check>7'200'000 [mots]</Check>
+
+<details>
+  <summary>Solutions détaillées</summary>
+
+1. - It's a Trap! (12 [o])
+   - 12 [o], car 12 caractères
+2. - 12 MP = 12'000'000 pixels
+   - 12'000'000 [px] x 24 [b] = 36'000'000 [o] (288'000'000 [b])
+   - 36'000'000 [o] = 36'000'000 [caractères]
+   - 36'000'000 [caractères] / 5 [caractères/mot] = 7'200'000 [mots]
+
+</details>
+
+## Information
+
+Combien de bits faut-il au minimum pour représenter les éléments suivants ?
+
+1. Un nombre entre 0 et 255
+   <Check>8 [b]</Check>
+2. Une lettre de l'alphabet (minuscule et majuscule)
+   <Check>6 [b]</Check>
+3. Un jour de l'année
+   <Check>9 [b]</Check>
+
+<details>
+  <summary>Solutions détaillées</summary>
+
+1. 256 valeurs possibles = 2<sup>8</sup> = 256, donc 8 [b]
+2. 26 lettres minuscules + 26 lettres majuscules = 52 caractères possibles. 2<sup>6</sup> = 64 > 52, donc 6 [b]
+3. 365 jours = 2<sup>9</sup> = 512 > 365, donc 9 [b]
+
+</details>
