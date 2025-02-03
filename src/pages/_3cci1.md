@@ -25,15 +25,15 @@
 |  2025-01-21  | [Type](/docs/3cci/prog/type)                                         | [AlgoPython D](/docs/3cci/prog/algopython-d)        |
 |  2025-01-28  | [Tri](/docs/3cci/prog/tri)                                           | [AlgoPython D](/docs/3cci/prog/algopython-d)        |
 |  2025-02-04  | [Complexité](/docs/3cci/prog/complexite)                             | [AlgoPython D](/docs/3cci/prog/algopython-d)        |
-|  2025-02-11  | Intelligence artificielle                                            | [JavaScript](/docs/3cci/webd/javascript)            |
+|  2025-02-11  | [Intelligence artificielle](/docs/3cci/prog/ia)                      | [JavaScript](/docs/3cci/webd/javascript)            |
 |  2025-02-18  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-02-25  | [Révision](/docs/3cci/prog/revision)                                 | [Révision](/docs/3cci/prog/revision)                |
 |  2025-03-04  | **Test : [Algorithmique et programmation avancée](/docs/3cci/prog)** |                                                     |
-|  2025-03-11  | Binaire                                                              |                                                     |
-|  2025-03-18  | Conversion                                                           |                                                     |
-|  2025-03-25  | Unité                                                                |                                                     |
+|  2025-03-11  | Binaire                                                              | Unité                                               |
+|  2025-03-18  | Conversion                                                           | Image                                               |
+|  2025-03-25  | Composants d'un ordinateur                                           | Composants d'un ordinateur                          |
 |  2025-04-01  | Circuit logique                                                      |                                                     |
-|  2025-04-08  | Composants d'un ordinateur                                           |                                                     |
+|  2025-04-08  |                                                                      |                                                     |
 |  2025-04-15  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-22  | _Vacances_                                                           | _Vacances_                                          |
 |  2025-04-29  |                                                                      |                                                     |

@@ -130,7 +130,7 @@ export default function Tri(props: { embedded?: boolean; chapter?: string }) {
                   ["_Espaces_", ["3"]],
                 ],
               ],
-              "Complexité **temporelle** : linéaire O(b)",
+              "Complexité **temporelle** : linéaire O(b) ou O(n)",
               "Complexité **spatiale** : constante O(1)",
             ]}
           />
