@@ -1,0 +1,196 @@
+## Objectifs
+
+Comment organiser les données ?
+
+- Reconnaître les types de données
+- Reconnaître les structures de données
+
+## Cours
+
+{props.slides}
+
+## Exercices
+
+### Variable
+
+Est-ce un nom de variable valide ?
+
+1. `nom`
+2. `42`
+3. `nom de variable`
+4. `nom_de_variable`
+5. `1nom`
+6. `nom!`
+7. `nom2`
+8. `int`
+
+<details>
+<summary>Solution</summary>
+
+1. Valide
+2. Invalide, un nom de variable ne peut pas commencer par un chiffre.
+3. Invalide, un nom de variable ne peut pas contenir d'espaces.
+4. Valide
+5. Invalide, un nom de variable ne peut pas commencer par un chiffre.
+6. Invalide, un nom de variable ne peut pas contenir de caractères spéciaux.
+7. Valide
+8. Invalide, `int` est un mot-clé réservé.
+
+</details>
+
+### Type
+
+Quel est le type de chaque variable dans les exemples suivants ?
+
+1. `a = 5`
+2. `b = 12.0`
+3. `c = "Bonjour"`
+4. `d = True`
+5. `e = [1, 2, 3]`
+6. `f = a + b`
+7. `g = c + " tout le monde"`
+8. `h = e[1]`
+9. `i = a - c`
+10. `j = a / e[0]`
+11. `k = e[3]`
+12. `l = e[1] + e[2]`
+
+<details>
+<summary>Solution</summary>
+
+1. `a` est un nombre entier (int).
+2. `b` est un nombre flottant (float).
+3. `c` est une chaîne de caractères (str).
+4. `d` est un booléen (bool).
+5. `e` est une liste d'entiers (list).
+6. `f` est un nombre flottant (float).
+7. `g` est une chaîne de caractères (str).
+8. `h` est un entier (int).
+9. `i` est une erreur, on ne peut pas soustraire un entier d'une chaîne de caractères.
+10. `j` est un nombre flottant (float).
+11. `k` est une erreur, l'index 3 n'existe pas dans la liste `e`.
+12. `l` est un entier (int).
+
+</details>
+
+### Évaluation
+
+Quel est le résultat de chaque expression ?
+
+1. `6 + 3`
+2. `6 - 3`
+3. `6 * 3`
+4. `6 / 3`
+5. `"6" + 3`
+6. `"6" + "3"`
+7. `6 + "3"`
+8. `"6" - "3"`
+
+<details>
+<summary>Solution</summary>
+
+1. 9
+2. 3
+3. 18
+4. 2.0
+5. Erreur, on ne peut pas additionner une chaîne de caractères et un entier.
+6. "63"
+7. Erreur, on ne peut pas additionner un entier et une chaîne de caractères.
+8. Erreur, on ne peut pas soustraire des chaînes de caractères.
+
+</details>
+
+On déclare les variables suivantes :
+
+```
+ls = [1, 2, 3, 4, 5]
+a = 2
+b = "la"
+```
+
+Quel est le résultat de chaque expression ?
+
+1. `ls[1]`
+2. `ls[a]`
+3. `ls[b]`
+4. `ls[1] + ls[2]`
+5. `ls[a] + ls[2]`
+6. `ls[1] + ls[b]`
+
+<details>
+<summary>Solution</summary>
+
+1. 2
+2. 3
+3. Erreur, on ne peut pas utiliser une chaîne de caractères comme index.
+4. 5
+5. 6
+6. Erreur, on ne peut pas additionner un entier et une chaîne de caractères.
+
+</details>
+
+### Organigramme + Liste
+
+```kroki type=plantuml
+:Entrées : liste, x;
+:i ← 0;
+while (i < liste.taille ?) is (vrai)
+  if (liste[i] = x ?) then (vrai)
+    :Retourner Vrai;
+  kill
+  else (faux)
+    :i ← i + 1;
+  endif
+endwhile (faux)
+:Retourner Faux;
+kill
+```
+
+Que retourne les instances suivantes de l'algorithme ci-dessus ? `liste.taille` est le nombre d'élément de la liste (donc 3 pour les instances ci-dessous).
+
+1. `liste = [1, 2, 3], x = 1`
+2. `liste = [7, 5, 2], x = 6`
+3. `liste = [2, 15, 3], x = 3`
+
+<details>
+<summary>Solution</summary>
+
+1. Vrai
+2. Faux
+3. Vrai
+
+</details>
+
+Que fait cet algorithme ? Vous pouvez le tester avec d'autres valeurs.
+
+<details>
+<summary>Solution</summary>
+
+Indique si `x` est présent dans `liste`.
+
+</details>
+
+Réécrire l'algorithme en pseudo-code : FONCTION contient(liste, x)
+
+<details>
+<summary>Solution</summary>
+
+```
+FONCTION contient(liste, x)
+  i ← 0
+  TANT QUE i < liste.taille FAIRE
+    SI liste[i] = x ALORS
+      RETOURNER Vrai
+    SINON
+      i ← i + 1
+    FIN SI
+  FIN TANT QUE
+  RETOURNER Faux
+FIN FONCTION
+```
+
+</details>
+
+## Références
+
+- https://fr.wikipedia.org/wiki/Type_(informatique)

@@ -1,0 +1,145 @@
+## Objectifs
+
+Qu'est-ce qu'un fichier ?
+
+- Lire une table ASCII
+- Modifier un fichier texte au format hexadécimal
+- Calculer la taille d'un fichier texte
+- Créer des fichiers PBM, PGM et PPM
+
+## Cours
+
+{props.slides}
+
+## Exercices
+
+## Représentation des caractères
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg)
+
+- Combien de caractères sont représentés dans la table ASCII ?
+  <Check>128 (de 0 à 127)</Check>
+- Sur combien de bits est codé un caractère ASCII ?
+  <Check>
+    7 bits car 2<sup>7</sup> = 128
+  </Check>
+- Comme on préfère travailler avec des octets (8 bits), on a arrondi à 8 bits.
+  - Combien d'octets sont nécessaires pour stocker la phrase `Salut, ca va ?` ?
+    <Check>14 octets car 14 caractères</Check>
+- Ouvrir OneDrive et créer un dossier `encodage` dans "OneDrive/{props.classe}/informatique/".
+  ```txt {4}
+  OneDrive/
+  └── {classe}/
+      └── informatique/
+          └── encodage/
+  ```
+- Télécharger le fichier [hello.txt](pathname:///tp/encodage/hello.txt) et le déposer dans le dossier `encodage`.
+  - Clic droit sur le lien ci-dessus et choisir `Enregistrer sous` en le nommant `hello.txt` et en sélectionnant le dossier `encodage`.
+- Quelle est la taille du fichier `hello.txt` et le comparer avec son contenu ?
+  - Clic droit sur le fichier > Lire les informations.
+    <Check>11 [o] car il y a 11 caractères</Check>
+- Ouvrir le fichier sur [HexEd.it](https://hexed.it/) qui est un éditeur hexadécimal en ligne.
+  - Aller sur le site [HexEd.it](https://hexed.it/) et cliquer sur `Ouvrir` pour sélectionner le fichier `hello.txt`.
+  - L'écran est divisé en deux parties : l'éditeur hexadécimal à gauche et la représentation textuelle à droite.
+  - Observer que le premier octet `0x48` correspond au caractère `H` en ASCII.
+- Modifier les octets dans la partie de gauche pour écrire `Hi World!`.
+- Sauvegarder le fichier
+  - Cliquer sur `Enregistrer sous` ou `Exporter` pour sauvegarder le fichier modifié.
+- Ouvrir le fichier modifié sur l'ordinateur pour vérifier son contenu.
+- Quelle est la taille du fichier modifié ? Pourquoi ?
+  <Check>9 [o] car il y a 9 caractères</Check>
+
+## Représentation des images
+
+### Portable bitmap
+
+Le format PBM (portable bitmap) permet de représenter des images en noir et blanc.
+
+- Sauvegarder le fichier [lettre-e.pbm](pathname:///tp/encodage/lettre-e.pbm) dans le dossier `encodage`. Il a le contenu suivant :
+  ```txt title="lettre-e.pbm"
+  P1
+  4 5
+  1 1 1 1
+  1 0 0 0
+  1 1 1 0
+  1 0 0 0
+  1 1 1 1
+  ```
+  - `P1` indique le format de l'image (noir et blanc)
+  - `4 5` indique la largeur (4 px) et la hauteur (5 px) de l'image
+  - Les pixels sont représentés par des `1` (noir) et des `0` (blanc)
+- Ouvrir le fichier avec **Aperçu** pour voir l'image.
+- Ouvrir le fichier avec **TextEdit** pour voir le contenu.
+  - Clic droit sur le fichier > Ouvrir avec > Autre > TextEdit
+- Créer le fichier `lettre-f.pbm` qui représente la lettre `F` en noir et blanc.
+  - Dupliquer le fichier `lettre-e.pbm` et le renommer `lettre-f.pbm`.
+  - Modifier le fichier avec **TextEdit** pour obtenir la lettre `F`.
+  - <kbd>Cmd</kbd> + <kbd>S</kbd> pour sauvegarder les modifications.
+  - Le résultat final devrait ressembler à :  
+    ![](/tp/encodage/lettre-f.png)
+
+### Portable graymap (bonus)
+
+Le format PGM (portable graymap) permet de représenter des images en niveaux de gris.
+
+- Sauvegarder le fichier [gyp.pgm](pathname:///tp/encodage/gyp.pgm) dans le dossier `encodage`. Il a le contenu suivant :
+  ```txt title="gyp.pgm"
+  P2
+  14 5
+  3
+  0 1 1 1 0 2 0 0 2 0 3 3 3 3
+  1 0 0 0 0 2 0 0 2 0 3 0 0 3
+  1 0 1 1 0 0 2 2 2 0 3 3 3 0
+  1 0 0 1 0 0 0 0 2 0 3 0 0 0
+  0 1 1 0 0 0 2 2 0 0 3 0 0 0
+  ```
+  - `P2` indique le format de l'image (niveaux de gris)
+  - `14 5` indique la largeur (14 px) et la hauteur (5 px) de l'image
+  - `3` indique la valeur maximale des niveaux de gris
+  - Les pixels sont représentés par des valeurs entre `0` (noir) et la valeur maximale `3` (blanc)
+- Ouvrir le fichier avec **TextEdit** pour voir le contenu.
+- Créer le fichier `gris.pgm` qui écrit `GRIS` en niveaux de gris.
+  - Ne pas oublier de mettre à jour la largeur et la hauteur de l'image.
+  - Ne pas oublier de mettre à jour le nombre de niveaux de gris.
+  - Le résultat final devrait ressembler à :  
+    ![](/tp/encodage/gris.png)
+
+### Portable pixmap (bonus)
+
+Le format PPM (portable pixmap) permet de représenter des images en couleurs.
+
+- Sauvegarder le fichier [couleur.ppm](pathname:///tp/encodage/couleur.ppm) dans le dossier `encodage`. Il a le contenu suivant :
+  ```txt title="couleur.ppm"
+  P3
+  6 4
+  255
+  255 0 0 0 255 0 0 0 255 128 128 128 255 255 255 0 0 0
+  255 0 0 0 255 0 0 0 255 128 128 128 255 255 255 0 0 0
+  255 0 0 0 255 0 0 0 255 128 128 128 255 255 255 0 0 0
+  255 0 0 0 255 0 0 0 255 128 128 128 255 255 255 0 0 0
+  ```
+  - `P3` indique le format de l'image (couleurs)
+  - `6 4` indique la largeur (6 px) et la hauteur (4 px) de l'image
+  - `255` indique la valeur maximale des couleurs (0 à 255)
+  - Les pixels sont représentés par des valeurs RGB (rouge, vert, bleu) entre `0 0 0` (noir) et `255 255 255` (blanc)
+  - Le premier pixel est représenté par le triplet `255 0 0` (rouge)
+- Ouvrir le fichier avec **TextEdit** pour voir le contenu.
+- Créer un nouveau fichier `suisse.ppm` qui représente un drapeau suisse.
+  - Commencer par créer un carré rouge de 5x5 pixels.
+  - Le résultat final devrait ressembler à :  
+    ![](/tp/encodage/suisse.png)
+- Créer d'autres drapeaux : français, italien, allemand, autrichien, belge, etc.
+  - Pour obtenir les valeurs RGB d'une couleur, chercher `color picker` sur [Google](https://google.ch/).
+  - Il est aussi possible d'obtenir la couleur exacte d'une image avec [imagecolorpicker.com](https://imagecolorpicker.com/)
+
+## Références
+
+- https://enseigner.modulo-info.ch/rep-info/activ/numerisation_images_var.html
+- https://fr.vikidia.org/wiki/Code_ASCII
+  - https://fr.vikidia.org/wiki/Codage_des_caract%C3%A8res
+  - https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange
+- https://fr.wikipedia.org/wiki/Art_ASCII
+- https://fr.wikipedia.org/wiki/Portable_pixmap
+- https://fr.wikipedia.org/wiki/Windows_bitmap
+- https://kylepaulsen.com/stuff/NetpbmViewer/
+- https://www.gentlegeek.net/2010/11/personnages-de-jeux-video-en-4x4-pixels/

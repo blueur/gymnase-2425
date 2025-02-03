@@ -4,6 +4,6 @@ sidebar_position: 0
 
 # Introduction
 
-import Slides from "@site/src/pages/slides/2c/intro";
+import Slides from "@site/src/pages/slides/intro-2c";
 
 <Slides embedded />

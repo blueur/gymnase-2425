@@ -116,9 +116,17 @@ export default function Reveal(
       </div>
     </div>
   );
-  const pathPrefix = props.children
-    ? `/slides/${props.name}?`
-    : `/slides?name=${props.name}&`;
+  const slideUrl = new URL(
+    props.children ? `/slides/${props.name}` : "/slides",
+    window.location.href,
+  );
+  if (!props.children) {
+    slideUrl.searchParams.append("name", props.name);
+  }
+  const pageUrl = new URL(slideUrl);
+  pageUrl.searchParams.append("page", "");
+  const printUrl = new URL(slideUrl);
+  printUrl.searchParams.append("print-pdf", "");
   if (props.full) {
     return revealDiv;
   } else {
@@ -129,15 +137,15 @@ export default function Reveal(
         vue d'ensemble.
         <br />
         Versions{" "}
-        <a href={pathPrefix + "page"} target="_blank">
+        <a href={pageUrl.toString()} target="_blank">
           sans animation
         </a>
         ,{" "}
-        <a href={pathPrefix} target="_blank">
+        <a href={slideUrl.toString()} target="_blank">
           plein écran
         </a>
         ,{" "}
-        <a href={pathPrefix + "print-pdf"} target="_blank">
+        <a href={printUrl.toString()} target="_blank">
           imprimable
         </a>
         .
