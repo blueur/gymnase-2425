@@ -47,7 +47,7 @@ FIN FONCTION
 ```
 FONCTION max_liste(liste)
   max ← liste[0]
-  POUR i DE 1 À liste.taille FAIRE
+  POUR i DE 1 À liste.taille - 1 FAIRE
     SI liste[i] > max ALORS
       max ← liste[i]
     FIN SI
@@ -96,7 +96,7 @@ FIN FONCTION
 ```
 FONCTION inverse(liste)
   liste_inverse ← liste
-  POUR i DE 0 À liste.taille FAIRE
+  POUR i DE 0 À liste.taille / 2 FAIRE
     liste_inverse[i] ← liste[liste.taille - i - 1]
   FIN POUR
   RETOURNER liste_inverse
