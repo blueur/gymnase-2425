@@ -88,14 +88,14 @@ export default function Complexity(props: {
               [
                 "**Instance** : a=3, b=4",
                 [
-                  ["_Opérations_", ["1 (multiplication)"]],
+                  ["_Opérations_", ["2 (mult. + retour)"]],
                   ["_Espaces_", ["2 (variables a et b)"]],
                 ],
               ],
               [
                 "**Instance** : a=2048, b=130",
                 [
-                  ["_Opérations_", ["1"]],
+                  ["_Opérations_", ["2"]],
                   ["_Espaces_", ["2"]],
                 ],
               ],
@@ -125,14 +125,14 @@ export default function Complexity(props: {
                 "**Instance** : a=3, b=4",
                 [
                   ["_Opérations_", ["4 (assign. + add.)"]],
-                  ["_Espaces_", ["3 (variables a, b, r)"]],
+                  ["_Espaces_", ["4 (var. a, b, r, i)"]],
                 ],
               ],
               [
                 "**Instance** : a=2048, b=130",
                 [
                   ["_Opérations_", ["130"]],
-                  ["_Espaces_", ["3"]],
+                  ["_Espaces_", ["4"]],
                 ],
               ],
               "Complexité **temporelle** : linéaire O(b) ou O(n)",
@@ -144,13 +144,12 @@ export default function Complexity(props: {
       <Section level={2} title="Grand O de Landau">
         <Columns>
           <List
-            fragment
             items={[
-              "O(1) : **Constant** (min, max)",
+              "_O(1)_ : **Constant** (min, max)",
               "O(log(n)) : Logarithmique (recherche dichotomique)",
-              "O(n) : **Linéaire** (recherche dans liste)",
+              "_O(n)_ : **Linéaire** (recherche dans liste)",
               "O(n log(n)) : Log-linéaire (tri fusion)",
-              "O(n<sup>2</sup>) : **Quadratique** (tri par insertion/sélection)",
+              "O(n<sup>2</sup>) : Quadratique (tri par insertion/sélection)",
               "2<sup>O(n)</sup> : Exponentiel",
               "O(n!) : Factorielle",
             ]}

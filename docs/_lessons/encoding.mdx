@@ -78,23 +78,23 @@ Le format PBM (portable bitmap) permet de représenter des images en noir et bla
   - Le résultat final devrait ressembler à :  
     ![](/tp/encodage/lettre-f.png)
 
-### Portable graymap (bonus)
+### Portable graymap
 
 Le format PGM (portable graymap) permet de représenter des images en niveaux de gris.
 
-- Sauvegarder le fichier [gyp.pgm](pathname:///tp/encodage/gyp.pgm) dans le dossier `encodage`. Il a le contenu suivant :
-  ```txt title="gyp.pgm"
+- Sauvegarder le fichier [gif.pgm](pathname:///tp/encodage/gif.pgm) dans le dossier `encodage`. Il a le contenu suivant :
+  ```txt title="gif.pgm"
   P2
-  14 5
+  11 5
   3
-  0 1 1 1 0 2 0 0 2 0 3 3 3 3
-  1 0 0 0 0 2 0 0 2 0 3 0 0 3
-  1 0 1 1 0 0 2 2 2 0 3 3 3 0
-  1 0 0 1 0 0 0 0 2 0 3 0 0 0
-  0 1 1 0 0 0 2 2 0 0 3 0 0 0
+  0 1 1 1 0 2 0 3 3 3 3
+  1 0 0 0 0 0 0 3 0 0 0
+  1 0 1 1 0 2 0 3 3 3 0
+  1 0 0 1 0 2 0 3 0 0 0
+  0 1 1 0 0 2 0 3 0 0 0
   ```
   - `P2` indique le format de l'image (niveaux de gris)
-  - `14 5` indique la largeur (14 px) et la hauteur (5 px) de l'image
+  - `11 5` indique la largeur (11 px) et la hauteur (5 px) de l'image
   - `3` indique la valeur maximale des niveaux de gris
   - Les pixels sont représentés par des valeurs entre `0` (noir) et la valeur maximale `3` (blanc)
 - Ouvrir le fichier avec **TextEdit** pour voir le contenu.
