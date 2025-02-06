@@ -269,3 +269,104 @@ Combien de bits faut-il au minimum pour représenter les éléments suivants ?
 3. 365 jours = 2<sup>9</sup> = 512 > 365, donc 9 [b]
 
 </details>
+
+## Composants
+
+1. Dans quel composant est copié le programme pour qu'il soit exécuté par l'ordinateur ?
+2. Quel type de périphérique est le lecteur biométrique (empreinte digitale) ?
+3. Que signifie la fréquence d'horloge d'un processeur de 1.6 GHz ?
+
+<details>
+<summary>Solution</summary>
+
+1. Dans la mémoire vive
+2. Un périphérique d'entrée
+3. Le processeur peut effectuer 1,6 milliard d'opérations par seconde
+
+</details>
+
+## Mémoires
+
+Fait-on référence à une mémoire vive ou une mémoire de masse ?
+
+1. Mon téléphone a 256 Go de mémoire.
+2. Je ne peux plus prendre de photo car la mémoire est pleine.
+3. Mon jeu est super lent, il faudrait que je rajoute de la mémoire.
+4. Mon nouvel ordinateur a une mémoire de 16 Go.
+
+<details>
+<summary>Solution</summary>
+
+1. Mémoire de masse, car trop grand pour une mémoire vive.
+2. Mémoire de masse, car c'est là où on stocke les fichiers (dont les photos).
+3. Mémoire vive, ralenti les applications (dont jeux) si elle est pleine.
+4. Mémoire vive, car trop peu pour une mémoire de masse.
+
+</details>
+
+## Mémoire de masse
+
+Compléter avec une mémoire de masse HDD ou SSD :
+
+1. Mon disque dur \_\_\_\_ est trop lent, il faudrait que je le change en \_\_\_\_.
+2. Le disque dur \_\_\_\_ a un nombre d'écriture limité et donc une durée de vie limitée.
+3. Le \_\_\_\_ est composé de disques magnétiques et d'une tête de lecture mécanique.
+4. On préfère avoir des \_\_\_\_ dans les ordinateurs portables pour que ce soit moins fragile.
+5. Un des premiers iPods avait un \_\_\_\_ pour pouvoir stocker beaucoup de musique à un prix raisonnable.
+
+<details>
+<summary>Solution</summary>
+
+1. Mon disque dur **HDD** est trop lent, il faudrait que je le change en **SSD**.
+2. Le disque dur **SSD** a un nombre d'écriture limité et donc une durée de vie limitée.
+3. Le **HDD** est composé de disques magnétiques et d'une tête de lecture mécanique.
+4. On préfère avoir des **SSD** dans les ordinateurs portables pour que ce soit moins fragile.
+5. Un des premiers iPods avait un **HDD** pour pouvoir stocker beaucoup de musique à un prix raisonnable.
+
+</details>
+
+## Caractéristiques
+
+Voici les caractéristiques d'ordinateurs trouvées sur un prospectus. Pour chaque ligne, dire à quel(s) composant(s) elle fait référence (si c'est un périphérique, préciser quel type) :
+
+1. Écran tactile IPS Full HD 15,6"
+2. Intel Core i5-1235U
+3. RAM 16 Go
+4. SSD 512 Go
+5. Technologie de charge rapide
+6. Lecteur d'empreintes digitales
+7. 1 prise HDMI 2.1, 1 port USB (type C) 10 Gbit/s, 2 ports USB 5 Gbit/s
+
+<details>
+<summary>Solution</summary>
+
+1. Périphérique d'entrée-sortie
+2. Processeur
+3. Mémoire vive
+4. Mémoire de masse
+5. Bloc d'alimentation (ou batterie)
+6. Périphérique d'entrée
+7. Carte mère
+
+</details>
+
+1. Écran liquid Retina IPS 13,6"
+2. Puce Apple M2 avec CPU 8 coeurs et GPU 8 coeurs
+3. RAM 8 Go
+4. SSD 256 Go
+5. Clavier rétroéclairé
+6. Capteur d'empreinte digitale Touch ID
+7. 2 ports Thunderbolt 4 / USB 4 (type C)
+
+<details>
+<summary>Solution</summary>
+
+1. Périphérique de sortie
+2. Processeur ET processeur graphique (carte graphique)
+3. Mémoire vive
+4. Mémoire de masse
+5. Périphérique d'entrée (éventuellement entrée-sortie pour le rétroéclairage)
+6. Périphérique d'entrée
+7. Carte mère
+
+</details>

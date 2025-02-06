@@ -38,7 +38,7 @@
     "@docusaurus/tsconfig": "^3.7.0",
     "@types/katex": "^0.16.7",
     "@types/pako": "^2.0.3",
-    "@types/reveal.js": "^5.0.4",
+    "@types/reveal.js": "^5.0.5",
     "prettier-plugin-organize-imports": "^4.1.0",
     "remark-kroki": "^0.3.7",
     "typescript": "^5.7.3"

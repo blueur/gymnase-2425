@@ -1,3 +1,7 @@
+---
+description: Qu'est-ce qu'un ordinateur ?
+---
+
 # Révision
 
 :::note[Objectifs]
@@ -37,7 +41,6 @@ L'évaluation se portera sur les critères suivants :
     - [CPU](https://apprendre.modulo-info.ch/archi/micro-pro.html)
     - [Architecture générale](https://apprendre.modulo-info.ch/archi/archi-gen.html)
   - [L'informateur](https://youtube.com/playlist?list=PLOapGKeH_KhHDP6VDU0hEYFqtBLXo_Fsy)
-- Pour imprimer : <kbd>Ctrl</kbd> + <kbd>P</kbd> ou <kbd>Cmd</kbd> + <kbd>P</kbd>
 
 :::
 
