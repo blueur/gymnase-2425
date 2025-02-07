@@ -203,7 +203,10 @@ export function Table(props: {
                 key={index}
                 style={{
                   textAlign: "center",
-                  padding: typeof item === "string" ? "0em 1em" : 0,
+                  padding:
+                    typeof item === "string" || item.type === Text
+                      ? "0em 1em"
+                      : 0,
                 }}
               >
                 {typeof item === "string" ? (

@@ -15,4 +15,5 @@ Apprendre le Python avec AlgoPython.
     - Exemple : `jdupont` pour Jane Dupont
   - Mot de passe : Votre date de naissance au format `JJMMAAAA`
     - Exemple : `29022006` pour le 29 février 2006
-- Continuer et terminer la série d'exercices E
+- Terminer toutes les séries jusqu'à la série E
+- Séries F et G en option
