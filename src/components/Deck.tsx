@@ -38,11 +38,28 @@ export function Code(
   );
 }
 
-export function Columns(props: PropsWithChildren) {
+export function Columns(
+  props: PropsWithChildren<{
+    vertical?: "start" | "center" | "end";
+  }>,
+) {
   return (
-    <div className="columns">
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: props.vertical ?? "center",
+      }}
+    >
       {Children.map(props.children, (child, index) => (
-        <div key={index}>{child}</div>
+        <div
+          key={index}
+          style={{
+            flex: 1,
+          }}
+        >
+          {child}
+        </div>
       ))}
     </div>
   );
