@@ -9,18 +9,18 @@ description: Comment représenter l'information ?
 L'évaluation se portera sur les critères suivants :
 
 - Base
-  - [ ] Compter en n'importe quelle base
-  - [ ] Convertir entre la base binaire et hexadécimale
-  - [ ] Convertir entre la base binaire et décimale
+  - [ ] Compter en n'importe quelle base.
+  - [ ] Convertir entre les base binaire, hexadécimale et décimale.
 - Unité
-  - [ ] Comparer et convertir entre les unités
-  - [ ] Calculer la taille d'une information
-- Encodage
-  - [ ] Appliquer le codage des couleurs
-  - [ ] Calculer les tailles binaires (images, texte)
-- Composants
-  - [ ] Identifier les composants d'un ordinateur selon leurs caractéristiques.
+  - [ ] Comparer et convertir entre les unités.
+  - [ ] Calculer la taille d'une information.
+- Codage
+  - [ ] Utiliser le codage des couleurs.
+  - [ ] Calculer les tailles binaires (images, texte).
+- Ordinateur
+  - [ ] Reconnaître les caractéristiques d'un composant.
   - [ ] Catégoriser les périphériques d'un ordinateur.
+  - [ ] Différencier les types de mémoires.
 
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
@@ -329,8 +329,8 @@ Fait-on référence à une mémoire vive ou une mémoire de masse ?
 
 Compléter avec une mémoire de masse HDD ou SSD :
 
-1. Mon disque dur \_\_\_\_ est trop lent, il faudrait que je le change en \_\_\_\_.
-2. Le disque dur \_\_\_\_ a un nombre d'écriture limité et donc une durée de vie limitée.
+1. Ma mémoire de masse \_\_\_\_ est trop lent, il faudrait que je le change en \_\_\_\_.
+2. La mémoire de masse \_\_\_\_ a un nombre d'écriture limité et donc une durée de vie limitée.
 3. Le \_\_\_\_ est composé de disques magnétiques et d'une tête de lecture mécanique.
 4. On préfère avoir des \_\_\_\_ dans les ordinateurs portables pour que ce soit moins fragile.
 5. Un des premiers iPods avait un \_\_\_\_ pour pouvoir stocker beaucoup de musique à un prix raisonnable.
@@ -338,8 +338,8 @@ Compléter avec une mémoire de masse HDD ou SSD :
 <details>
 <summary>Solution</summary>
 
-1. Mon disque dur **HDD** est trop lent, il faudrait que je le change en **SSD**.
-2. Le disque dur **SSD** a un nombre d'écriture limité et donc une durée de vie limitée.
+1. Ma mémoire de masse **HDD** est trop lent, il faudrait que je le change en **SSD**.
+2. La mémoire de masse **SSD** a un nombre d'écriture limité et donc une durée de vie limitée.
 3. Le **HDD** est composé de disques magnétiques et d'une tête de lecture mécanique.
 4. On préfère avoir des **SSD** dans les ordinateurs portables pour que ce soit moins fragile.
 5. Un des premiers iPods avait un **HDD** pour pouvoir stocker beaucoup de musique à un prix raisonnable.

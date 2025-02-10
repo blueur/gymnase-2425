@@ -74,9 +74,9 @@ export default function Hardware(props: {
         names={["**CPU** (Central Processing Unit)"]}
         roles={["**Exécution** des instructions/opérations"]}
         characteristics={[
-          "**Architecture** (x86, ARM, &hellip;)",
-          "**Fréquence** d'horloge",
+          "**Architecture** (x86-64, ARM, &hellip;)",
           "Nombre de **coeurs**",
+          "**Fréquence** d'horloge",
         ]}
       />
       <Section level={3} title="Vitesse d'un processeur">
@@ -86,8 +86,8 @@ export default function Hardware(props: {
             [
               "**Fréquence** d'horloge (en Hz)",
               [
-                "1 Hz = 1 cycle (~ opération) par seconde",
-                "2 GHz = ~ 2 milliard d'opérations par seconde",
+                "1 Hz = 1 cycle (~opération) par seconde",
+                "2 GHz = ~2 milliard d'opérations par seconde",
               ],
             ],
             [
@@ -97,7 +97,7 @@ export default function Hardware(props: {
             [
               "1 &times; 2 GHz **&ne;** 2 &times; 1 GHz",
               [
-                "Pas toujours **parallélisable** (pas deux fois plus rapide avec un tandem)",
+                "Pas toujours **parallélisable** (pas deux fois plus rapide avec un vélo tandem)",
                 "Utile pour le **multitâche** (navigateur, musique, office, &hellip;)",
               ],
             ],
@@ -170,7 +170,7 @@ export default function Hardware(props: {
                   "Utilisée par le **processeur**",
                   ["Ralentissement de l'ordinateur si mémoire insuffisante"],
                 ],
-                "Comme notre mémoire à court terme",
+                "Comme notre mémoire à **court terme**",
               ],
             ],
             [
@@ -182,7 +182,7 @@ export default function Hardware(props: {
                 ],
                 "Plus grande **capacité**",
                 "**Copie** les données vers la mémoire vive pour les utiliser",
-                "Comme notre mémoire à long terme",
+                "Comme notre mémoire à **long terme**",
               ],
             ],
           ]}

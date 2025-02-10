@@ -4,6 +4,6 @@ sidebar_position: 1
 
 import DocCardList from '@theme/DocCardList';
 
-# Introduction à l'Informatique
+# Introduction à l'informatique
 
 <DocCardList />

@@ -9,16 +9,16 @@ description: ""
 L'évaluation se portera sur les critères suivants :
 
 - Algorithme
-  - [ ] Reconnaître un algorithme.
-  - [ ] Exécuter un pseudo-code.
   - [ ] Exécuter un organigramme.
+  - [ ] Exécuter un pseudo-code.
   - [ ] Déduire ce qu'un algorithme fait.
   - [ ] Comparer grâce à la complexité.
 - Type
+  - [ ] Évaluer une expression.
   - [ ] Déterminer le type d'une expression.
   - [ ] Manipuler les listes.
 - Tri
-  - [ ] Trier une liste en appliquant un algorithme de tri.
+  - [ ] Appliquer un algorithme de tri.
   - [ ] Expliquer un algorithme de tri.
 
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |

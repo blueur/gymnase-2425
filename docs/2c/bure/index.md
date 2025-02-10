@@ -4,6 +4,6 @@ sidebar_position: 2
 
 import DocCardList from '@theme/DocCardList';
 
-# Outils Informatiques et Bureautique
+# Outils informatiques et bureautique
 
 <DocCardList />
