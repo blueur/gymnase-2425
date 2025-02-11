@@ -2,7 +2,7 @@
 
 :::note[Objectifs]
 
-Améliorer la jouabilité du jeu.
+Améliorer le jeu.
 
 :::
 
@@ -14,11 +14,47 @@ Si ce n'est pas le cas, terminer le [Projet 3](./projet-3) avant de continuer.
 
 :::
 
+## Majuscules
+
+Actuellement, le joueur doit saisir une action en minuscules (`d` ou `t`) pour qu'elle soit acceptée.
+
+```python showLineNumbers
+print("Vous êtes à la cave. Que voulez-vous faire ?")
+print("- d : Dépoussiérer")
+print("- t : Trier les affaires")
+choix = input("Choix (d/t): ")
+if choix == "d":
+    print("Vous dépoussiérez la cave.")
+elif choix == "t":
+    print("Vous triez les objets de la cave.")
+else:
+    print("Vous ne savez pas quoi faire.")
+```
+
+La fonction [`lower()`](https://www.w3schools.com/python/ref_string_lower.asp) permet de convertir une chaîne de caractères en minuscules.
+Ce qui permet au joueur de saisir une action en majuscules ou en minuscules.
+
+```python showLineNumbers
+print("Vous êtes à la cave. Que voulez-vous faire ?")
+print("- d : Dépoussiérer")
+print("- t : Trier les affaires")
+# highlight-next-line
+choix = input("Choix (d/t): ").lower()
+if choix == "d":
+    print("Vous dépoussiérez la cave.")
+elif choix == "t":
+    print("Vous triez les objets de la cave.")
+else:
+    print("Vous ne savez pas quoi faire.")
+```
+
+- Adapter votre jeu pour que le joueur puisse saisir une action en majuscules ou en minuscules.
+
 ## Boucle
 
 Actuellement, le code suivant permet au joueur de sélectionner une action et s'il saisit une action incorrecte, le jeu affiche "Vous ne savez pas quoi faire." (avec le `else`).
 
-```python
+```python showLineNumbers
 print("Vous êtes à la cave. Que voulez-vous faire ?")
 print("- d : Dépoussiérer")
 print("- t : Trier les affaires")
@@ -34,7 +70,7 @@ else:
 Le but est de redemander à l'utilisateur de saisir une action tant qu'il ne saisit pas une action valide.
 Pour cela, nous allons utiliser une boucle `while` qui permet de répéter la question tant que le joueur ne saisit pas une action valide :
 
-```python
+```python showLineNumbers
 print("Vous êtes à la cave. Que voulez-vous faire ?")
 print("- d : Dépoussiérer")
 print("- t : Trier les affaires")
@@ -47,10 +83,43 @@ elif choix == "t":
     print("Vous triez les objets de la cave.")
 ```
 
-## Votre jeu
-
 - Adapter votre code pour que le jeu ne se termine pas après une action incorrecte.
 - Proposer au joueur de recommencer le jeu après avoir terminé une partie.
+
+## Variables
+
+Vous pouvez utiliser des variables pour stocker des états du jeu. Par exemple :
+
+- `cave_visitee` pour savoir si la cave a été visitée.
+- `lampe` pour savoir si le joueur a pris une lampe.
+- `cle` pour savoir si le joueur a pris une clé.
+
+```python showLineNumbers
+cave_visitee = False
+lampe = False
+cle = True
+vie = 3
+```
+
+Ce qui permet de débloquer des actions selon les actions précédentes :
+
+```python showLineNumbers
+print("Vous êtes à la cave. Que voulez-vous faire ?")
+print("- d : Dépoussiérer")
+print("- t : Trier les affaires")
+if cle:
+    print("- a : Ouvrir l'armoire avec la clé")
+    choix = input("Choix (d/t/a): ")
+else:
+    choix = input("Choix (d/t): ")
+if choix == "d":
+    print("Vous dépoussiérez la cave.")
+elif choix == "t":
+    print("Vous triez les objets de la cave.")
+elif choix == "a":
+    print("Vous ouvrez l'armoire avec la clé.")
+    cle = False
+```
 
 ## Journal de bord
 

@@ -157,9 +157,21 @@ export default function ArtificialIntelligence(props: {
           fragment
           items={[
             "Sans étiquetage des données",
-            "**Regrouper** les données **similaires** (clustering)",
-            "Étiqueter les groupes après coup",
+            [
+              "_Apprentissage_/_Entraînement_",
+              [
+                "**Regrouper** les données **similaires** (clustering)",
+                "Étiqueter les groupes découverts",
+              ],
+            ],
+            ["_Test_", ["Évaluer les groupes avec des nouvelles données"]],
           ]}
+        />
+      </Section>
+      <Section level={2} title="Apprentissage non supervisé">
+        <Image
+          src="https://dashee87.github.io/images/kmeans.gif"
+          url="https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/"
         />
       </Section>
       <Section level={2} title="Apprentissage par renforcement">
@@ -174,8 +186,39 @@ export default function ArtificialIntelligence(props: {
                 "Joue contre lui-même 4.9 millions de parties",
                 "**Apprend** à optimiser ses chances de gagner",
               ],
-              "Pas de données d'entraînement (par exemple d'autres parties de Go)",
             ],
+            "Pas de données d'entraînement (par exemple d'autres parties de Go)",
+            "Phase d'apprentissage : jouer contre lui-même",
+          ]}
+        />
+      </Section>
+      <Section level={2} title="Phases">
+        <Table
+          headers={["", "Phase d'apprentissage", "Phase de test"]}
+          lines={[
+            [
+              "Apprentissage supervisé",
+              "Trouver une règle à partir des données étiquetées",
+              "Prédire la sortie",
+            ],
+            [
+              "Apprentissage non supervisé",
+              "Regrouper les données similaires",
+              "Prédire le groupe",
+            ],
+            [
+              "Apprentissage par renforcement",
+              "Essais et erreurs",
+              "Utiliser les connaissances acquises",
+            ],
+          ]}
+        />
+        <List
+          fragment
+          items={[
+            "La phase d'apprentissage demande beaucoup de **ressources**",
+            "[Base de données MNIST](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_MNIST) (70 000 images de chiffres manuscrits)",
+            "[Nous avons un supercalculateur massif chez Nvidia, équipé de milliers de nos GPU les plus récents, qui fonctionne 24 heures sur 24, 365 jours par an, dans le seul but d'améliorer le DLSS](https://www.frandroid.com/marques/nvidia/2474226_nvidia-devoile-le-superordinateur-qui-permet-dameliorer-le-rendu-de-vos-jeux-video-avec-le-dlss)",
           ]}
         />
       </Section>
