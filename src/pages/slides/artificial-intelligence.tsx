@@ -189,6 +189,7 @@ export default function ArtificialIntelligence(props: {
             ],
             "Pas de données d'entraînement (par exemple d'autres parties de Go)",
             "Phase d'apprentissage : jouer contre lui-même",
+            "[Algorithme génétique](https://youtu.be/YRjq02WT_oI)",
           ]}
         />
       </Section>

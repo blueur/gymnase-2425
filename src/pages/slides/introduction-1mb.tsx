@@ -2,12 +2,12 @@ import { List, Section, Text } from "@site/src/components/Deck";
 import Mermaid from "@site/src/components/Mermaid";
 import RevealDeck from "@site/src/components/RevealDeck";
 
-export default function Introduction2C(props: { embedded?: boolean }) {
+export default function Introduction1MB(props: { embedded?: boolean }) {
   return (
     <RevealDeck
       embedded={props.embedded}
-      name="intro-2c"
-      title="Informatique y.c. bureautique"
+      name="introduction-1mb"
+      title="Informatique"
       subTitle="David Tang"
     >
       <Section level={2} title="Parcours">
@@ -16,7 +16,7 @@ export default function Introduction2C(props: { embedded?: boolean }) {
           timeline
             Gymnase d'Yverdon
             EPFL : BSc & MSc en Informatique
-            Ingénieur informaticien : ELCA (CFF, transN, TPF, BCV) : EPFL
+            Ingénieur informaticien : ELCA (CFF, transN, TPF, RhB, SECUTIX, BCV) : EPFL (ENAC-IT4R)
             Enseignant : Gymnase Provence : HEIG-VD : Gymnase pour Adultes : HEP Vaud
           `}
         </Mermaid>
@@ -24,7 +24,11 @@ export default function Introduction2C(props: { embedded?: boolean }) {
       <Section level={2} title="Organisation">
         <List
           items={[
-            ["**Cours** et **Travaux pratiques**", ["2 périodes / semaine"]],
+            "**Cours** et **Travaux pratiques**",
+            [
+              "2 périodes / semaine",
+              ["Cours en classe", "Cours tutoré à distance"],
+            ],
           ]}
         />
       </Section>
@@ -56,14 +60,26 @@ export default function Introduction2C(props: { embedded?: boolean }) {
       <Section level={2} title="Contenu">
         <Text>
           [Plan
-          d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_ECG_WEB.pdf)
+          d'études](https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgep/dgep_fichiers_pdf/DGEP_brochure_EM_web.pdf#DGEP_brochure_EM_2024_WEB_corr2.indd%3A.78832%3A9401)
         </Text>
         <List
           fragment
           items={[
-            "Introduction à l'**Informatique**",
-            "**Outils** Informatiques et Bureautique",
-            "Introduction à la **programmation**",
+            [
+              "**Information** et **architecture**",
+              [
+                "Représentation et structuration de l'**information**",
+                "**Architecture** des ordinateurs",
+              ],
+            ],
+            [
+              "**Algorithmique** et **programmation**",
+              [
+                "Introduction à l'**algorithmique**",
+                "Introduction à la **programmation**",
+              ],
+            ],
+            "Introduction aux enjeux **sociaux**",
           ]}
         />
       </Section>
@@ -71,12 +87,9 @@ export default function Introduction2C(props: { embedded?: boolean }) {
         <List
           items={[
             [
-              "[gymnase.davidtang.ch](https://gymnase.davidtang.ch/)",
-              [
-                "**Calendrier**",
-                "**Supports** de cours",
-                "Se souvenir du **lien**",
-              ],
+              "**Calendrier**",
+              "**Supports** de cours",
+              "Se souvenir du **lien**",
             ],
           ]}
         />
