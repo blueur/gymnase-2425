@@ -6,7 +6,7 @@
 
 $blue: hsl(205, 100%, 50%);
 $orange: hsl(20, 100%, 50%);
-$red: hsl(0, 100%, 50%);
+$red: hsl(350, 100%, 50%);
 $purple: hsl(280, 100%, 50%);
 $green: hsl(120, 50%, 50%);
 $black: hsl(0, 0%, 0%);
@@ -41,7 +41,7 @@ $white: hsl(0, 0%, 100%);
   --ifm-color-warning-contrast-background: hsl(20, 100%, 95%);
   --ifm-color-warning-dark: var(--ifm-color-warning);
   --ifm-color-danger: #{$red};
-  --ifm-color-danger-contrast-background: hsl(0, 100%, 95%);
+  --ifm-color-danger-contrast-background: hsl(350, 100%, 95%);
   --ifm-color-danger-dark: var(--ifm-color-danger);
   --ifm-color-accent: #{$orange};
   --ifm-color-emphasis: #{$purple};

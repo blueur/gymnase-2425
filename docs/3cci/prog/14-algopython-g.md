@@ -1,3 +1,7 @@
+---
+description: ""
+---
+
 # AlgoPython G
 
 :::note[Objectifs]
