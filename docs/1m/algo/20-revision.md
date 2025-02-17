@@ -458,17 +458,17 @@ Trier la liste de nombre dans l'ordre croissante en utilisant l'algorithme de tr
 | &nbsp;5&nbsp; | &nbsp;1&nbsp; | &nbsp;4&nbsp; | &nbsp;3&nbsp; | &nbsp;2&nbsp; | &nbsp;0&nbsp; | &nbsp;9&nbsp; | &nbsp;7&nbsp; |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 |     **5**     |       1       |       4       |       3       |       2       |       0       |       9       |       7       |
-|     **0**     |       1       |       4       |       3       |       2       |      _5_      |       9       |       7       |
-|      _0_      |     **1**     |       4       |       3       |       2       |      _5_      |       9       |       7       |
-|      _0_      |     **1**     |       4       |       3       |       2       |      _5_      |       9       |       7       |
-|      _0_      |      _1_      |     **4**     |       3       |       2       |      _5_      |       9       |       7       |
-|      _0_      |      _1_      |     **2**     |       3       |      _4_      |      _5_      |       9       |       7       |
-|      _0_      |      _1_      |      _2_      |     **3**     |      _4_      |      _5_      |       9       |       7       |
-|      _0_      |      _1_      |      _2_      |      _3_      |      _4_      |      _5_      |     **9**     |       7       |
-|      _0_      |      _1_      |      _2_      |      _3_      |      _4_      |      _5_      |      _7_      |     **9**     |
-|      _0_      |      _1_      |      _2_      |      _3_      |      _4_      |      _5_      |      _7_      |      _9_      |
+|     **0**     |       1       |       4       |       3       |       2       | <ins>5</ins>  |       9       |       7       |
+| <ins>0</ins>  |     **1**     |       4       |       3       |       2       | <ins>5</ins>  |       9       |       7       |
+| <ins>0</ins>  |     **1**     |       4       |       3       |       2       | <ins>5</ins>  |       9       |       7       |
+| <ins>0</ins>  | <ins>1</ins>  |     **4**     |       3       |       2       | <ins>5</ins>  |       9       |       7       |
+| <ins>0</ins>  | <ins>1</ins>  |     **2**     |       3       | <ins>4</ins>  | <ins>5</ins>  |       9       |       7       |
+| <ins>0</ins>  | <ins>1</ins>  | <ins>2</ins>  |     **3**     | <ins>4</ins>  | <ins>5</ins>  |       9       |       7       |
+| <ins>0</ins>  | <ins>1</ins>  | <ins>2</ins>  | <ins>3</ins>  | <ins>4</ins>  | <ins>5</ins>  |     **9**     |       7       |
+| <ins>0</ins>  | <ins>1</ins>  | <ins>2</ins>  | <ins>3</ins>  | <ins>4</ins>  | <ins>5</ins>  | <ins>7</ins>  |     **9**     |
+| <ins>0</ins>  | <ins>1</ins>  | <ins>2</ins>  | <ins>3</ins>  | <ins>4</ins>  | <ins>5</ins>  | <ins>7</ins>  | <ins>9</ins>  |
 
-En gras, les pivots. En souligné, les éléments déjà triés.
+En **gras**, les pivots. En <ins>souligné</ins>, les éléments déjà triés.
 
 </details>
 
