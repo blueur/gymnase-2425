@@ -1,5 +1,5 @@
 ---
-description: Comment représenter l'information ?
+description: ""
 ---
 
 # Révision
@@ -10,7 +10,7 @@ L'évaluation se portera sur les critères suivants :
 
 - Base
   - [ ] Compter en n'importe quelle base.
-  - [ ] Convertir entre les base binaire, hexadécimale et décimale.
+  - [ ] Convertir entre binaire, hexadécimale et décimale.
 - Unité
   - [ ] Comparer et convertir entre les unités.
   - [ ] Calculer la taille d'une information.
