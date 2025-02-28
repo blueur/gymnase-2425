@@ -183,10 +183,6 @@ Calculer la taille binaire des éléments suivants dans les unités demandées (
    <Check>691'200 [o] = 675 [Kio]</Check>
 4. Le texte suivant `Vous ne passerez pas !` en [b] et [o]
    <Check>176 [b] = 22 [o]</Check>
-5. Un son 4-bit échantillonné à 8 kHz d’une minute en [b], [o] et [Kio]
-   <Check>1'920'000 [b] = 240'000 [o] = 234,38 [Kio]</Check>
-6. Un son 16-bit à 8 kHz de 10 secondes en [b], [o] et [Kio]
-   <Check>1'280'000 [b] = 160'000 [o] = 156,25 [Kio]</Check>
 
 <details>
   <summary>Solutions détaillées</summary>
@@ -195,8 +191,6 @@ Calculer la taille binaire des éléments suivants dans les unités demandées (
 2. 64 x 128 x 8 = 65'536 [b] = 8'192 [o] = 8 [Kio]
 3. 360 x 640 x 24 = 5'529'600 [b] = 691'200 [o] = 675 [Kio]
 4. 22 x 8 = 176 [b] = 22 [o]
-5. 4 x 8'000 x 60 = 1'920'000 [b] = 240'000 [o] = 234,38 [Kio]
-6. 16 x 8'000 x 10 = 1'280'000 [b] = 160'000 [o] = 156,25 [Kio]
 
 </details>
 
