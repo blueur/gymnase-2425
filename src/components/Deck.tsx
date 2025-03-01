@@ -68,7 +68,7 @@ export function Columns(
 export function Image(props: {
   fragment?: boolean;
   src: string;
-  url?: string;
+  url: string;
   height?: string;
   width?: string;
 }) {
