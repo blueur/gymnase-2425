@@ -20,15 +20,15 @@
 |  2024-12-17  | **Test : [Pages Web dynamiques](/docs/3cci/webd)**                   |                                                         |
 |  2024-12-24  | _Vacances_                                                           | _Vacances_                                              |
 |  2024-12-31  | _Vacances_                                                           | _Vacances_                                              |
-|  2025-01-07  | [Organigramme](/docs/3cci/prog/organigramme)                         | [Organigramme](/docs/3cci/prog/organigramme)            |
-|  2025-01-14  | [Pseudo-code](/docs/3cci/prog/pseudocode)                            | [AlgoPython D](/docs/3cci/prog/algopython-d)            |
-|  2025-01-21  | [Type](/docs/3cci/prog/type)                                         | [AlgoPython D](/docs/3cci/prog/algopython-d)            |
-|  2025-01-28  | [Tri](/docs/3cci/prog/tri)                                           | [AlgoPython D](/docs/3cci/prog/algopython-d)            |
-|  2025-02-04  | [Complexité](/docs/3cci/prog/complexite)                             | [AlgoPython D](/docs/3cci/prog/algopython-d)            |
-|  2025-02-11  | [Intelligence artificielle](/docs/3cci/prog/ia)                      | [JavaScript](/docs/3cci/webd/javascript)                |
+|  2025-01-07  | [Organigramme](/docs/3cci/algo/organigramme)                         | [Organigramme](/docs/3cci/algo/organigramme)            |
+|  2025-01-14  | [Pseudo-code](/docs/3cci/algo/pseudocode)                            | [AlgoPython D](/docs/3cci/algo/algopython-d)            |
+|  2025-01-21  | [Type](/docs/3cci/algo/type)                                         | [AlgoPython D](/docs/3cci/algo/algopython-d)            |
+|  2025-01-28  | [Tri](/docs/3cci/algo/tri)                                           | [AlgoPython D](/docs/3cci/algo/algopython-d)            |
+|  2025-02-04  | [Complexité](/docs/3cci/algo/complexite)                             | [AlgoPython D](/docs/3cci/algo/algopython-d)            |
+|  2025-02-11  | [Intelligence artificielle](/docs/3cci/algo/ia)                      | [JavaScript](/docs/3cci/webd/javascript)                |
 |  2025-02-18  | _Vacances_                                                           | _Vacances_                                              |
-|  2025-02-25  | [Révision](/docs/3cci/prog/revision)                                 | [Révision](/docs/3cci/prog/revision)                    |
-|  2025-03-04  | **Test : [Algorithmique et programmation avancée](/docs/3cci/prog)** |                                                         |
+|  2025-02-25  | [Révision](/docs/3cci/algo/revision)                                 | [Révision](/docs/3cci/algo/revision)                    |
+|  2025-03-04  | **Test : [Algorithmique et programmation avancée](/docs/3cci/algo)** |                                                         |
 |  2025-03-11  | [Base](/docs/3cci/info/base)                                         | [Unité](/docs/3cci/info/unite)                          |
 |  2025-03-18  | [Conversion](/docs/3cci/info/conversion)                             | [Image](/docs/3cci/info/image)                          |
 |  2025-03-25  | [Composants d'un ordinateur](/docs/3cci/info/composant)              | [Composants d'un ordinateur](/docs/3cci/info/composant) |
