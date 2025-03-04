@@ -8,9 +8,9 @@ Améliorer le jeu.
 
 :::warning[Prérequis]
 
-Votre code doit être structuré en fonctions et le jeu entièrement jouable.
+Votre jeu doit entièrement jouable (pas forcément en fonction).
 
-Si ce n'est pas le cas, terminer le [Projet 3](./projet-3) avant de continuer.
+Si ce n'est pas le cas, terminer le [Projet 2](./projet-2) et/ou [Projet 3](./projet-3) avant de continuer.
 
 :::
 
@@ -50,6 +50,26 @@ else:
 
 - Adapter votre jeu pour que le joueur puisse saisir une action en majuscules ou en minuscules.
 
+## Espaces
+
+La fonction [`strip()`](https://www.w3schools.com/python/ref_string_strip.asp) fonctionne de manière similaire à `.lower()` mais permet de supprimer les espaces en début et en fin de chaîne de caractères.
+
+```python showLineNumbers
+print("Vous êtes à la cave. Que voulez-vous faire ?")
+print("- d : Dépoussiérer")
+print("- t : Trier les affaires")
+# highlight-next-line
+choix = input("Choix (d/t): ").strip().lower()
+if choix == "d":
+    print("Vous dépoussiérez la cave.")
+elif choix == "t":
+    print("Vous triez les objets de la cave.")
+else:
+    print("Vous ne savez pas quoi faire.")
+```
+
+Combinez `.strip()` et `.lower()` pour que le joueur puisse saisir une action en majuscules ou en minuscules avec ou sans espaces.
+
 ## Boucle
 
 Actuellement, le code suivant permet au joueur de sélectionner une action et s'il saisit une action incorrecte, le jeu affiche "Vous ne savez pas quoi faire." (avec le `else`).
@@ -88,38 +108,20 @@ elif choix == "t":
 
 ## Variables
 
-Vous pouvez utiliser des variables pour stocker des états du jeu. Par exemple :
+Vous pouvez utiliser des variables pour stocker des états du jeu.
 
-- `cave_visitee` pour savoir si la cave a été visitée.
-- `lampe` pour savoir si le joueur a pris une lampe.
-- `cle` pour savoir si le joueur a pris une clé.
+Par exemple, demander le nom du joueur en début de partie et l'afficher par la suite :
 
 ```python showLineNumbers
-cave_visitee = False
-lampe = False
-cle = True
-vie = 3
-```
-
-Ce qui permet de débloquer des actions selon les actions précédentes :
-
-```python showLineNumbers
-print("Vous êtes à la cave. Que voulez-vous faire ?")
+nom = input("Quel est votre nom ? ")
+print("Vous êtes à la cave, " + nom + ". Que voulez-vous faire ?")
 print("- d : Dépoussiérer")
 print("- t : Trier les affaires")
-if cle:
-    print("- a : Ouvrir l'armoire avec la clé")
-    choix = input("Choix (d/t/a): ")
-else:
-    choix = input("Choix (d/t): ")
-if choix == "d":
-    print("Vous dépoussiérez la cave.")
-elif choix == "t":
-    print("Vous triez les objets de la cave.")
-elif choix == "a":
-    print("Vous ouvrez l'armoire avec la clé.")
-    cle = False
+choix = input("Choix (d/t): ")
+...
 ```
+
+Vous pouvez aussi avoir un système de points de vie, de points d'énergie, d'inventaire, &hellip;
 
 ## Journal de bord
 

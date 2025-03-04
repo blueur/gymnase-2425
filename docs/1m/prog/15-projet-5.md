@@ -27,6 +27,7 @@ Le TP qui suit le rendu est dédié à des sessions individuelles de question-r�
   - [ ] **Bonne jouabilité (lettre à choix cohérente, pas d'erreurs de langue, &hellip;).**
   - [ ] **Lisibilité du code ([commentaires](https://www.w3schools.com/python/python_comments.asp), [bonnes pratiques](https://www.carnets.info/python/pep8/), &hellip;).**
   - [ ] **Utilisation des fonctions.**
+  - [ ] _Gestion des entrées (majuscules, espaces, &hellip;)._
   - [ ] _Utilisation des boucles._
   - [ ] _Utilisation des variables._
   - [ ] _Le jeu est plus complexe que les critères demandés._
