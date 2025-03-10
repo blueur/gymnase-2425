@@ -5,7 +5,7 @@ import {
   User,
 } from "@phosphor-icons/react";
 import { Columns, Image, List, Section, Text } from "@site/src/components/Deck";
-import { MermaidSequence } from "@site/src/components/Mermaid";
+import Mermaid, { MermaidSequence } from "@site/src/components/Mermaid";
 import RevealDeck from "@site/src/components/RevealDeck";
 
 export default function Cookie(props: {
@@ -157,6 +157,34 @@ export default function Cookie(props: {
         />
       </Section>
       <Section level={2} title="Utilisations des cookies"></Section>
+      <Section level={3} title="Personnalisation">
+        <Mermaid>
+          {`
+          flowchart LR
+            S[Server Web]
+            P1[Langue = français<br/>Thème = clair]
+            P2[Langue = anglais<br/>Thème = sombre]
+            P3[Langue = français<br/>Thème = sombre]
+            P4[Langue = allemand<br/>Thème = clair]
+            P1 --> S
+            P2 --> S
+            P3 --> S
+            P4 --> S
+          `}
+        </Mermaid>
+      </Section>
+      <Section level={3} title="Authentification/Session">
+        <Image
+          src="https://miro.medium.com/v2/1*RjOzvxk18dtTYVQfvGn9Fw.png"
+          url="https://javascript.plainenglish.io/how-does-cookie-session-authentication-work-cedce41cb982"
+        />
+      </Section>
+      <Section level={3} title="Pistage/Tracking">
+        <Image
+          src="https://www.cookieyes.com/wp-content/uploads/2022/10/Third-party-cookie-retargeting-1024x918.png"
+          url="https://www.cookieyes.com/blog/tracking-cookies/"
+        />
+      </Section>
       <Section level={3} title="Quelques idées reçues">
         <List
           fragment={[true, true]}
