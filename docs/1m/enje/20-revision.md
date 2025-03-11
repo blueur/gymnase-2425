@@ -12,10 +12,9 @@ L'évaluation se portera sur les critères suivants :
 
 :::tip[Aides]
 
-- Revoir les Kahoot!
+- Revoir les [Kahoot!](https://create.kahoot.it/course/1b9adc16-6f3a-4656-98f2-b8995758eed2)
 - Terminer les exercices des semaines précédentes.
 - Support de cours complémentaires :
   - [ici Amy Plant](https://www.youtube.com/@iciamyplant)
-- Pour imprimer : <kbd>Ctrl</kbd> + <kbd>P</kbd> ou <kbd>Cmd</kbd> + <kbd>P</kbd>
 
 :::
