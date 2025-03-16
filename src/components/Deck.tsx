@@ -169,7 +169,9 @@ export function Section(
 export function Table(props: {
   fragment?: boolean | number;
   headers?: string[];
-  lines: (string | ReactElement)[][];
+  rows: (string | ReactElement)[][];
+  rowHeaders?: string[];
+  columnFixed?: boolean;
 }) {
   return (
     <table
@@ -179,7 +181,10 @@ export function Table(props: {
       data-fragment-index={
         typeof props.fragment === "number" ? props.fragment : undefined
       }
-      style={{ width: "unset" }}
+      style={{
+        width: props.columnFixed ? "100%" : "unset",
+        tableLayout: props.columnFixed ? "fixed" : undefined,
+      }}
     >
       {props.headers ? (
         <thead>
@@ -196,9 +201,14 @@ export function Table(props: {
         </thead>
       ) : undefined}
       <tbody>
-        {props.lines.map((line, index) => (
+        {props.rows.map((row, index) => (
           <tr key={index}>
-            {line.map((item, index) => (
+            {props.rowHeaders ? (
+              <th style={{ textAlign: "left", padding: "0em 1em" }}>
+                <Text>{props.rowHeaders[index]}</Text>
+              </th>
+            ) : undefined}
+            {row.map((item, index) => (
               <td
                 key={index}
                 style={{

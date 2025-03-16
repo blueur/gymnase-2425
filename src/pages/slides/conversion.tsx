@@ -23,7 +23,7 @@ export default function Conversion(props: {
             "Base 8",
             "Base 16",
           ]}
-          lines={[
+          rows={[
             ["0", "0", "0", "0", "0", "0"],
             ["1", "1", "1", "1", "1", "1"],
             ["2", "10", "2", "2", "2", "2"],
@@ -101,7 +101,7 @@ export default function Conversion(props: {
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
-          lines={[
+          rows={[
             ["", "", "", ""],
             ["", "", "", ""],
           ]}
@@ -115,7 +115,7 @@ export default function Conversion(props: {
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
-          lines={[
+          rows={[
             [
               "4<sup>3</sup>",
               "4<sup>2</sup>",
@@ -138,7 +138,7 @@ export default function Conversion(props: {
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
-          lines={[
+          rows={[
             ["64", "16", "4", "1"],
             ["", "", "", ""],
           ]}
@@ -156,7 +156,7 @@ export default function Conversion(props: {
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
-          lines={[
+          rows={[
             ["64", "16", "4", "1"],
             ["1 &times; 64", "0 &times; 16", "2 &times; 4", "3 &times; 1"],
           ]}
@@ -170,7 +170,7 @@ export default function Conversion(props: {
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
-          lines={[
+          rows={[
             ["64", "16", "4", "1"],
             ["64", "0", "8", "3"],
           ]}
@@ -184,7 +184,7 @@ export default function Conversion(props: {
         <Text>{"1023<sub>4</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "2", "3"]}
-          lines={[
+          rows={[
             ["64", "16", "4", "1"],
             ["64", "0", "8", "3"],
           ]}
@@ -205,7 +205,7 @@ export default function Conversion(props: {
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
-          lines={[
+          rows={[
             ["", "", "", "", "", ""],
             ["", "", "", "", "", ""],
           ]}
@@ -218,7 +218,7 @@ export default function Conversion(props: {
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
-          lines={[
+          rows={[
             ["32", "16", "8", "4", "2", "1"],
             ["", "", "", "", "", ""],
           ]}
@@ -231,7 +231,7 @@ export default function Conversion(props: {
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
-          lines={[
+          rows={[
             ["32", "16", "8", "4", "2", "1"],
             ["32", "0", "8", "0", "2", "0"],
           ]}
@@ -244,7 +244,7 @@ export default function Conversion(props: {
         <Text>{"10 1010<sub>2</sub> = ?<sub>10</sub>"}</Text>
         <Table
           headers={["1", "0", "1", "0", "1", "0"]}
-          lines={[
+          rows={[
             ["32", "16", "8", "4", "2", "1"],
             ["32", "0", "8", "0", "2", "0"],
           ]}
@@ -277,7 +277,7 @@ export default function Conversion(props: {
             "2",
             "1",
           ]}
-          lines={[]}
+          rows={[]}
         />
       </Section>
       <Section level={2} title="Conversion entre bases 10 &rarr; 2">
@@ -289,7 +289,7 @@ export default function Conversion(props: {
         />
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[["", "", "", "", "", "", "", "", "", ""]]}
+          rows={[["", "", "", "", "", "", "", "", "", ""]]}
         />
         <List items={["", "", "", "", ""]} />
       </Section>
@@ -302,7 +302,7 @@ export default function Conversion(props: {
         />
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[["**1**", "", "", "", "", "", "", "", "", ""]]}
+          rows={[["**1**", "", "", "", "", "", "", "", "", ""]]}
         />
         <List items={["666 - **512** = 154", "", "", "", ""]} />
       </Section>
@@ -315,7 +315,7 @@ export default function Conversion(props: {
         />
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[["**1**", "0", "**1**", "", "", "", "", "", "", ""]]}
+          rows={[["**1**", "0", "**1**", "", "", "", "", "", "", ""]]}
         />
         <List
           items={["666 - **512** = 154", "154 - **128** = 26", "", "", ""]}
@@ -330,7 +330,7 @@ export default function Conversion(props: {
         />
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[["**1**", "0", "**1**", "0", "0", "**1**", "", "", "", ""]]}
+          rows={[["**1**", "0", "**1**", "0", "0", "**1**", "", "", "", ""]]}
         />
         <List
           items={[
@@ -351,7 +351,7 @@ export default function Conversion(props: {
         />
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[
+          rows={[
             ["**1**", "0", "**1**", "0", "0", "**1**", "**1**", "", "", ""],
           ]}
         />
@@ -374,7 +374,7 @@ export default function Conversion(props: {
         />
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[
+          rows={[
             [
               "**1**",
               "0",
@@ -404,7 +404,7 @@ export default function Conversion(props: {
         <Text>{"666<sub>10</sub> = 10 1001 1010<sub>2</sub>"}</Text>
         <Table
           headers={["512", "256", "128", "64", "32", "16", "8", "4", "2", "1"]}
-          lines={[
+          rows={[
             [
               "**1**",
               "0",

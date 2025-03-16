@@ -53,7 +53,7 @@ export default function Unit(props: { embedded?: boolean; chapter?: string }) {
             "Symbole",
             "Valeur",
           ]}
-          lines={[
+          rows={[
             [
               "**kilo**octet",
               "**k**o",
@@ -148,7 +148,7 @@ export default function Unit(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Notations">
         <Table
           headers={["", "Base 2", "Base 16"]}
-          lines={[
+          rows={[
             [
               "Notation suffixée (math)",
               "101010<sub>**2**</sub>",
@@ -176,7 +176,7 @@ export default function Unit(props: { embedded?: boolean; chapter?: string }) {
         <Table
           fragment
           headers={["Caractère", "Encodage"]}
-          lines={[
+          rows={[
             ["0", "0000"],
             ["1", "0001"],
             ["2", "0010"],
@@ -201,7 +201,7 @@ export default function Unit(props: { embedded?: boolean; chapter?: string }) {
         <Table
           fragment
           headers={["Caractère", "Encodage"]}
-          lines={[
+          rows={[
             ["A", "00000"],
             ["B", "00001"],
             ["C", "00010"],

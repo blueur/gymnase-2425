@@ -177,7 +177,19 @@ div.reveal {
     text-align: right;
   }
   .green {
-    color: var(--ifm-color-success);
+    color: $green;
+    font-weight: bold;
+  }
+  .orange {
+    color: $orange;
+    font-weight: bold;
+  }
+  .purple {
+    color: $purple;
+    font-weight: bold;
+  }
+  .red {
+    color: $red;
     font-weight: bold;
   }
   .toc {

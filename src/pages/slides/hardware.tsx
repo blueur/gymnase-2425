@@ -50,7 +50,7 @@ export default function Hardware(props: {
       <Section level={3} title="Format de carte mère">
         <Table
           headers={["Samsung Galaxy SII", "Vaio E series"]}
-          lines={[
+          rows={[
             [
               <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Samsung_galaxy_s2_internal2.JPG"

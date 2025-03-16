@@ -25,7 +25,7 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Compter en base 10">
         <Table
-          lines={[
+          rows={[
             ["0"],
             ["1"],
             ["2"],
@@ -41,7 +41,7 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Compter en base 10">
         <Table
-          lines={[
+          rows={[
             ["00"],
             ["01"],
             ["02"],
@@ -57,7 +57,7 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Compter en base 10">
         <Table
-          lines={[
+          rows={[
             ["00", "10"],
             ["01", "11"],
             ["02", "12"],
@@ -73,7 +73,7 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Compter en base 10">
         <Table
-          lines={[
+          rows={[
             ["00", "10", "20", "30", "40", "50", "60", "70", "80", "90"],
             ["01", "11", "21", "31", "41", "51", "61", "71", "81", "91"],
             ["02", "12", "22", "32", "42", "52", "62", "72", "82", "92"],
@@ -88,11 +88,11 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
         />
       </Section>
       <Section level={2} title="Compter en base 3">
-        <Table lines={[["0"], ["1"], ["2"]]} />
+        <Table rows={[["0"], ["1"], ["2"]]} />
       </Section>
       <Section level={2} title="Compter en base 3">
         <Table
-          lines={[
+          rows={[
             ["0", "10"],
             ["1", "11"],
             ["2", "12"],
@@ -101,7 +101,7 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Compter en base 3">
         <Table
-          lines={[
+          rows={[
             ["0", "10", "20"],
             ["1", "11", "21"],
             ["2", "12", "22"],
@@ -153,7 +153,7 @@ export default function Radix(props: { embedded?: boolean; chapter?: string }) {
             "Base 8",
             "Base 16",
           ]}
-          lines={[
+          rows={[
             ["0", "0", "0", "0", "0", "0"],
             ["1", "1", "1", "1", "1", "1"],
             ["2", "10", "2", "2", "2", "2"],

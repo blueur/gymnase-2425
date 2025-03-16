@@ -43,7 +43,7 @@ export default function Graphics(props: {
           <Text>Table d'encodage</Text>
           <Table
             headers={["Couleur", "Valeur"]}
-            lines={[
+            rows={[
               ["Noir", "0"],
               ["Blanc", "1"],
             ]}
@@ -75,7 +75,7 @@ export default function Graphics(props: {
         <Text>Table d'encodage</Text>
         <Table
           headers={["Couleur", "Valeur"]}
-          lines={[
+          rows={[
             ["Noir", "0"],
             ["Blanc", "1"],
           ]}
@@ -121,7 +121,7 @@ export default function Graphics(props: {
           <Text>Table d'encodage</Text>
           <Table
             headers={["Couleur", "Valeur"]}
-            lines={[
+            rows={[
               ["Noir", "00"],
               ["Gris", "01"],
               ["Gris clair", "10"],
@@ -160,7 +160,7 @@ export default function Graphics(props: {
         <Text>Table d'encodage</Text>
         <Table
           headers={["Couleur", "Valeur"]}
-          lines={[
+          rows={[
             ["Noir", "00"],
             ["Gris", "01"],
             ["Gris clair", "10"],
@@ -198,7 +198,7 @@ export default function Graphics(props: {
         <Text>Table d'encodage</Text>
         <Table
           headers={["Couleur", "Valeur"]}
-          lines={[
+          rows={[
             ["Rouge", "00"],
             ["Rose", "01"],
             ["Blanc", "10"],
@@ -223,7 +223,7 @@ export default function Graphics(props: {
       <Section level={3} title="Profondeur de couleur">
         <Table
           headers={["1-bit", "2-bit", "4-bit", "8-bit", "24-bit"]}
-          lines={[
+          rows={[
             [
               <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/5/57/1_bit.png"

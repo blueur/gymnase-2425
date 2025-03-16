@@ -91,7 +91,7 @@ export default function ArtificialIntelligence(props: {
               "Données d'**entraînement** : exemples d'entrées et de sorties **étiquetées**",
               [
                 <Table
-                  lines={[
+                  rows={[
                     [
                       <Image
                         src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Beagle_portrait_Camry.jpg"
@@ -124,7 +124,7 @@ export default function ArtificialIntelligence(props: {
               "Données de **test** : prédictions des sorties par l'algorithme",
               [
                 <Table
-                  lines={[
+                  rows={[
                     [
                       <Image
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Siberian-husky-1291343_1920.jpg/305px-Siberian-husky-1291343_1920.jpg"
@@ -196,7 +196,7 @@ export default function ArtificialIntelligence(props: {
       <Section level={2} title="Phases">
         <Table
           headers={["", "Phase d'apprentissage", "Phase de test"]}
-          lines={[
+          rows={[
             [
               "Apprentissage supervisé",
               "Trouver une règle à partir des données étiquetées",

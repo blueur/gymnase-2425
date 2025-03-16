@@ -17,9 +17,9 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       subTitle={props.chapter}
     >
       <Section level={3} title="Tri d'une liste dans l'ordre croissant">
-        <Table lines={[["4", "1", "5", "3", "2"]]} />
+        <Table rows={[["4", "1", "5", "3", "2"]]} />
         <Text fragment>&darr; Algorithme de tri &darr;</Text>
-        <Table fragment lines={[["1", "2", "3", "4", "5"]]} />
+        <Table fragment rows={[["1", "2", "3", "4", "5"]]} />
       </Section>
       <Section level={2} title="Tri par insertion">
         <Text>
@@ -43,7 +43,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             ["4", "1", "5", "3", "2"],
             ["", "", "", "", ""],
             ["", "", "", "", ""],
@@ -53,7 +53,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             ["**4**", "1", "5", "3", "2"],
             ["i", "", "", "", ""],
             ["j", "", "", "", ""],
@@ -63,7 +63,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [<Text color="green">4</Text>, "**1**", "5", "3", "2"],
             ["", "i", "", "", ""],
             ["", "j", "", "", ""],
@@ -73,7 +73,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             ["**1**", <Text color="green">4</Text>, "5", "3", "2"],
             ["", "i", "", "", ""],
             ["j", "", "", "", ""],
@@ -83,7 +83,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">4</Text>,
@@ -99,7 +99,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">4</Text>,
@@ -115,7 +115,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">4</Text>,
@@ -131,7 +131,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               "**3**",
@@ -147,7 +147,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">3</Text>,
@@ -163,7 +163,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">3</Text>,
@@ -179,7 +179,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">3</Text>,
@@ -195,7 +195,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               "**2**",
@@ -211,7 +211,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par insertion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -259,7 +259,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             ["4", "1", "5", "3", "2"],
             ["", "", "", "", ""],
             ["", "", "", "", ""],
@@ -270,7 +270,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             ["**4**", "1", "5", "3", "2"],
             ["i", "", "", "", ""],
             ["j", "", "", "", ""],
@@ -281,7 +281,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             ["_4_", "**1**", "5", "3", "2"],
             ["i", "", "", "", ""],
             ["", "j", "", "", ""],
@@ -292,7 +292,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             ["_4_", "**1**", "_5_", "3", "2"],
             ["i", "", "", "", ""],
             ["", "", "j", "", ""],
@@ -303,7 +303,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             ["_4_", "**1**", "_5_", "_3_", "2"],
             ["i", "", "", "", ""],
             ["", "", "", "j", ""],
@@ -314,7 +314,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             ["_4_", "**1**", "_5_", "_3_", "_2_"],
             ["i", "", "", "", ""],
             ["", "", "", "", "j"],
@@ -325,7 +325,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [<Text color="green">1</Text>, "**4**", "5", "3", "2"],
             ["", "i", "", "", ""],
             ["", "j", "", "", ""],
@@ -336,7 +336,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [<Text color="green">1</Text>, "**4**", "_5_", "3", "2"],
             ["", "i", "", "", ""],
             ["", "", "j", "", ""],
@@ -347,7 +347,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [<Text color="green">1</Text>, "_4_", "_5_", "**3**", "2"],
             ["", "i", "", "", ""],
             ["", "", "", "j", ""],
@@ -358,7 +358,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [<Text color="green">1</Text>, "_4_", "_5_", "_3_", "**2**"],
             ["", "i", "", "", ""],
             ["", "", "", "", "j"],
@@ -369,7 +369,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -386,7 +386,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -403,7 +403,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -420,7 +420,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -437,7 +437,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -454,7 +454,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -471,7 +471,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri par sélection">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -543,17 +543,17 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Text>Fusion de deux listes triées</Text>
         <Columns>
-          <Table lines={[["1", "2", "4", "8"]]} />
-          <Table lines={[["3", "4", "6", "7"]]} />
+          <Table rows={[["1", "2", "4", "8"]]} />
+          <Table rows={[["3", "4", "6", "7"]]} />
         </Columns>
       </Section>
       <Section level={3} title="Fusion">
         <Columns>
-          <Table lines={[[]]} />
+          <Table rows={[[]]} />
           <div>
-            <Table lines={[["**1**", "2", "4", "8"]]} />
+            <Table rows={[["**1**", "2", "4", "8"]]} />
             <br />
-            <Table lines={[["**3**", "4", "6", "7"]]} />
+            <Table rows={[["**3**", "4", "6", "7"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -561,12 +561,12 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[["1"].map((item) => <Text color="green">{item}</Text>)]}
+            rows={[["1"].map((item) => <Text color="green">{item}</Text>)]}
           />
           <div>
-            <Table lines={[["**2**", "4", "8"]]} />
+            <Table rows={[["**2**", "4", "8"]]} />
             <br />
-            <Table lines={[["**3**", "4", "6", "7"]]} />
+            <Table rows={[["**3**", "4", "6", "7"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -574,14 +574,12 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[
-              ["1", "2"].map((item) => <Text color="green">{item}</Text>),
-            ]}
+            rows={[["1", "2"].map((item) => <Text color="green">{item}</Text>)]}
           />
           <div>
-            <Table lines={[["**4**", "8"]]} />
+            <Table rows={[["**4**", "8"]]} />
             <br />
-            <Table lines={[["**3**", "4", "6", "7"]]} />
+            <Table rows={[["**3**", "4", "6", "7"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -589,14 +587,14 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               ["1", "2", "3"].map((item) => <Text color="green">{item}</Text>),
             ]}
           />
           <div>
-            <Table lines={[["**4**", "8"]]} />
+            <Table rows={[["**4**", "8"]]} />
             <br />
-            <Table lines={[["**4**", "6", "7"]]} />
+            <Table rows={[["**4**", "6", "7"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -604,16 +602,16 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               ["1", "2", "3", "4"].map((item) => (
                 <Text color="green">{item}</Text>
               )),
             ]}
           />
           <div>
-            <Table lines={[["**8**"]]} />
+            <Table rows={[["**8**"]]} />
             <br />
-            <Table lines={[["**4**", "6", "7"]]} />
+            <Table rows={[["**4**", "6", "7"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -621,16 +619,16 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               ["1", "2", "3", "4", "4"].map((item) => (
                 <Text color="green">{item}</Text>
               )),
             ]}
           />
           <div>
-            <Table lines={[["**8**"]]} />
+            <Table rows={[["**8**"]]} />
             <br />
-            <Table lines={[["**6**", "7"]]} />
+            <Table rows={[["**6**", "7"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -638,16 +636,16 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               ["1", "2", "3", "4", "4", "6"].map((item) => (
                 <Text color="green">{item}</Text>
               )),
             ]}
           />
           <div>
-            <Table lines={[["**8**"]]} />
+            <Table rows={[["**8**"]]} />
             <br />
-            <Table lines={[["**7**"]]} />
+            <Table rows={[["**7**"]]} />
           </div>
         </Columns>
         <Fusion />
@@ -655,21 +653,21 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       <Section level={3} title="Fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               ["1", "2", "3", "4", "4", "6", "7"].map((item) => (
                 <Text color="green">{item}</Text>
               )),
             ]}
           />
           <div>
-            <Table lines={[["**8**"]]} />
+            <Table rows={[["**8**"]]} />
           </div>
         </Columns>
         <Fusion />
       </Section>
       <Section level={3} title="Fusion">
         <Table
-          lines={[
+          rows={[
             ["1", "2", "3", "4", "4", "6", "7", "8"].map((item) => (
               <Text color="green">{item}</Text>
             )),
@@ -678,53 +676,53 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
         <Fusion />
       </Section>
       <Section level={2} title="Tri fusion">
-        <Table lines={[["4", "1", "5", "3", "2"]]} />
+        <Table rows={[["4", "1", "5", "3", "2"]]} />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
-          <Table lines={[["4", "1", "5"]]} />
-          <Table lines={[["3", "2"]]} />
+          <Table rows={[["4", "1", "5"]]} />
+          <Table rows={[["3", "2"]]} />
         </Columns>
         <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
-          <Table lines={[["4", "1"]]} />
-          <Table lines={[[<Text color="green">5</Text>]]} />
+          <Table rows={[["4", "1"]]} />
+          <Table rows={[[<Text color="green">5</Text>]]} />
           <span />
-          <Table lines={[["3", "2"]]} />
+          <Table rows={[["3", "2"]]} />
         </Columns>
         <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
-          <Table lines={[[<Text color="green">4</Text>]]} />
-          <Table lines={[[<Text color="green">1</Text>]]} />
+          <Table rows={[[<Text color="green">4</Text>]]} />
+          <Table rows={[[<Text color="green">1</Text>]]} />
           <span />
-          <Table lines={[[<Text color="green">5</Text>]]} />
+          <Table rows={[[<Text color="green">5</Text>]]} />
           <span />
           <span />
-          <Table lines={[["3", "2"]]} />
+          <Table rows={[["3", "2"]]} />
         </Columns>
         <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               [<Text color="green">1</Text>, <Text color="green">4</Text>],
             ]}
           />
-          <Table lines={[[<Text color="green">5</Text>]]} />
+          <Table rows={[[<Text color="green">5</Text>]]} />
           <span />
-          <Table lines={[["3", "2"]]} />
+          <Table rows={[["3", "2"]]} />
         </Columns>
         <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               [
                 <Text color="green">1</Text>,
                 <Text color="green">4</Text>,
@@ -732,14 +730,14 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
               ],
             ]}
           />
-          <Table lines={[["3", "2"]]} />
+          <Table rows={[["3", "2"]]} />
         </Columns>
         <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               [
                 <Text color="green">1</Text>,
                 <Text color="green">4</Text>,
@@ -748,15 +746,15 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
             ]}
           />
           <span />
-          <Table lines={[[<Text color="green">3</Text>]]} />
-          <Table lines={[[<Text color="green">2</Text>]]} />
+          <Table rows={[[<Text color="green">3</Text>]]} />
+          <Table rows={[[<Text color="green">2</Text>]]} />
         </Columns>
         <TriFusion />
       </Section>
       <Section level={2} title="Tri fusion">
         <Columns>
           <Table
-            lines={[
+            rows={[
               [
                 <Text color="green">1</Text>,
                 <Text color="green">4</Text>,
@@ -765,7 +763,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
             ]}
           />
           <Table
-            lines={[
+            rows={[
               [<Text color="green">2</Text>, <Text color="green">3</Text>],
             ]}
           />
@@ -774,7 +772,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri fusion">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -805,7 +803,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["4", "7", "1", "6", "5", "8", "2"],
             ["", "", "", "", "", "", ""],
             ["", "", "", "", "", "", ""],
@@ -815,7 +813,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["**4**", "7", "1", "6", "5", "8", "2"],
             ["p", "", "", "", "", "", ""],
             ["", "i", "", "", "", "", "j"],
@@ -825,7 +823,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_2_", "1", "6", "5", "8", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "i", "", "", "", "", "j"],
@@ -835,7 +833,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_2_", "_1_", "6", "5", "_8_", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "", "i", "", "", "j", ""],
@@ -845,7 +843,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_2_", "_1_", "6", "_5_", "_8_", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "", "i", "", "j", "", ""],
@@ -855,7 +853,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_2_", "_1_", "_6_", "_5_", "_8_", "_7_"],
             ["p", "", "", "", "", "", ""],
             ["", "", "i", "j", "", "", ""],
@@ -865,7 +863,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={3} title="Partition">
         <Table
-          lines={[
+          rows={[
             ["1", "2", <Text color="green">4</Text>, "6", "5", "8", "7"],
             ["", "", "p", "", "", "", ""],
             ["", "", "", "", "", "", ""],
@@ -883,7 +881,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["4", "1", "5", "3", "2"],
             ["", "", "", "", ""],
             ["", "", "", "", ""],
@@ -893,7 +891,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_1_", "5", "3", "2"],
             ["p", "", "", "", ""],
             ["", "i", "", "", "j"],
@@ -903,7 +901,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_1_", "5", "3", "2"],
             ["p", "", "", "", ""],
             ["", "", "i", "", "j"],
@@ -913,7 +911,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_1_", "_2_", "3", "_5_"],
             ["p", "", "", "", ""],
             ["", "", "i", "", "j"],
@@ -923,7 +921,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_1_", "_2_", "_3_", "_5_"],
             ["p", "", "", "", ""],
             ["", "", "", "i", "j"],
@@ -933,7 +931,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**4**", "_1_", "_2_", "_3_", "_5_"],
             ["p", "", "", "", ""],
             ["", "", "", "i", ""],
@@ -943,7 +941,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["3", "1", "2", <Text color="green">4</Text>, "5"],
             ["", "", "", "p", ""],
             ["", "", "", "", ""],
@@ -953,7 +951,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**3**", "_1_", "2", <Text color="green">4</Text>, "5"],
             ["p", "", "", "", ""],
             ["", "i", "j", "", ""],
@@ -963,7 +961,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             ["**3**", "_1_", "_2_", <Text color="green">4</Text>, "5"],
             ["p", "", "", "", ""],
             ["", "", "i", "", ""],
@@ -973,7 +971,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               "2",
               "1",
@@ -989,7 +987,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               "**2**",
               "_1_",
@@ -1005,7 +1003,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               "1",
               <Text color="green">2</Text>,
@@ -1021,7 +1019,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               "**1**",
               <Text color="green">2</Text>,
@@ -1037,7 +1035,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -1053,7 +1051,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,
@@ -1069,7 +1067,7 @@ export default function Sort(props: { embedded?: boolean; chapter?: string }) {
       </Section>
       <Section level={2} title="Tri rapide">
         <Table
-          lines={[
+          rows={[
             [
               <Text color="green">1</Text>,
               <Text color="green">2</Text>,

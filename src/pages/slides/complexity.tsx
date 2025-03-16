@@ -157,7 +157,7 @@ export default function Complexity(props: {
           <Table
             fragment
             headers={["n", "O(1)", "O(n)", "O(n<sup>2</sup>)"]}
-            lines={[
+            rows={[
               ["1", "1", "1", "1"],
               ["10", "1", "10", "100"],
               ["100", "1", "100", "10000"],
