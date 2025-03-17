@@ -8,13 +8,13 @@ Finaliser le projet
 
 ## Rendu
 
-Le rendu sera pour le dimanche 11 mai 2025 à 23h59 dans les devoirs sur Teams :
+Le rendu sera pour le vendredi 9 mai 2025 à 23h59 dans les devoirs sur Teams `Projet : rendu`. Il doit contenir :
 
 - Le fichier Python `prenom-nom-projet.py`.
 - Le journal de bord `prenom-nom-journal.pdf`.
-  - Au format PDF.
-  - Avec l'organigramme du jeu final.
-  - Ce que vous avez fait à chaque TP.
+  - Au format PDF (à partir d'un fichier Word).
+  - Avec l'organigramme du jeu final (à mettre à jour si nécessaire).
+  - Ce que vous avez fait à chaque TP (quelques lignes par semaine).
 
 ## Explication du projet
 
