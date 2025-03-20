@@ -1,6 +1,4 @@
-# Encodage
-
-:::note[Objectifs]
+## Objectifs
 
 Qu'est-ce qu'un fichier ?
 
@@ -8,27 +6,30 @@ Qu'est-ce qu'un fichier ?
 - Modifier un fichier texte au format hexadécimal
 - Calculer la taille d'un fichier texte
 - Créer des fichiers PBM, PGM et PPM
-- Modifier un fichier BMP
 
-:::
+## Cours
 
-<Reveal name="1m-repr-encodage" />
+{props.slides}
+
+## Exercices
 
 ## Représentation des caractères
 
 ![](https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg)
 
 - Combien de caractères sont représentés dans la table ASCII ?
-  <details><summary>Solution</summary>128 (de 0 à 127)</details>
+  <Check>128 (de 0 à 127)</Check>
 - Sur combien de bits est codé un caractère ASCII ?
-  <details><summary>Solution</summary>7 bits car 2<sup>7</sup> = 128</details>
+  <Check>
+    7 bits car 2<sup>7</sup> = 128
+  </Check>
 - Comme on préfère travailler avec des octets (8 bits), on a arrondi à 8 bits.
   - Combien d'octets sont nécessaires pour stocker la phrase `Salut, ca va ?` ?
-    <details><summary>Solution</summary>14 octets car 14 caractères</details>
-- Ouvrir OneDrive et créer un dossier sous `OneDrive/1m/informatique/` nommé `encodage`.
+    <Check>14 octets car 14 caractères</Check>
+- Ouvrir OneDrive et créer un dossier `encodage` dans "OneDrive/{props.classe}/informatique/".
   ```txt {4}
   OneDrive/
-  └── 1m/
+  └── {classe}/
       └── informatique/
           └── encodage/
   ```
@@ -36,7 +37,7 @@ Qu'est-ce qu'un fichier ?
   - Clic droit sur le lien ci-dessus et choisir `Enregistrer sous` en le nommant `hello.txt` et en sélectionnant le dossier `encodage`.
 - Quelle est la taille du fichier `hello.txt` et le comparer avec son contenu ?
   - Clic droit sur le fichier > Lire les informations.
-  <details><summary>Solution</summary>11 [o] car il y a 11 caractères</details>
+    <Check>11 [o] car il y a 11 caractères</Check>
 - Ouvrir le fichier sur [HexEd.it](https://hexed.it/) qui est un éditeur hexadécimal en ligne.
   - Aller sur le site [HexEd.it](https://hexed.it/) et cliquer sur `Ouvrir` pour sélectionner le fichier `hello.txt`.
   - L'écran est divisé en deux parties : l'éditeur hexadécimal à gauche et la représentation textuelle à droite.
@@ -46,7 +47,7 @@ Qu'est-ce qu'un fichier ?
   - Cliquer sur `Enregistrer sous` ou `Exporter` pour sauvegarder le fichier modifié.
 - Ouvrir le fichier modifié sur l'ordinateur pour vérifier son contenu.
 - Quelle est la taille du fichier modifié ? Pourquoi ?
-  <details><summary>Solution</summary>9 [o] car il y a 9 caractères</details>
+  <Check>9 [o] car il y a 9 caractères</Check>
 
 ## Représentation des images
 
@@ -81,19 +82,19 @@ Le format PBM (portable bitmap) permet de représenter des images en noir et bla
 
 Le format PGM (portable graymap) permet de représenter des images en niveaux de gris.
 
-- Sauvegarder le fichier [gyp.pgm](pathname:///tp/encodage/gyp.pgm) dans le dossier `encodage`. Il a le contenu suivant :
-  ```txt title="gyp.pgm"
+- Sauvegarder le fichier [gif.pgm](pathname:///tp/encodage/gif.pgm) dans le dossier `encodage`. Il a le contenu suivant :
+  ```txt title="gif.pgm"
   P2
-  14 5
+  11 5
   3
-  0 1 1 1 0 2 0 0 2 0 3 3 3 3
-  1 0 0 0 0 2 0 0 2 0 3 0 0 3
-  1 0 1 1 0 0 2 2 2 0 3 3 3 0
-  1 0 0 1 0 0 0 0 2 0 3 0 0 0
-  0 1 1 0 0 0 2 2 0 0 3 0 0 0
+  0 1 1 1 0 2 0 3 3 3 3
+  1 0 0 0 0 0 0 3 0 0 0
+  1 0 1 1 0 2 0 3 3 3 0
+  1 0 0 1 0 2 0 3 0 0 0
+  0 1 1 0 0 2 0 3 0 0 0
   ```
   - `P2` indique le format de l'image (niveaux de gris)
-  - `14 5` indique la largeur (14 px) et la hauteur (5 px) de l'image
+  - `11 5` indique la largeur (11 px) et la hauteur (5 px) de l'image
   - `3` indique la valeur maximale des niveaux de gris
   - Les pixels sont représentés par des valeurs entre `0` (noir) et la valeur maximale `3` (blanc)
 - Ouvrir le fichier avec **TextEdit** pour voir le contenu.
@@ -130,7 +131,10 @@ Le format PPM (portable pixmap) permet de représenter des images en couleurs.
 - Créer d'autres drapeaux : français, italien, allemand, autrichien, belge, etc.
   - Pour obtenir les valeurs RGB d'une couleur, chercher `color picker` sur [Google](https://google.ch/).
   - Il est aussi possible d'obtenir la couleur exacte d'une image avec [imagecolorpicker.com](https://imagecolorpicker.com/)
-- Choisir une image parmi les suivantes et la reproduire en PPM :
+- Choisir une image parmi les suivantes et la reproduire en PPM.
+
+<details>
+  <summary>Images</summary>
 
 ![](/tp/encodage/mario.png)
 ![](/tp/encodage/link.png)
@@ -138,6 +142,8 @@ Le format PPM (portable pixmap) permet de représenter des images en couleurs.
 ![](/tp/encodage/peach.png)
 ![](/tp/encodage/pikachu.png)
 ![](/tp/encodage/pacman.png)
+
+</details>
 
 ### Bitmap
 

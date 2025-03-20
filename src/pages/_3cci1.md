@@ -30,10 +30,10 @@
 |  2025-02-25  | [Révision](/docs/3cci/algo/revision)                                 | [Révision](/docs/3cci/algo/revision)                    |
 |  2025-03-04  | **Test : [Algorithmique et programmation avancée](/docs/3cci/algo)** |                                                         |
 |  2025-03-11  | [Base](/docs/3cci/info/base)                                         | [Unité](/docs/3cci/info/unite)                          |
-|  2025-03-18  | [Conversion](/docs/3cci/info/conversion)                             | [Image](/docs/3cci/info/image)                          |
-|  2025-03-25  | [Composants d'un ordinateur](/docs/3cci/info/composant)              | [Composants d'un ordinateur](/docs/3cci/info/composant) |
-|  2025-04-01  |                                                                      |                                                         |
-|  2025-04-08  |                                                                      |                                                         |
+|  2025-03-18  | [Conversion](/docs/3cci/info/conversion)                             | [Conversion](/docs/3cci/info/conversion)                |
+|  2025-03-25  | [Image](/docs/3cci/info/image)                                       | [Image](/docs/3cci/info/image)                          |
+|  2025-04-01  | [Codage](/docs/3cci/info/codage)                                     | [Codage](/docs/3cci/info/codage)                        |
+|  2025-04-08  | [Composants d'un ordinateur](/docs/3cci/info/composant)              | [Composants d'un ordinateur](/docs/3cci/info/composant) |
 |  2025-04-15  | _Vacances_                                                           | _Vacances_                                              |
 |  2025-04-22  | _Vacances_                                                           | _Vacances_                                              |
 |  2025-04-29  |                                                                      |                                                         |
