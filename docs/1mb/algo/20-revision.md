@@ -20,18 +20,16 @@ L'évaluation se portera sur les critères suivants :
 - Tri
   - [ ] Appliquer un algorithme de tri.
   - [ ] Expliquer un algorithme de tri.
-- Enjeux de société
-  - [ ] Différencier les types d'apprentissage automatique.
 
-|            Note            | &nbsp;1&nbsp; | 1.5 | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
-| :------------------------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
-| Nombre de critères validés |       0       |  1  |       2       |  3  |       4       |  5  |       6       |  7  |       8       |  9  |      10       |
+|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
+| :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
+| Nombre de critères validés |       0       |       1       |  2  |       3       |  4  |       5       |  6  |       7       |  8  |       9       |
 
 :::
 
 :::tip[Aides]
 
-- Revoir les [Kahoot!](https://create.kahoot.it/course/35fbf9aa-6efa-411f-a047-f13ed32809bd)
+- Revoir les [Kahoot!](https://create.kahoot.it/course/4cc8fe0e-c47d-4f5b-af09-5bda39fbe64a)
 - Terminer les exercices des semaines précédentes.
 - Support de cours complémentaires :
   - [Modulo](https://apprendre.modulo-info.ch/algo1/intro.html)
@@ -544,30 +542,3 @@ Quel sont le type et la valeur des variables suivantes ?
 12. l : false
 
 </details>
-
-## Intelligence artificielle
-
-- People : fearing AI takeover (craignant la prise de contrôle de l'IA)
-- AI :
-
-![](https://pbs.twimg.com/media/FDAQL5CXsAMDDks?format=jpg&name=medium)
-
-Expliquer l'image avec sa description
-
-<details>
-<summary>Réponse possible</summary>
-
-L'image montre que l'IA n'est peut-être pas aussi intelligente que nous le pensons, car elle ne peut déduire qu'à partir de données qu'on lui donne.
-Ses capacités sont limitées par la qualité des données qu'elle reçoit.
-
-</details>
-
-Quelle est la différence entre les trois types d'apprentissage automatique suivants ?
-
-- Supervisé
-- Non supervisé
-- Par renforcement
-
-## Références
-
-- https://x.com/TheProgrammerMe/status/1454680483900510210
