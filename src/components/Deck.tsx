@@ -41,6 +41,7 @@ export function Code(
 export function Columns(
   props: PropsWithChildren<{
     vertical?: "start" | "center" | "end";
+    grows?: number[];
   }>,
 ) {
   return (
@@ -55,7 +56,7 @@ export function Columns(
         <div
           key={index}
           style={{
-            flex: 1,
+            flex: props.grows ? (props.grows[index] ?? 1) : 1,
           }}
         >
           {child}
