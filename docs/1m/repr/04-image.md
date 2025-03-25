@@ -62,7 +62,7 @@ Dans un espace de stockage de 128 [Gio], combien des éléments suivants peut-on
 3. Image de 1 Mio
    <details><summary>Solution</summary>131'072 images</details>
 4. Image 24-bit de 4032 x 3024 pixels (12 MP)
-   <details><summary>Solution</summary>3'687 images</details>
+   <details><summary>Solution</summary>3'757 images</details>
 
 <details>
 <summary>Solutions avec détails</summary>
@@ -72,14 +72,14 @@ Dans un espace de stockage de 128 [Gio], combien des éléments suivants peut-on
 2. - 128 [Gio] / 10 [Gio] = 12 vidéos
 3. - 128 [Gio] &times; 1'024 = 131'072 [Mio]
    - 131'072 [Mio] / 1 [Mio] = 131'072 images
-4. - Chaque image fait 4032 &times; 3024 &times; 24 = 291'553'152 [b]
+4. - Chaque image fait 4032 &times; 3024 &times; 24 = 292'626'432 [b]
    - Convertir dans la même unité (images) :
-     - 291'553'152 [b] / 8 = 36'444'144 [o]
-     - 36'444'144 [o] / 1'024 = 35'586 [Kio]
-     - 35'586 [Kio] / 1'024 = 34,7 [Mio]
+     - 292'626'432 [b] / 8 = 36'578'304 [o]
+     - 36'578'304 [o] / 1'024 = 35'721 [Kio]
+     - 35'721 [Kio] / 1'024 = 34,88 [Mio]
    - Convertir dans la même unité (espace de stockage) :
      - 128 [Gio] &times; 1'024 = 131'072 [Mio]
-   - 131'072 [Mio] / 34,7 [Mio] = 3'687 images
+   - 131'072 [Mio] / 34,88 [Mio] = 3'757 images
 
 </details>
 
