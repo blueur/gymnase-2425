@@ -223,6 +223,26 @@ export default function ArtificialIntelligence(props: {
           ]}
         />
       </Section>
+      <Section level={3} title="Validation croisée">
+        <List
+          fragment={[true, true]}
+          items={[
+            [
+              "Comment **simuler** le **futur** (la phase de test) ?",
+              [
+                "**Diviser** les données",
+                "Utiliser une **partie** pour l'apprentissage et l'autre pour le test",
+              ],
+            ],
+          ]}
+        />
+        <Image
+          fragment
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif"
+          url="https://commons.wikimedia.org/wiki/File:LOOCV.gif"
+          height="500px"
+        />
+      </Section>
       <Section level={2} title="Limitations">
         <List
           fragment={[true, true, true]}

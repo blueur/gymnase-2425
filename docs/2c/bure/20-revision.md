@@ -106,6 +106,8 @@ Différences :
 - Ils permettent également de faciliter la navigation dans le document en créant une hiérarchie visuelle.
 - La génération automatique de la table des matières est également possible grâce aux styles.
 
+https://support.microsoft.com/fr-fr/office/personnaliser-ou-cr%C3%A9er-de-nouveaux-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563
+
 </details>
 
 À quoi servent les sections ?
@@ -117,6 +119,8 @@ Différences :
 - Cela peut être utile pour séparer les annexes, la page de garde, les chapitres, etc.
 - On peut changer l'orientation de la page (portrait ou paysage) pour une section spécifique.
 - On peut également appliquer des styles différents (par exemple, une section avec une numérotation de pages différente ou un en-tête différent).
+
+https://www.unilim.fr/scd/formation/word-creer-des-sections-differentes-dans-un-document/
 
 </details>
 
@@ -147,7 +151,9 @@ Différences :
 2. Que devra-t-on écrire si on souhaite calculer le chiffre d'affaires total ?
 3. Que devra-t-on écrire si on souhaite obtenir le chiffre d'affaires minimum ?
 4. Que devra-t-on écrire si on souhaite obtenir le chiffre d'affaires maximum ?
-5. Que devra-t-on écrire si on souhaite obtenir le chiffre d'affaires médian (moitié des chiffres au-dessus et l'autre moitié en-dessous) ?
+5. Que devra-t-on écrire si on souhaite obtenir le nombre de chiffre d'affaires ?
+6. Que devra-t-on écrire si on souhaite obtenir le nombre de chiffre d'affaires non vide ?
+7. Que devra-t-on écrire si on souhaite obtenir le nombre de chiffre d'affaires supérieur à 10000 ?
 
 <details>
 <summary>Solution</summary>
@@ -156,7 +162,9 @@ Différences :
 2. `=SOMME(E2:E8)`
 3. `=MIN(E2:E8)`
 4. `=MAX(E2:E8)`
-5. `=MEDIANE(E2:E8)`
+5. `=NB(E2:E8)`
+6. `=NBVAL(E2:E8)`
+7. `=NB.SI(E2:E8;">10000")`
 
 </details>
 
@@ -193,6 +201,8 @@ Proposer une organisation sous forme de tableau pour :
 - Le masque des diapositives permet de définir le style et la mise en page de toutes les diapositives d'une présentation.
 - Il permet de gagner du temps en appliquant les mêmes styles à toutes les diapositives.
 - Il permet également de garantir une cohérence visuelle dans la présentation.
+
+https://support.microsoft.com/fr-fr/office/qu-est-ce-qu-un-masque-des-diapositives-b9abb2a0-7aef-4257-a14e-4329c904da54
 
 </details>
 
