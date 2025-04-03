@@ -37,6 +37,10 @@ const config: Config = {
             to: "/docs/1m/prog/algopython-1",
             from: "/docs/1m/prog/algopython",
           },
+          {
+            to: "/docs/1mb/algo/tt",
+            from: "/docs/1mb/prog/tt",
+          },
         ],
       },
     ],

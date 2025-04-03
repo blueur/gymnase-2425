@@ -182,7 +182,7 @@ Trier la liste de nombre dans l'ordre croissante en utilisant l'algorithme de tr
 |       1       |       2       |       0       |       3       |       4       |       5       |       9       |       7       |
 |       1       |       0       |       2       |       3       |       4       |       5       |       9       |       7       |
 |       0       |       1       |       2       |       3       |       4       |       5       |       9       |       7       |
-|       0       |       1       |       2       |       3       |       4       |       5       |       9       |       9       |
+|       0       |       1       |       2       |       3       |       4       |       5       |       7       |       9       |
 
 </details>
 
