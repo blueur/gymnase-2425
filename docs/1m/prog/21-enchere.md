@@ -11,7 +11,7 @@
   - 1 feuille pour indiquer les mises
   - 1 carte annonceur
 - Matériel commun :
-  - 2 dés 6 faces
+  - [2 dés 6 faces](https://indecent.blueur.com/#/roll/2d6)
   - 8 cartes profiles des clients
 
 ## Déroulement

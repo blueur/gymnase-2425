@@ -19,9 +19,9 @@ L'évaluation se portera sur les critères suivants :
   - [ ] Expliquer les masques des diapositives.
   - [ ] Critiquer une présentation.
 
-|            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
-| :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
-| Nombre de critères validés |       0       |       1       |  2  |       3       |  4  |       5       |  6  |       7       |  8  |       9       |
+|            Note            | &nbsp;1&nbsp; | 1.5 | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
+| :------------------------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
+| Nombre de critères validés |       0       |  1  |       2       |  3  |       4       |  5  |       6       |  7  |       8       |  9  |      10       |
 
 :::
 
