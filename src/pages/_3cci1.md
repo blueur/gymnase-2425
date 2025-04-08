@@ -36,8 +36,8 @@
 |  2025-04-08  | [Composants d'un ordinateur](/docs/3cci/info/composant)              | [Composants d'un ordinateur](/docs/3cci/info/composant) |
 |  2025-04-15  | _Vacances_                                                           | _Vacances_                                              |
 |  2025-04-22  | _Vacances_                                                           | _Vacances_                                              |
-|  2025-04-29  |                                                                      |                                                         |
-|  2025-05-06  | [Révision](/docs/3cci/info/revision)                                 | [Révision](/docs/3cci/info/revision)                    |
-|  2025-05-13  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                         |
-|  2025-05-20  | Préparation examen                                                   | Préparation examen                                      |
-|              | **Examen oral**                                                      |                                                         |
+|  2025-04-29  | [Révision](/docs/3cci/info/revision)                                 | [Révision](/docs/3cci/info/revision)                    |
+|  2025-05-06  | **Test : [Des données à l'information](/docs/3cci/info)**            |                                                         |
+|  2025-05-13  | [Mot de passe](/docs/3cci/info/mot-de-passe)                         | [Mot de passe](/docs/3cci/info/mot-de-passe)            |
+|  2025-05-20  | [Préparation examen](/docs/3cci/preparation-examen)                  | [Préparation examen](/docs/3cci/preparation-examen)     |
+|  2025-06-11  | **Examen oral**                                                      |                                                         |
