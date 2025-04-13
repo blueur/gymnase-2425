@@ -4,9 +4,9 @@ sidebar_position: 21
 
 # Examen oral
 
-- Temps de préparation : 15 minutes
-- Temps de passage : 15 minutes
-- 14h00-15h30
+- Temps de préparation : 20 minutes
+- Temps de passage : 20 minutes
+- 13h20-15h20
 
 ## Critères d'évaluation
 

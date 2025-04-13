@@ -1,4 +1,4 @@
-import { List, Section, Text } from "@site/src/components/Deck";
+import { Image, List, Section, Text } from "@site/src/components/Deck";
 import RevealDeck from "@site/src/components/RevealDeck";
 
 export default function Password(props: {
@@ -33,6 +33,23 @@ export default function Password(props: {
       <Section level={2} title="Stockage des mots de passe"></Section>
       <Section level={2} title="Attaque par force brute">
         <Text>Casser un mot de passe haché ?</Text>
+      </Section>
+      <Section level={2} title="Attaque par force brute">
+        <Image
+          src="/1m-enje/Hive Systems Password Table - 2024_French.png"
+          url="https://www.hivesystems.com/blog/are-your-passwords-in-the-green"
+        />
+      </Section>
+      <Section level={2} title="Attaque par dictionnaire">
+        <List
+          fragment
+          items={[
+            "Optimisation de la force brute",
+            "Souvent une suite de mots",
+            "Essais de combinaisons de mots qui existent",
+            "https://www.passwortcheck.ch/fr/",
+          ]}
+        />
       </Section>
     </RevealDeck>
   );
