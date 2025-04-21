@@ -22,18 +22,21 @@ export default function Password(props: {
     >
       <Section level={2} title="Mot de passe">
         <List
-          fragment={[true, true]}
+          fragment={[false, true]}
           items={[
             [
               "_Pourquoi_ ?",
               [
-                "Authentification",
-                "Preuve que vous êtes bien qui vous prétendez être",
+                "**Authentification**",
+                "**Preuve** que vous êtes bien qui vous prétendez être",
               ],
             ],
             [
               "_Comment_ ?",
-              ["Chaîne de caractères secrète", "Vous seuls la connaissez"],
+              [
+                "Chaîne de caractères **secrète**",
+                "Vous êtes la **seule** personne à la **connaître**",
+              ],
             ],
           ]}
         />
@@ -70,12 +73,18 @@ export default function Password(props: {
       </Section>
       <Section level={3} title="Solution naïve">
         <List
-          fragment={[true, true]}
+          fragment={[false, true]}
           items={[
-            ["Problème", ["Stockage des mots de passe en clair"]],
-            ["Vol de la base de données ?", ["Accès à tous les mots de passe"]],
             [
-              "Meilleure solution ?",
+              "_Problème_",
+              [
+                "Stockage des mots de passe en **clair**",
+                "**Vol** de la base de données ?",
+                "**Accès** à tous les mots de passe (par des hackers et des employés)",
+              ],
+            ],
+            [
+              "Meilleure _solution_ ?",
               [
                 "Pas besoin de stocker le mot de passe en clair",
                 "Vérifier s'il est correct",
@@ -84,7 +93,7 @@ export default function Password(props: {
           ]}
         />
       </Section>
-      <Section level={3} title="Fonction de hachage">
+      <Section level={2} title="Fonction de hachage">
         <Mermaid>
           {`
           flowchart LR
@@ -94,32 +103,36 @@ export default function Password(props: {
           `}
         </Mermaid>
       </Section>
-      <Section level={4} title="Fonction de hachage : Empreinte digitale">
+      <Section level={3} title="Fonction de hachage : Empreinte digitale">
         <List
-          fragment={[true, true]}
+          fragment={[false, true]}
           items={[
             [
-              "Une même personne a toujours la même empreinte digitale",
-              ["_Déterministe_ (Identique)"],
+              "_Déterministe_ (Identique)",
+              ["Une même personne a **toujours** la même empreinte digitale"],
             ],
             [
-              "Deux personnes différentes ont des empreintes digitales différentes",
-              ["_Unique_ (Pas de collision)"],
+              "_Unique_ (Pas de collision)",
+              [
+                "Deux personnes différentes ont des empreintes digitales **différentes**",
+              ],
             ],
             [
-              "Impossible de retrouver la personne uniquement à partir de son empreinte digitale",
-              ["_Irréversible_ (Fonction à sens unique)"],
+              "_Irréversible_ (Fonction à sens unique)",
+              [
+                "Impossible de **retrouver** la personne uniquement à partir de son empreinte digitale",
+              ],
             ],
           ]}
         />
       </Section>
-      <Section level={4} title="Fonction de hachage : Pixellisation">
+      <Section level={3} title="Fonction de hachage : Pixellisation">
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/6/65/Pedagogical_illustration_of_the_principle_of_hashing_functions.png"
           url="https://commons.wikimedia.org/wiki/File:Pedagogical_illustration_of_the_principle_of_hashing_functions.png"
         />
       </Section>
-      <Section level={4} title="Fonction de hachage : Exemples">
+      <Section level={3} title="Fonction de hachage : Exemples">
         <Image
           src="https://static.techno-science.net/illustration/Definitions/1200px/h/hash-function-fr.svg_745a950d98138029cbeab8200870123d.png"
           url="https://www.techno-science.net/glossaire-definition/Fonction-de-hachage.html"
@@ -159,16 +172,16 @@ export default function Password(props: {
         <List
           fragment={[true, true]}
           items={[
-            "Les mots de passe ne sont plus stockés en clair",
+            "Les mots de passe ne sont plus stockés en **clair**",
             [
-              "Si la base de données est volée, les mots de passe ne sont pas accessibles",
-              ["Besoin de casser le hachage"],
+              "Si la base de données est **volée**, les mots de passe ne sont pas **accessibles**",
+              ["Besoin de **casser** le hachage"],
             ],
           ]}
         />
       </Section>
       <Section level={2} title="Attaque par force brute">
-        <Text>Casser un mot de passe haché ?</Text>
+        <Text>Comment casser un mot de passe haché ?</Text>
       </Section>
       <Section level={2} title="Attaque par force brute">
         <Columns>
@@ -179,10 +192,10 @@ export default function Password(props: {
           <List
             fragment={[true, true]}
             items={[
-              "Tester toutes les combinaisons possibles",
+              "**Tester** toutes les combinaisons possibles",
               "0000, 0001, 0002, &hellip; 9999",
               [
-                "Combien de combinaisons possibles ?",
+                "Combien de **combinaisons** possibles ?",
                 ["10x10x10x10 = 10<sup>4</sup> = 10 000"],
               ],
             ]}
@@ -194,18 +207,18 @@ export default function Password(props: {
           fragment={[true, true, true]}
           items={[
             [
-              "Combien de caractères possibles ?",
+              "_Combien_ de caractères possibles ?",
               [
-                ["Chiffres : 0-9 ?", ["10"]],
-                ["Lettres minuscules : a-z", ["26"]],
-                ["Lettres minuscules et majuscules : a-zA-Z", ["52"]],
-                "Caractères spéciaux : !@#$%^&*() (10)",
+                ["**Chiffres** : 0-9 ?", ["10"]],
+                ["Lettres **minuscules** : a-z", ["26"]],
+                ["Lettres **minuscules** et **majuscules** : a-zA-Z", ["52"]],
+                "**Caractères spéciaux** : !@#$%^&*() (10)",
               ],
             ],
-            "Longueur du mot de passe ?",
+            "**Longueur** du mot de passe ?",
             [
-              "Que des minuscules d'une longueur de 6 caractères ?",
-              ["26<sup>6</sup> = 308 915 776"],
+              "Que des **minuscules** d'une longueur de **6** caractères ?",
+              ["26<sup>6</sup> = 308 915 776 combinaisons"],
             ],
           ]}
         />
@@ -283,15 +296,15 @@ export default function Password(props: {
           fragment={[true, true]}
           items={[
             [
-              "CPU : 4 coeurs de 2 GHz",
-              ["8 milliards d'opérations par seconde"],
+              "_CPU_ : 4 coeurs de 2 GHz",
+              ["8 **milliards** d'opérations par seconde"],
             ],
             [
-              "GPU",
+              "_GPU_",
               [
-                "2020 (RTX 3070) : 3.65 milliards de hachages par seconde",
-                "2022 (RTX 4090) : 6.95 milliards de hachages par seconde",
-                "2025 (RTX 5090) : 8.90 milliards de hachages par seconde",
+                "**2020** (RTX 3070) : **3.65** milliards de hachages par seconde",
+                "**2022** (RTX 4090) : **6.95** milliards de hachages par seconde",
+                "**2025** (RTX 5090) : **8.90** milliards de hachages par seconde",
               ],
             ],
           ]}
@@ -314,10 +327,22 @@ export default function Password(props: {
           ]}
         />
       </Section>
-      <Section level={3} title="Password Strength">
+      <Section level={3} title="Complexité du mot de passe">
         <Image
           src="https://xkcd.arnaud.at/comics/936.jpg"
           url="https://xkcd.arnaud.at/936"
+        />
+      </Section>
+      <Section level={2} title="Gestionnaire de mots de passe">
+        <List
+          fragment
+          items={[
+            "**Stockage** de tous les mots de passe",
+            "Un **seul** mot de passe à retenir (mot de passe maître)",
+            "Génération de mots de passe **aléatoires** pour les sites non critiques",
+            "Remplissage **automatique** des formulaires",
+            "**Exemples** : Bitwarden, KeePass, 1Password, Dashlane, &hellip;",
+          ]}
         />
       </Section>
     </RevealDeck>
