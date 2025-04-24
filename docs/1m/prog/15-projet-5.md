@@ -8,7 +8,7 @@ Finaliser le projet
 
 ## Rendu
 
-Le rendu sera pour le vendredi 9 mai 2025 à 23h59 dans les devoirs sur Teams `Projet : rendu`. Il doit contenir :
+Le rendu sera pour le vendredi 9 mai 2025 (2 mai pour la 1M6) à 23h59 dans les devoirs sur Teams `Projet : rendu`. Il doit contenir :
 
 - Le fichier Python `prenom-nom-projet.py`.
 - Le journal de bord `prenom-nom-journal.pdf`.
