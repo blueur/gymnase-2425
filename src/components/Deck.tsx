@@ -240,7 +240,7 @@ export function Text(
     color?: "green" | "red" | "blue";
   }>,
 ) {
-  return (
+  return props.children ? (
     <Markdown
       className={clsx(
         {
@@ -253,5 +253,7 @@ export function Text(
     >
       {props.children.toString()}
     </Markdown>
+  ) : (
+    <div>&nbsp;</div>
   );
 }

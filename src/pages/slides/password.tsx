@@ -28,14 +28,14 @@ export default function Password(props: {
               "_Pourquoi_ ?",
               [
                 "**Authentification**",
-                "**Preuve** que vous êtes bien qui vous prétendez être",
+                "**Preuve** que vous êtes bien qui vous prétendez être.",
               ],
             ],
             [
               "_Comment_ ?",
               [
                 "Chaîne de caractères **secrète**",
-                "Vous êtes la **seule** personne à la **connaître**",
+                "Vous êtes la **seule** personne à la **connaître**.",
               ],
             ],
           ]}
@@ -78,16 +78,16 @@ export default function Password(props: {
             [
               "_Problème_",
               [
-                "Stockage des mots de passe en **clair**",
+                "Stockage des mots de passe en **clair**.",
                 "**Vol** de la base de données ?",
-                "**Accès** à tous les mots de passe (par des hackers et des employés)",
+                "**Accès** à tous les mots de passe (par des hackers et des employés).",
               ],
             ],
             [
               "Meilleure _solution_ ?",
               [
-                "Pas besoin de stocker le mot de passe en clair",
-                "Vérifier s'il est correct",
+                "Pas **besoin** de stocker le mot de passe en **clair**.",
+                "**Vérifier** s'il est correct.",
               ],
             ],
           ]}
@@ -97,30 +97,43 @@ export default function Password(props: {
         <Mermaid>
           {`
           flowchart LR
-            input([Information]):::blank --> function[Fonction de hachage]
+            input([Information<br />Objet]):::blank --> function[Fonction de hachage]
             function --> output([Valeur de hachage<br />Empreinte<br />Signature]):::blank
             classDef blank stroke:none,fill:none;
           `}
         </Mermaid>
+        <Image
+          fragment
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Gen_not_surjection_not_injection.svg"
+          url="https://commons.wikimedia.org/wiki/File:Gen_not_surjection_not_injection.svg"
+          height="400px"
+        />
       </Section>
       <Section level={3} title="Fonction de hachage : Empreinte digitale">
         <List
           fragment={[false, true]}
           items={[
             [
-              "_Déterministe_ (Identique)",
-              ["Une même personne a **toujours** la même empreinte digitale"],
-            ],
-            [
-              "_Unique_ (Pas de collision)",
+              "**Caractéristique** d'une fonction de hachage :",
               [
-                "Deux personnes différentes ont des empreintes digitales **différentes**",
-              ],
-            ],
-            [
-              "_Irréversible_ (Fonction à sens unique)",
-              [
-                "Impossible de **retrouver** la personne uniquement à partir de son empreinte digitale",
+                [
+                  "_Déterministe_ (Identique)",
+                  [
+                    "Une même personne a **toujours** la même empreinte digitale.",
+                  ],
+                ],
+                [
+                  "_Unique_ (Pas de collision)",
+                  [
+                    "Deux personnes **différentes** ont des empreintes digitales différentes.",
+                  ],
+                ],
+                [
+                  "_Irréversible_ (Fonction à sens unique)",
+                  [
+                    "Impossible de **retrouver** la personne uniquement à partir de son empreinte digitale.",
+                  ],
+                ],
               ],
             ],
           ]}
@@ -172,16 +185,16 @@ export default function Password(props: {
         <List
           fragment={[true, true]}
           items={[
-            "Les mots de passe ne sont plus stockés en **clair**",
+            "Les mots de passe ne sont plus stockés en **clair**.",
             [
-              "Si la base de données est **volée**, les mots de passe ne sont pas **accessibles**",
+              "Si la base de données est **volée**, les mots de passe ne sont pas **accessibles**.",
               ["Besoin de **casser** le hachage"],
             ],
           ]}
         />
       </Section>
       <Section level={2} title="Attaque par force brute">
-        <Text>Comment casser un mot de passe haché ?</Text>
+        <Text>Comment **casser** un mot de passe haché ?</Text>
       </Section>
       <Section level={2} title="Attaque par force brute">
         <Columns>
@@ -212,7 +225,7 @@ export default function Password(props: {
                 ["**Chiffres** : 0-9 ?", ["10"]],
                 ["Lettres **minuscules** : a-z", ["26"]],
                 ["Lettres **minuscules** et **majuscules** : a-zA-Z", ["52"]],
-                "**Caractères spéciaux** : !@#$%^&*() (10)",
+                ["**Caractères spéciaux** : !@#$%^&*()", ["10 (par exemple)"]],
               ],
             ],
             "**Longueur** du mot de passe ?",
@@ -265,6 +278,9 @@ export default function Password(props: {
             ],
           ]}
         />
+        <Text />
+        <Text />
+        <Text />
       </Section>
       <Section level={3} title="Nombre de combinaisons">
         <Table
@@ -320,17 +336,14 @@ export default function Password(props: {
         <List
           fragment
           items={[
-            "Optimisation de la force brute",
-            "Souvent une suite de mots",
-            "Essais de combinaisons de mots qui existent",
-            "https://www.passwortcheck.ch/fr/",
+            "**Optimisation** de la force brute",
+            "Souvent une suite de **mots**",
+            "Essais de combinaisons de mots qui **existent**",
+            [
+              "https://www.passwortcheck.ch/fr/",
+              ["passwordGymnase (avec et sans le dictionnaire anglais)"],
+            ],
           ]}
-        />
-      </Section>
-      <Section level={3} title="Complexité du mot de passe">
-        <Image
-          src="https://xkcd.arnaud.at/comics/936.jpg"
-          url="https://xkcd.arnaud.at/936"
         />
       </Section>
       <Section level={2} title="Gestionnaire de mots de passe">
@@ -340,9 +353,14 @@ export default function Password(props: {
             "**Stockage** de tous les mots de passe",
             "Un **seul** mot de passe à retenir (mot de passe maître)",
             "Génération de mots de passe **aléatoires** pour les sites non critiques",
-            "Remplissage **automatique** des formulaires",
             "**Exemples** : Bitwarden, KeePass, 1Password, Dashlane, &hellip;",
           ]}
+        />
+      </Section>
+      <Section level={3} title="Complexité du mot de passe">
+        <Image
+          src="https://xkcd.arnaud.at/comics/936.jpg"
+          url="https://xkcd.arnaud.at/936"
         />
       </Section>
     </RevealDeck>
