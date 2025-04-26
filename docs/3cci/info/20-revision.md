@@ -10,8 +10,8 @@ L'évaluation se portera sur les critères suivants :
 
 - Base
   - [ ] Compter en n'importe quelle base.
-  - [ ] Convertir entre la base binaire et décimale
-  - [ ] Convertir entre la base binaire et hexadécimale
+  - [ ] Convertir entre la base binaire et décimale.
+  - [ ] Convertir entre la base binaire et hexadécimale.
 - Unité
   - [ ] Comparer et convertir entre les unités.
   - [ ] Calculer la taille d'une information.
