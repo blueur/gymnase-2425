@@ -145,12 +145,6 @@ export default function Password(props: {
           url="https://commons.wikimedia.org/wiki/File:Pedagogical_illustration_of_the_principle_of_hashing_functions.png"
         />
       </Section>
-      <Section level={3} title="Fonction de hachage : Exemples">
-        <Image
-          src="https://static.techno-science.net/illustration/Definitions/1200px/h/hash-function-fr.svg_745a950d98138029cbeab8200870123d.png"
-          url="https://www.techno-science.net/glossaire-definition/Fonction-de-hachage.html"
-        />
-      </Section>
       <Section level={3} title="Base de données">
         <Table
           headers={["Nom d'utilisateur", "Empreinte"]}
@@ -228,7 +222,7 @@ export default function Password(props: {
                 ["**Caractères spéciaux** : !@#$%^&*()", ["10 (par exemple)"]],
               ],
             ],
-            "**Longueur** du mot de passe ?",
+            "_Longueur_ du mot de passe ?",
             [
               "Que des **minuscules** d'une longueur de **6** caractères ?",
               ["26<sup>6</sup> = 308 915 776 combinaisons"],
@@ -325,6 +319,9 @@ export default function Password(props: {
             ],
           ]}
         />
+      </Section>
+      <Section level={2} title="Attaque par force brute">
+        <Text>Est-ce que **3r*oZ$u6** serait un bon mot de passe ?</Text>
       </Section>
       <Section level={2} title="Attaque par force brute">
         <Image
