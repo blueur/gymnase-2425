@@ -25,4 +25,3 @@ Apprendre le Python avec AlgoPython.
   - Série A
   - Série B
   - Série C
-    - Au moins jusqu'à l'exercice 4 (à finir à la maison)

@@ -6,17 +6,16 @@ L'évaluation se portera sur les critères suivants :
 
 - Instructions
   - [ ] Afficher du texte dans la console.
-  - [ ] Repérer les erreurs de syntaxe.
   - [ ] Corriger les erreurs de syntaxe.
-  - [ ] Programmer un robot.
+  - [ ] Exécuter un programme.
+  - [ ] Programmer un dessin.
 - Boucles for
   - [ ] Utiliser les boucles for.
   - [ ] Maîtriser l'indentation.
-  - [ ] Imbriquer les boucles for.
 - Variables
+  - [ ] Définir des variables.
   - [ ] Utiliser les variables.
-- Fonctions
-  - [ ] Utiliser les fonctions.
+  - [ ] Effectuer des opérations avec les variables.
 
 |            Note            | &nbsp;1&nbsp; | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |
@@ -26,10 +25,151 @@ L'évaluation se portera sur les critères suivants :
 
 :::tip[Aides]
 
-- Terminer et/ou revoir les exercices sur AlgoPython.
+- Terminer et/ou refaire les exercices sur AlgoPython (séries A-B-C).
 - Tester du code Python en ligne : https://www.algopython.fr/outil/console
+- Outils de dessin en ligne : https://www.algopython.fr/outil/canvas
 
 :::
+
+### Instructions
+
+```
+print("Bonjour')
+print(Je suis un robot !)
+4 = bleu
+print(52.5)
+print(24,75
+rouge = 42
+print(rouge + 4)
+```
+
+Corriger les erreurs de syntaxe dans le code ci-dessus.
+
+<details>
+<summary>Solution</summary>
+
+```python showLineNumbers
+print("Bonjour")
+print("Je suis un robot !")
+bleu = 4
+print(52.5)
+print(24, 75)
+rouge = 42
+print(rouge + 4)
+```
+
+</details>
+
+Que va-t-il afficher après la correction ?
+
+<details>
+<summary>Solution</summary>
+
+```
+Bonjour
+Je suis un robot !
+52.5
+24 75
+46
+```
+
+</details>
+
+### Dessin
+
+![](/algopython/canva.png)
+
+Que va dessiner le programme suivant ?
+
+```python showLineNumbers
+tourner(-90)
+avancer(2)
+tourner(120)
+avancer(1)
+tourner(120)
+avancer(1)
+```
+
+<details>
+<summary>Solution</summary>
+
+![](/algopython/canva-flag.png)
+
+</details>
+
+Écrire le code pour dessiner le cube suivant :
+
+![](/algopython/canva-cube.png)
+
+<details>
+<summary>Solution</summary>
+
+```python showLineNumbers
+avancer(2)
+tourner(90)
+avancer(2)
+tourner(90)
+avancer(2)
+tourner(90)
+avancer(2)
+tourner(45)
+avancer(1)
+tourner(45)
+avancer(2)
+tourner(135)
+avancer(1)
+tourner(180)
+avancer(1)
+tourner(135)
+avancer(2)
+tourner(45)
+avancer(1)
+```
+
+ou encore mieux avec une boucle :
+
+```python showLineNumbers
+for i in range(4):
+    avancer(2)
+    tourner(90)
+tourner(-45)
+avancer(1)
+tourner(45)
+avancer(2)
+tourner(135)
+avancer(1)
+tourner(180)
+avancer(1)
+tourner(135)
+avancer(2)
+tourner(45)
+avancer(1)
+```
+
+</details>
+
+### Code
+
+Remettre les lignes du code dans le bon ordre pour dessiner un carré (en bas à droite du point de départ).
+
+```python
+    tourner(90)
+for i in range(4):
+    avancer(largeur)
+largeur = 2
+```
+
+<details>
+<summary>Solution</summary>
+
+```python showLineNumbers
+largeur = 2
+for i in range(4):
+    avancer(largeur)
+    tourner(90)
+```
+
+</details>
 
 ### Variable
 

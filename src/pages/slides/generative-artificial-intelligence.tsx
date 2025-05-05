@@ -31,12 +31,21 @@ export default function GenerativeArtificialIntelligence(props: {
         />
       </Section>
       <Section level={2} title="Modèle de diffusion">
+        <List items={["Diffusion model"]} />
         <Image
           src="https://i.imgur.com/26LEFe3.png"
           url="https://pareto.ai/blog/diffusion-models"
         />
       </Section>
-      <Section level={2} title="Réseau antagoniste génératif (GAN)">
+      <Section level={2} title="Réseaux antagonistes génératifs">
+        <List items={["Generative adversarial networks (GANs)"]} />
+        <Image
+          src="https://www.universalis.fr/typo3temp/assets/_processed_/f/e/csm_de230508_dcfe9ff0eb.webp"
+          url="https://www.universalis.fr/media/architecture-dun-reseau-antagoniste-generatif-gan-de230508/"
+        />
+      </Section>
+      <Section level={2} title="Transformeur génératif préentraîné">
+        <List items={["Generative pre-trained transformer (GPT)"]} />
         <Image
           src="https://www.universalis.fr/typo3temp/assets/_processed_/f/e/csm_de230508_dcfe9ff0eb.webp"
           url="https://www.universalis.fr/media/architecture-dun-reseau-antagoniste-generatif-gan-de230508/"
