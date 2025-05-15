@@ -31,8 +31,6 @@ Le rendu sera pour le vendredi 23 mai 2025 à 23h59 dans les devoirs sur Teams `
 - Processus
   - [ ] **Rendus corrects et dans les délais.**
   - [ ] _Tenir le journal de bord à jour._
-  - [ ] **Terminer jusqu'à la série E sur AlgoPython.**
-  - [ ] _Terminer les séries F et G (ou les exercices bonus) sur AlgoPython._
 
 |            Note            | &nbsp;1&nbsp; | 1.5 | &nbsp;2&nbsp; | 2.5 | &nbsp;3&nbsp; | 3.5 | &nbsp;4&nbsp; | 4.5 | &nbsp;5&nbsp; | 5.5 | &nbsp;6&nbsp; |
 | :------------------------: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: | :-: | :-----------: |

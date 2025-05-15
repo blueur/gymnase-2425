@@ -95,8 +95,10 @@ print("Vous êtes à la cave. Que voulez-vous faire ?")
 print("- d : Dépoussiérer")
 print("- t : Trier les affaires")
 choix = input("Choix (d/t): ")
+# highlight-start
 while choix != "d" and choix != "t":
     choix = input("Choix invalide, veuillez saisir d ou t: ")
+# highlight-end
 if choix == "d":
     print("Vous dépoussiérez la cave.")
 elif choix == "t":
