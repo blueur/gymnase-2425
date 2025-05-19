@@ -52,9 +52,20 @@ Matériel autorisé : calculatrice et de quoi écrire.
 
 ## Critères d'évaluation
 
-| &nbsp;        | Insuffisant (-0.5)                                 | Suffisant (4)                                              | Excellent (+0.5)                                                             |
-| ------------- | -------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Connaissances | Mobiliser difficilement les éléments vus en cours. | Mobiliser des éléments du cours parfois avec des relances. | Mobiliser aisément les éléments du cours.                                    |
-| Explication   | Expliquer difficilement son raisonnement.          | Expliquer son raisonnement parfois avec des relances.      | Développer son raisonnement de façon autonome.                               |
-| Argumentation | Ne pas structurer son propos (en vrac).            | Structurer ses propos parfois avec des relances.           | Expliciter un plan et le suit.                                               |
-| Lien          | Être hors sujet.                                   | Être dans le sujet demandé.                                | Faire des liens avec d'autres sujets (vus en cours ou dans la vie courante). |
+### Grille détaillée
+
+| &nbsp;           | Insuffisant (-0.5)                                                | Suffisant (4)                                                            | Excellent (+0.5)                                                                                         |
+| ---------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Connaissance** | Mobiliser pas ou peu d'éléments vus en cours malgré les relances. | Mobiliser les éléments nécessaires du cours avec d'éventuelles relances. | Mobiliser aisément les éléments pertinents du cours de façon autonome.                                   |
+| **Explication**  | Expliquer difficilement son raisonnement malgré les relances.     | Expliquer clairement son raisonnement avec d'éventuelles relances.       | Développer son raisonnement de façon autonome.                                                           |
+| **Structure**    | Ne pas structurer son propos (en vrac) malgré les relances.       | Structurer ses propos avec d'éventuelles relances.                       | Expliciter un plan et le suit de façon autonome.                                                         |
+| **Sujet**        | Être hors sujet malgré les relances.                              | Être dans le sujet demandé avec d'éventuelles relances.                  | Être dans le sujet et faire des liens avec d'autres sujets (vus en cours ou ailleurs) de façon autonome. |
+
+### Grille simplifiée
+
+| &nbsp;           | Insuffisant (-0.5) | Suffisant (4) | Excellent (+0.5) |
+| ---------------- | :----------------: | :-----------: | :--------------: |
+| **Connaissance** |        Peu         |  Nécessaire   |    Pertinent     |
+| **Explication**  |     Difficile      |    Claire     |    Développé     |
+| **Structure**    |        Vrac        |   Implicite   |    Explicite     |
+| **Sujet**        |        Hors        |     Dans      |       Lien       |
