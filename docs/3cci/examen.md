@@ -52,9 +52,9 @@ Matériel autorisé : calculatrice et de quoi écrire.
 
 ## Critères d'évaluation
 
-| &nbsp;        | Insuffisant (-0.5)                                  | Suffisant (4)                             | Excellent (+0.5)                                    |
-| ------------- | --------------------------------------------------- | ----------------------------------------- | --------------------------------------------------- |
-| Connaissances | Des notions sont manquantes.                        | Le sujet est compris.                     | Le sujet est maîtrisé.                              |
-| Explication   | Le raisonnement n'est pas compréhensible.           | Le raisonnement est compréhensible.       | Les explications sont concises et synthétiques.     |
-| Argumentation | Les réponses sont confuses.                         | Les réponses sont convaincantes.          | Les explications sont convaincantes et vulgarisées. |
-| Lien          | Aucun lien avec d'autres sujets et/ou vie courante. | Lien avec d'autres sujet ou vie courante. | Lien avec d'autres sujet et vie courante.           |
+| &nbsp;        | Insuffisant (-0.5)                                | Suffisant (4)                                        | Excellent (+0.5)                              |
+| ------------- | ------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------- |
+| Connaissances | Mobilise difficilement les éléments vus en cours. | Mobilise des éléments du cours parfois avec relance. | Mobilise aisément les éléments du cours.      |
+| Explication   | Explique difficilement son raisonnement.          | Explique son raisonnement avec relance.              | Développe son raisonnement de façon autonome. |
+| Argumentation | Ne structure pas son propos (en vrac).            | Structure ses propos avec relance.                   | Explicite un plan et le suit.                 |
+| Lien          | Hors sujet.                                       | Être dans le sujet demandé.                          | Faire des liens avec d'autres sujets.         |
