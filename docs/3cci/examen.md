@@ -52,9 +52,9 @@ Matériel autorisé : calculatrice et de quoi écrire.
 
 ## Critères d'évaluation
 
-| &nbsp;        | Insuffisant (-0.5)                                | Suffisant (4)                                        | Excellent (+0.5)                              |
-| ------------- | ------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------- |
-| Connaissances | Mobilise difficilement les éléments vus en cours. | Mobilise des éléments du cours parfois avec relance. | Mobilise aisément les éléments du cours.      |
-| Explication   | Explique difficilement son raisonnement.          | Explique son raisonnement avec relance.              | Développe son raisonnement de façon autonome. |
-| Argumentation | Ne structure pas son propos (en vrac).            | Structure ses propos avec relance.                   | Explicite un plan et le suit.                 |
-| Lien          | Hors sujet.                                       | Être dans le sujet demandé.                          | Faire des liens avec d'autres sujets.         |
+| &nbsp;        | Insuffisant (-0.5)                                 | Suffisant (4)                                              | Excellent (+0.5)                                                             |
+| ------------- | -------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Connaissances | Mobiliser difficilement les éléments vus en cours. | Mobiliser des éléments du cours parfois avec des relances. | Mobiliser aisément les éléments du cours.                                    |
+| Explication   | Expliquer difficilement son raisonnement.          | Expliquer son raisonnement parfois avec des relances.      | Développer son raisonnement de façon autonome.                               |
+| Argumentation | Ne pas structurer son propos (en vrac).            | Structurer ses propos parfois avec des relances.           | Expliciter un plan et le suit.                                               |
+| Lien          | Être hors sujet.                                   | Être dans le sujet demandé.                                | Faire des liens avec d'autres sujets (vus en cours ou dans la vie courante). |
