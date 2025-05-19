@@ -11,7 +11,7 @@ sidebar_position: 21
 ## Sujets possibles
 
 - Pages Web statiques
-  - Adresse IPv4
+  - Adresse IP
   - Nom de domaine
   - DNS
   - URL
@@ -21,21 +21,21 @@ sidebar_position: 21
   - CMS
   - Responsive Web Design
   - JavaScript
-  - Variable
-  - Boucle
+  - Variable en Python
+  - Boucle en Python
 - Algorithmique et programmation avancée
   - Organigramme
   - Pseudo-code
   - Complexité
-  - Type
-  - Évaluation
+  - Type d'expression
+  - Évaluation d'expression
   - Liste
   - Tri
   - Apprentissage automatique
 - Des données à l'information
-  - Comptage
+  - Comptage en différentes bases
   - Conversion décimale, binaire, hexadécimal
-  - Unité
+  - Unité d'information
   - Taille d'une information
   - Couleur RGB
   - Taille binaire image et texte
