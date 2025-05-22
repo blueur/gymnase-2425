@@ -59,8 +59,8 @@ const config: Config = {
               remarkKroki,
               // https://github.com/show-docs/remark-kroki
               {
-                server: "https://kroki.io",
-                // server: "https://kroki.blueur.com",
+                // server: "https://kroki.io",
+                server: "https://kroki.blueur.com",
                 target: "mdx3",
               },
             ],

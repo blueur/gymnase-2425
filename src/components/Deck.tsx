@@ -241,18 +241,18 @@ export function Text(
   }>,
 ) {
   return props.children ? (
-    <Markdown
+    <div
       className={clsx(
         {
           fragment: props.fragment,
         },
         props.color,
       )}
-      rehypePlugins={[RehypeRaw]}
-      remarkPlugins={[RemarkGfm]}
     >
-      {props.children.toString()}
-    </Markdown>
+      <Markdown rehypePlugins={[RehypeRaw]} remarkPlugins={[RemarkGfm]}>
+        {props.children.toString()}
+      </Markdown>
+    </div>
   ) : (
     <div>&nbsp;</div>
   );

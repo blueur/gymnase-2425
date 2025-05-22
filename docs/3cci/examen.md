@@ -54,16 +54,16 @@ Matériel autorisé : calculatrice et de quoi écrire.
 
 ### Grille détaillée
 
-| &nbsp;           | Insuffisant (-0.5)                                                | Suffisant (4)                                                            | Excellent (+0.5)                                                                                         |
+|                  | Insuffisant (-0.5)                                                | Suffisant (4)                                                            | Excellent (+0.5)                                                                                         |
 | ---------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | **Connaissance** | Mobiliser pas ou peu d'éléments vus en cours malgré les relances. | Mobiliser les éléments nécessaires du cours avec d'éventuelles relances. | Mobiliser aisément les éléments pertinents du cours de façon autonome.                                   |
 | **Explication**  | Expliquer difficilement son raisonnement malgré les relances.     | Expliquer clairement son raisonnement avec d'éventuelles relances.       | Développer son raisonnement de façon autonome.                                                           |
-| **Structure**    | Ne pas structurer son propos (en vrac) malgré les relances.       | Structurer ses propos avec d'éventuelles relances.                       | Expliciter un plan et le suivre de façon autonome.                                                         |
+| **Structure**    | Ne pas structurer son propos (en vrac) malgré les relances.       | Structurer ses propos avec d'éventuelles relances.                       | Expliciter un plan et le suivre de façon autonome.                                                       |
 | **Sujet**        | Être hors sujet malgré les relances.                              | Être dans le sujet demandé avec d'éventuelles relances.                  | Être dans le sujet et faire des liens avec d'autres sujets (vus en cours ou ailleurs) de façon autonome. |
 
 ### Grille simplifiée
 
-| &nbsp;           | Insuffisant (-0.5) | Suffisant (4) | Excellent (+0.5) |
+|                  | Insuffisant (-0.5) | Suffisant (4) | Excellent (+0.5) |
 | ---------------- | :----------------: | :-----------: | :--------------: |
 | **Connaissance** |        Peu         |  Nécessaire   |    Pertinent     |
 | **Explication**  |     Difficile      |    Claire     |    Développé     |
