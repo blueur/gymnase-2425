@@ -17,7 +17,7 @@ const config: Config = {
     locales: ["fr"],
   },
   future: {
-    experimental_faster: true,
+    v4: true,
   },
   plugins: [
     [
