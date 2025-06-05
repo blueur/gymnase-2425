@@ -94,6 +94,11 @@ const config: Config = {
         { to: "/2c1", label: "2C1", position: "left" },
         { to: "/3cci1", label: "3CCI1", position: "left" },
         {
+          href: "https://www.instagram.com/blueur.ii/",
+          position: "right",
+          className: "ph ph-instagram-logo",
+        },
+        {
           href: "https://www.linkedin.com/in/davidtangch/",
           position: "right",
           className: "ph ph-linkedin-logo",
