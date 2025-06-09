@@ -6,7 +6,7 @@ sidebar_position: 21
 
 - Temps de préparation : 30 minutes
 - Temps de passage : 15 minutes
-- 13h30-15h10
+- 13h30-15h00
 
 ## Sujets possibles
 
@@ -54,7 +54,7 @@ Matériel autorisé : calculatrice et de quoi écrire.
 
 ### Grille détaillée
 
-|                  | Insuffisant (-0.5)                                                | Suffisant (4)                                                            | Excellent (+0.5)                                                                                         |
+| &nbsp;           | Insuffisant (-0.5)                                                | Suffisant (4)                                                            | Excellent (+0.5)                                                                                         |
 | ---------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | **Connaissance** | Mobiliser pas ou peu d'éléments vus en cours malgré les relances. | Mobiliser les éléments nécessaires du cours avec d'éventuelles relances. | Mobiliser aisément les éléments pertinents du cours de façon autonome.                                   |
 | **Explication**  | Expliquer difficilement son raisonnement malgré les relances.     | Expliquer clairement son raisonnement avec d'éventuelles relances.       | Développer son raisonnement de façon autonome.                                                           |
@@ -63,7 +63,7 @@ Matériel autorisé : calculatrice et de quoi écrire.
 
 ### Grille simplifiée
 
-|                  | Insuffisant (-0.5) | Suffisant (4) | Excellent (+0.5) |
+| &nbsp;           | Insuffisant (-0.5) | Suffisant (4) | Excellent (+0.5) |
 | ---------------- | :----------------: | :-----------: | :--------------: |
 | **Connaissance** |        Peu         |  Nécessaire   |    Pertinent     |
 | **Explication**  |     Difficile      |    Claire     |    Développé     |
