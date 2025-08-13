@@ -9,7 +9,7 @@ const config: Config = {
   tagline: "Cours d'informatique au gymnase",
   favicon: "img/favicon.ico",
 
-  url: "https://gymnase.davidtang.ch",
+  url: "https://gymnase-2425.davidtang.ch",
   baseUrl: "/",
 
   i18n: {
@@ -94,7 +94,7 @@ const config: Config = {
         { to: "/2c1", label: "2C1", position: "left" },
         { to: "/3cci1", label: "3CCI1", position: "left" },
         {
-          href: "https://www.instagram.com/blueur.ii/",
+          href: "https://www.instagram.com/blueur.ch/",
           position: "right",
           className: "ph ph-instagram-logo",
         },
@@ -111,7 +111,7 @@ const config: Config = {
       ],
     },
     footer: {
-      copyright: `<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gymnase.davidtang.ch/" target="_blank">Informatique</a> © 2024-${new Date().getFullYear()} by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://davidtang.ch" target="_blank">David Tang</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a></div>`,
+      copyright: `<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gymnase-2425.davidtang.ch/" target="_blank">Informatique</a> © 2024-${new Date().getFullYear()} by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://davidtang.ch" target="_blank">David Tang</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a></div>`,
     },
     docs: {
       sidebar: {
