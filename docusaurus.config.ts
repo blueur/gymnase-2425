@@ -79,6 +79,11 @@ const config: Config = {
   ],
   themes: ["@docusaurus/theme-mermaid", "@docusaurus/theme-live-codeblock"],
   themeConfig: {
+    announcementBar: {
+      content:
+        "Vers la dernière version : <a href='https://gymnase.davidtang.ch'>gymnase.davidtang.ch</a>",
+      isCloseable: false,
+    },
     navbar: {
       title: "Informatique",
       logo: {
